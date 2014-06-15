@@ -22,6 +22,7 @@ body {
 
 a, a:visited {
 	color: #5af;
+	text-decoration: none;
 }
 
 a:hover {
@@ -104,7 +105,7 @@ li.nav-about:hover {
 
 .container {
 	position: 		relative;
-	width: 			70%;
+	width: 			80%;
 	height: 		100%;
 	min-height: 	600px;
 	min-width: 		850px;
