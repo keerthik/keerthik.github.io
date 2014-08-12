@@ -1,0 +1,44 @@
+body {
+	font-size: 	18px;
+}
+
+.inner-content {
+	padding-top: 70px;
+}
+
+.quote {
+	color: #cce;
+	margin: 50px 50px;
+	text-decoration: italic;
+}
+
+.essay-map {
+	color: 		#666;
+	font-size: 	18px;
+}
+
+.essay-date {
+	color: 		#55f;
+	font-size: 	18px;
+	margin: 0;
+}
+
+h2 {
+	color: 			#fff;
+	font-size: 		30px;
+	margin-bottom: 	0px;
+}
+
+h3 {
+	color: 			#fff;
+	font-size: 		24px;
+	font-weight: 	bold;
+	line-height: 	1em;
+	margin-top: 	40px;
+	margin-bottom: 	0px;
+}
+
+p {
+	margin-top: 	30px;
+}
+

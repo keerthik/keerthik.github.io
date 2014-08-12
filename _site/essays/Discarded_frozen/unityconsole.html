@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>k | Building ZKDebug</title>
+	<meta name="author" content="korc" />
+	<!-- Homepage CSS -->
+	<link rel="stylesheet" href="/styles/core.css" type="text/css"/>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-51086540-1', 'korc.me');
+		ga('send', 'pageview');
+	</script>
+  <!-- POST CSS -->
+  <link rel="stylesheet" href="/styles/post.css" type="text/css"/>
+  <link rel="stylesheet" href="/styles/syntax.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+    <div class="nav">
+      <ul>
+        <a href="/"><li class="nav-home">K</li></a>
+        <a href="/essays"><li class="nav-essays">Writing</li></a>
+        <!--a href=""><li class="nav-projects">Trinkets</li></a-->
+        <a href="/about"><li class="nav-about">About</li></a>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="inner-content nav-essays">
+      <div class="essay-map">Writing > Software > Building ZKDebug</div>
+      <h2 id="building_zkdebug_hackable_unity3d_console">Building ZKDebug: Hackable Unity3D Console</h2>
+<div class='essay-date'><span class='essay-map'>[DRAFT MODE] Last Updated:</span> May 2014</div>
+<h3 id="tldr">tl;dr</h3>
+
+<p>A hackable Unity3D Developer Console. Without the touchy-feely stuff:</p>
+
+<ul>
+<li>[asset] Unity Asset Store [link when available]</li>
+
+<li>[thread] Unity Thread [link when available]</li>
+
+<li>[repo] GitHub project [link when available]</li>
+
+<li>[version] Built with Unity Pro 4.3.4f1</li>
+
+<li>what else do you need</li>
+</ul>
+
+<p>Read on below for details of how this was conceived.</p>
+
+<h3 id="the_goal">The Goal</h3>
+
+<p>To build a hackable (better) debug-logging console in Unity3D. It should have all existing functionality. It should be extendable to improve Unity workflow. Do some basic extensions already.</p>
+
+<h3 id="motivation">Motivation</h3>
+
+<ol>
+<li>
+<p>I use Unity a lot: At , we’re building our first title in Unity. ‘s client-side is dominantly built in Unity. I have another 2 side projects written in Unity. Writing code in Unity is my fulltime job and a half.</p>
+</li>
+
+<li>
+<p>Console is awesome: I’m a spammer. From variable values, to seeing if code is reached, console logging is how I do it in Unity. Unity’s console is pretty awesome - jump to line of code that generated it, rich text support, stack trace, object reference identification</p>
+</li>
+
+<li>
+<p>It’s not awesome enough: Log levels, tagging, object-wise deactivation to name a few. There’s probably many more. Serious projects can get very large, with tons of moving parts. The above are just the things <em>I</em> wished I could have, there could be more.</p>
+</li>
+
+<li>
+<p>It’s hack-unfriendly now: The Unity log is powerful, but it can never be limitless (like it should be) when it can’t be hacked. The Debug class is sealed, and the only available methods are <code>Log...</code> and <code>Draw...</code> calls.</p>
+</li>
+
+<li>
+<p>Challenge accepted: I’m trying to cleanse my workflow of tedious dev-tasks. To do this I need to be a better dev. Time to better learn Unity tricks like EditorWindows, debug classes, etc and C# tricks like reflection, namespaces, etc. Make a thing I want + Learning time!</p>
+</li>
+
+<li>
+<p>Dev blog material: I felt a need to inaugurate the dev posts. Made me set up syntax highlighting on my site, anyway.</p>
+</li>
+</ol>
+
+<h3 id="design">Design</h3>
+
+<p>My first challenge was figuring out usage. My two options were:</p>
+
+<ol>
+<li>Make my own Debug class <code>ZKDebug</code>, and you call <code>ZKDebug.Log(...)</code> for example, instead of <code>Debug.Log</code>.</li>
+
+<li>Implement a callback to the <code>Debug.Log</code> class (something I discovered recently), so that you don’t have to change any code, just need to enable ZKDebug.</li>
+</ol>
+
+<p>The first is what I’ve classically done when making impromptu custom debugging tools in Unity. However, this approach has a killer flaw:</p>
+
+<ul>
+<li>You have to go through every legacy file and edit your log call to <code>ZKDebug.Log</code>.</li>
+
+<li>Doing the above will break the file on any system that won’t have <code>ZKDebug</code> set up.</li>
+</ul>
+
+<p>So my first choice is to go down the callback route.</p>
+
+<h3 id="itscodeventure_time">It’s…Codeventure Time!</h3>
+
+<p>For my first several iterations, I tested with a simple scene with a single <code>MonoBehaviour</code>. It incremented a counter in the update loop, and logged it.</p>
+<div class='highlight'><pre><code class='csharp'><span class='k'>public</span> <span class='k'>class</span> <span class='nc'>Director</span> <span class='p'>:</span> <span class='n'>MonoBehaviour</span> <span class='p'>{</span>
+	<span class='k'>void</span> <span class='nf'>Start</span> <span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span> <span class='p'>(</span><span class='s'>&quot;Greetings&quot;</span><span class='p'>);</span>
+	<span class='p'>}</span>
+
+	<span class='kt'>float</span> <span class='n'>countdowner</span> <span class='p'>=</span> <span class='m'>1.0f</span><span class='p'>;</span>
+	<span class='kt'>int</span> <span class='n'>counter</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+	<span class='k'>void</span> <span class='nf'>Update</span> <span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>countdowner</span> <span class='p'>-=</span> <span class='n'>Time</span><span class='p'>.</span><span class='n'>deltaTime</span><span class='p'>;</span>
+		<span class='k'>if</span> <span class='p'>(</span><span class='n'>countdowner</span> <span class='p'>&lt;</span> <span class='m'>0</span><span class='p'>)</span> <span class='p'>{</span>
+			<span class='n'>countdowner</span> <span class='p'>=</span> <span class='m'>1.0f</span><span class='p'>;</span>
+			<span class='n'>counter</span> <span class='p'>++;</span>
+			<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span> <span class='p'>(</span><span class='s'>&quot;Seconds of game: &quot;</span> <span class='p'>+</span> <span class='n'>counter</span><span class='p'>);</span>
+		<span class='p'>}</span>
+	<span class='p'>}</span>
+<span class='p'>}</span>
+</code></pre></div>
+<h3 id="zkdebug_bugs_in_the_name">ZKDebug: bug’s in the name</h3>
+
+<p>So first I wanted to try out the Logcallback and see how it worked. I decided the simplest thing is to just print some stuff to the existing Console when it received a log.</p>
+<div class='highlight'><pre><code class='csharp'><span class='k'>using</span> <span class='nn'>UnityEditor</span><span class='p'>;</span>
+<span class='k'>using</span> <span class='nn'>UnityEngine</span><span class='p'>;</span>
+<span class='k'>using</span> <span class='nn'>System.Collections.Generic</span><span class='p'>;</span>
+
+<span class='k'>public</span> <span class='k'>class</span> <span class='nc'>ZKDebug</span> <span class='p'>:</span> <span class='n'>EditorWindow</span> <span class='p'>{</span>	
+<span class='na'>	[MenuItem(&quot;ZKTools/ZKDebug Console #%w&quot;)]</span>
+	<span class='k'>static</span> <span class='k'>void</span> <span class='nf'>Init</span> <span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>ZKDebug</span> <span class='n'>window</span> <span class='p'>=</span> <span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>)</span> <span class='n'>EditorWindow</span><span class='p'>.</span><span class='n'>GetWindow</span><span class='p'>(</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>));</span>
+		<span class='n'>Application</span><span class='p'>.</span><span class='n'>RegisterLogCallback</span><span class='p'>(</span><span class='n'>window</span><span class='p'>.</span><span class='n'>HandleLog</span><span class='p'>);</span>
+	<span class='p'>}</span>
+
+	<span class='k'>void</span> <span class='nf'>HandleLog</span> <span class='p'>(</span><span class='kt'>string</span> <span class='n'>message</span><span class='p'>,</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>,</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span> <span class='p'>(</span><span class='s'>&quot;just checking if callback works&#39;&quot;</span><span class='p'>);</span>
+	<span class='p'>}</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>So when my application would call <code>Debug.Log</code>, I expected it to output “just checking if callback works” ollowing every original log output, in the console.</p>
+
+<p>Unfortunately, this did nothing [<a href="#ref1">1</a>]. I considered that possibly <code>RegisterLogCallback</code> only does anything when called by a runtime class. To test this, I tried attaching effectively the same logic to a <code>MonoBehaviour</code>, as I’ve seen RegisterCallback used before. It still didn’t work. I gave up on testing with just a <code>Debug.Log</code> call, and decided to try something else. I even tried replacing it with <code>print</code> [<a href="#ref2">2</a>]. Well, since I was making my own window anyway, I thought why not set a <code>GUILabel</code> in it with the log message.</p>
+
+<h3 id="noelle_log">Noelle Log</h3>
+<div class='highlight'><pre><code class='csharp'>	<span class='k'>private</span> <span class='kt'>string</span> <span class='n'>lastLog</span> <span class='p'>=</span> <span class='s'>&quot;&quot;</span><span class='p'>;</span>
+	<span class='k'>void</span> <span class='nf'>OnGUI</span><span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>Label</span> <span class='p'>(</span><span class='s'>&quot;ZKDebug&quot;</span><span class='p'>,</span> <span class='n'>EditorStyles</span><span class='p'>.</span><span class='n'>boldLabel</span><span class='p'>);</span>
+		<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>Label</span> <span class='p'>(</span><span class='n'>lastLog</span><span class='p'>,</span> <span class='n'>EditorStyles</span><span class='p'>.</span><span class='n'>boldLabel</span><span class='p'>);</span>
+	<span class='p'>}</span>
+	<span class='k'>void</span> <span class='nf'>HandleLog</span> <span class='p'>(</span><span class='kt'>string</span> <span class='n'>message</span><span class='p'>,</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>,</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>lastLog</span> <span class='p'>=</span> <span class='n'>message</span><span class='p'>;</span>
+	<span class='p'>}</span>
+</code></pre></div>
+<p>This worked! …Sort of.</p>
+
+<p>This made me realize something. I would get to use none of the existing Console. I would have to build the entire console window interaction and display logic from scratch. Ouch. I sure have my work cut out for me.</p>
+
+<p>I have written editor scripts for Unity before, but they have usually been procedures, such as post-processing Android compiles, analyzing levels, inverting meshes, custom menu items. This would be the first time trying to make an EditorWindow with a GUI, let alone an interactive and deep-reaching one such as a console.</p>
+
+<p>The daunting task ahead aside, there were some unexpected issues before I could even get to that.</p>
+
+<ol>
+<li>My ‘console’ only updated my log when I clicked, dragged, or otherwise created a ‘majorly manipulative event’ in the editor window.</li>
+
+<li>The callback registration seemed to expire undesirably under several circumstances. I had to close and re-invoke my EditorWindow to re-register the log callback.</li>
+</ol>
+
+<h3 id="repaint">Repaint</h3>
+
+<p>A fairly poorly documented method for EditorWindows is <code>Repaint()</code>. I foresee this being extremely useful for any dev writing their own Editor GUIs. Unless there has been a manipulative user-generated event, you need to call <code>Repaint()</code> from the EditorWindow. Once I found this, it was fairly simple.</p>
+<div class='highlight'><pre><code class='csharp'>	<span class='k'>void</span> <span class='nf'>HandleLog</span> <span class='p'>(</span><span class='kt'>string</span> <span class='n'>message</span><span class='p'>,</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>,</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>lastLog</span> <span class='p'>=</span> <span class='n'>message</span><span class='p'>;</span>
+		<span class='n'>Repaint</span><span class='p'>();</span>
+	<span class='p'>}</span>
+</code></pre></div>
+<p>Now the label was continually being updated, as long as I invoked the window during runtime.</p>
+
+<h3 id="reattach_my_head_please">Reattach my head please</h3>
+
+<p>I figured out that my console was getting detached whenever</p>
+
+<ul>
+<li>My scripts were recompiling</li>
+
+<li>I entered or exited play mode</li>
+
+<li>(suspected) When I switched focus from Unity for long periods of time</li>
+</ul>
+
+<p>Without too much difficulty, I could find all the relevant flags to figure out whether reattachment was necessary or not, and needed to do some reference management ninjutsu to handle the re-registration.</p>
+<div class='highlight'><pre><code class='csharp'>	<span class='kt'>int</span> <span class='n'>lastState</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+	<span class='k'>private</span> <span class='kt'>bool</span> <span class='n'>needsReattachment</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+	<span class='k'>void</span> <span class='nf'>Update</span><span class='p'>()</span> <span class='p'>{</span>
+		<span class='kt'>int</span> <span class='n'>thisState</span> <span class='p'>=</span> <span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isCompiling</span><span class='p'>?</span><span class='m'>1</span><span class='p'>:</span>
+						<span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isUpdating</span><span class='p'>?</span><span class='m'>2</span><span class='p'>:</span>
+						<span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isPlaying</span><span class='p'>?</span><span class='m'>3</span><span class='p'>:</span><span class='m'>0</span><span class='p'>;</span>
+		<span class='n'>needsReattachment</span> <span class='p'>=</span> <span class='p'>(</span><span class='n'>thisState</span> <span class='p'>!=</span> <span class='n'>lastState</span><span class='p'>);</span>
+		<span class='k'>if</span> <span class='p'>(</span><span class='n'>needsReattachment</span><span class='p'>)</span> <span class='n'>Reattach</span><span class='p'>();</span>
+		<span class='n'>lastState</span> <span class='p'>=</span> <span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isCompiling</span><span class='p'>?</span><span class='m'>1</span><span class='p'>:</span>
+					<span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isUpdating</span><span class='p'>?</span><span class='m'>2</span><span class='p'>:</span>
+					<span class='n'>EditorApplication</span><span class='p'>.</span><span class='n'>isPlaying</span><span class='p'>?</span><span class='m'>3</span><span class='p'>:</span><span class='m'>0</span><span class='p'>;</span>
+	<span class='p'>}</span>
+
+	<span class='k'>private</span> <span class='k'>static</span> <span class='n'>ZKDebug</span> <span class='n'>window</span> <span class='p'>=</span> <span class='k'>null</span><span class='p'>;</span>
+<span class='na'>	[MenuItem(&quot;ZKTools/ZKDebug Console #%w&quot;)]</span>
+	<span class='k'>static</span> <span class='k'>void</span> <span class='nf'>Reattach</span> <span class='p'>()</span> <span class='p'>{</span>
+		<span class='k'>if</span> <span class='p'>(</span><span class='n'>window</span> <span class='p'>==</span> <span class='k'>null</span><span class='p'>)</span> 
+			<span class='n'>window</span> <span class='p'>=</span> <span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>)</span> <span class='n'>EditorWindow</span><span class='p'>.</span><span class='n'>GetWindow</span><span class='p'>(</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>));</span>
+		<span class='n'>Application</span><span class='p'>.</span><span class='n'>RegisterLogCallback</span><span class='p'>(</span><span class='n'>window</span><span class='p'>.</span><span class='n'>HandleLog</span><span class='p'>);</span>
+		<span class='n'>window</span><span class='p'>.</span><span class='n'>needsReattachment</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+		<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span><span class='p'>(</span><span class='s'>&quot;Reattached at &quot;</span> <span class='p'>+</span> <span class='n'>System</span><span class='p'>.</span><span class='n'>DateTime</span><span class='p'>.</span><span class='n'>Now</span><span class='p'>.</span><span class='n'>TimeOfDay</span><span class='p'>)</span> <span class='p'>;</span>
+	<span class='p'>}</span>
+</code></pre></div>
+<p>Worked out quite smoothly! Now I wanted to actually start bringing in some of the much missed Unity console features.</p>
+
+<p>I was inspired to build this after seeing mminer’s excellent <a href="https://github.com/mminer/consolation/blob/master/Console.cs">in-game console script</a>. I picked up a few snippets from there, to add</p>
+
+<h3 id="scrolling_along">Scrolling along</h3>
+
+<p>We want to see all the logs, not just the last one!</p>
+<div class='highlight'><pre><code class='csharp'>	<span class='k'>struct</span> <span class='nc'>Log</span> <span class='p'>{</span>
+		<span class='k'>public</span> <span class='kt'>string</span> <span class='n'>message</span><span class='p'>;</span>
+		<span class='k'>public</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>;</span>
+		<span class='k'>public</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>;</span>
+	<span class='p'>}</span>
+
+	<span class='k'>readonly</span> <span class='n'>List</span><span class='p'>&lt;</span><span class='n'>Log</span><span class='p'>&gt;</span> <span class='n'>logs</span> <span class='p'>=</span> <span class='k'>new</span> <span class='n'>List</span><span class='p'>&lt;</span><span class='n'>Log</span><span class='p'>&gt;();</span>
+
+	<span class='n'>Vector2</span> <span class='n'>scrollPosition</span><span class='p'>;</span>
+	<span class='kt'>float</span> <span class='n'>logHeight</span> <span class='p'>=</span> <span class='m'>30</span><span class='p'>;</span>
+	<span class='k'>void</span> <span class='nf'>OnGUI</span> <span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>Label</span><span class='p'>(</span><span class='s'>&quot;ZKDebug DevMode: &quot;</span> <span class='p'>+</span> <span class='n'>logs</span><span class='p'>.</span><span class='n'>Count</span> <span class='p'>+</span> <span class='s'>&quot; logs created,</span>
+						<span class='n'>EditorStyles</span><span class='p'>.</span><span class='n'>boldLabel</span><span class='p'>);</span>
+
+		<span class='n'>scrollPosition</span> <span class='p'>=</span> <span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>BeginScrollView</span><span class='p'>(</span><span class='n'>scrollPosition</span><span class='p'>);</span>
+		<span class='k'>foreach</span> <span class='p'>(</span><span class='n'>Log</span> <span class='n'>log</span> <span class='k'>in</span> <span class='n'>logs</span><span class='p'>)</span> <span class='p'>{</span>
+			<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>SelectableLabel</span><span class='p'>(</span><span class='n'>log</span><span class='p'>.</span><span class='n'>message</span><span class='p'>,</span> 
+							<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>Height</span><span class='p'>(</span><span class='n'>logHeight</span><span class='p'>));</span>
+		<span class='p'>}</span>
+		<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>EndScrollView</span><span class='p'>();</span>
+	<span class='p'>}</span>
+
+	<span class='k'>void</span> <span class='nf'>HandleLog</span> <span class='p'>(</span><span class='kt'>string</span> <span class='n'>message</span><span class='p'>,</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>,</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>logs</span><span class='p'>.</span><span class='n'>Add</span><span class='p'>(</span><span class='k'>new</span> <span class='n'>Log</span> <span class='p'>{</span>
+			<span class='n'>message</span> <span class='p'>=</span> <span class='n'>message</span><span class='p'>,</span>
+			<span class='n'>stackTrace</span> <span class='p'>=</span> <span class='n'>stackTrace</span><span class='p'>,</span>
+			<span class='n'>type</span> <span class='p'>=</span> <span class='n'>type</span><span class='p'>,</span>
+		<span class='p'>});</span>
+		<span class='n'>Repaint</span> <span class='p'>();</span>
+	<span class='p'>}</span>
+</code></pre></div>
+<p>When I tested this, things went as advertised. However, to my dismay, I realized my scrollview was being left looking at whatever log I left it at. That is to say, even when new logs were being added below while I was at the current bottom, the scrollview didn’t move down to include the new one like we devs expect consoles to.</p>
+
+<h3 id="bottoms_up">Bottoms up</h3>
+
+<p>This turned out to be a little trickier than I thought to figure out the behaviour we’d want: When we’re at the bottom, I want a new log to push the scroll to the bottom. If I’m scrolling up, I don’t want to be pushed down even if a new log appears. I also don’t want to be disturbed if I’m looking at a log somewhere in the middle. Once I scroll to the bottom, I want to be updated automatically again.</p>
+
+<p>Using the event class to detect scroll events, I was finally able to build something that behaved how I wanted. There were also a lot of annoying details that weren’t well documented[<a href="#ref3">3</a>].</p>
+<div class='highlight'><pre><code class='csharp'><span class='c1'>// Properties used for managing scroll position</span>
+<span class='n'>Vector2</span> <span class='n'>scrollPosition</span><span class='p'>;</span>
+<span class='kt'>float</span> <span class='n'>scrollBottom</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>scrolledDown</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>int</span> <span class='n'>eventsWaited</span><span class='p'>;</span>
+<span class='k'>void</span> <span class='nf'>OnGUI</span> <span class='p'>()</span> <span class='p'>{</span>
+	<span class='c1'>// Figuring out scroll-mode</span>
+	<span class='n'>scrollBottom</span> <span class='p'>=</span> <span class='n'>logs</span><span class='p'>.</span><span class='n'>Count</span> <span class='p'>*</span> <span class='p'>(</span><span class='n'>logHeight</span> <span class='p'>+</span> <span class='m'>2f</span><span class='p'>)</span> <span class='p'>-</span> <span class='n'>position</span><span class='p'>.</span><span class='n'>height</span> <span class='p'>+</span> <span class='n'>devLabelHeight</span> <span class='p'>+</span> <span class='m'>10f</span><span class='p'>;</span>
+	<span class='kt'>bool</span> <span class='n'>scrollToBottom</span> <span class='p'>=</span> 	
+			<span class='p'>!(</span><span class='n'>attemptedScroll</span> <span class='p'>&amp;&amp;</span> <span class='p'>!</span><span class='n'>scrolledDown</span><span class='p'>)</span> <span class='p'>&amp;&amp;</span> 	<span class='c1'>// DONT, scrolled up</span>
+			<span class='n'>IsNearBottom</span><span class='p'>()</span> <span class='p'>&amp;&amp;</span> <span class='p'>(</span><span class='n'>newLogArrived</span> <span class='p'>||</span>	<span class='c1'>// DO, looking at last and new log is here</span>
+			<span class='p'>(</span><span class='n'>attemptedScroll</span> <span class='p'>&amp;&amp;</span> <span class='n'>scrolledDown</span><span class='p'>));</span>	<span class='c1'>// DO, scrolling down near the bottom</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>scrollToBottom</span><span class='p'>)</span> <span class='n'>scrollPosition</span> <span class='p'>=</span> <span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>BeginScrollView</span><span class='p'>(</span>
+				<span class='k'>new</span> <span class='nf'>Vector2</span><span class='p'>(</span><span class='m'>0</span><span class='p'>,</span> <span class='n'>scrollBottom</span><span class='p'>),</span> 
+				<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>position</span><span class='p'>.</span><span class='n'>height</span> <span class='p'>-</span> <span class='n'>devLabelHeight</span> <span class='p'>-</span> <span class='m'>10f</span><span class='p'>));</span>
+	<span class='k'>else</span> <span class='n'>scrollPosition</span> <span class='p'>=</span> <span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>BeginScrollView</span><span class='p'>(</span>
+				<span class='n'>scrollPosition</span><span class='p'>,</span>
+				<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>position</span><span class='p'>.</span><span class='n'>height</span> <span class='p'>-</span> <span class='n'>devLabelHeight</span> <span class='p'>-</span> <span class='m'>10f</span><span class='p'>));</span>
+	<span class='c1'>// Log list</span>
+	<span class='k'>foreach</span> <span class='p'>(</span><span class='n'>Log</span> <span class='n'>log</span> <span class='k'>in</span> <span class='n'>logs</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>SelectableLabel</span> <span class='p'>(</span><span class='n'>log</span><span class='p'>.</span><span class='n'>message</span> <span class='p'>+</span> <span class='s'>&quot;\n&quot;</span> <span class='p'>+</span> <span class='n'>log</span><span class='p'>.</span><span class='n'>stackTrace</span><span class='p'>,</span> 
+		                                 <span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>logHeight</span><span class='p'>),</span> 
+		                                 <span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MaxHeight</span><span class='p'>(</span><span class='n'>logHeight</span><span class='p'>));</span>
+	<span class='p'>}</span>
+	<span class='c1'>// Manipulating events</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>Event</span><span class='p'>.</span><span class='n'>current</span><span class='p'>.</span><span class='n'>type</span> <span class='p'>==</span> <span class='n'>EventType</span><span class='p'>.</span><span class='n'>scrollWheel</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span> <span class='p'>(</span><span class='s'>&quot;Scrolling&quot;</span><span class='p'>);</span>
+		<span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>true</span><span class='p'>;</span>
+		<span class='n'>scrolledDown</span> <span class='p'>=</span> <span class='n'>Event</span><span class='p'>.</span><span class='n'>current</span><span class='p'>.</span><span class='n'>delta</span><span class='p'>.</span><span class='n'>y</span> <span class='p'>&gt;</span> <span class='m'>0</span><span class='p'>;</span>
+		<span class='n'>eventsWaited</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+	<span class='p'>}</span> <span class='k'>else</span> <span class='p'>{</span>
+		<span class='k'>if</span> <span class='p'>(</span><span class='n'>eventsWaited</span> <span class='p'>&gt;</span> <span class='n'>eventsSinceScrollToWait</span><span class='p'>)</span> <span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+		<span class='k'>else</span> <span class='n'>eventsWaited</span><span class='p'>++;</span>
+	<span class='p'>}</span>
+	<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>EndScrollView</span><span class='p'>();</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>consoleDevMode</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>Label</span> <span class='p'>(</span><span class='s'>&quot;ZKDebug; atBottom: &quot;</span> <span class='p'>+</span> <span class='n'>IsNearBottom</span><span class='p'>()</span> <span class='p'>+</span> <span class='s'>&quot;\nscroll: &quot;</span> <span class='p'>+</span> <span class='n'>scrollBottom</span> <span class='p'>+</span> <span class='s'>&quot; position: &quot;</span> <span class='p'>+</span> <span class='n'>scrollPosition</span><span class='p'>.</span><span class='n'>y</span> <span class='p'>+</span> <span class='s'>&quot; height: &quot;</span> <span class='p'>+</span> <span class='n'>position</span><span class='p'>.</span><span class='n'>height</span><span class='p'>,</span> 
+		                 <span class='n'>EditorStyles</span><span class='p'>.</span><span class='n'>boldLabel</span><span class='p'>,</span>
+		                 <span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>devLabelHeight</span><span class='p'>),</span>
+		                 <span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MaxHeight</span><span class='p'>(</span><span class='n'>devLabelHeight</span><span class='p'>));</span>
+	<span class='p'>}</span>
+	<span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='p'>}</span>
+
+<span class='k'>void</span> <span class='nf'>HandleLog</span> <span class='p'>(</span><span class='kt'>string</span> <span class='n'>message</span><span class='p'>,</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>,</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>)</span> <span class='p'>{</span>
+	<span class='n'>logs</span><span class='p'>.</span><span class='n'>Add</span><span class='p'>(</span><span class='k'>new</span> <span class='n'>Log</span> <span class='p'>{</span>
+		<span class='n'>message</span> <span class='p'>=</span> <span class='n'>message</span><span class='p'>,</span>
+		<span class='n'>stackTrace</span> <span class='p'>=</span> <span class='n'>stackTrace</span><span class='p'>,</span>
+		<span class='n'>type</span> <span class='p'>=</span> <span class='n'>type</span><span class='p'>,</span>
+	<span class='p'>});</span>
+	<span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>true</span><span class='p'>;</span>
+	<span class='n'>Repaint</span> <span class='p'>();</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>Didn’t expect it to be that much stuff. I figured since my purpose was to make an easily extensible Console rather than just replicating the built-in one, I might as well clean it up right away. It needed it.</p>
+
+<h3 id="code_cleanup">Code Cleanup</h3>
+
+<p>At the top we have our public access functions</p>
+<div class='highlight'><pre><code class='csharp'><span class='k'>private</span> <span class='k'>static</span> <span class='n'>ZKDebug</span> <span class='n'>window</span> <span class='p'>=</span> <span class='k'>null</span><span class='p'>;</span>
+<span class='k'>static</span> <span class='kt'>bool</span> <span class='n'>visible</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+
+<span class='c1'>// Public Usage Calls</span>
+<span class='na'>[MenuItem(&quot;ZKTools/ZKDebug Console #%w&quot;)]</span>
+<span class='k'>static</span> <span class='k'>void</span> <span class='nf'>CreateOrReattach</span> <span class='p'>()</span> <span class='p'>{</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>window</span> <span class='p'>==</span> <span class='k'>null</span><span class='p'>)</span> <span class='n'>window</span> <span class='p'>=</span> <span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>)</span> <span class='n'>EditorWindow</span><span class='p'>.</span><span class='n'>GetWindow</span><span class='p'>(</span><span class='k'>typeof</span><span class='p'>(</span><span class='n'>ZKDebug</span><span class='p'>));</span>
+	<span class='n'>visible</span> <span class='p'>=</span> <span class='k'>true</span><span class='p'>;</span>
+
+	<span class='n'>Application</span><span class='p'>.</span><span class='n'>RegisterLogCallback</span><span class='p'>(</span><span class='n'>window</span><span class='p'>.</span><span class='n'>HandleLog</span><span class='p'>);</span>
+	<span class='n'>window</span><span class='p'>.</span><span class='n'>needsReattachment</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+
+	<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span><span class='p'>(</span><span class='s'>&quot;Reattached at &quot;</span> <span class='p'>+</span> <span class='n'>System</span><span class='p'>.</span><span class='n'>DateTime</span><span class='p'>.</span><span class='n'>Now</span><span class='p'>.</span><span class='n'>TimeOfDay</span><span class='p'>)</span> <span class='p'>;</span>
+
+	<span class='n'>Log</span><span class='p'>.</span><span class='n'>SetLayout</span><span class='p'>(</span><span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>logHeight</span><span class='p'>));</span>
+	<span class='n'>window</span><span class='p'>.</span><span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+	<span class='n'>window</span><span class='p'>.</span><span class='n'>scrolledDown</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+	<span class='n'>window</span><span class='p'>.</span><span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+	<span class='n'>window</span><span class='p'>.</span><span class='n'>eventsWaited</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+<span class='p'>}</span>
+
+<span class='k'>public</span> <span class='k'>static</span> <span class='k'>void</span> <span class='nf'>Clear</span><span class='p'>()</span> <span class='p'>{</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>window</span> <span class='p'>!=</span> <span class='k'>null</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>window</span><span class='p'>.</span><span class='n'>logs</span><span class='p'>.</span><span class='n'>Clear</span><span class='p'>();</span>
+		<span class='n'>window</span><span class='p'>.</span><span class='n'>Repaint</span><span class='p'>();</span>
+	<span class='p'>}</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>I figure we’d want some flexibility to the Log struct, so I turned it into a local class. I’ll probably want to pop this guy out into a separate class to make it easily extendable.</p>
+<div class='highlight'><pre><code class='csharp'><span class='k'>public</span> <span class='k'>static</span> <span class='k'>void</span> <span class='nf'>SetLogLayout</span><span class='p'>(</span><span class='k'>params</span> <span class='n'>GUILayoutOption</span><span class='p'>[]</span> <span class='n'>options</span><span class='p'>)</span> <span class='p'>{</span>
+	<span class='n'>Log</span><span class='p'>.</span><span class='n'>SetLayout</span><span class='p'>(</span><span class='n'>options</span><span class='p'>);</span>
+<span class='p'>}</span>
+	
+<span class='k'>class</span> <span class='nc'>Log</span> <span class='p'>{</span>
+	<span class='k'>public</span> <span class='kt'>string</span> <span class='n'>message</span><span class='p'>;</span>
+	<span class='k'>public</span> <span class='kt'>string</span> <span class='n'>stackTrace</span><span class='p'>;</span>
+	<span class='k'>public</span> <span class='n'>LogType</span> <span class='n'>type</span><span class='p'>;</span>
+	<span class='k'>private</span> <span class='k'>static</span> <span class='n'>GUILayoutOption</span><span class='p'>[]</span> <span class='n'>layoutParams</span><span class='p'>;</span>
+
+	<span class='k'>public</span> <span class='k'>static</span> <span class='k'>void</span> <span class='nf'>SetLayout</span><span class='p'>(</span><span class='k'>params</span> <span class='n'>GUILayoutOption</span><span class='p'>[]</span> <span class='n'>options</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>layoutParams</span> <span class='p'>=</span> <span class='n'>options</span><span class='p'>;</span>
+	<span class='p'>}</span>
+
+	<span class='k'>public</span> <span class='k'>void</span> <span class='nf'>RenderLog</span><span class='p'>()</span> <span class='p'>{</span>
+		<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>SelectableLabel</span> <span class='p'>(</span><span class='n'>message</span> <span class='p'>+</span> <span class='s'>&quot;\n&quot;</span> <span class='p'>+</span> <span class='n'>stackTrace</span><span class='p'>,</span> 
+		                                 <span class='n'>layoutParams</span><span class='p'>);</span>
+	<span class='p'>}</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>The biggest mess is the autoscroll code, so I split that up to feel similar to the built-in GUILayout operations</p>
+<div class='highlight'><pre><code class='csharp'><span class='c1'>// Properties used for managing scroll position</span>
+<span class='k'>protected</span> <span class='n'>Vector2</span> <span class='n'>scrollPosition</span><span class='p'>;</span>
+
+<span class='c1'>// These are pretty much private to the autoscroll system</span>
+<span class='kt'>float</span> <span class='n'>scrollBottom</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>scrolledDown</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>bool</span> <span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+<span class='kt'>int</span> <span class='n'>eventsWaited</span><span class='p'>;</span>
+
+<span class='k'>private</span> <span class='kt'>bool</span> <span class='nf'>IsNearBottom</span><span class='p'>()</span> <span class='p'>{</span>
+	<span class='k'>return</span> <span class='p'>(</span><span class='n'>scrollPosition</span><span class='p'>.</span><span class='n'>y</span> <span class='p'>&gt;</span> <span class='p'>(</span><span class='n'>scrollBottom</span> <span class='p'>-</span> <span class='m'>2f</span><span class='p'>*(</span><span class='n'>logHeight</span> <span class='p'>+</span> <span class='m'>10f</span><span class='p'>)));</span>
+<span class='p'>}</span>
+
+<span class='n'>Vector2</span> <span class='nf'>BeginAutoScrollView</span> <span class='p'>(</span><span class='k'>params</span> <span class='n'>GUILayoutOption</span><span class='p'>[]</span> <span class='n'>options</span><span class='p'>)</span> <span class='p'>{</span>
+	<span class='c1'>// Figuring out scroll-mode</span>
+	<span class='n'>scrollBottom</span> <span class='p'>=</span> <span class='n'>logs</span><span class='p'>.</span><span class='n'>Count</span> <span class='p'>*</span> <span class='p'>(</span><span class='n'>logHeight</span> <span class='p'>+</span> <span class='m'>2f</span><span class='p'>)</span> <span class='p'>-</span> <span class='n'>position</span><span class='p'>.</span><span class='n'>height</span> <span class='p'>+</span> <span class='n'>devLabelHeight</span> <span class='p'>+</span> <span class='m'>10f</span><span class='p'>;</span>
+	<span class='kt'>bool</span> <span class='n'>scrollToBottom</span> <span class='p'>=</span> 	<span class='p'>!(</span><span class='n'>attemptedScroll</span> <span class='p'>&amp;&amp;</span> <span class='p'>!</span><span class='n'>scrolledDown</span><span class='p'>)</span> <span class='p'>&amp;&amp;</span> 		<span class='c1'>// DONT, scrolled up</span>
+							<span class='n'>IsNearBottom</span><span class='p'>()</span> <span class='p'>&amp;&amp;</span> <span class='p'>(</span><span class='n'>newLogArrived</span> <span class='p'>||</span>			<span class='c1'>// DO, looking at last and new log is here</span>
+		                   	<span class='p'>(</span><span class='n'>attemptedScroll</span> <span class='p'>&amp;&amp;</span> <span class='n'>scrolledDown</span><span class='p'>));</span>			<span class='c1'>// DO, scrolling down near the bottom</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>scrollToBottom</span><span class='p'>)</span> 
+		<span class='k'>return</span> <span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>BeginScrollView</span><span class='p'>(</span><span class='k'>new</span> <span class='n'>Vector2</span><span class='p'>(</span><span class='m'>0</span><span class='p'>,</span> <span class='n'>scrollBottom</span><span class='p'>),</span> <span class='n'>options</span><span class='p'>);</span>
+	<span class='k'>else</span> 
+		<span class='k'>return</span> <span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>BeginScrollView</span><span class='p'>(</span><span class='n'>scrollPosition</span><span class='p'>,</span> <span class='n'>options</span><span class='p'>);</span>
+<span class='p'>}</span>
+
+<span class='k'>void</span> <span class='nf'>EndAutoScrollView</span> <span class='p'>()</span> <span class='p'>{</span>
+	<span class='c1'>// Manipulating events</span>
+	<span class='k'>if</span> <span class='p'>(</span><span class='n'>Event</span><span class='p'>.</span><span class='n'>current</span><span class='p'>.</span><span class='n'>type</span> <span class='p'>==</span> <span class='n'>EventType</span><span class='p'>.</span><span class='n'>scrollWheel</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>Debug</span><span class='p'>.</span><span class='n'>Log</span> <span class='p'>(</span><span class='s'>&quot;Scrolling&quot;</span><span class='p'>);</span>
+		<span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>true</span><span class='p'>;</span>
+		<span class='n'>scrolledDown</span> <span class='p'>=</span> <span class='n'>Event</span><span class='p'>.</span><span class='n'>current</span><span class='p'>.</span><span class='n'>delta</span><span class='p'>.</span><span class='n'>y</span> <span class='p'>&gt;</span> <span class='m'>0</span><span class='p'>;</span>
+		<span class='n'>eventsWaited</span> <span class='p'>=</span> <span class='m'>0</span><span class='p'>;</span>
+	<span class='p'>}</span> <span class='k'>else</span> <span class='p'>{</span>
+		<span class='k'>if</span> <span class='p'>(</span><span class='n'>eventsWaited</span> <span class='p'>&gt;</span> <span class='n'>eventsSinceScrollToWait</span><span class='p'>)</span> <span class='n'>attemptedScroll</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+		<span class='k'>else</span> <span class='n'>eventsWaited</span><span class='p'>++;</span>
+	<span class='p'>}</span>
+	<span class='n'>newLogArrived</span> <span class='p'>=</span> <span class='k'>false</span><span class='p'>;</span>
+	<span class='n'>EditorGUILayout</span><span class='p'>.</span><span class='n'>EndScrollView</span><span class='p'>();</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>This gives us a much simpler OnGUI call that I like, which can easily be rewritten or extended with modifications.</p>
+<div class='highlight'><pre><code class='csharp'><span class='k'>protected</span> <span class='k'>void</span> <span class='nf'>OnGUI</span> <span class='p'>()</span> <span class='p'>{</span>
+	<span class='n'>BeginAutoScrollView</span> <span class='p'>(</span><span class='n'>GUILayout</span><span class='p'>.</span><span class='n'>MinHeight</span><span class='p'>(</span><span class='n'>position</span><span class='p'>.</span><span class='n'>height</span> <span class='p'>-</span> <span class='n'>devLabelHeight</span> <span class='p'>-</span> <span class='m'>10f</span><span class='p'>));</span>
+	<span class='c1'>// Drawing</span>
+	<span class='k'>foreach</span> <span class='p'>(</span><span class='n'>Log</span> <span class='n'>log</span> <span class='k'>in</span> <span class='n'>logs</span><span class='p'>)</span> <span class='p'>{</span>
+		<span class='n'>log</span><span class='p'>.</span><span class='n'>RenderLog</span> <span class='p'>();</span>
+	<span class='p'>}</span>
+	<span class='n'>EndAutoScrollView</span><span class='p'>();</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>I also moved this into the ZKTools namespace, and hit a few snags with some unintuitive resolutions[<a href="#ref4">4</a>].</p>
+
+<h3 id="notes">Notes</h3>
+
+<p><a name='ref1'> </a> [1] So it turns out that actually <code>Debug.Log(...)</code> does not do anything from within the <code>HandleLog</code>. If you think about it, this makes sense. If <code>Debug.Log</code> wasn’t ignored, having a log call inside <code>HandleLog</code> would infinitely recursively call <code>Debug.Log</code>! D’oh.</p>
+
+<p><a name='ref2'> </a> [2] The <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour-print.html">docs</a> for <code>print</code> say it’s identical to <code>Debug.Log</code>, except that its attached to MonoBehaviours and not the Debug class.</p>
+
+<p><a name='ref3'> </a>[3] After some experimentation, I learned:</p>
+
+<ul>
+<li>the dimensions of the current EditorWindow is found in the <code>position</code> Rect property</li>
+
+<li>scrollview elements have 2px margin added to them.</li>
+
+<li>two top-level elements have 10px margin added to them</li>
+
+<li>along with user events, the <code>Event</code> class registers repaint and layout events constantly</li>
+</ul>
+
+<p><a name='ref4'> </a>[4] Unity Editor quirks:</p>
+
+<ul>
+<li>Sometimes editor windows just don’t show up. It’s normally not a scripting error if you’re able to still get log statements out of it. Try resetting your editor layout using the “Layout” dropdown in the top-right of the main Unity window.</li>
+
+<li>You can’t access scripts in the Assets/Editor/ folder from other scripts in the Assets/ folder. Editor/ZKTools/Utils.cs is a general purpose helper-function library that I wanted to be able to use in both the Editor and regular scripts, but I wanted to keep it bundled with our editor Git submodule. Turns out the solution is to place it all in Plugins, and separating out just the editorscripts into an Editor subfolder within the plugin:<br /> Assets/ <br /> ├ Plugins/ <br /> ├ - ├ ZKTools/ <br /> ├ - ├ - ├ Utils.cs <br /> ├ - ├ - ├ Editor/ <br /> ├ - ├ - ├ - ├ ZKDebug.cs <br /> ├ - ├ - ├ - ├ </li>
+</ul>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-message">
+      Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+      Static sites are the <a href="http://www.motherfuckingwebsite.com/" target="_blank">way to go</a>.
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<head>
+  {% include headcontent.html %}
+  <!-- POST CSS -->
+  <link rel="stylesheet" href="/styles/post.css" type="text/css"/>
+  <link rel="stylesheet" href="/styles/syntax.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  {% include header.html %}
+  <div class="content">
+    <div class="inner-content nav-essays">
+      <div class="essay-map">Writing > {{ page.folder }} > {{ page.title }}</div>
+      {{ content }}
+    </div>
