@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"bold",
-				"bolder"
-			],
-			[
 				"Base",
 				"BaseVideoPlayer"
 			],
@@ -420,42 +416,26 @@
 	"buffers":
 	[
 		{
-			"file": "source/index.html",
+			"file": "essays/beingnice.html",
 			"settings":
 			{
-				"buffer_size": 496,
+				"buffer_size": 795,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/essays/index.html",
+			"file": "essays/index.html",
 			"settings":
 			{
-				"buffer_size": 529,
+				"buffer_size": 1322,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "source/essays/intromobile.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 717,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/_layouts/home.html",
-			"settings":
-			{
-				"buffer_size": 1090,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/styles/core.css",
-			"settings":
-			{
-				"buffer_size": 1481,
+				"buffer_size": 559,
 				"line_ending": "Unix"
 			}
 		}
@@ -522,22 +502,17 @@
 	},
 	"file_history":
 	[
-		"/Users/keerthik/projects/korcgames/source/essays.html",
-		"/Users/keerthik/projects/dicestorm/Webstuff/styles/cheatsheet.css",
-		"/Users/keerthik/projects/korcgames/korcgames.sublime-workspace",
-		"/Users/keerthik/projects/korcgames/source/_layouts/post.html",
-		"/Users/keerthik/projects/korcgames/source/_layouts/projects.html",
-		"/Users/keerthik/projects/korcgames/source/_layouts/about.html",
-		"/Users/keerthik/projects/korcgames/source/_layouts/essays.html",
-		"/Users/keerthik/projects/korcgames/korcgames.sublime-project",
-		"/Users/keerthik/projects/korcgames/output/index.html",
-		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/style/responsive.css",
-		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/scripts/accountview.js",
-		"/Users/keerthik/zk.sh",
+		"/Users/keerthik/projects/source_korc/source/.htaccess",
+		"/Users/keerthik/projects/source_korc/Legacy/config/initializers/session_store.rb",
+		"/Users/keerthik/projects/source_korc/Legacy/config/environment.rb",
+		"/Users/keerthik/projects/source_korc/Legacy/config/boot.rb",
+		"/Users/keerthik/projects/source_korc/.htaccess",
+		"/Users/keerthik/projects/source_korc/_config.yml",
+		"/Users/keerthik/projects/kg_source/_config.yml",
+		"/Users/keerthik/projects/kg_source/korcgames.sublime-project",
+		"/Users/keerthik/projects/kg_source/korcgames.sublime-workspace",
 		"/Users/keerthik/Dropbox/Personal/Game Design/DicestormWorkspace.txt",
-		"/Users/keerthik/bg.sh",
 		"/Users/keerthik/projects/korcgames/source/.htaccess",
-		"/Users/keerthik/kg.sh",
 		"/Users/keerthik/projects/korcgames/_config.yml",
 		"/Users/keerthik/projects/BitGymWeb/parse_cloud/BitGym-Dev/cloud/main.js",
 		"/Users/keerthik/projects/korcgames_static/index.html",
@@ -585,6 +560,7 @@
 		"/Users/keerthik/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
 		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/charge.php",
 		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/earlybird.php",
+		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/style/responsive.css",
 		"/Users/keerthik/propel/nexus/Assets/VideoPlayback/TestPlatform/VideoTestDirector.cs",
 		"/Users/keerthik/propel/nexus/Assets/VideoPlayback/TestPlatform/VideoTestViewController.cs",
 		"/Users/keerthik/propel/sdk/ios_wrapper/cardio/headers/BGExerciseReading.h",
@@ -613,6 +589,7 @@
 		"/Users/keerthik/propel/nexus/xcode/Libraries/Parse.Unity.dll.s",
 		"/Users/keerthik/projects/BitGymWeb/http/bitgym.com/customer/scripts/coupon.js",
 		"/Users/keerthik/Dropbox/Public/bgsubtest.php",
+		"/Users/keerthik/projects/dicestorm/Webstuff/styles/cheatsheet.css",
 		"/Users/keerthik/propel/nexus/Assets/Facebook/Editor/android/ManifestMod.cs",
 		"/Users/keerthik/propel/nexus/xcode/Pods/Manifest.lock",
 		"/Users/keerthik/propel/nexus/xcode/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h",
@@ -649,7 +626,10 @@
 		"/Users/keerthik/propel/nexus/Assets/Scripts/DisableOnStart.cs",
 		"/Users/keerthik/propel/nexus/Assets/UI/HUD/DiscUI/DiscUI.cs",
 		"/Users/keerthik/propel/nexus/Assets/ContentManagement/iOSVaultDownloader.cs",
-		"/Users/keerthik/propel/nexus/Assets/UI/ContentFacet/ContentMenuViewController.cs"
+		"/Users/keerthik/propel/nexus/Assets/UI/ContentFacet/ContentMenuViewController.cs",
+		"/Users/keerthik/propel/nexus/Assets/UI/ContentFacet/ContentLayoutController.cs",
+		"/Users/keerthik/propel/nexus/Assets/UI/UITile/UITileBehaviourNGUI.cs",
+		"/Users/keerthik/propel/nexus/Assets/NGUI/Scripts/Tweening/TweenRotation.cs"
 	],
 	"find":
 	{
@@ -668,12 +648,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			":hover",
-			"li.",
-			"zoako",
-			"=\"\"><",
-			": ",
-			"posts",
 			"videoplayer = ",
 			"updateloading",
 			"setvideoplayer",
@@ -795,7 +769,13 @@
 			"Fissure",
 			"faction_ability",
 			"Transdimensional Defenestration",
-			"DownloadIfNotAlready"
+			"DownloadIfNotAlready",
+			"isdownloadingmetadata",
+			"metadata",
+			"ismetadatadownloaded",
+			"looping",
+			"Looping",
+			"PlaybackStatusState"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -813,59 +793,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/index.html",
+					"file": "essays/beingnice.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 496,
+						"buffer_size": 795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								278,
+								278
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/essays/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -875,20 +825,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "source/essays/intromobile.html",
+					"buffer": 1,
+					"file": "essays/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 717,
+						"buffer_size": 1322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								789,
+								789
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 119.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
 							]
 						],
 						"settings":
@@ -900,74 +879,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/_layouts/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1090,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								477,
-								477
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 19.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 4,
-					"file": "source/styles/core.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1481,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								831,
-								831
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 834.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -999,7 +918,7 @@
 		"cols":
 		[
 			0.0,
-			0.557107186985,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1017,7 +936,7 @@
 	{
 		"height": 0.0
 	},
-	"project": "korcgames.sublime-project",
+	"project": "/Users/keerthik/projects/source_korc/korcgames.sublime-project",
 	"replace":
 	{
 		"height": 52.0
@@ -1029,8 +948,12 @@
 		"selected_items":
 		[
 			[
-				"inde",
-				"output/index.html"
+				"essays",
+				"source/essays/index.html"
+			],
+			[
+				"being",
+				"source/essays/beingnice.html"
 			],
 			[
 				"pc",
@@ -1535,10 +1458,6 @@
 			[
 				"audiob",
 				"Assets/VideoPlayback/Overlays/AudioOverlayBehavior.cs"
-			],
-			[
-				"audiooverlay",
-				"Assets/VideoPlayback/Overlays/AudioOverlay.cs"
 			]
 		],
 		"width": 0.0
