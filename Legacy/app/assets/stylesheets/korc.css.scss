@@ -1,0 +1,67 @@
+@font-face {
+	font: {
+		family: 'Raleway';
+		weight: normal;
+		style: normal;
+	}
+	src: font-url('Raleway-ExtraLight.ttf') format('truetype');
+	
+}
+
+h1 {
+	font-family: 	'Raleway';
+	color:			#ddd;
+	font-size: 		64px;
+	font-weight: 	100;
+	line-height: 	1.5em;
+	padding: 		15px;
+}
+
+body {
+	color: 			#acc;
+	font-family: 	verdana, arial, helvetica, sans-serif;
+	font-size: 		13px;
+	line-height: 	18px;
+	background-image: image-url('binding_dark.png');
+	width: 			800px;
+	margin: 		0 auto;
+}
+
+
+a {
+	font-weight: bold;
+	color: #afa;
+	&:visited {
+		color: #797;
+	}
+	&:hover {
+		color: #dfd;
+		background-color: #000;
+	}
+}
+
+a:not([href*="mydomain"]) {
+    background: transparent image-url('external.png') center right no-repeat;
+    padding-right: 13px;
+}
+
+
+#terminal_container{
+	width: 46%;
+	height: 320px;
+	padding: 10px;
+	float: left;
+
+}
+
+#site_display {
+	width: 46%;
+	height: 320px;
+	margin-left: 1%;
+	padding: 10px;
+	/*
+	border: 1px solid #00ccff;
+	border-radius: 5px;	
+	*/
+	float: left;
+}

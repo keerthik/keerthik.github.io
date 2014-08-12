@@ -1,0 +1,29 @@
+{
+	"build_systems":
+	[
+		{
+			"working_dir": "${project_path:${folder}}"
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.dll",
+				"*.git"
+			],
+			"folder_exclude_patterns":
+			[
+				"output"
+			],
+			"follow_symlinks": true,
+			"path": "/Users/keerthik/projects/source_korc"
+		}
+	],
+	"settings":
+	{
+		"completioncommon_inhibit_sublime_completions": true,
+		"completioncommon_shorten_names": true
+	}
+}

@@ -1,0 +1,6 @@
+source:      source
+destination: ../output_korc/
+zk:			 <a href="http://zoako.com">zoako</a>
+bg:			 <a href="http://bitgym.com">bitgym</a>
+ds:			 <a href="http://facebook.com/dicestorm">dicestorm</a>
+highlighter: pygments
