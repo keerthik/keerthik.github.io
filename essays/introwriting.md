@@ -32,6 +32,7 @@ The important thing is that none of those are reasons to stop. When someone tell
 ## Be Deliberate
 
 I am still a beginner at writing. I aim to get better. With each piece, I aim to improve a facet of my writing. Here is a list of things I have worked/am working on:
+
 * Be thoughtful -- rants feel good to write, but terrible to read
 * Communicate a software development challenge -- learn to communicate a professional experience
 * Reduce usage of (parentheses) -- they break the strain of thought of the reader to accommodate a tangent of the writer
