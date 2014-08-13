@@ -89,7 +89,7 @@ public class ZKDebug : EditorWindow {
 }
 {% endhighlight %}
 
-So when my application would call `Debug.Log`, I expected it to output "just checking if callback works" ollowing every original log output, in the console.
+So when my application would call `Debug.Log`, I expected it to output "just checking if callback works" following every original log output, in the console.
 
 Unfortunately, this did nothing \[[1](#ref1)\]. I considered that possibly `RegisterLogCallback` only does anything when called by a runtime class. To test this, I tried attaching effectively the same logic to a `MonoBehaviour`, as I've seen RegisterCallback used before. It still didn't work. I gave up on testing with just a `Debug.Log` call, and decided to try something else. I even tried replacing it with `print` \[[2](#ref2)\]. Well, since I was making my own window anyway, I thought why not set a `GUILabel` in it with the log message. 
 

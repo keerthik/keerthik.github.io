@@ -113,6 +113,7 @@ pre, code {
 }
 
 .highlight {
+  margin-bottom: 30px;
   margin-top: 10px;
   padding: 10px 0;
   width: 100%;

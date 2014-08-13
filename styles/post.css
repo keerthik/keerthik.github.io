@@ -1,9 +1,10 @@
 body {
-	font-size: 	18px;
+	color: #000;
+	font-size: 	20px;
 }
 
 .inner-content {
-	padding-top: 70px;
+	padding-top: 20px;
 }
 
 .quote {
@@ -21,24 +22,39 @@ body {
 	color: 		#55f;
 	font-size: 	18px;
 	margin: 0;
+	margin-bottom: 30px;
 }
 
+h1 {
+	text-align: center;
+	padding-top:	90px;
+	margin-bottom: 	10px;
+
+}
 h2 {
-	color: 			#fff;
+	color: 			#111;
 	font-size: 		30px;
 	margin-bottom: 	0px;
 }
 
 h3 {
-	color: 			#fff;
+	color: 			#111;
 	font-size: 		24px;
 	font-weight: 	bold;
 	line-height: 	1em;
 	margin-top: 	40px;
-	margin-bottom: 	0px;
+	margin-bottom: 	10px;
 }
 
 p {
-	margin-top: 	30px;
+	margin-top: 	0px;
+	padding-top: 	0px;
+	margin-bottom: 	30px;
+}
+
+blockquote {
+	color: #101010;
+	font-size: 22px;
+	font-style: italic;
 }
 
