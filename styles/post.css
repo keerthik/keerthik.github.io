@@ -19,9 +19,11 @@ body {
 }
 
 .essay-date {
+	text-align: center;
 	color: 		#55f;
 	font-size: 	18px;
-	margin: 0;
+	width: 600px;
+	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
@@ -31,6 +33,7 @@ h1 {
 	margin-bottom: 	10px;
 
 }
+
 h2 {
 	color: 			#111;
 	font-size: 		30px;
