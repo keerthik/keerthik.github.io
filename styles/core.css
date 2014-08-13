@@ -14,9 +14,10 @@
 }
 
 body {
-	background:		#1c1c1c;
-	font-family: 	"FiraSans Light";
+	background-image: url('/resources/images/crossword.png');
+	font-family: 	"FiraSans";
 	font-size: 		20px;
+	letter-spacing: 1px;
 	margin: 		0;
 }
 
@@ -73,7 +74,6 @@ li.nav-home:hover {
 
 .nav-home {
 	color: 			#000;
-	background: 	#dedede;
 }
 
 li.nav-essays:hover {
@@ -82,7 +82,6 @@ li.nav-essays:hover {
 
 .nav-essays {
 	color: 			#ccc;
-	background: 	#2a2a2a;
 }
 
 li.nav-projects:hover {
@@ -91,7 +90,6 @@ li.nav-projects:hover {
 
 li.nav-projects {
 	color: 			#000;
-	background: 	#4e5;
 }
 
 li.nav-about:hover {
@@ -100,15 +98,14 @@ li.nav-about:hover {
 
 .nav-about {
 	color: 			#acd;
-	background: 	#15b;
 }
 
 .container {
 	position: 		relative;
-	width: 			80%;
+	width: 			90%;
 	height: 		100%;
 	min-height: 	600px;
-	min-width: 		850px;
+	max-width: 		900px;
 	margin: 		0px auto;
 }
 
@@ -125,13 +122,12 @@ li.nav-about:hover {
 	position: 		absolute;
 	bottom: 		0px;
 	width: 			100%;
-	background:		#1c1c1c;
 }
 
 .footer-message {
 	position: 	relative;
 	text-align: center;
-	color: 		#cdcdcd;
+	color: 		#212121;
 	font-size: 	12px;
 	width: 		350px;
 	margin: 	10px auto;
