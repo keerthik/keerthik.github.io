@@ -22,37 +22,64 @@ body {
 }
 
 a, a:visited {
-	color: #5af;
+	color: #50a0f0;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #5fa;
+	color: #50f0a0;
+}
+
+#logoContainer {
+	text-decoration: none;
+}
+
+#homeLogo {
+	color: #000;
+	text-align: center;
+	position: fixed;
+	height: 30px;
+	width: 30px;
+	padding: 20px;
+	font-size: 24px;
 }
 
 .header {
 	margin: 		0px auto;
 }
 
+.header a {
+	text-decoration: none;
+}
+
+
+
+#homeLogo:hover {
+	background: #000;
+	color: #fff;
+}
+
 .nav {
-	position: 		relative;
-	height: 		83px;
+	height: 		73px;
 	margin: 		0;
+	margin-left: 	40px;
 }
 
 .nav ul {
 	font-family:	"FiraSans";
 	list-style: 	none;
+	height: 		100%;
 	margin: 		0;
 	padding: 		0px;
 }
 
 .nav li {
+	color: 			#ccc;
+	position: 	relative;
 	float: 		left;
 	width: 		130px;
-	height: 	40px;
+	height: 	30px;
 	padding: 	20px 20px;
-	margin: 	3px 3px;
 	text-align: center;
 	font-size: 	24px;
 	font-weight:100;
@@ -62,42 +89,12 @@ a:hover {
 
 .nav li:hover {
 	color: 	#fff;
-}
-.nav li a {
-	text-decoration:none;
+	background: 	#3d3d3d;
 }
 
 li.nav-home:hover {
 	color: 			#000;
 	background: 	#fff;
-}
-
-.nav-home {
-	color: 			#000;
-}
-
-li.nav-essays:hover {
-	background: 	#3d3d3d;
-}
-
-.nav-essays {
-	color: 			#ccc;
-}
-
-li.nav-projects:hover {
-	background: 	#2c3;
-}
-
-li.nav-projects {
-	color: 			#000;
-}
-
-li.nav-about:hover {
-	background: 	#35f;
-}
-
-.nav-about {
-	color: 			#acd;
 }
 
 .container {
