@@ -1,17 +1,6 @@
 ---
-layout: default
+layout: essay
+headtouse: postheadcontent.html
 ---
-<head>
-  {% include headcontent.html %}
-  <!-- POST CSS -->
-  <link rel="stylesheet" href="/styles/post.css" type="text/css"/>
-  <link rel="stylesheet" href="/styles/syntax.css" type="text/css"/>
-</head>
-<body>
-{% include header.html %}
-<div class="container">
-  <div class="content">
-    <div class="inner-content">
-      <div class="essay-map">Writing > {{ page.folder }} > {{ page.title }}</div>
-      {{ content }}
-    </div>
+<div class="essay-map">writing > {{ page.folder }} > {{ page.title }}</div>
+{{ content }}
