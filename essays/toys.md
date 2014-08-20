@@ -1,7 +1,7 @@
 ---
 layout: post
 folder: game design
-title: Toys
+title: toys to games
 ---
 # Toys -> Games
 <div class="essay-date"><span class="essay-map">Last Updated:</span> June 2014; <span class="essay-map">cross-posted:</span> <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
@@ -162,8 +162,8 @@ So if you’re building a human-facing product, whether it’s physical, softwar
 
 - - -
 
-Cover image credit: the excellent JK Brickworks site full of awesome LEGO stuff.
+Cover image credit: the excellent JK Brickworks site full of awesome LEGO stuff.   
 
 - - -
 See my last game design post “Make It Fun to Face Too”.    
-Also check out {{ site.ds }}, the board game mentioned in the article.   
+Also check out {{ site.ds }}, the board game mentioned in the article.
