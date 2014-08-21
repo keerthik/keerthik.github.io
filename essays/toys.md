@@ -1,6 +1,6 @@
 ---
 layout: post
-folder: game design
+folder: play
 title: toys to games
 ---
 # Toys -> Games

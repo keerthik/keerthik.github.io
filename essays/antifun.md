@@ -1,6 +1,6 @@
 ---
 layout: post
-folder: game design
+folder: play
 title: anti-fun - make it fun to face too
 ---
 
