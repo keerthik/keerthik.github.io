@@ -19,11 +19,15 @@ body {
 }
 
 .essay-date {
+	color: 		#55f;
+}
+
+.essay-subtext {
 	text-align: center;
 	color: 		#55f;
 	font-size: 	18px;
-	width: 600px;
-	margin: 0 auto;
+	width: 		600px;
+	margin: 	0 auto;
 	margin-bottom: 30px;
 }
 
