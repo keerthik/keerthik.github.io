@@ -5,7 +5,7 @@ title: lessons
 update: August 2014
 ---
 
-# Real Lessons From Games
+# Real Lessons From Games [draft]
 
 Games as a medium for achieving objectives other than entertainment has gotten a lot of attention recently. It has developed into a big enough space that it is outside the scope of a single post. 
 
