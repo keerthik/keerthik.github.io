@@ -18,17 +18,17 @@ body {
 	font-size: 	18px;
 }
 
-.essay-date {
+.essay-data {
 	color: 		#55f;
 }
 
 .essay-subtext {
 	text-align: center;
-	color: 		#55f;
+	color: 		#666;
 	font-size: 	18px;
 	width: 		600px;
 	margin: 	0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 h1 {
