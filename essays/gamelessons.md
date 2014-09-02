@@ -2,11 +2,12 @@
 layout: post
 folder: play
 title: lessons
-update: August 2014
+update: September 2014
+len: 4 min
 ---
 
 # Real Lessons From Games
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/p/97b4e72493ad">on Medium</a></div>
+<div class="essay-subtext">cross-posted: <a href="https://medium.com/p/3bf040e3d862">on Medium</a></div>
 
 Games as a medium for achieving objectives other than entertainment has gotten a lot of attention recently. It has developed into a big enough space that it is outside the scope of a single post. 
 

@@ -9,16 +9,20 @@ len: 11 min
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
 Operation Dicestorm, our board game project, is what I would describe as “intense” as board games go — tactically challenging and involved, with a variety of moving parts. Earlier on in its development, we tested with several inexperienced board gamer friends, just to see how it felt. While they didn’t delve into tactical theorycrafting, they still enjoyed the game a lot. But they weren't able to explain why. This got me thinking, and that’s when I formulated the concept of “Toys to Games.” The more I pondered it, the more powerful I realized this concept is, for design discussion, evaluation, improvement and more.
+
+//missing image//
+
 Awesome folks playtesting an Operation Dicestorm prototype
 
 A note: If you happened to stumble upon this piece but aren't particularly interested in game design, know that this framework is also useful beyond just game design, as I outline towards the end.
-What Is “Toys to Games”?
+
+## What Is “Toys to Games”?
 
 > “Toys to Games” is the concept that a great toy makes an excellent foundation for a great game.
 
 To understand this better, we need to describe what a game is and what a toy is. Much of this is borrowed from Jesse Schell's wonderful book, The Art of Game Design.
 
-###What is a Game?
+### What is a Game?
 
 A game is a system with rules and well-defined interactions where all players are aiming to attain certain objective goals. Some characteristics of games:
 
@@ -28,7 +32,7 @@ A game is a system with rules and well-defined interactions where all players ar
 
 > A good game provides a challenging objective while rewarding the player’s mastery.
 
-###And a Toy?
+### And a Toy?
 
 A toy is fundamentally a concept or object that is intended to be fun to interact with given no preexisting instruction. Characteristics of a toy:
 
@@ -39,15 +43,15 @@ A toy is fundamentally a concept or object that is intended to be fun to interac
 
 > A good toy is extremely fun to interact with even when there is no objective goal to be obtained.
 
-##A Look at Famous Toys
+## A Look at Famous Toys
 
 Very often, children treat toys as toys when they're younger. As they get older, they revive some of the same toy concepts by building games around them to unlock challenges and rewards. I think it's useful to look at some famous toys and games and get a sense for where in the spectrum of toys to games they fall, and what tips them from one side to another.
 
-###Slinky
+### Slinky
 
 A classic household toy. A shiny thing that comes in a little box with no instructions or rules. No matter what you try to do with it, it’s somewhat fun. But as kids grow older, it becomes a vessel for games like “climb the stairs.” And kids never grow too old for slinky games, mind you.
 
-###LEGOs
+### LEGOs
 There's a little ambiguity because of the breadth of what LEGOs include. Some argue you can technically be “good at LEGOs,” but really, you’re not beating someone else at it when you make something cool and creative. However, no one will deny they are a ton of fun to play with, even if you aren't trying to make what’s on the box, or sometimes even make anything at all. Finding that you have just the right piece to splint that weak limb, placing the right joint to complete that aesthetic aspect, nothing is more satisfying in the toy world. When I was in college, my roommate did a summer job as a camp instructor for some students working with LEGO Mindstorm sets to make racecars, battlebots, and more. Those are definitely games, with competition and scoring, built around an amazing toy.
 
 ##Video Game Toys

@@ -30,6 +30,12 @@ a:hover {
 	color: #50f0a0;
 }
 
+blockquote {
+	color: #101010;
+	font-size: 22px;
+	font-style: italic;
+}
+
 #logoContainer {
 	text-decoration: none;
 }
@@ -106,6 +112,31 @@ a:hover {
 	padding: 	50px 100px 200px 80px;
 
 }
+
+.overlay {
+	color: #eee;
+	margin: auto;
+	position: absolute;
+	top: 0;bottom: 0; /* Aligns Vertically - Remove for Horizontal Only */
+	left: 0;right: 0;
+ 	padding: 15px;
+	background-color: #444;
+	border: 4px solid white;
+	border-radius: 9px;
+	overflow: auto;
+}
+
+#overlay_container {
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	top: 0px;
+	left: 0px;
+}
+
 
 .footer {
 	position: 		absolute;

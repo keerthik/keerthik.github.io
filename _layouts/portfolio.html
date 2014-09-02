@@ -2,16 +2,15 @@
 layout: default
 ---
 <head>
-  {% include headcontent.html %}
-  <!-- POST CSS -->
-  <link rel="stylesheet" href="/styles/post.css" type="text/css"/>
-  <link rel="stylesheet" href="/styles/syntax.css" type="text/css"/>
+	{% include {{page.headtouse}} %}
+	<style>
+		li.nav-portfolio {
+			color: 			#000;
+		}
+	</style>
 </head>
 <body>
 {% include header.html %}
-<div class="container">
-  <div class="content">
-    <div class="inner-content">
-      <div class="essay-map">Writing > {{ page.folder }} > {{ page.title }}</div>
-      {{ content }}
-    </div>
+<div class="inner-content">
+	{{ content }}
+</div>

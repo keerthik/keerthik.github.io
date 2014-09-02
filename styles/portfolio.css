@@ -1,0 +1,20 @@
+.grid_item {
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	float: left;
+	background-color: #f00
+}
+
+#xabout {
+	font-size: 12px;
+	position: fixed;
+	right: 30px;
+	bottom: 40px;
+	width: 40px;
+}
+
+#xabout_box {
+	width: 400px;
+	height: 300px;
+}
