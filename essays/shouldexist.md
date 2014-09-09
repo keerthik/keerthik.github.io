@@ -5,7 +5,7 @@ title: why don't these exist?
 len: 3 min
 ---
 
-# Why Don't These Exist? [Draft]
+# Why Don't These Exist? \[Draft\]
 <div class="essay-date"><span class="essay-map">Last Updated:</span> August 2014; <span class="essay-map">cross-posted:</span> <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
 For the last couple decades, consumer technology has been advancing at a breakneck pace. The average human's lifestyle has been completely changed from what it used to be 30 years, much moreso than those people's lives were different from 60 or even 100 years ago. What I'm saying is, your parents probably wouldn't have given a shit if their childhoods happened 20 years earlier, but you would.

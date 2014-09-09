@@ -7,6 +7,8 @@
 }
 
 #xabout {
+	color: #5e9;
+	cursor: pointer;
 	font-size: 12px;
 	position: fixed;
 	right: 30px;
@@ -17,4 +19,54 @@
 #xabout_box {
 	width: 400px;
 	height: 300px;
+}
+
+#map {
+	overflow: auto;
+	width: 300px;
+	height: 300px;
+	margin: 10px auto;
+	border-radius: 30%;
+	background-color: #999;
+}
+
+#map::-webkit-scrollbar { 
+    display: none; 
+}
+
+#freecontainer {
+	width: 1000px;
+	height: 600px;
+}
+
+
+.node {
+	position: relative;
+	display: none;
+	width: 0px;
+	height: 0px;
+}
+
+.node_art {
+	position: relative;
+	display: block;
+	left: 140px;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fefe59;
+}
+
+.node #startpoint {
+	left: 500px;
+	top: 0px;
+}
+
+#startpoint .node {
+	top: 80px;
+}
+
+.node #projects {
+	left: 0px;	
 }

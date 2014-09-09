@@ -8,6 +8,16 @@ $(document).ready(function() {
 	$("#xabout").click(function() {
 		show_overlay("xabout_box");
 	});
+
+	$(".node_art").appendTo(".node");
+	$("#startpoint").show();
+	$(".node_art").click(function() {
+		$(this).parent().children(".node").show();
+	});
+
+	$("#projects .node_art").click(function() {
+		show_overlay("project_box");
+	});
 });
 
 function show_overlay(overlayName) {
