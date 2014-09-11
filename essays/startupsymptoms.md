@@ -3,7 +3,7 @@ layout: post
 folder: product
 title: life in early-stage
 update: September 2014
-len: 7 min
+len: 8 min
 ---
 # Life in an Early-Stage Tech Company 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/abf2fe9d37fd">on Medium</a></div>
@@ -82,6 +82,9 @@ In my opinion this is the most valuable benefit of my career choice — I ha
 
 ## What should you do?
 I think the only valid suggestion I can give is to get a taste for both. Internships are a reasonable way to experience stable companies. Taking a year off to focus on a startup will get you a feel for that space. Most people will feel comfortable and at home soon enough if they’re in the right environment. Many of my friends in the startosphere now had spent a reasonable stint in the corporate world either interning or for a while after graduating before hopping on the roller coaster. 
+
+> If you aren’t sure which way to do something, do it both ways and see which works better.
+- John Carmack, creator of Doom
 
 If you’re leaving school soon and about to start your career in tech, try both, you can probably afford to. You’ll find home sooner, and be happier for it.
 
