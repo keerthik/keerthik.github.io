@@ -8,16 +8,25 @@ $(document).ready(function() {
 	$("#xabout").click(function() {
 		show_overlay("xabout_box");
 	});
-
-	$(".node_art").appendTo(".node");
-	$("#startpoint").show();
-	$(".node_art").click(function() {
-		$(this).parent().children(".node").show();
-	});
-
-	$("#projects .node_art").click(function() {
-		show_overlay("project_box");
-	});
+	for (var i in tree_data) {
+		var data = tree_data[i];
+		$("#treecontainer").append('<div class="tnode" id="' + data.name + '"></div>');
+		var node = $("#" + data.name);
+		node.css({	'left': data.left,
+               		'top': data.top});
+		for (var j in data.tags) {
+			if (data.tags[j] == "game design") node.addClass("gdesign");
+			if (data.tags[j] == "programming") node.addClass("prog");
+			if (data.tags[j] == "hardware") node.addClass("hardware");
+			if (data.tags[j] == "product") node.addClass("prod");
+			if (data.tags[j] == "ai") {
+				node.addClass("ai");
+				node.addClass("teched");
+			}
+		}
+		node.html(data.name);
+		//node.addClass()
+	}
 });
 
 function show_overlay(overlayName) {

@@ -1,0 +1,44 @@
+contacts: eventslivenow.com
+Me: +91 9400169964
+Indu: +91 9619866836
+Jeffy: +91 7299930888
+Amma: +91 9633869964
+chennai visa: +91 4440615500 
+hack paid wifi networks:
+
+ifconfig en1 | grep ether 	// find own MAC
+arp -a  					// find working MAC
+sudo ifconfig en1 ether [mac address to spoof]
+
+
+LG fix
+
+LG: 18001809999
+35823 90504 63639
+
+Forward Info System
+#293, Arcot Road,
+9380084392
+04424724666
+
+Nandanam
+9340014990
+
+Adayar
+9382334739
+
+Vadabalani - 76
+LG service center
+58 Jawaharlal Nehru road
+Ambika MP road
+04464549186
+
+New Shereen 
+KK Marg
+Mahalakshmi Apartment
+
+
+
+
+
+
