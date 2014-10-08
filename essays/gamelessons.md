@@ -11,8 +11,6 @@ len: 4 min
 
 Gaming has gotten a lot of attention recently as a medium for teaching real lessons and training. The topic has developed so much that I cannot address everything in a single post. 
 
-Look forward to future posts about games with respect to general intelligence, learning, training, commercial "gamification", and other modern facets of games outside entertainment.
-
 For now, I will talk about individual games with specific benefits outside of gaming. I also want to mention the value of mindset and perspective to this end.
 
 Here are three different games -- from distinct eras of video gaming -- that have given me real-life value in three unique ways.
@@ -48,7 +46,7 @@ And it's amazing. You develop deeper connections with your soldiers. You are gen
 
 When mission after mission you realize that your brashness and lack of preparation is causing the death of your critical soldiers, you stop blaming the universe and reflect for a bit. When you are willing to take responsibility, you work harder. You prepare better. You learn to be patient. You make backup plans. You explore your options more carefully. The best part is that you can *clearly* notice that your soldiers' survival rate improves as you take better care of them.
 
-Reflecting on my playthrough of X-COM made me realize the role of patience, and accepting responsibility
+Reflecting on my playthrough of X-COM made me realize the role of patience, and accepting responsibility.
 
 ## Learn from all your games
 There’s a lot to talk about the educational value of games. I think one learns a lot better, if not more, from games that were designed for entertainment rather than for the classroom (1). One aspect of gameplaying that I cultivated over the years, was to reflect on my experience when I’m done with a game — figure out what it did for me. Almost every game I play through to the end has done something for me besides entertainment/burn time.
@@ -56,6 +54,10 @@ There’s a lot to talk about the educational value of games. I think one learns
 So spend some time reflecting on what you get out of your experiences, and see how they’ve developed you as a person. Especially pay attention to the hardest aspect of the game. This is where you are learning the most: whether it's multitasking in StarCraft, dodging projectiles in Contra, or figuring out where to place that last flag in Minesweeper. When facing challenging gameplay, figure out which of your abilities is being tested. Focus on improving that ability, rather than beating the challenge, or the game.
 
 This also helps you identify which of your abilities (or lack thereof) have not been sufficiently challenged. You can then pick your future experiences to provide the needed challenge, growing you further. All while you have fun.
+
+- - -
+
+Look forward to future posts about games with respect to general intelligence, learning, training, commercial "gamification", and other modern facets of games outside entertainment.
 
 - - -
 

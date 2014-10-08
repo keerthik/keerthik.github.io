@@ -3,7 +3,7 @@ layout: post
 folder: Meta/Life
 title: eyes
 update: Sept 2014
-len: 3 min
+len: 2 min
 ---
 # Eyes
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a></div>

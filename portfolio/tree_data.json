@@ -20,7 +20,7 @@ tree_data = {
 	"noiseclock": {
 		"name": "noiseclock",
 		"left": "450px",
-		"top": "300px",
+		"top": "250px",
 		"tier": 2,
 		"tags": ["hardware", "root"],
 		"parents": [],
@@ -29,7 +29,7 @@ tree_data = {
 	"penguins": {
 		"name": "penguins",
 		"left": "650px",
-		"top": "300px",
+		"top": "250px",
 		"tier": 2,
 		"tags": ["product", "root"],
 		"parents": [],
@@ -128,7 +128,7 @@ tree_data = {
 	"swarm": {
 		"name": "swarm",
 		"left": "350px",
-		"top": "750px",
+		"top": "700px",
 		"tier": 1,
 		"tags": ["programming", "ai", "product"],
 		"parents": ["scbwai", "ksite"],
@@ -143,10 +143,19 @@ tree_data = {
 		"parents": ["supershot", "penguins"],
 		"children": ["dicestorm"]
 	},
+	"color": {
+		"name": "color",
+		"left": "350px",
+		"top": "800px",
+		"tier": 1,
+		"tags": ["programming", "game design", "product"],
+		"parents": ["swarm"],
+		"children": []
+	},
 	"dicestorm": {
 		"name": "dicestorm",
 		"left": "50px",
-		"top": "750px",
+		"top": "800px",
 		"tier": 1,
 		"tags": ["game design", "product"],
 		"parents": ["ionblitz", "penguins"],
@@ -155,7 +164,7 @@ tree_data = {
 	"bitgym": {
 		"name": "bitgym",
 		"left": "650px",
-		"top": "750px",
+		"top": "800px",
 		"tier": 1,
 		"tags": ["product"],
 		"parents": ["slice", "ksite", "ibm", "irltank"],

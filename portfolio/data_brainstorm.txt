@@ -1,43 +1,41 @@
-contacts: eventslivenow.com
-Me: +91 9400169964
+Messaging startup: Just have one clear improvement from what they used to experience.
+
+Other options: get HK->Cochin->Seoul for later date
+
+
+# Me: 
+IN: +91 9400169964
+HK: +852 52735815
+PPort: K7403479
+# Korea:
+Manager: 010 33653458
+Daisy: 010 8960 8995
+
+Pungnabdong 392-5, Songpagu
+Seoul, Korea
+
+서울시 송파구 풍납동 392-5
+
+
 Indu: +91 9619866836
 Jeffy: +91 7299930888
 Amma: +91 9633869964
 chennai visa: +91 4440615500 
-hack paid wifi networks:
++91 9789823270
 
+
+## get into paid wifi networks:
 ifconfig en1 | grep ether 	// find own MAC
 arp -a  					// find working MAC
 sudo ifconfig en1 ether [mac address to spoof]
 
-
-LG fix
-
-LG: 18001809999
-35823 90504 63639
-
-Forward Info System
-#293, Arcot Road,
-9380084392
-04424724666
-
-Nandanam
-9340014990
-
-Adayar
-9382334739
-
-Vadabalani - 76
-LG service center
-58 Jawaharlal Nehru road
-Ambika MP road
-04464549186
-
-New Shereen 
-KK Marg
-Mahalakshmi Apartment
-
-
+Hong Kong
+Ollie: +852 5467 3352
+* Manoj PH: +852 6923-1500
+* Address:
+11-15, Metropolis Tower 2
+9 Metropolis Drive, Hung Hom,
+Kowloon, Hong Kong
 
 
 
