@@ -49,6 +49,15 @@
 .icons a {
 	text-decoration: none;
 }
+
+.grid {
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+}
+
 .grid_item {
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -103,7 +112,6 @@ a.item_blurb {
 .item_blurb h3 {
 	font-size: 24px;
 	font-weight: lighter;
-
 	padding: 0px;
 	margin: 0px;
 	color: #2ecc71;

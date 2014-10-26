@@ -1,0 +1,97 @@
+h2 {
+  text-align: center;
+}
+
+.inner-content {
+  padding: 100px 0px;
+}
+
+#back-to-port {
+  z-index: 9999;
+  position: fixed;
+  bottom: 65px;
+  left: 40px;
+  height: 10px;
+  width: 10px;
+  padding: 20px;  
+  border-radius: 50%;
+  border: 5px solid #27ae60;
+  color: #39d179;
+  opacity: 0.1;
+  transition: all 0.35s ease-in-out;
+}
+
+#back-to-port:hover {
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border-right: 50px solid #27ae60;
+  border-left: 0px;
+  border-bottom: 30px solid transparent;  /* left arrow slant */
+  border-top: 30px solid transparent; /* right arrow slant */
+  opacity: 1.0;
+  transition: all 0.35s ease-in-out;
+}
+
+#back-to-port p {
+  position: fixed;
+  color: #ecf0f1;
+  background-color: #27ae60;
+  font-size: 14px;
+  bottom: 10px;
+  left: 10px;
+  width: 125px;
+  padding: 5px;
+  border: 2px solid #39d179;
+  border-radius: 8px;
+  opacity: 0.0;
+  transition: all 0.35s ease-in-out;
+}
+
+#back-to-port:hover p {
+  opacity: 1.0;
+  transition: all 0.35s ease-in-out;
+}
+
+#summary {
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+#summary h3, ul {
+  margin: 5px 0px;
+}
+
+#summary p, li {
+  font-size: 16px;
+}
+
+#blurb, #competencies, #roles {
+  display: block;
+  padding: 0 2%;
+  float: left;
+  width: 35%;
+}
+/* Ensure a gap between summary and timeline */
+#blurb {
+  width: 55%;
+}
+#blurb, #roles {
+  margin-bottom: 60px;
+}
+
+#summary .highlight {
+  color: #e74c3c;
+}
+
+#timeline {
+  z-index: 0;
+  display: block;
+  clear: both;
+  margin-top: 30px;
+  width: 100%;
+}

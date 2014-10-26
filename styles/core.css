@@ -36,19 +36,6 @@ blockquote {
 	font-style: italic;
 }
 
-#logoContainer {
-	text-decoration: none;
-}
-
-#homeLogo {
-	color: #000;
-	text-align: center;
-	position: fixed;
-	height: 30px;
-	width: 30px;
-	padding: 20px;
-	font-size: 24px;
-}
 
 .header {
 	margin: 		0px auto;
@@ -58,7 +45,21 @@ blockquote {
 	text-decoration: none;
 }
 
+#logoContainer {
+	text-decoration: none;
+}
 
+#homeLogo {
+	color: #000;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 30px;
+	padding: 20px;
+	font-size: 24px;
+}
 
 #homeLogo:hover {
 	background: #000;
@@ -109,8 +110,8 @@ blockquote {
 }
 
 .inner-content {
-	padding: 	50px 100px 200px 80px;
-
+	padding: 	50px 100px 100px 80px;
+	float: left;
 }
 
 .overlay {
@@ -141,6 +142,7 @@ blockquote {
 
 
 .footer {
+	clear: 			both;
 	position: 		relative;
 	bottom: 		0px;
 	width: 			100%;
