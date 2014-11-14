@@ -33,6 +33,7 @@ img {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
 #cd-timeline::before {
   /* this is the vertical line */
   content: '';
@@ -221,9 +222,11 @@ img {
   color: white;
   border-radius: 0.25em;
 }
-.no-touch .cd-timeline-content .cd-read-more:hover {
+.cd-timeline-content .cd-read-more:hover {
   background-color: #bac4cb;
+  box-shadow: 0px 0px 4px #bac4cb;
 }
+/*bac4cb;*/
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;

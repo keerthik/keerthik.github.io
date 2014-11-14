@@ -1,0 +1,45 @@
+---
+layout: portitem
+title: slice | portfolio
+---
+
+<section id="summary">
+	<h2>At a Glance</h2>
+	<div id="blurb">
+		<h3>Summary</h3>
+		<p>
+		<span class="highlight">Core team members: 3;
+		Fall 2007</span>
+		</p>
+		<p>
+		In the Olin Modeling and Controls class, We learned how to use op-amps in a variety of configurations in addition to basics of circuit-building. The final project theme is "clocks" and we are encouraged to utilize the knowledge we gained over the semester.
+		</p>	
+		<p>
+		We wanted to get creative with our project, applying everything we had learned. We built a fully digital clock meant for indoor use, which used <span class="highlight">ambient AC power noise</span> as the core clock timing system (this was my teammate's idea). 
+		We discovered we could do this by sticking a random coil of wire into a breadboard, and noticing the oscilloscope could pick up noise signals with the strongest component in the 60Hz range -- the frequency of alternating current in traditional infrastructure power lines.
+		</p>
+		<p>
+		The signal was amplified using an op-amp comparator, then filtered with a Butterworth filter. This clean 60Hz wave was passed into a counter circuit to pulse every second (after counting to 60). This was fed into a series of 8-segment LED drivers to display the time in digital. 
+		It was our first time building a filter circuit, working with counter chips, and LED display chips. The accuracy of our clock was perfect and consistent with atomic clocks, mostly thanks to the reliability of 60Hz AC noise.
+		</p>
+		<p>
+		I worked primarily on <span class="highlight">digital circuitry</span>, using logic gate chips to provide accurate inputs to the LED drivers, and in the counting circuitry for keeping time accurately.
+		</p>
+	</div>
+	<div id="competencies">
+		<h3>Competencies gained</h3>
+		<ul>
+			<li>Electronics datasheet reading</li>
+			<li>Breadboarding</li>
+			<li>Digital circuit design</li>
+			<li>Signals and filters</li>
+		</ul>
+	</div>
+	<div id="roles">
+		<h3>Roles</h3>
+		<ul>
+			<li>Digital circuit designer</li>
+			<li>Project designer</li>
+		</ul>
+	</div>
+</section>

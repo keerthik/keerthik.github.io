@@ -3,7 +3,13 @@
 	display: block;
 	width: 100%;
 	height: 300px;
+	margin-bottom: 30px;
 	background-color: #2ecc71;
+}
+
+p {
+	padding: 0px;
+	margin: 5px;
 }
 
 .icons {
