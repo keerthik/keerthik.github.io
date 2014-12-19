@@ -34,12 +34,36 @@ p {
 	border: 5px solid #2980b9;
 	border-radius: 50%;
 	background-color: #27ae60;
+	transition: all 0.25s ease-in-out;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 75%;
+}
+
+.docIcon {
+}
+
+/*
+.docIcon:after {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    height:50%;
+    width:60%;
+    margin:20%;
+    background:-webkit-linear-gradient(top, #2980b9 0, #2980b9 10%, #27ae60 10%, #27ae60 45%, #2980b9 45%, #2980b9 55%, #27ae60 55%, #27ae60 90%, #2980b9 90%, #2980b9 100%);
 	transition: all 0.35s ease-in-out;
 }
 
+.docIcon:hover:after {
+    background:-webkit-linear-gradient(top, #3498db 0, #3498db 10%, #27ae60 10%, #27ae60 45%, #3498db 45%, #3498db 55%, #27ae60 55%, #27ae60 90%, #3498db 90%, #3498db 95%);
+}
+*/
 .icons li:hover {
-	border: 5px solid #3498db;
 	background-color: #2ecc71;
+	border: 5px solid #3498db;
 }
 
 .icons li p {	
@@ -177,56 +201,3 @@ a.item_blurb {
 }
 
 /* Document Icon CSS */
-.docIcon
-{
-    background:#eee;
-    background:-moz-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    background:-webkit-linear-gradient(top, #ddd 0, #eee 15%, #fff 40%, #fff 70%, #eee 100%);
-    border:1px solid #ccc;
-    -moz-border-radius:3px 15px 3px 3px;
-    -webkit-border-radius:3px 15px 3px 3px;
-    border-radius:3px 15px 3px 3px;
-    -moz-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
-    -webkit-box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
-    box-shadow:inset rgba(255,255,255,0.8) 0 1px 1px;
-    display:block;
-    width:20px;
-    height:20px;
-    position:relative;
-    text-indent:-9999em;
-    margin:42px auto;
-}
- .docIcon:before
-{
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    right:0;
-    width:15px;
-    height:15px;
-    background:#ccc;
-    background:-moz-linear-gradient(45deg, #fff 0,  #eee 50%, #ccc 100%);
-    background:-webkit-linear-gradient(45deg, #fff 0,  #eee 50%, #ccc 100%);
-    box-shadow:rgba(0,0,0,0.05) -1px 1px 1px, inset white 0 0 1px;
-    border-bottom:1px solid #ccc;
-    border-left:1px solid #ccc;
-    -moz-border-radius:0 14px 0 0;
-    -webkit-border-radius:0 14px 0 0;
-    border-radius:0 14px 0 0;
-}
-
-.docIcon:after
-{
-    content:"";
-    display:block;
-    position:absolute;
-    left:0;
-    top:0;
-    width:60%;
-    margin:22px 20% 0;
-    background:#ccc;
-    background:-moz-linear-gradient(top, #ccc 0, #ccc 20%, #fff 20%, #fff 40%, #ccc 40%, #ccc 60%, #fff 60%, #fff 80%, #ccc 80%, #ccc 100%);
-    background:-webkit-linear-gradient(top, #ccc 0, #ccc 20%, #fff 20%, #fff 40%, #ccc 40%, #ccc 60%, #fff 60%, #fff 80%, #ccc 80%, #ccc 100%);
-    height:15px;
-}

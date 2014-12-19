@@ -1,25 +1,46 @@
-TODO:
+Flights:
+http://www.kayak.com/flights/BOM-HKG/2015-02-18/HKG-TYO/2015-03-04/TYO-ICN/2015-04-01/ICN-TPE/2015-04-29
+
+under eye cream/lift 
+face anti-aging cream 
+
 MIT
-Start conversation with senior members of LLK
-Start conversation with Amon Milner
-Get top-level portfolio items done.
+Finish bloody personal statement
 
 BITGYM
 GET FEEDBACK WORKING
 Android music playback
+Galaxy Gifts for BitGym
 
 Things to say
 Messaging for startup: Just have one clear improvement from what they used to experience.
 Web Don'ts: animated page icon/title. Just don't
 
 Life:
+Ship glasses to Chen
 Give Kavin and sister broken mouse to explore
 
+Hax:
+## Airbnb credit campaign
+Airbnb Google Adwords campaign started on Dec 17.
+Airbnb ref: www.airbnb.com/c/komanakuttan?s=8
+
+## get into paid wifi networks:
+ifconfig en1 | grep ether 	// find own MAC
+arp -a  					// find working MAC
+sudo ifconfig en1 ether [mac address to spoof]
+
 # Me: 
-IN: +91 9400169964
-HK: +852 52735815
+IN: +91 940016 9964
+HK: +852 5273 5815
 KR: +82 10 2982 8926
+SG: +65 9078 2145
 PPort: K7403479
+
+# Singapore:
+Kami:
+12-03, La Ville, 6C tanjong Rhu road,
+Singapore 436885
 
 Yifei
 1901 Rock Street, Apt 212
@@ -37,18 +58,12 @@ Seoul, Korea
 
 서울시 송파구 풍납동 392-5
 
-
+# India:
 Indu: +91 9619866836
 Jeffy: +91 7299930888
 Amma: +91 9633869964
 chennai visa: +91 4440615500 
 +91 9789823270
-
-
-## get into paid wifi networks:
-ifconfig en1 | grep ether 	// find own MAC
-arp -a  					// find working MAC
-sudo ifconfig en1 ether [mac address to spoof]
 
 Hong Kong
 Ollie: +852 5467 3352
@@ -57,6 +72,19 @@ Ollie: +852 5467 3352
 11-15, Metropolis Tower 2
 9 Metropolis Drive, Hung Hom,
 Kowloon, Hong Kong
+
+
+"It's not like I have a raging burning passion of lust for you. It's just that I can't imagine being happier spending the rest of my life with anyone else I know, or could even dream up."
+
+"It's because it's not a question of not being able to get you out of my head, or being head over heels. It's just that no matter which direction I think about it from, it makes no sense for me to try and be with anyone but you."
+
+"I don't think I did a good job of conveying how big a deal this is to me. If you ever take the chance with me, I'm not here on an experimental "let's see what will happen." I mean it'll be forever. I haven't been able to say that to anyone else. And it's a no-brainer to me when it comes to you. You are basically the most important person to me outside of my family, and turns out you have been for a long time."
+
+"Remember how I told you I learned about what I wanted and made me happy over the last year of being mostly on my own. I can keep myself busy and happy quite well now."
+
+
+
+"Certainly I want you to keep going ahead and doing what you feel you need to and is right. It sounds cheesy, I really do just want you to be happy."
 
 
 
