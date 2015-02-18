@@ -1,71 +1,79 @@
-Flights:
-http://www.kayak.com/flights/BOM-HKG/2015-02-18/HKG-TYO/2015-03-04/TYO-ICN/2015-04-01/ICN-TPE/2015-04-29
+Tomorrow:
++ Meeting with Alex
++ Meeting with ICG
++ Add more ICG tasks
 
-under eye cream/lift 
-face anti-aging cream 
+Communication tips
+- nurturing parent + free child + adult
+- not critical parent + rebellious child
+- drop usage of words similar to "very", "but" and ?
 
-MIT
-Finish bloody personal statement
+
+Parse short-links:
+https://parse.com/apps/bitgym/collections#class/_User/p0
+https://parse.com/apps/bitgym-dev/collections#class/_User/p0
+
+Money:
+Travel Notification reference number: 6248
+Citi intenational: +1 + (210) 677-0065.
+
+COK ->		HKG -> 	TPE ->	OSA/NRT -> ?
+225 +		187 +	133 +	
+J48M6S				M2GTT9
+Tiger				Peach
+12/2 				24/3
+(Jet/Tiger)(HKAir)(Peach)(AirAsiaX/JetstarA)
+
+Japan:
+
+Taiwan:
+Sync with JMF about plans
 
 BITGYM
-GET FEEDBACK WORKING
-Android music playback
-Galaxy Gifts for BitGym
+## HealthGraph
+client ID: 5a10f75a826a427a926fd72635ea1e77
+client Secret: 42b9189613a64dd899a2cf717f48343f
+auth url: https://runkeeper.com/apps/authorize
+token url: https://runkeeper.com/apps/token
+de-auth url: https://runkeeper.com/apps/de-authorize
 
-Things to say
-Messaging for startup: Just have one clear improvement from what they used to experience.
-Web Don'ts: animated page icon/title. Just don't
-
-Life:
-Ship glasses to Chen
-Give Kavin and sister broken mouse to explore
+Karthik:
+zip 53719
 
 Hax:
 ## Airbnb credit campaign
-Airbnb Google Adwords campaign started on Dec 17.
 Airbnb ref: www.airbnb.com/c/komanakuttan?s=8
+If net doesn't increase past $25, then shut off when expenditure hits $60 (2 months).
+Airbnb Google Adwords campaign started on Dec 17 @1$/day.
+Input - $50
+Signups - 27
+Income so far:
+$150
+Net so far
+$100
 
 ## get into paid wifi networks:
-ifconfig en1 | grep ether 	// find own MAC
+ifconfig en0 | grep ether 	// find own MAC
 arp -a  					// find working MAC
-sudo ifconfig en1 ether [mac address to spoof]
+sudo ifconfig en0 ether [mac address to spoof]
 
 # Me: 
-IN: +91 940016 9964
+IN: +91 9400169964
 HK: +852 5273 5815
 KR: +82 10 2982 8926
 SG: +65 9078 2145
 PPort: K7403479
+## Address:
+Anand Bhavan, 
+Elamakkara PO,
+Ernakulam DT, Cochin - 682026
 
-# Singapore:
-Kami:
-12-03, La Ville, 6C tanjong Rhu road,
-Singapore 436885
-
+# USA
 Yifei
 1901 Rock Street, Apt 212
 Mountain View CA - 94043
 
-# Korea:
-Manager: 010 33653458
-Daisy: 010 8960 8995
-Trips:
-https://maps.google.com/maps?saddr=Gangdong-daero+7-gil,+Songpa-gu,+Seoul,+South+Korea&daddr=37.503419,127.02516&hl=en&ll=37.512365,127.069645&spn=0.086737,0.161018&sll=37.50256,127.02679&sspn=0.005422,0.010064&geocode=FYCgPAIdiqKTBykxUgrYXKV8NTGyljGq0KnKpw%3B&ttype=now&noexp=0&noal=0&sort=def&mra=dme&mrsp=1&sz=17&t=m&z=13&start=0
-http://goo.gl/maps/Zkjgw
-
-Pungnabdong 392-5, Songpagu
-Seoul, Korea
-
-서울시 송파구 풍납동 392-5
-
-# India:
-Indu: +91 9619866836
-Jeffy: +91 7299930888
-Amma: +91 9633869964
-chennai visa: +91 4440615500 
-+91 9789823270
-
-Hong Kong
+# Hong Kong
 Ollie: +852 5467 3352
 * Manoj PH: +852 6923-1500
 * Address:
@@ -73,19 +81,47 @@ Ollie: +852 5467 3352
 9 Metropolis Drive, Hung Hom,
 Kowloon, Hong Kong
 
+# Singapore:
+Kami:
+12-03, La Ville, 6C tanjong Rhu road,
+Singapore 436885
 
-"It's not like I have a raging burning passion of lust for you. It's just that I can't imagine being happier spending the rest of my life with anyone else I know, or could even dream up."
+# Korea:
+Manager: 010 33653458
+Daisy: 010 8960 8995
+Trips:
+http://goo.gl/maps/Zkjgw
 
-"It's because it's not a question of not being able to get you out of my head, or being head over heels. It's just that no matter which direction I think about it from, it makes no sense for me to try and be with anyone but you."
+Pungnabdong 392-5, Songpagu
+Seoul, Korea
+서울시 송파구 풍납동 392-5
 
-"I don't think I did a good job of conveying how big a deal this is to me. If you ever take the chance with me, I'm not here on an experimental "let's see what will happen." I mean it'll be forever. I haven't been able to say that to anyone else. And it's a no-brainer to me when it comes to you. You are basically the most important person to me outside of my family, and turns out you have been for a long time."
+# India:
+Indu: +91 9619866836
 
-"Remember how I told you I learned about what I wanted and made me happy over the last year of being mostly on my own. I can keep myself busy and happy quite well now."
+Jeffy: 
+F2, no. 9, Mani Eswari Flats, Vembuli Amman Koil Street, 
+West KK Nagar, Chennai 600078
++91 7299930888
 
+Amma: +91 9633869964
+chennai visa: +91 4440615500 
++91 9789823270
 
+# Anime:
+kiseijuu sei no kakuritsu
 
-"Certainly I want you to keep going ahead and doing what you feel you need to and is right. It sounds cheesy, I really do just want you to be happy."
+# Random shit:
+2013 December-current
 
+SF -> Boston -> Washington -> Abu Dhabi -> Muscat (25)
+Muscat -> Cochin -> Singapore -> Krabi -> Mumbai -> Muscat (18)
+Muscat -> Cochin -> Mumbai -> Chennai -> Mumbai -> HK -> Seoul -> Singapore -> Cochin (29)
+Cochin -> Chennai -> Cochin -> HK -> Taipei -> Osaka -> ? (4+)
 
+Flying time: 25 + 18 + 29 = 72 hours
+Each leg (23) -> = 4 hours in an airport, 5 hours in to n fro transit = 207 hours
 
+A total of 279 hours in nomadic travel, from December 9 to date
 
+view_video.php?viewkey=2134576843
