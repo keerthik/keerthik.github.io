@@ -1,0 +1,29 @@
+# build-order the uninterrupted version
+pylon behind minerals
+nexus first
+forge
+1 assimilator
+gate in main (scout -- if proxy, throw down a few extra cannons and rally natural to main)
+pylon in natural mineral line
+cannon in main
+cybercore
+cannon in natural (if forward natural/FN, else cannon at front/ramp)
+2nd gas
+pylon front of natural (if FN, else pylon for robo)
+cannon in front of natural (if FN, else skip)
+mocore
+robo
++1 armor
+twilight
+robo bay
+colossus
+blink
+range
+
+low scouting potential besides probe
+safe against reaper for low micro
+safe against marine pushes < 10 marines
+safe against widow mine drop
+safe against banshee play
+weak against raven push
+weak against marauder heavy push

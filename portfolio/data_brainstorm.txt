@@ -1,21 +1,49 @@
-Tomorrow:
-+ Meeting with Alex
-+ Meeting with ICG
-+ Add more ICG tasks
+reactivate items
+reactivate camerasript
 
-Communication tips
+
+# Dyaco
+## People
+COO: Benson
+CTO: Brian
+## App feedback
+- more "sophistication" features on the app
+## Tell dyaco
+- 3rd most downloaded
+- integrated with several
+- men's magazine/huffington post
+- 60k active users
+- they ask us what equipment to buy - what type of equipment to buy
+## Investing
+## Integrating
+
+
+# Skovde
+
+# Hangout with Roydan/Kevin/James/etc
+https://plus.google.com/hangouts/_/gyckuifvrxchciykujsdynklcia
+
+# Tomorrow:
++ android build
++ O1 task list
++ bank
++ skovde scholarship app
+
+backlog:
++ buy jp->Hk->mct tix
++ android audio
++ android internet post
+
+# Communication tips
 - nurturing parent + free child + adult
 - not critical parent + rebellious child
 - drop usage of words similar to "very", "but" and ?
 
 
-Parse short-links:
-https://parse.com/apps/bitgym/collections#class/_User/p0
-https://parse.com/apps/bitgym-dev/collections#class/_User/p0
-
-Money:
+# Money:
 Travel Notification reference number: 6248
 Citi intenational: +1 + (210) 677-0065.
+Get new card mailed to TPE - Expiry
 
 COK ->		HKG -> 	TPE ->	OSA/NRT -> ?
 225 +		187 +	133 +	
@@ -29,7 +57,12 @@ Japan:
 Taiwan:
 Sync with JMF about plans
 
-BITGYM
+
+# BITGYM
+## Parse short-links:
+https://parse.com/apps/bitgym/collections#class/_User/p0
+https://parse.com/apps/bitgym-dev/collections#class/_User/p0
+
 ## HealthGraph
 client ID: 5a10f75a826a427a926fd72635ea1e77
 client Secret: 42b9189613a64dd899a2cf717f48343f
@@ -37,10 +70,8 @@ auth url: https://runkeeper.com/apps/authorize
 token url: https://runkeeper.com/apps/token
 de-auth url: https://runkeeper.com/apps/de-authorize
 
-Karthik:
-zip 53719
 
-Hax:
+# Hax:
 ## Airbnb credit campaign
 Airbnb ref: www.airbnb.com/c/komanakuttan?s=8
 If net doesn't increase past $25, then shut off when expenditure hits $60 (2 months).
@@ -73,10 +104,13 @@ Yifei
 1901 Rock Street, Apt 212
 Mountain View CA - 94043
 
+Karthik:
+zip 53719
+
 # Hong Kong
 Ollie: +852 5467 3352
-* Manoj PH: +852 6923-1500
-* Address:
+Manoj:
+PH: +852 6923-1500
 11-15, Metropolis Tower 2
 9 Metropolis Drive, Hung Hom,
 Kowloon, Hong Kong
@@ -125,3 +159,9 @@ Each leg (23) -> = 4 hours in an airport, 5 hours in to n fro transit = 207 hour
 A total of 279 hours in nomadic travel, from December 9 to date
 
 view_video.php?viewkey=2134576843
+
+Message nyan-cat
+____━━____┓━╭━━━━╮
+____━━____┗┓|::::::^━━^
+____━━____━┗|:::::|｡◕‿‿­­­­◕｡|
+____━━____━━╰O--O-O----O ╯ 

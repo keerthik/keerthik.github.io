@@ -8,4 +8,6 @@ len: 11 min
 
 # Taking Advantage of Imagination in Design
 
-to a child, the box art makes the game way better / better than the game
+"the book was better than the movie"
+the uncanny valley and the box art
+to a child, the box art makes the game way better / better than the game graphics

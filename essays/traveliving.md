@@ -13,10 +13,13 @@ len: ?
 ## Work
 - Remote member of non-remote team > 2 people is difficult. You miss a lot of low-amplitude signals as they are deemed noise. 
 - There's a lot of duplication of work for the colocated people to keep you in the loop.
-- Productivity (Motivation + Discipline) is hard while remote/alone
+### Willpower is limited
+- Routine is hard when everything changes every 15-30 days
+- Productivity (Motivation/Willpower + Discipline) is hard while remote/alone
 - Dependence on your distractions
 
 ## Social
+- Overhearing
 - I have made a lot of friends, but I have made few friendships
 - Asia is risk-averse
 - You become more and more like those around you
@@ -27,6 +30,12 @@ len: ?
 ## Picking a country
 - A predictable environment is stress-free. You don't want to be constantly worrying about your internet, power or water, whether transit will be operational, whether you will be over charged for something. 
 - first-world benefits allow us to do better work (mosquitoes, heat, stability, etc)
+
+## Picking a Home
+- Stay near transit
+- Shared rooms are cheap. Watch out for snorers
+- AirBnB is the easiest to search, pick and book stress-free. www.airbnb.com/c/komanakuttan
+- 
 
 ## What will I miss?
 Whenever I find myself complaining a lot about a certain situation, I make it a habit to keep track of things I will miss
