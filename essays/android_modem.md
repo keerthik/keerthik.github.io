@@ -71,7 +71,6 @@ Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th
 ## Coming Soon
 I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the riht index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the idea above and do those steps manually.
 
-<a name="refs"></a>
 ## References
 [Rooting Nexus5](http://www.androidrootz.com/2013/11/how-to-root-nexus-5-windowsmaclinuxubun.html)
 
