@@ -3,7 +3,7 @@ layout: post
 folder: tech
 title: android modem
 update: March 2015
-len: ?
+len: 5 min
 ---
 # Using My Phone For Quick Internet
 
