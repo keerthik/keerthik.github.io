@@ -17,7 +17,7 @@ Once I figured it out, in fact, I've found myself doing this so often, that the 
 
 So I decided, as any reasonable technical person would, that I need to automate it \[[xkcd ref 1](http://xkcd.com/1205/)\]\[[xkcd ref 2](http://xkcd.com/1319/)\].
 
-# The Order of Things
+## The Order of Things
 This is a fairly involved with the technical bits of Android, so as one would expect, your device needs to be rooted \[[1](#refs)\]. This might involve wiping your phone, so do this first.
 
 You're also going to need the Android SDK, or at least the [SDK tools](http://developer.android.com/sdk/index.html#Other) - most importantly adb, for your computer.
@@ -26,12 +26,12 @@ Lastly, you're going to need to "unsecure" your phone's adbd server. This is the
 
 Verify that your bootloader unlocking, device rooting, and adbd unsecuring worked out. Then restore any apps/data/accounts anything needed on your phone for day-to-day use. Now you're ready to set up your phone for some nice auto-internet.
 
-# Getting USB Internet Tether for OSX
+## Getting USB Internet Tether for OSX
 It appears OSX does not support the stock Android USB modem operation mode. Luckily, Joshua Wise's [HoRNDIS](http://joshuawise.com/horndis) driver for Mac enables this. Followed the instruction, worked like a charm. Great.
 
 You should now be able to get USB internet from your phone the layman way - plug it in, make sure everything is turned on on your phone, turn off your wifi, and you're good to go. Now let's automate.
 
-# ADB commands
+## ADB commands
 ADB is a power tool that's useful for all kinds of situations. Well, when you're a programmer, maybe everything looks like a nail...or something. Either way, getting familiar with the adb is a great way to deal with all kinds of situations your phone my encounter, especially since with the way modern smartphones work, there's a hundred ways you could be prevented from interacting with it normally - the screen could crack, the digitizer could fail, the display could fail, you could get locked out, or more likely something I haven't even imagined yet. It's one of those moments where you just wish you had a brick with hardware buttons that did nothing but dial other bricks with buttons.
 
 But at least with a laptop and adb, you can pull some tricks on your phone by typing magic phrases into your terminal. I use a mac and will mostly be speaking to that.
@@ -68,7 +68,7 @@ Basically, I discovered that the function to turn on USB tethering belongs to th
 
 Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th method signature. Note that the service class methods are indexed starting from 1, for whatever reason, and this had me going in circles for a while trying to use the parameter 29. Since the command line tool only supports i32 (integer) and s16 (16-character string) as parameters, we use i32 for booleans as well. An integer of 0 translates to false and 1 to true, as in standard integer-boolean conversion.
 
-# Coming Soon
+## Coming Soon
 I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the riht index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the idea above and do those steps manually.
 
 <a name="refs"></a>
