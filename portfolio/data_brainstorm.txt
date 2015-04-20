@@ -1,33 +1,16 @@
-reactivate items
-reactivate camerasript
-
-
-# Dyaco
-## People
-COO: Benson
-CTO: Brian
-## App feedback
-- more "sophistication" features on the app
-## Tell dyaco
-- 3rd most downloaded
-- integrated with several
-- men's magazine/huffington post
-- 60k active users
-- they ask us what equipment to buy - what type of equipment to buy
-## Investing
-## Integrating
-
-
-# Skovde
-
-# Hangout with Roydan/Kevin/James/etc
 https://plus.google.com/hangouts/_/gyckuifvrxchciykujsdynklcia
+# Hangout with Roydan/Kevin/James/etc
+
+# Zoako
+- speed up particles
+- individual camera logics systems
+
+
+# Youtube autolooper
+https://www.youtube.com/v/$VID?version=3&loop=1&playlist=$VID
 
 # Tomorrow:
-+ android build
-+ O1 task list
-+ bank
-+ skovde scholarship app
+- bank call
 
 backlog:
 + buy jp->Hk->mct tix
@@ -41,22 +24,22 @@ backlog:
 
 
 # Money:
+## Keep track of exp
+(24/03): $999 - Start of Japan
+
 Travel Notification reference number: 6248
 Citi intenational: +1 + (210) 677-0065.
-Get new card mailed to TPE - Expiry
+Activate new card
 
-COK ->		HKG -> 	TPE ->	OSA/NRT -> ?
-225 +		187 +	133 +	
-J48M6S				M2GTT9
-Tiger				Peach
-12/2 				24/3
+COK ->		HKG -> 	TPE ->	OSA/NRT -> ? -> HKG		->	
+225 +		187 +	133 +					61
+J48M6S				M2GTT9					M34PFE
+Tiger				Peach					Peach
+12/2 				24/3 					15/6
 (Jet/Tiger)(HKAir)(Peach)(AirAsiaX/JetstarA)
 
 Japan:
-
-Taiwan:
-Sync with JMF about plans
-
+https://www.google.com/maps?saddr=KIX+international+airport&daddr=3+Chome-11-9+Eiwa+COCO%E9%8D%BC%E7%81%B8%E6%95%B4%E9%AA%A8%E9%99%A2+Higashiosaka,+Osaka+Prefecture&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=44.658568,85.957031&geocode=FQJkDQIdunMPCCGIj5CNn6dx8Sn3-s0jE7kAYDGIj5CNn6dx8Q%3BFWDcEAIdybwUCClvDEiPu98AYDHDrhrLD-iDsg&mra=ls&t=m&z=11&start=0
 
 # BITGYM
 ## Parse short-links:
@@ -70,7 +53,6 @@ auth url: https://runkeeper.com/apps/authorize
 token url: https://runkeeper.com/apps/token
 de-auth url: https://runkeeper.com/apps/de-authorize
 
-
 # Hax:
 ## Airbnb credit campaign
 Airbnb ref: www.airbnb.com/c/komanakuttan?s=8
@@ -79,9 +61,9 @@ Airbnb Google Adwords campaign started on Dec 17 @1$/day.
 Input - $50
 Signups - 27
 Income so far:
-$150
+$200
 Net so far
-$100
+$150
 
 ## get into paid wifi networks:
 ifconfig en0 | grep ether 	// find own MAC
@@ -93,6 +75,7 @@ IN: +91 9400169964
 HK: +852 5273 5815
 KR: +82 10 2982 8926
 SG: +65 9078 2145
+TW: +886 981 371263
 PPort: K7403479
 ## Address:
 Anand Bhavan, 
@@ -165,3 +148,10 @@ ____━━____┓━╭━━━━╮
 ____━━____┗┓|::::::^━━^
 ____━━____━┗|:::::|｡◕‿‿­­­­◕｡|
 ____━━____━━╰O--O-O----O ╯ 
+
+03/31/2015  CERTIFIED 07/01/2015 07/01/2018 ✔
+
+denki-gai no honya-san
+
+
+Number:_______________________ Case Status: __________________ Period of Employment: ______________ to _______________

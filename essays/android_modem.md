@@ -64,10 +64,12 @@ After the magic "service" call (described below), find our computer's wifi adapt
 ## The Magic Service Call
 The `service` function refers to several exposed classes of the Android OS, that access nearly every feature of the system. The call format involves referring to the name of the service class, the method index we want to call from within the service's ordered methods as an integer, followed by the parameters in sequence, in the format "type" and then "value".
 
-Basically, I discovered that the function to turn on USB tethering belongs to the connectivity class. So I went ahead and fished out the [connectivity interface file](https://android.googlesource.com/platform/frameworks/base/+/android-5.0.1_r1/core/java/android/net/IConnectivityManager.aidl) from the Android repository. Note that I had to get it from the 5.0.1_r1 repository because that's what my phone is running right now. Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th method signature. Note that the service class methods are indexed starting from 1, for whatever reason, and this had me going in circles for a while trying to use the parameter 29. Since the command line tool only supports i32 (integer) and s16 (16-character string) as parameters, we use i32 for booleans as well. An integer of 0 translates to false and 1 to true, as in standard integer-boolean conversion.
-# Extra fittings
-Find version + service + aidl
+Basically, I discovered that the function to turn on USB tethering belongs to the connectivity class. So I went ahead and fished out the [connectivity interface file](https://android.googlesource.com/platform/frameworks/base/+/android-5.0.1_r1/core/java/android/net/IConnectivityManager.aidl) from the Android repository. Note that I had to get it from the 5.0.1_r1 repository because that's what my phone is running right now. 
 
+Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th method signature. Note that the service class methods are indexed starting from 1, for whatever reason, and this had me going in circles for a while trying to use the parameter 29. Since the command line tool only supports i32 (integer) and s16 (16-character string) as parameters, we use i32 for booleans as well. An integer of 0 translates to false and 1 to true, as in standard integer-boolean conversion.
+
+# Coming Soon
+I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the riht index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the idea above and do those steps manually.
 
 <a name="refs">## References</a>
 [Rooting Nexus5](http://www.androidrootz.com/2013/11/how-to-root-nexus-5-windowsmaclinuxubun.html)

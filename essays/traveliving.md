@@ -13,6 +13,7 @@ len: ?
 ## Work
 - Remote member of non-remote team > 2 people is difficult. You miss a lot of low-amplitude signals as they are deemed noise. 
 - There's a lot of duplication of work for the colocated people to keep you in the loop.
+
 ### Willpower is limited
 - Routine is hard when everything changes every 15-30 days
 - Productivity (Motivation/Willpower + Discipline) is hard while remote/alone
@@ -33,9 +34,8 @@ len: ?
 
 ## Picking a Home
 - Stay near transit
-- Shared rooms are cheap. Watch out for snorers
+- Shared rooms are cheap. But watch out for snorers.
 - AirBnB is the easiest to search, pick and book stress-free. www.airbnb.com/c/komanakuttan
-- 
 
 ## What will I miss?
 Whenever I find myself complaining a lot about a certain situation, I make it a habit to keep track of things I will miss

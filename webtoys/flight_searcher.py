@@ -7,25 +7,27 @@ from datetime import date, timedelta
 prefix = "http://www.kayak.com/flights"
 sep = "/"
 
-base_options = ["BOM", "MCT", "COK"]
-stops_base = ["HKG", "TPE", "TYO"]
+base_options = ["DAL", "DFW"]
 
 # Range
-start_dates = [date.today() + timedelta(29)]
-dests = { "HKG": (14, -2, 0), "TPE": (28, -7, 7), "TYO": (28, -7, 7), "COK": (0,0,0) }
+start_dates = [date.today() + timedelta(11)]
+dests = { "SEA": (4, 0, 0) , "SFO": (7, -2, 2)}
+stops_base = dests.keys()
 
 def leg(start, stop, departure):
 	return start+"-"+stop+sep+str(departure)
 
 # For all start options, ending at each stop option, starting at any start date
-def build_query():
-	stops = [base_options[2]] + stops_base + [base_options[2]]
-	print (len(stops))
+def build_query(base_index):
+	stops = [base_options[base_index]] + stops_base + [base_options[base_index]]
+	print (stops)
 	departure = start_dates[0]
 	query_string = prefix + sep
 	for i in range(len(stops_base)+1):
 		query_string += leg(stops[i], stops[i+1], departure) + sep
-		departure += timedelta(dests[stops[i+1]][0])
+		if i < len(stops_base):
+			departure += timedelta(dests[stops[i+1]][0])
 	print (query_string)
 
-build_query()
+#build_query(0)
+build_query(1)

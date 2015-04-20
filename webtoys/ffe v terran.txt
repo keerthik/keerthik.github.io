@@ -12,7 +12,19 @@ cannon in natural (if forward natural/FN, else cannon at front/ramp)
 pylon front of natural (if FN, else pylon for robo)
 cannon in front of natural (if FN, else skip)
 mocore
+sentry
 robo
+
+## roballin follow up
+hallucination scout -- if no starport/no vikings yet, keep building sentries, else gateways
++1 weapons
+cut probes at 3x3 gas and 15x2 min
+robo bay
+immortal x2
+colossus range
+colossus x2
+
+## Macro follow up
 +1 armor
 twilight
 robo bay
