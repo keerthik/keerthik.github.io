@@ -1,0 +1,27 @@
+---
+layout: post
+folder: Meta/Life
+title: languages and living
+update: June 2014
+len: 2 min
+---
+# Language Where You Live
+<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
+
+*In December 2013, I left San Francisco to begin my life as a digital nomad, mostly in Asia, while I continue to work remotely for my startup, [BitGym](www.bitgym.com).*
+
+*When I happen to be in a deserted town or don’t go out much, I lose a sense of drive and purpose. I slowly regress to my base level of motivation, inspiration and happiness. Being in a bustling city usually boosts this for me. The right city is exhilarating, like riding a rocketship.*
+
+*What makes a city right?*
+
+Knowing the local language is obviously a great plus for any city you move to. You can go into any restaurant and order whatever food you like, you can ask a passerby for help easily, you can negotiate deals that you would never be able to otherwise. You might be able to date a local more easily, which is great in all kinds of ways. But usually knowing English is enough to get by. You can shop at larger stores, you can eat at restaurants with English menus or ask the teenager nearby who knows English well enough, and you can Google Maps + Translate your way through getting directions.
+
+As usual, I'm here to comment on the slightly less obvious facets of the impact of knowing the language in a city. Whenever I'm on the topic of cities, you'll see me reference Paul Graham's essay on [cities and ambition](http://paulgraham.com/cities.html). In this Paul mentions that a "city speaks to you (...) in conversations you overhear." He talks mostly about the topics, content and quality of the conversations you overhear. I think this is a big deal. We don't think about this much, but this is a large factor in the vibe of a city. It influences what the city offers, because it's the same overheard conversations that inspire businesses and marketing too. It also influences how closely you feel you can relate to the local people based on what you overhear just going about your day. I care a lot about education and learning, and that made me feel close to Boston because that's what many conversations in Barnes & Nobles and around Harvard Square were about. I closely identify with technology, entrepreneurship, and embracing new things, and that made the Bay Area feel more like home than anywhere else, because that's what you hear the "hipsters" talk about on the BART, at the taquerias, in Dolores Park.
+
+But how can a city fare on the "quality of conversations you overhear" metric if you don't understand the language? And just a rudimentary understanding of a language is practically useless in these situations. You need to know the colloquial expressions, the day-to-day idioms, discern the dialects. You need to be able to catch the drift of a conversation from a few words that stick out of a bustling crowd passing by. You need to have figured out the fundamental conversation culture, be able to catch the local style of sarcasm.
+
+I didn't realize the true impact of this until after two years of being a nomad, I finally wound up in Japan. Over the course of eight years of watching ridiculous amounts of anime I actually have developed fairly functional conversational Japanese comprehension. Thanks to the inclusion of slice-of-life anime, I became familiar with a fair amount of cultural/societal norms, day-to-day expressions, and Japanese expectations of politeness and reservedness. After nearly two years I could once again understand what a passerby was talking about to their friend. I stopped using headphones when I went for a walk or run to hear people on the street. I no longer kept my face buried in my phone when I was on the subway because I wanted to get what the kids were complaining to their mom about. I looked forward to sitting in a restaurant eating alone when conversations were happening over the meals around me. I listened to the radio advertisements. These were pleasures of living in a city where one understands what people say, that I hadn't experienced for eighteen months. That the conversations were usually mundane or not really exciting was secondary to just being excited about being able to understand them at all.
+
+Most cities in Asia don't speak English natively. I loved Seoul, Hong Kong and Taipei, for having great food, friendly people, lively streets, good standard of living, and all the things that make for a fun city. In the case of Seoul, it even has lively tech and gaming scenes, things I care quite a lot about. However, the language barrier means that I'll never feel at home, or even *know* if I could feel at home. I'd have to first develop conversational comprehension fluency and a familiarity of the language culture. And *then* I could decide if I like the conversations I overhear or not.
+
+When I'm evaluating a city for feeling comfortable in, this will be one more factor for me to consider -- whether I know the language and "language culture" well enough to even understand the conversations I can overhear. Or if I want to get there, that it will be a significant investment far beyond just a formal instruction in the language, which in the case of Japanese has taken me over 8 years of mindful, daily consumption of the language.

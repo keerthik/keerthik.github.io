@@ -1,4 +1,25 @@
-# Notes
+# Notes - Hollow World
+
+## Objectives
+### The Work's
+- A narrative form of depicting game design principles
+- Fictional story with a meta twist on "humans sucked into game"
+### Mine
+- experiment with a new form of design writing
+- hone fiction skills
+
+
+
+
+
+
+
+
+
+
+
+
+# Notes - Spinner
 ## Abstract
 The threads of people's lives pass over and twist under each other's. Some people are influential points (seved'sepnan) in the great loom of the universe. They can take seemingly simple actions and have a notable impact on the lives of people around them. 
 
@@ -58,7 +79,6 @@ But Cheonan didn't choose this spot for the non-existent shade of the seved'unan
 
 Cheonan opened her eyes, and exhaled. She resumed scanning the crowd, and cracked a smile almost immediately. Yes, this one would do nicely, she thought, carefully eyeing a Brightshade, making sure not to lose sight of...her? Yes, it was a woman. Brightshades were harder to notice the more light shone on them. The diffused sun made them hard to focus on, but discernable from a distance. Cheonan always was especially good at noticing folk who didn't want to be noticed. Her smile widened. She could close her pattern for the day.
 
-Brightshades were a 
 
 
 

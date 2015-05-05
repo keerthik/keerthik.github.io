@@ -9,9 +9,12 @@ len: 11 min
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
--- activities > friendships
--- friendships and distance
--- 
+-- activities -> friendships
+-- friendships and distance - frozen without activities
+-- technology and activities - variety of collaborative distance activities
+-- esports and friendships
+-- those around gamers -- LoL/SC2 matches
+
 
 Usually my writing targets core gamers interested in discussing a nuanced facet of game impact or design. This post, however, is probably more for those who do not identify as gamers.
 
