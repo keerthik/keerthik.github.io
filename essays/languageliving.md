@@ -3,7 +3,7 @@ layout: post
 folder: Meta/Life
 title: languages and living
 update: June 2014
-len: 2 min
+len: 4 min
 ---
 # Language Where You Live
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a></div>

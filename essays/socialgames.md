@@ -3,7 +3,7 @@ layout: post
 folder: play
 title: social games
 update: February 2015
-len: ?
+len: 2 min
 ---
 # "Social Games": The least social games
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
