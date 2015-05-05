@@ -6,7 +6,7 @@ update: June 2014
 len: 2 min
 ---
 # Language Where You Live
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
+<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a></div>
 
 *In December 2013, I left San Francisco to begin my life as a digital nomad, mostly in Asia, while I continue to work remotely for my startup, [BitGym](www.bitgym.com).*
 
