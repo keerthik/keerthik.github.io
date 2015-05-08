@@ -22,3 +22,6 @@ We learn more from an experience when we're fully engaged in the experience. We 
 
 ### Social factors
 Many of the challenges we face in life arise in social contexts - relationships, negotiations, understanding people's needs, communicating. The more we learn while within in social contexts, the more applicable they will be in life.
+
+
+

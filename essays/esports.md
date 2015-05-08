@@ -40,8 +40,6 @@ LoL trying to be a lifestyle game that lasts through the generations. They curre
 
 We're in the era of the intellectual. Geeks are sexy, glasses are in style, and the last thing we want to be identified is as a musclehead.
 
-There is little room for the observant, quick-thinking, 
-
 - Make physical sports turn from relics we have to work with, to games vying to be more fun and more challenging.
 
 
