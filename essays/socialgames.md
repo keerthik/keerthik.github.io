@@ -9,3 +9,9 @@ len: 2 min
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
 Since human societies became a thing, games have been one of the most potent bonding contexts for two people, be it outdoor sports, board games or video games.
+
+what does a social activity need
+- meta-conversation potential (strategy, news, evolution)
+- story-generation (sick plays, ridiculous happenings)
+- more ways to share what happens (multiplayer, replays, match records, streams)
+
