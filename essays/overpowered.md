@@ -10,11 +10,6 @@ len: 6 min
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-- short -- 3-4 paragraphs
-- Designing for fun and stylistic choices first, balance secondary
-- Point: Make changes overpowered so that people play it
-- Flaws: Take too long to rebalance it; player base is extremely competitive, and the context is not set appropriately, so unbalanced it becomes the only/obvious choice
-
 {% include dicestormintro.md %}
 
 When creating a game with a sizeable variety of mechanics that are meant to work in tandem with each other, there are a number of apparent challenges, like balance and learning curve. There are also a few less apparent challenges; one that we discovered is that it's difficult to test what works and what doesn't as not everything gets played in every game. 
