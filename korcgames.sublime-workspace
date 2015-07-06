@@ -451,143 +451,16 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "portfolio/swarm.html",
-			"settings":
-			{
-				"buffer_size": 1633,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/dicestorm.html",
-			"settings":
-			{
-				"buffer_size": 2104,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/bitgym.html",
-			"settings":
-			{
-				"buffer_size": 6450,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/keerthik/Desktop/bitgym-localization-original.txt",
-			"settings":
-			{
-				"buffer_size": 2726,
-				"line_ending": "Unix",
-				"name": "iOS"
-			}
-		},
-		{
-			"contents": "Wooh I'm excited to hear from you :D\n\nI'm glad I did the telling you about what I do thing reasonably. It may not seem like it, but it actually took an inordinate amount of iterations and effort to be able to communicate that without at least half the people I tell it to feel like I'm lording what I'm doing over them. I think I also have to deal with trying not to sound like how I imagine Haa'vard MBA suits do. Trying to be an adult is uncomfortable, trying to smooth out our words to not come across as the people we don't want to come across as x_x\n\nI'm happy to talk about my field, I'm pretty much a tech industry nerd in all of the expression's glory. Since I was maybe...4? I have been fascinated by computers and technology. I used bits of copper wire and motors from my brother's discarded (or sometimes not discarded...oops) toy cars and stuff as my toys. I guess that's how more or less all of us nerds are created, just replace electronics with history books or the right movie. I think tech is quickly becoming the premier industry of our age (it used to be finance till now) so I guess I'm super-lucky that this happened to be what I turned into a nerd of :D\n\nI especially love to talk technical bits (101101011...get it? har har...). But no really, I'm always happy to help someone understand a little something about programming or computers or electronics in general, to help propagate the idea that it's not some niche elitist thing. They're simple concepts, shrouded by some unnecessary jargon, like most fields that try to demand high salaries @_@\n\n\n\n\n\n*-*-*-\n\nI have no brain as of this week. Exams _ + report cards + halloween prep + halloween weekend 1 + halloween decorating for parents + cooking at home + korean lessons (whyyy?).... augh.\n\nOn your telling me about what you do: no, not uppity at all - you seemed very factual and straightforward how you explained it. :) I can't pretend to know much about your field, which shows a subject for improvement in my current fields of knowledge (I feel like there's a really short, apt term that I'm looking for and my brain is just NOT COMING UP WITH at this point. Goddamnit English). And you really didn't say anything about it until I prodded you, multiple times, so I sincerely asked for the information. :) I might ask you to explain it again in person on the technical bits, though, just for clarity. ;)\n\nThat really sounds awesome! I remember seeing some of those screens on the cycling machines in gyms in uni but they never worked. It's a good motivating idea, and there are quite a few beautiful places in the world we're never going to get a chance to take a run through... that is if I'm following the concept correctly I'll check it out!\n\nI mean, there's always a way to get things done in a city on the cheap--it usually helps to know somebody. But I think I made it a week in Paris one time and spent under $60, for example.\n\nThe play is 12 Angry Juror (née Men). I'm Juror 4, if you've seen the play - I'm pretty much cast to be an articulate, a self-made stock broker, an unwavering voice of reason and logic with overtones of condescension, who neither involves herself in the madness that happens around her nor gives a flying fuck what happens to them. It's a really fun character, but I'm still kind of discovering how to play this without sounding robotic. Also this is the direct opposite of the person I've consciously been for quite a long time now (that sounds weird but, eh). I love theatre but I hate acting at many points, because I have a terrible memory and I'm always worried about fucking everything up for everyone else. I'm pretty sure my greatest weakness is my fear of rejection and/or disappointment... I pretty much wonder how much the director regrets casting me from the first rehearsal to the end. That's one of the reasons I'm often behind stage. Reading scripts, I love. I used to think i'd be a voice actor growing up but was discouraged enough by parental influences and convinced of lack of opportunities to not even practice skills at it for fun.\nAnyways, it's going to be fun until it's going to be my living nightmare. ;) I've got a great cast. I've always lucked out with having awesome people in my cast, and I'm in this mostly to meet new people with theatrical tendencies so it's a win!\n\nTo be topical, you doing anything fun for halloween?\nAnd also also hey Keerthik, I'm Nicole. :) Officially. I've never had a nickname that stuck and I'm just starting to meet other Nicoles (I've met less than a dozen in my life I think and there's 3 in THIS city? What?). ",
-			"settings":
-			{
-				"buffer_size": 4589,
-				"line_ending": "Unix",
-				"name": "Wooh I'm excited to hear from you :D"
-			}
-		},
-		{
-			"file": "portfolio/zoako.html",
-			"settings":
-			{
-				"buffer_size": 1286,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/index.html",
-			"settings":
-			{
-				"buffer_size": 3299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/portitemheadcontent.html",
-			"settings":
-			{
-				"buffer_size": 236,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/data_brainstorm.txt",
-			"settings":
-			{
-				"buffer_size": 1424,
-				"line_ending": "Unix",
-				"name": "data_brainstorm.txt"
-			}
-		},
-		{
-			"file": "styles/portfolio.css",
-			"settings":
-			{
-				"buffer_size": 4119,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/portitem.css",
-			"settings":
-			{
-				"buffer_size": 1539,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/gallery.css",
-			"settings":
-			{
-				"buffer_size": 356,
-				"line_ending": "Unix",
-				"name": "gallery.css"
-			}
-		},
-		{
-			"file": "styles/core.css",
-			"settings":
-			{
-				"buffer_size": 2443,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/post.css",
-			"settings":
-			{
-				"buffer_size": 1249,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles/timeline.css",
-			"settings":
-			{
-				"buffer_size": 8706,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/keerthik/Dropbox/Personal/Future Plans/MIT Media Labs Notes.txt",
-			"settings":
-			{
-				"buffer_size": 3138,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -644,14 +517,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/keerthik/projects/source_korc",
-		"/Users/keerthik/projects/source_korc/source",
-		"/Users/keerthik/projects/source_korc/source/essays"
-	],
 	"file_history":
 	[
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/timeline.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/post.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/core.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/gallery.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/portitem.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/portfolio.css",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/_includes/portitemheadcontent.html",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/index.html",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/swarm.html",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/zoako.html",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/dicestorm.html",
+		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/bitgym.html",
 		"/Users/keerthik/projects/source_korc/source/_layouts/default.html",
 		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-BoldItalic.otf",
 		"/Users/keerthik/projects/source_korc/source/portfolio/bitgym.html",
@@ -767,19 +646,7 @@
 		"/Users/keerthik/Dropbox/Public/Consulting/CoffeeByRaman/index.html",
 		"/Users/keerthik/Dropbox/Public/Consulting/CoffeeByRaman/home.css",
 		"/Users/keerthik/Library/Caches/Active Theory Inc/BitGym Dev/vault/virtual-active-ATBKPK0207/metadata.json",
-		"/Users/keerthik/Downloads/ATBKPK0207/metadata.json",
-		"/Users/keerthik/projects/source_korc/source/portfolio/gridfolio.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-ExtraBoldItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-ExtraBold.otf",
-		"/Users/keerthik/Dropbox/Personal/Web Development/Stratego Client/lib/gameBoard.js",
-		"/Users/keerthik/projects/source_korc/source/_layouts/xflio.html",
-		"/Users/keerthik/Downloads/credentials.csv",
-		"/Users/keerthik/Dropbox/Public/Travel/Travel Fall 2014.txt",
-		"/Users/keerthik/projects/source_korc/source/_layouts/essay.html",
-		"/Users/keerthik/Downloads/medium-export/Make-it-Fun-to-Face-Too-97b4e72493ad.html",
-		"/Users/keerthik/projects/source_korc/source/styles/essay.css",
-		"/Users/keerthik/projects/source_korc/source/_layouts/essays.html",
-		"/Users/keerthik/projects/source_korc/source/.htaccess"
+		"/Users/keerthik/Downloads/ATBKPK0207/metadata.json"
 	],
 	"find":
 	{
@@ -943,481 +810,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "portfolio/swarm.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								637,
-								637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "portfolio/dicestorm.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								998,
-								998
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 64.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "portfolio/bitgym.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								476,
-								476
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/keerthik/Desktop/bitgym-localization-original.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2726,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2057,
-								2057
-							]
-						],
-						"settings":
-						{
-							"auto_name": "iOS",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 168.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4589,
-								4589
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Wooh I'm excited to hear from you :D",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 1344.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "portfolio/zoako.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "portfolio/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_includes/portitemheadcontent.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								213,
-								213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "portfolio/data_brainstorm.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								333,
-								333
-							]
-						],
-						"settings":
-						{
-							"auto_name": "data_brainstorm.txt",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "styles/portfolio.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								741,
-								741
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 600.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "styles/portitem.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								999,
-								999
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 998.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "styles/gallery.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"auto_name": "gallery.css",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "styles/core.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2052,
-								2052
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2419.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "styles/post.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "styles/timeline.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8706,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								606,
-								606
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "/Users/keerthik/Dropbox/Personal/Future Plans/MIT Media Labs Notes.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1438,18 +832,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.442808584726,
 			1.0
 		],
 		"rows":
@@ -1467,6 +854,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "/Users/keerthik/projects/source_korc/korcgames.sublime-project",
 	"replace":
 	{
@@ -1476,6 +864,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1996,6 +1385,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -2004,12 +1394,13 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 602.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

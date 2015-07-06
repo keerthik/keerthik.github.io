@@ -8,7 +8,7 @@ len: 11 min
 # Toys -> Games
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
-Operation Dicestorm, our board game project, is what I would describe as “intense” as board games go — tactically challenging and involved, with a variety of moving parts. Earlier on in its development, we tested with several inexperienced board gamer friends, just to see how it felt. While they didn’t delve into tactical theorycrafting, they still enjoyed the game a lot. But they weren't able to explain why. This got me thinking, and that’s when I formulated the concept of “Toys to Games.” The more I pondered it, the more powerful I realized this concept is, for design discussion, evaluation, improvement and more.
+{{ site.ds }}, our board game project, is what I would describe as “intense” as board games go — tactically challenging and involved, with a variety of moving parts. Earlier on in its development, we tested with several inexperienced board gamer friends, just to see how it felt. While they didn’t delve into tactical theorycrafting, they still enjoyed the game a lot. But they weren't able to explain why. This got me thinking, and that’s when I formulated the concept of “Toys to Games.” The more I pondered it, the more powerful I realized this concept is, for design discussion, evaluation, improvement and more.
 
 //missing image//
 
