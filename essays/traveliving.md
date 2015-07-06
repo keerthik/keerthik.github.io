@@ -1,14 +1,14 @@
 ---
 layout: post
 folder: Meta/Life
-title: living nowhere
+title: antinomad
 update: 2015
-len: ?
+len: --
 ---
-# Working out of AirBnBs for over a year
+# I Hate Being A Nomad
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-*In December 2013, I left San Francisco to begin my life as a digital nomad, mostly in Asia, while I continue to work remotely for my startup, [BitGym](www.bitgym.com).*
+{% include nomadintro.md %}
 
 ## Work
 - Remote member of non-remote team > 2 people is difficult. You miss a lot of low-amplitude signals as they are deemed noise. 
@@ -35,7 +35,7 @@ len: ?
 ## Picking a Home
 - Stay near transit
 - Shared rooms are cheap. But watch out for snorers.
-- AirBnB is the easiest to search, pick and book stress-free. www.airbnb.com/c/komanakuttan
+- AirBnB is the easiest to search, pick and book stress-free.
 
 ## What will I miss?
 Whenever I find myself complaining a lot about a certain situation, I make it a habit to keep track of things I will miss
@@ -43,3 +43,6 @@ Whenever I find myself complaining a lot about a certain situation, I make it a 
 - Good, cheap food all around me
 - Having no things. It reduces stress ridiculously (offset by other things stressing me out way more though)
 - Time with "nothing else to do". A lot of my personal development happened because I would be minorly burned out from working or just plain unable to work (no internet, standing in a bus, etc). Long continuous such periods gave me a lot of time to introspect, reflect, meditate, explore and understand myself that I would never have done (and probably never will) without such constraining circumstances.
+- Amazing internet in some cities (Seoul/Tokyo/Osaka)
+- Shallow relationships - so much less social pressure
+- Being honest because I don't care about being judged

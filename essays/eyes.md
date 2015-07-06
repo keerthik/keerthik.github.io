@@ -1,6 +1,6 @@
 ---
 layout: post
-folder: Meta/Life
+folder: Nomad Chronicles
 title: eyes
 update: Sept 2014
 len: 2 min
@@ -8,10 +8,7 @@ len: 2 min
 # Eyes
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a></div>
 
-
-*In December 2013, I left San Francisco to begin my life as a digital nomad, mostly in Asia, while I continue to work remotely for my startup, [BitGym](www.bitgym.com).*
-
-*When I happen to be in a deserted town or don’t go out much, I lose a sense of drive and purpose. I slowly regress to my base level of motivation, inspiration and happiness. Being in a bustling city usually boosts this for me. The right city is exhilarating, like riding a rocketship.*
+{% include nomadintro.md %}
 
 *What makes a city right?*
 
