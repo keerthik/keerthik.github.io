@@ -167,9 +167,5 @@ Many popular product design paradigms such as flip-phones, zippers, seat belts, 
 So if you’re building a human-facing product, whether it’s physical, software, or even food, think about whether it has a good toy at its core. This will increase the chances of making your product that much more timeless and “sticky” (in the good way) for its users, because well, who doesn't want a fun thing.
 
 - - -
-
-Cover image credit: the excellent JK Brickworks site full of awesome LEGO stuff.   
-
-- - -
 See my last game design post “Make It Fun to Face Too”.    
 Also check out {{ site.ds }}, the board game mentioned in the article.
