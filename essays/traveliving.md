@@ -1,14 +1,28 @@
 ---
 layout: post
-folder: Meta/Life
+folder: Nomad Chronicles
 title: antinomad
 update: 2015
 len: --
 ---
-# I Hate Being A Nomad
+# The Reluctant Nomad - Part 1
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
 {% include nomadintro.md %}
+
+? Life story? 
+
+## Internal Change
+People change. After about the age of 20, we all know logically that we have changed a lot and will continue to do so, yet we don't internalize this. We project the future based on maintaining the same tastes, preferences, values and ambitions as we have today. 
+
+Why do we change? We change when things get hard. Things get hard when we might make mistakes. We make mistakes when we are in unfamiliar circumstances.
+
+Over these past 2 years, I have constantly been in unfamiliar circumstances. I was constantly exposing myself to potentially making mistakes. And I changed a lot as a result. I became a completely different person from who I used to know, and I had to get reacquainted with myself every so often. 
+
+Luckily, that wasn't so hard because I got to spend a lot of time with me.
+
+## Loneliness
+
 
 ## Work
 - Remote member of non-remote team > 2 people is difficult. You miss a lot of low-amplitude signals as they are deemed noise. 
@@ -39,10 +53,11 @@ len: --
 
 ## What will I miss?
 Whenever I find myself complaining a lot about a certain situation, I make it a habit to keep track of things I will miss
-- Being able to sing at the top of my lungs while I code from my isolated suburban home
+- Choosing my weather
 - Good, cheap food all around me
 - Having no things. It reduces stress ridiculously (offset by other things stressing me out way more though)
 - Time with "nothing else to do". A lot of my personal development happened because I would be minorly burned out from working or just plain unable to work (no internet, standing in a bus, etc). Long continuous such periods gave me a lot of time to introspect, reflect, meditate, explore and understand myself that I would never have done (and probably never will) without such constraining circumstances.
-- Amazing internet in some cities (Seoul/Tokyo/Osaka)
+- Amazing internet in many of the cities I loved (Seoul/Tokyo/Osaka)
 - Shallow relationships - so much less social pressure
 - Being honest because I don't care about being judged
+- Being able to sing at the top of my lungs while I code from my isolated suburban home
