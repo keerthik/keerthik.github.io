@@ -19,7 +19,7 @@ Once I figured it out, in fact, I've found myself doing this so often, that the 
 So I decided, as any reasonable technical person would, that I need to automate it \[[xkcd ref 1](http://xkcd.com/1205/)\]\[[xkcd ref 2](http://xkcd.com/1319/)\](1).
 
 ## The Order of Things
-This is fairly involved with the technical bits of Android, so as one would expect, your device needs to be rooted \[[1](#refs)\]. This might involve wiping your phone, so do this first.
+This is fairly involved with the technical bits of Android, so as one would expect, your device needs to be rooted \[[1](#references)\]. This might involve wiping your phone, so do this first.
 
 You're also going to need the Android SDK, or at least the [SDK tools](http://developer.android.com/sdk/index.html#Other) - most importantly adb, for your computer.
 
@@ -70,7 +70,7 @@ Basically, I discovered that the function to turn on USB tethering belongs to th
 Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th method signature. Note that the service class methods are indexed starting from 1. This is probably because some non-interface function like the constructor takes up the 0 slot. Since the command line tool only supports i32 (integer) and s16 (16-character string) as parameters, we use i32 for booleans as well. An integer of 0 translates to false and 1 to true, as in standard integer-boolean conversion.
 
 ## Coming Soon
-I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the riht index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the information above and modify the script accordingly for it to work with your combination of devices.
+I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the right index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the information above and modify the script accordingly for it to work with your combination of devices.
 
 ## References
 [Rooting Nexus5](http://www.androidrootz.com/2013/11/how-to-root-nexus-5-windowsmaclinuxubun.html)

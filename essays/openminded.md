@@ -1,7 +1,7 @@
 ---
 layout: post
 folder: Meta/Life
-title: multiple societies and open-mindedness
+title: open-mindedness
 update: 2015
 len: --
 ---
