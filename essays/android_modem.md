@@ -73,14 +73,10 @@ Once in there, I found the `setUsbTethering(boolean enable)` method was the 30th
 I have been working on scripts to determine your Android version, and then determine the repository for its source on Google, and then determine the right index for function in the interface file, so that this script can be more universally fire-n-forget, but for now you'll have to use the information above and modify the script accordingly for it to work with your combination of devices.
 
 ## References
-[Rooting Nexus5](http://www.androidrootz.com/2013/11/how-to-root-nexus-5-windowsmaclinuxubun.html)
-
-[ADB Insecure](http://forum.xda-developers.com/showthread.php?t=1687590)
-
-[Calling Android services](http://ktnr74.blogspot.tw/2014/09/calling-android-services-from-adb-shell.html)
-
-[Android svc commands](https://thangamaniarun.wordpress.com/2013/04/19/useful-android-adb-commands-over-usbwi-fi/)
-
+[Rooting Nexus5](http://www.androidrootz.com/2013/11/how-to-root-nexus-5-windowsmaclinuxubun.html) <br>
+[ADB Insecure](http://forum.xda-developers.com/showthread.php?t=1687590) <br>
+[Calling Android services](http://ktnr74.blogspot.tw/2014/09/calling-android-services-from-adb-shell.html) <br>
+[Android svc commands](https://thangamaniarun.wordpress.com/2013/04/19/useful-android-adb-commands-over-usbwi-fi/) <br>
 [Turn off Wifi](http://www.dgkapps.com/blog/osx-tips/osx-tips-turn-off-wifi-from-the-command-line/)
 
 - - -
