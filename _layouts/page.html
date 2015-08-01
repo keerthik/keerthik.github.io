@@ -2,10 +2,10 @@
 layout: default
 ---
 <head>
-  {% include headcontent_ds.html %}
+	{% include {{page.headtouse}} %}
 </head>
 <body>
-{% include header_ds.html %}
+{% include header.html %}
 <div class="inner-content">
 	{{ content }}
 </div>

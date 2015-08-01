@@ -10,7 +10,7 @@ len: --
 
 {% include nomadintro.md %}
 
-I hated traveling growing up. I still do. So how did I end up a nomad? And why do I still do it?
+I hated traveling growing up. I still do. So how and why did I end up a nomad? And what has come of it?
 
 ## India - not home
 
@@ -22,9 +22,9 @@ Having no emotional bond to my "motherland," to me these trips were reduced to j
 
 ## Oman - not home either
 
-As is typical of Indian families relocating to countries where the native language has little overlap with what we speak, we found our bubble communities. I went to an Indian school, surrounded myself with Indian friends, ate Indian food everyday. I read, listened and spoke exclusively English, Malayalam, and sprinklings of Hindi. Come oppressive summertime, we would make a trip to the homes of either or both of my parents back in Kerala, the southern tip of India.
+As is typical of Indian families relocating to countries where the native language has little overlap with what we speak, we found our bubble communities. I went to an Indian school, surrounded myself with Indian friends, ate Indian food everyday. I read, listened and spoke exclusively English, Malayalam, and sprinklings of Hindi. 
 
-Eighteen years and I made not a single Omani friend. Eighteen years and I couldn't understand more than four words of Arabic, let alone read, write or speak it. Eighteen years and I didn't know their deeper cultural values or history. 
+Eighteen years and I made not a single Omani friend. Eighteen years and I couldn't understand more than four words of Arabic, let alone read, write or speak it. Eighteen years and I didn't know their deeper cultural values or history.
 
 
 
