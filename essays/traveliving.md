@@ -10,7 +10,24 @@ len: --
 
 {% include nomadintro.md %}
 
-? Life story? 
+I hated traveling growing up. I still do. So how did I end up a nomad? And why do I still do it?
+
+## India - not home
+
+I was born in Thiruvananthapuram, in the fall of 1989. Less than a year old, I boarded my first flight, and was whisked away to the quaint Middle Eastern capital city of Muscat, where I was to spend the next eighteen years of my life.
+
+I have been flying regularly since. Thirteen of the sixteen summers to come I flew back to Kerala with my family. It was home to my parents, but not to me. I was never close to my grandparents -- both my grandparents passed away before I was born, one of my grandmothers suffered acute Alzheimers since I can remember, and the other passed away before I had visited her ten times, giving little opportunity to get close to any of them. Uncles, aunts, and cousins came and went before figuring much in my childhood.
+
+Having no emotional bond to my "motherland," to me these trips were reduced to just being taken along by my parents like a box of local sweets to be distributed among those they visit. It was just summer after summer of leaving behind my beloved computer, school friends, the air-conditioned, clean house I grew up in, replaced by swarming mosquitoes, occasional food poisoning, constant power cuts, and generally being herded around by my parents with nothing to entertain me. This is probably how I came to associate travel with constant boredom, physical discomfort and a lack of freedom.
+
+## Oman - not home either
+
+As is typical of Indian families relocating to countries where the native language has little overlap with what we speak, we found our bubble communities. I went to an Indian school, surrounded myself with Indian friends, ate Indian food everyday. I read, listened and spoke exclusively English, Malayalam, and sprinklings of Hindi. Come oppressive summertime, we would make a trip to the homes of either or both of my parents back in Kerala, the southern tip of India.
+
+Eighteen years and I made not a single Omani friend. Eighteen years and I couldn't understand more than four words of Arabic, let alone read, write or speak it. Eighteen years and I didn't know their deeper cultural values or history. 
+
+
+
 
 ## Internal Change
 People change. After about the age of 20, we all know logically that we have changed a lot and will continue to do so, yet we don't internalize this. We project the future based on maintaining the same tastes, preferences, values and ambitions as we have today. 

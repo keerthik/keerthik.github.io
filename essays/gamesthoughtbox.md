@@ -7,6 +7,17 @@ update: August 2014
 
 Every so often I'm asked "what are the best games to play to..." 
 
+### Stress relief? What do you do?
+Life is a bitch. Shit happens. Breakups, grilled by your boss, making a mistake with the law, losing money, getting fired, loved ones passing on, etc. I need something that is a confluence of a couple things:
+- that I have the energy for
+- is capable of occupying my mind fully
+- eases me into the zone quickly without strong blocks
+- good performance should make me feel good, but bad performance shouldn't make me feel bad -- the process itself should be satisfying
+- shouldn't make me feel like I wasted a bunch of time when I'm done
+
+
+
+
 
 ## When is a job well done?
 
