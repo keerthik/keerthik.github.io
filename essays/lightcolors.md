@@ -11,7 +11,7 @@ len: 0 min
 
 I used to be quite confused about how colors and the optics related worked. This became acutely apparent to me when we at {{ site.zk }} started working on [Color Balls]() in 2013.
 
-Like many topics in physics, this is one that is actually quite simple to derive all the details about, as long as your fundamentals are sound. In my experience, however, very few people execute instruction of these fundamentals regarding light and colors well.
+Like many topics in physics, this is one that is  quite simple to derive all the details about, as long as your fundamentals are sound. In my experience, however, very few people execute instruction of these fundamentals regarding light and colors well.
 
 ## Basics
 It is important to maintain a consistent base model for any concept you want to understand well. So let's start by providing basic models for a few key concepts, and we'll add rules and properties as we understand things better.

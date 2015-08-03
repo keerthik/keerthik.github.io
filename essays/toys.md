@@ -70,7 +70,7 @@ Let's break down the implications of each of those clauses.
 
 * Physical: How tiring is it for your fingers to rest over these keys? Do you have to use the mouse too? Is activity balanced between left and right hands? Can you reach all controls easily? If not, is it more fun to learn to reach all of them effectively?
 * Focus: Is the focus on reflexes? Careful feathering for fine tuned controls? Timing? Speed? Each control needs to have a focus.
-* Reason: Does a control actually have a reason to exist -- i.e, you actually use it regularly, yet it's not something you want held down all the time.
+* Reason: Does a control have a reason to exist -- i.e, you use it regularly, yet it's not something you want held down all the time.
 
 ###Gameplay Effect
 
@@ -160,7 +160,7 @@ It’s also a good way to pinpoint the cause of frustrations players may have wi
 
 ##Beyond Games
 
-Toys actually make a great core for any product that humans interact with. An entire department of the MIT Media Labs is dedicated to “Playful Systems.”
+Toys make a great core for any product that humans interact with. An entire department of the MIT Media Labs is dedicated to “Playful Systems.”
 
 Many popular product design paradigms such as flip-phones, zippers, seat belts, etc were established because there was an inexplicable satisfaction in their intended use case (snap, zip, click) in addition to being functional. If you've ever been told “not to play with” something, it’s probably because at its core it was a pretty good toy. Yes, that includes most of your food.
 

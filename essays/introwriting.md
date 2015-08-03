@@ -44,7 +44,7 @@ It is good to aspire to improve yourself. Have a list like this written down som
 
 ## You have the time
 
-"I don't have the time to write" is a common cop-out, right up there with "but noone will read it" and "I suck at writing". If you actually are not interested in communicating your thoughts to the world that's fine.
+"I don't have the time to write" is a common cop-out, right up there with "but noone will read it" and "I suck at writing". If you are not interested in communicating your thoughts to the world that's fine.
 
 But regarding time -- don't try to schedule hours for writing. You'll almost never be able to get the words flowing in the hours you block off. Take notes when the right thoughts come to you. Turn them into prose when you're in circumstances that make it the best thing you can do. Feeling unproductive trying to get work done? Find nothing interesting on the internet? Or don't have internet? On an extremely long plane/train/bus ride? These are my favourite times to turn my thoughts and notes into essay work.
 
@@ -52,13 +52,13 @@ But regarding time -- don't try to schedule hours for writing. You'll almost nev
 
 ...Unless it is. If you're writing for a school assignment, I have no good advice for you, I never did well in academic writing. If you are planning to make a living from writing prose, this is out of my scope as well.
 
-The rest of you, remember, this isn't work. Don't set deadlines for yourself. When you miss a deadline, which you will, you are further incentivized to abandon. Now "Oh, I missed a deadline? I actually decided to give up on the blog, that's why" becomes a valid argument. Don't give yourself that way out.
+The rest of you, remember, this isn't work. Don't set deadlines for yourself. When you miss a deadline, which you will, you are further incentivized to abandon. Now "Oh, I missed a deadline? I decided to give up on the blog, that's why" becomes a valid argument. Don't give yourself that way out.
 
 ## Get distraction-free
 
 Maintaining a blog can involve a lot more than writing. Try to cut out the fat. When I tried to blog on tumblr, I found myself hunting out pictures, editing CSS, modifying themes, ALL THE TIME that I was on the blog. On Wordpress, it was the same stuff, plus configuring plugins, widgets, comment systems, what not. When I tried to roll my own using Rails, well, let's not kid anyone, I didn't write a single post, but I made a mediocre blog viewing platform from scratch. All this is toxic for getting any actual writing done.
 
-A big milestone in my writing came in the form of [Medium.com](https://medium.com/@keerthiko/why-i-chose-medium-com-6ba12dd0c916), and I could actually tell as soon as I tried it. Sadly, many of the good things about Medium I raved about in that link no longer hold. However, it still remains one of the best distraction-free writing platforms. If distractions are your issue, try Medium or [something similar](http://mashable.com/2014/05/09/16-minimalist-blogging-platforms/).
+A big milestone in my writing came in the form of [Medium.com](https://medium.com/@keerthiko/why-i-chose-medium-com-6ba12dd0c916), and I could tell as soon as I tried it. Sadly, many of the good things about Medium I raved about in that link no longer hold. However, it still remains one of the best distraction-free writing platforms. If distractions are your issue, try Medium or [something similar](http://mashable.com/2014/05/09/16-minimalist-blogging-platforms/).
 
 Once you hit a certain level of consistency, you may want something with more customizability, and you'll know when you get there. 
 

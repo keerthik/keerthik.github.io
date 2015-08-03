@@ -160,7 +160,7 @@ Without too much difficulty, I could find all the relevant flags to figure out w
 	}
 {% endhighlight %}
 
-Worked out quite smoothly! Now I wanted to actually start bringing in some of the much missed Unity console features.
+Worked out quite smoothly! Now I wanted to  start bringing in some of the much missed Unity console features.
 
 I was inspired to build this after seeing mminer's excellent [in-game console script](https://github.com/mminer/consolation/blob/master/Console.cs). I picked up a few snippets from there, to add
 
@@ -388,7 +388,7 @@ I also moved this into the ZKTools namespace, and hit a few snags with some unin
 
 
 ### Notes
-<a name="ref1"> </a> \[1\] So it turns out that actually `Debug.Log(...)` does not do anything from within the `HandleLog`. If you think about it, this makes sense. If `Debug.Log` wasn't ignored, having a log call inside `HandleLog` would infinitely recursively call `Debug.Log`! D'oh.
+<a name="ref1"> </a> \[1\] So it turns out that  `Debug.Log(...)` does not do anything from within the `HandleLog`. If you think about it, this makes sense. If `Debug.Log` wasn't ignored, having a log call inside `HandleLog` would infinitely recursively call `Debug.Log`! D'oh.
 
 <a name="ref2"> </a> \[2\] The [docs](http://docs.unity3d.com/ScriptReference/MonoBehaviour-print.html) for `print` say it's identical to `Debug.Log`, except that its attached to MonoBehaviours and not the Debug class.
 

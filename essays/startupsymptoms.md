@@ -67,7 +67,7 @@ As a direct result of trying to be resourceful, I also lead a much healthier lif
 These things pay off quite easily and quickly when they’re your daily routine. The motivation required to consistently make the healthier decision is a lot more easily found when that’s the only good choice in the short-term and the long-term.
 
 ## Time and Energy
-This was actually a bit counter-intuitive to me. I fully expected to be doing the 60 hour weeks and more going in, and it wasn’t far from the truth many a week. Yet, I wound up with more time and energy each day than when I worked in a large company. There are three main aspects that made this happen for me.
+This was a bit counter-intuitive to me. I fully expected to be doing the 60 hour weeks and more going in, and it wasn’t far from the truth many a week. Yet, I wound up with more time and energy each day than when I worked in a large company. There are three main aspects that made this happen for me.
 
 ### Flexibility
 I don’t need to come into work if I don’t think I will be effective for the day, as long as I hit the goals expected of me. This means if 9–5 is more productive for me to run important time-sensitive errands or work on my personal projects, I can work on the product over the weekend when I don’t want to go out, late at night, during the moment of inspiration, while waiting for the subway, or whenever I feel like it. I just need my tasks done in time to not block my teammates or a release. Not having to waste 8 hours of my day hoping to be productive eventually has created so much more time in my day.

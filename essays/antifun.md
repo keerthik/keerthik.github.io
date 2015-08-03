@@ -78,7 +78,7 @@ Probably one of the oldest and most famous DOTA abilities, reimagined in just ab
 
 Passive ability that burns an amount of mana whenever attacking a target and deals damage equal to the mana burned.
 
-**User**: Very similar to the Marauder slow. However, because of the impact of individual units and heroes in DOTA, selecting the right target is a lot more important here, adding a small factor of challenge. Mana Break is actually pretty satisfying as part of a system: when you take advantage of a unit being disabled (while AM himself can't disable, so requires teamwork) to maximize effectiveness, or prevent a hero from casting a key ability by just managing to burn enough mana in time, it is rewarding.
+**User**: Very similar to the Marauder slow. However, because of the impact of individual units and heroes in DOTA, selecting the right target is a lot more important here, adding a small factor of challenge. Mana Break is pretty satisfying as part of a system: when you take advantage of a unit being disabled (while AM himself can't disable, so requires teamwork) to maximize effectiveness, or prevent a hero from casting a key ability by just managing to burn enough mana in time, it is rewarding.
 
 **Opponent**: Manaburn abilities are famously the signature "anti-fun" mechanics among LoL players, since Riot has religiously avoided manaburn abilities in League of Legends while every other MOBA incorporated it based on the DOTA model. Facing Mana Break is awfully similar to Concussive Shells as mentioned above. We can postulate a general idea here: If the only effective option for evading a mechanic is to prevent it from even coming into play (or hard-countering the containing unit/hero), then it will score poorly for the opponent in the "Satisfying" axis. Not only is it frustrating to avoid, but once afflicted, it removes your options to use any of your other abilities, reducing the fun mechanics at your disposal even further.
 
@@ -90,11 +90,11 @@ In contrast, fun-to-face mana-removal abilities include Lion's Mana Siphon, or E
 
 Certainly these mechanics were each arrived at after much iteration and careful planning. Unfortunately the designers behind DOTA and SC2 have many constraints they have/had to work with. The biggest of these are that the game is played at an extremely competitive level, and its massive scale in terms of complexity and player-base.
 
-The eSports aspect actually adds a third and very important stakeholder for the fun-ness of a multiplayer mechanic - the spectator - which I haven't considered in this discussion, and is out of the scope of this post.
+The eSports aspect adds a third and very important stakeholder for the fun-ness of a multiplayer mechanic - the spectator - which I haven't considered in this discussion, and is out of the scope of this post.
 
 The tight competitive scene and the size of the player-base made it difficult for them to make radical changes to any units or mechanics once they released, because any change was bound to affect the intricate balance of the game and solicit a lot of flak from the community, or tip the win rates at the competitive level too much.
 
-The scale of the game also makes crafting unique abilities for every unit nearly impossible. They were bound to have to fall back onto some simplistic mechanics to keep it fresh while still maintaining balance. It's actually quite impressive that nearly every single unit and ability in SC2 is extremely distinct.
+The scale of the game also makes crafting unique abilities for every unit nearly impossible. They were bound to have to fall back onto some simplistic mechanics to keep it fresh while still maintaining balance. It's quite impressive that nearly every single unit and ability in SC2 is extremely distinct.
 
 There are also several other heuristics to evaluate the fun-ness of a mechanic. For example, as mentioned above, how fresh and distinct it is from everything else in the game. Also how easily it can be described, how quickly it can be learned, how well it relates to other mechanics in the game, and how simple it can be kept. Each of these points deserves several posts of their own. These facets are all important, and not so easily disambiguated.
 
