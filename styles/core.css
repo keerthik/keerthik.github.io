@@ -46,13 +46,17 @@ blockquote {
 }
 
 #logoContainer {
+	position: fixed;
 	text-decoration: none;
+}
+
+#logoContainer:hover .social-element {
+	left: 0px;
 }
 
 #homeLogo {
 	color: #000;
 	text-align: center;
-	position: fixed;
 	top: 0px;
 	left: 0px;
 	height: 30px;
@@ -60,6 +64,15 @@ blockquote {
 	padding: 20px;
 	font-size: 24px;
 }
+
+.social-element {
+	margin: 15px;
+	width: 100px;
+	left: -100px;
+	transition: all 0.25s ease-in-out;
+}
+
+
 
 #homeLogo:hover {
 	background: #000;
