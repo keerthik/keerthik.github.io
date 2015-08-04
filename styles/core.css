@@ -66,13 +66,12 @@ blockquote {
 }
 
 .social-element {
+	position: inherit;
 	margin: 15px;
 	width: 100px;
 	left: -100px;
 	transition: all 0.25s ease-in-out;
 }
-
-
 
 #homeLogo:hover {
 	background: #000;
