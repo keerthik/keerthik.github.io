@@ -5,6 +5,13 @@
 	height: 100px;
 }
 
+body {
+	background-image: url('/resources/images/mountains-silhouette.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 #waitlist-signup button {
 	font-family:	"FiraSans";
 	color: 			#fefefe;

@@ -15,7 +15,7 @@ The intense combat of dicestorm is a battle of wits (intelligence), physical ski
 Learn more about gameplay // Coming Soon
 
 ## Asymmetric Factions
-Inspired by games like Blizzard Entertainment's StarCraft and the Command & Conquer series, Dicestorm features fully unique factions, with diverse units, options, and strategies. Pick the faction that suits your personality adn style.
+Inspired by games like Blizzard Entertainment's StarCraft and the Command & Conquer series, Dicestorm features fully unique factions, with diverse units, options, and strategies. Pick the faction that suits your personality and style.
 
 Learn more about the factions // Coming Soon
 
@@ -25,3 +25,61 @@ Learn more about the factions // Coming Soon
 * Orbotron Unit Cards // Coming Soon
 * Hellspawn Unit Cards // Coming Soon
 * Advanced Mechanics Guide // Coming Soon
+
+a
+
+a
+
+a
+a
+
+a
+a
+
+a
+a
+
+
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+
+
+a
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a

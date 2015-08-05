@@ -7,4 +7,8 @@ abnb:		 <a href="www.airbnb.com/c/komanakuttan?s=8">airbnb</a>
 db:		 	 <a href="https://db.tt/GVoI63O">dropbox</a>
 az:		 	 <a href="https://db.tt/GVoI63O">amazon</a>
 twitter: 	 <a href="http://www.twitter.com/keerthiko">@keerthiko</a>
-highlighter: rouge
+# styling
+markdown:	 kramdown
+# highlighter:   pygments # This is NOT what we want!!
+kramdown:
+   syntax_highlighter: rouge # Here rouge is :D
