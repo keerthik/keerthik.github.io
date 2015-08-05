@@ -15,3 +15,8 @@
 	box-shadow: none;
 	background-color: #000000;
 }
+
+button span {
+	font-size: 	16px;
+	color: 		#ddd;
+}
