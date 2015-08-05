@@ -122,8 +122,10 @@ blockquote {
 }
 
 .inner-content {
-	padding: 	50px 100px 100px 80px;
-	float: left;
+	position: 	relative;
+	width: 		80%;
+	padding: 	50px 10% 100px 10%;
+	float: 		left;
 }
 
 .overlay {

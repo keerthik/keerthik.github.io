@@ -1,0 +1,17 @@
+#waitlist-signup {
+	position: relative;
+	margin: 30% auto;
+	width: 50%;
+	height: 100px;
+}
+
+#waitlist-signup button {
+	font-family:	"FiraSans";
+	color: 			#fefefe;
+	font-size: 		24px;
+	padding: 		50px;
+	border-radius:	5px;
+	border: 3px solid white;
+	box-shadow: none;
+	background-color: #000000;
+}
