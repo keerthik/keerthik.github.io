@@ -3,7 +3,7 @@
 # Assumes single phone
 # Turn on mobile data in case it was off
 adb shell "svc data enable"
-# Turn on USB tethering [r5.0.1]
+# Turn on USB tethering [5.0.1_r1, r6.0.1_r3]
 adb shell "service call connectivity 30 i32 1"
 
 # get laptop wifi device

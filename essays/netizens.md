@@ -10,7 +10,7 @@ len: --
 
 I imagine it's always interesting living in the era of rapid transition of any sort. Whether it was the industrial revolution, introduction of consumer automobiles, television or the home computer. There will be one generation that will have the opportunity to gamble on the universal accessibility of the new technology, and almost exclusively determine the culture of the future of the human race around that technology for several generations to come -- Personal cars became the *de facto* mode of transport. Television will become the universal "winding down" activity after the workday. Every home should have a computer that will be used for entertainment or work. 
 
-The most recent of these revolutionary technologies is the combination-technology of global internet access and mobile computing. My peers and I today, "generation Y" as some like to call us, are at an age where we've spent just about the half our lives-to-date immersed in cyberspace.
+The most recent of these revolutionary technologies is the combination-technology of global internet access and mobile computing. My generation is at an age where we've spent just about half our lives-to-date immersed in cyberspace, and half completely devoid of it.
 
 And what is the culture we are building around the internet? It's interesting to observe and also a little frightening, as no single person or authority can have much control over it. However, being mindful of our power and influence in the future of this technology could impact what we encourage for generations to come.
 
