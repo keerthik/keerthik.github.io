@@ -6,7 +6,7 @@ update: August 2015
 len: 1 min
 ---
 # The Right Problems
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Facebook</a></div>
+<div class="essay-subtext">cross-posted: <a href="https://www.facebook.com/notes/keerthik-ok/the-right-problems/10153769788263503">on Facebook</a></div>
 
 There was this [Naruto episode](http://www.hulu.com/watch/36407#i0,p20,s1,d0) I watched, about 6 months before I started college, that got me thinking about what lessons are worth being taught in school.
 
