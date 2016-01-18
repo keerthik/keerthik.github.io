@@ -24,6 +24,8 @@ var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
 var CENTER = 6;
 
+var spawnTrigger = 4;
+
 function LaunchDance () {
 	var cycle_classes = ["left_hex", "topleft_hex", "topright_hex", 
 						 "right_hex", "bottomright_hex", "bottomleft_hex",
@@ -57,9 +59,10 @@ function AddNewItem () {
 	gameState[empties[getRandomInt(0, empties.length)]] = 6;
 }
 
-function HandleInput (keyCode) {
+var changes = 0;
+function UpdateGameWithInput (keyCode) {
+	var oldState = $.extend([], gameState);
 	var addNewNum = true;
-	var changes = 0;
 	switch (keyCode) {
 		case LEFT_KEY: 
 			changes += SlideIfPossible(RIGHTS[1], LEFTS[1]);
@@ -82,7 +85,6 @@ function HandleInput (keyCode) {
 			$(".numbox.bottomright_hex").removeClass("bottomright_hex").addClass("bottomleft_hex");
 */			
 			console.log("slid left!");
-			addNewNum = changes > 0;
 			break;
 
 		case RIGHT_KEY:
@@ -100,7 +102,6 @@ function HandleInput (keyCode) {
 				}
 			}
 			console.log("slid right!");
-			addNewNum = changes > 0;
 			break;
 
 		case UP_KEY:
@@ -109,6 +110,7 @@ function HandleInput (keyCode) {
 				gameState[i] = gameState[i-1];
 			}
 			gameState[0] = last;
+			changes ++;
 			break;
 
 		case DOWN_KEY:
@@ -117,28 +119,40 @@ function HandleInput (keyCode) {
 				gameState[i] = gameState[i+1];
 			}
 			gameState[5] = last;
+			changes ++;
 			break;
 		default:
-			// If you didn't affect the board, don't add anything new
-			addNewNum = false;
 			break;
 	}
-
-	if (addNewNum) AddNewItem();
-	for (var i = 0; i < 7; i++) {
-		var inner = (gameState[i] > 0)?gameState[i]:"";
-		$("#num_" + i).html(inner);
+// below we manipulate gamestate based on all the above input
+	addNewNum = changes > spawnTrigger;
+	if (addNewNum) {
+		changes = 0;
+		AddNewItem();
 	}
 
+	switch (Math.max(gameState)) {
+		case 0: spawnTrigger = -1; break;
+		case 6: spawnTrigger = 0; break;
+		case 96: spawnTrigger = 1; break;
+		case 768: spawnTrigger = 2; break;
+	}
+
+	Animate (oldState, gameState);
 }
 
-
+function Animate (oldState, newState) {
+	for (var i = 0; i < 7; i++) {
+		var inner = (newState[i] > 0)?newState[i]:"";
+		$("#num_" + i).html(inner);
+	}
+}
 
 $(document).ready(function() {
 	window.addEventListener("keydown", arrow_keys_handler, false);
 	LaunchDance();
 	// Controls
 	$('html').keydown(function(e) {
-		HandleInput(e.which);
+		UpdateGameWithInput(e.which);
     });
 });
