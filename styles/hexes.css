@@ -60,41 +60,41 @@ h1 {
 .left_hex {
   top: 136px;
   left: 50px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .topleft_hex {
   top: 0px;
   left: 126.6px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .topright_hex {
   top: 0px;
   left: 286px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .right_hex {
   top: 136px;
   left: 365px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .bottomleft_hex {
   top: 272px;
   left: 126.6px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .bottomright_hex {
   top: 272px;
   left: 286px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
 
 .center_hex {
   top: 136px;
   left: 206.6px;
-  transition: left 1s, top 1s;
+  transition: left .5s, top .5s;
 }
