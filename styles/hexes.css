@@ -14,9 +14,13 @@ h1 {
   height: 800px;
 }
 
+#game_state {
+  display: none;
+}
+
 
 /* Number container*/
-.numbox {
+.numbox, .clone {
   font-size: 26px;
   text-align: center;
   position: absolute;

@@ -14,6 +14,7 @@ var arrow_keys_handler = function(e) {
 
 
 // Constants, basically
+var TRANSITION_END = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
 var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
@@ -35,13 +36,19 @@ function LaunchDance () {
 			$(this).removeClass("center_hex").addClass(cycle_classes[index]);
 		else
 			console.log("omg extra hexes: " + index);
-		$(this).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
-		    // code to execute after transition ends
+		$(this).one(TRANSITION_END,
 		    function(e) {
-		    	$(this).removeClass(cycle_classes[index]).addClass(cycle_classes[(index < 5)?(index + 1):0]);
+		    	Cycle($(this), index, 1);
 		});
 	});
 
+}
+
+function Cycle(element, index, direction) {
+	var newIndex = 	(direction > 0 && index > 4)?0:
+					((direction < 0 && index < 1)?5:
+					(index + direction));
+	element.removeClass(cycle_classes[index]).addClass(cycle_classes[newIndex]);
 }
 
 function SlideIfPossible(iLHS, iRHS) {
@@ -50,7 +57,7 @@ function SlideIfPossible(iLHS, iRHS) {
 		gameState[iRHS] += gameState[iLHS];
 		gameState[iLHS] = 0;
 		// make a copy. animate it. destroy it.
-		$("#num_" + iLHS).removeClass(cycle_classes[iLHS]).addClass(cycle_classes[iRHS]);
+		$("#clone_" + iLHS).removeClass(cycle_classes[iLHS]).addClass(cycle_classes[iRHS]);
 		return 1;
 	}
 	return 0;
@@ -112,26 +119,25 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case UP_KEY:
-			var last = gameState[5];			
-			for (var i = 5; i > 0; i--) {
-				gameState[i] = gameState[i-1];
-				$("#num_" + i).removeClass(cycle_classes[i]).addClass(cycle_classes[i-1]);
+			var last = gameState[0];
+			for (var i = 0; i < 6; i++) {
+				gameState[i] = i==5?last:gameState[i+1];
+				Cycle($("#clone_" + i), i, 1);
 			}
-			gameState[0] = last;
-			$("#num_0").removeClass(cycle_classes[0]).addClass(cycle_classes[5]);
 			changes ++;
+			console.log("rotated down!");
 			break;
 
 		case DOWN_KEY:
-			var last = gameState[0];
-			for (var i = 0; i < 5; i++) {
-				gameState[i] = gameState[i+1];
-				$("#num_" + i).removeClass(cycle_classes[i]).addClass(cycle_classes[i+1]);
+			var last = gameState[5];	
+			for (var i = 5; i > -1; i--) {
+				gameState[i] = i==0?last:gameState[i-1];
+				Cycle($("#clone_" + i), i, -1);
 			}
-			gameState[5] = last;
-			$("#num_5").removeClass(cycle_classes[5]).addClass(cycle_classes[0]);
 			changes ++;
+			console.log("rotated up!");
 			break;
+
 		default:
 			break;
 	}
@@ -150,6 +156,7 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	ReflectGameState();
+	console.log($('clone_0'));
 }
 
 function ReflectGameState() {
@@ -165,5 +172,14 @@ $(document).ready(function() {
 	// Controls
 	$('html').keydown(function(e) {
 		UpdateGameWithInput(e.which);
+    });
+    // Animation clones
+    $('.clone').on(TRANSITION_END, function (e) {
+    	$('#anim_clones').css('display: none');
+    	// Reset data
+    	var i = parseInt($(this).attr('id').match(/\d+/)[0]);
+    	$(this).html = (gameState[i] > 0)?gameState[i]:"";
+    	// Reset classes
+    	//$(this).removeClass().addClass('clone ' + cycle_classes[i]);
     });
 });
