@@ -23,6 +23,10 @@ var DOWN_KEY = 40;
 var cycle_classes = ["left_hex", "bottomleft_hex", "bottomright_hex", 
 					 "right_hex", "topright_hex", "topleft_hex", 
 					 "center_hex"];
+var anim_classes = ["left_anim", "bottomleft_anim", "bottomright_anim", 
+					 "right_anim", "topright_anim", "topleft_anim", 
+					 "center_anim"];
+
 var gameState = [6, 5, 4, 3, 2, 1, 0];
 var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
@@ -33,22 +37,32 @@ var spawnTrigger = 4;
 function LaunchDance () {
 	$(".hexagon").each(function (index) {
 		if (index < 6)
-			$(this).removeClass("center_hex").addClass(cycle_classes[index]);
+			$(this).removeClass("center_hex").addClass(anim_classes[index]);
 		else
 			console.log("omg extra hexes: " + index);
+		/*
 		$(this).one(TRANSITION_END,
 		    function(e) {
-		    	Cycle($(this), index, 1);
+		    	var newIndex = Cycle(index, 1);
+		    	console.log($(this).attr('class') + " index: " + index + " " + newIndex);
+		    	$(this).removeClass(anim_classes[index]).addClass(anim_classes[newIndex]);
+		    	console.log($(this).attr('class') + " index: " + index + " " + newIndex);
+		    	$(this).one(TRANSITION_END, function (e) {
+					//console.log($(this).attr('class') + " index: " + newIndex);
+		    		$(this).removeClass(anim_classes[newIndex]).addClass(cycle_classes[newIndex]);
+		    	});
 		});
+		*/
 	});
 
 }
 
-function Cycle(element, index, direction) {
-	var newIndex = 	(direction > 0 && index > 4)?0:
+function Cycle(index, direction) {
+	var newIndex = 	index == 6?6:
+					((direction > 0 && index > 4)?0:
 					((direction < 0 && index < 1)?5:
-					(index + direction));
-	element.removeClass(cycle_classes[index]).addClass(cycle_classes[newIndex]);
+					(index + direction)));
+	return newIndex;
 }
 
 function SlideIfPossible(iLHS, iRHS) {
@@ -57,7 +71,7 @@ function SlideIfPossible(iLHS, iRHS) {
 		gameState[iRHS] += gameState[iLHS];
 		gameState[iLHS] = 0;
 		// make a copy. animate it. destroy it.
-		$("#clone_" + iLHS).removeClass(cycle_classes[iLHS]).addClass(cycle_classes[iRHS]);
+		$("#clone_" + iLHS).removeClass().addClass('clone ' + anim_classes[iRHS]);
 		return 1;
 	}
 	return 0;
@@ -77,6 +91,9 @@ var changes = 0;
 function UpdateGameWithInput (keyCode) {
 	var oldState = $.extend([], gameState);
 	var addNewNum = true;
+
+	//$('#anim_clones').css('display', 'block');
+	//$('#game_state').css('display', 'none');
 	switch (keyCode) {
 		case LEFT_KEY: 
 			changes += SlideIfPossible(RIGHTS[1], LEFTS[1]);
@@ -122,23 +139,27 @@ function UpdateGameWithInput (keyCode) {
 			var last = gameState[0];
 			for (var i = 0; i < 6; i++) {
 				gameState[i] = i==5?last:gameState[i+1];
-				Cycle($("#clone_" + i), i, 1);
+				var newIndex = Cycle(i, 1);
+				$("#clone_" + i).removeClass().addClass('clone ' + anim_classes[newIndex]);
 			}
 			changes ++;
-			console.log("rotated down!");
+			console.log("rotated up!");
 			break;
 
 		case DOWN_KEY:
 			var last = gameState[5];	
 			for (var i = 5; i > -1; i--) {
 				gameState[i] = i==0?last:gameState[i-1];
-				Cycle($("#clone_" + i), i, -1);
+				var newIndex = Cycle(i, -1);
+				$("#clone_" + i).removeClass().addClass('clone ' + anim_classes[newIndex]);
 			}
 			changes ++;
-			console.log("rotated up!");
+			console.log("rotated down!");
 			break;
 
 		default:
+			//$('#anim_clones').css('display', 'none');
+			//$('#game_state').css('display', 'block');
 			break;
 	}
 // below we manipulate gamestate based on all the above input
@@ -156,13 +177,27 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	ReflectGameState();
-	console.log($('clone_0'));
+
+    // Animation clones
+    $('.clone').bind(TRANSITION_END, function (e) {
+    	console.log("onendinglyfe");
+    	//$('#anim_clones').css('display', 'none');
+    	//$('#game_state').css('display', 'block');
+    	// Reset data
+    	var i = parseInt($(this).attr('id').match(/\d+/)[0]);
+    	$(this).html = (gameState[i] > 0)?gameState[i]:"";
+    	// Reset classes
+    	$(this).removeClass().addClass('clone ' + cycle_classes[i]);
+    });
+
 }
 
 function ReflectGameState() {
 	for (var i = 0; i < 7; i++) {
 		var inner = (gameState[i] > 0)?gameState[i]:"";
-		//$("#num_" + i).html(inner);		
+		$("#num_" + i).html(inner);
+		$("#clone_" + i).html(inner);
+
 	}
 }
 
@@ -172,14 +207,5 @@ $(document).ready(function() {
 	// Controls
 	$('html').keydown(function(e) {
 		UpdateGameWithInput(e.which);
-    });
-    // Animation clones
-    $('.clone').on(TRANSITION_END, function (e) {
-    	$('#anim_clones').css('display: none');
-    	// Reset data
-    	var i = parseInt($(this).attr('id').match(/\d+/)[0]);
-    	$(this).html = (gameState[i] > 0)?gameState[i]:"";
-    	// Reset classes
-    	//$(this).removeClass().addClass('clone ' + cycle_classes[i]);
     });
 });
