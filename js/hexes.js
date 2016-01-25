@@ -34,7 +34,7 @@ var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
 var CENTER = 6;
 
-var spawnTrigger = 4;
+var spawnTrigger = 1;
 
 function LaunchDance () {
 	var isFadeSet = false;
@@ -43,7 +43,7 @@ function LaunchDance () {
 		if (index < 6)
 			$(this).removeClass('center_hex').addClass(ANIM_CLASSES[index]);
 		else
-			console.log("omg extra hexes: " + index);
+			return;
 		$(this).one(TRANSITION_END, function (e) {
 	    	var newIndex = Cycle(index, 1);
 	    	//console.log($(this).attr('class') + " index: " + index + " " + newIndex);
@@ -91,6 +91,18 @@ function SlideIfPossible(iLHS, iRHS) {
 	return 0;
 }
 
+function IsGameOver() {
+// At this point we know all empties are filled;
+	// If the center is empty, we have hope
+	if (gameState[CENTER] == 0) return false;
+	// If there are two adjacent are equal, we have hope
+	for (var i = 0; i < 6; i++) {
+		if (gameState[i] == gameState[Cycle(i, 1)]) return false;
+		if (gameState[i] == gameState[CENTER]) return false;
+	}
+	return true;
+}
+
 function AddNewItem () {
 	empties = [];
 	for (var i = 0; i < 6; i++) {
@@ -98,21 +110,23 @@ function AddNewItem () {
 			empties.push(i);
 		}
 	}
-	gameState[empties[getRandomInt(0, empties.length)]] = 6;
+	var newItem = Math.max(...gameState) > 192?12:6;
+	if (empties.length < 1) {
+		if (IsGameOver()) console.log("Game Over!");
+	} else gameState[empties[getRandomInt(0, empties.length)]] = newItem;
 }
 
 var changes = 0;
 function UpdateGameWithInput (keyCode) {
 	var oldState = $.extend([], gameState);
-	var addNewNum = true;
 
 	// We don't want to accept input while animating
 	if (animating) return;
-	animating = true;
 	//$('#anim_s').css('display', 'block');
 	//$('#game_state').css('display', 'none');
 	switch (keyCode) {
 		case LEFT_KEY: 
+			animating = true;
 			changes += SlideIfPossible(RIGHTS[1], LEFTS[1]);
 			changes += SlideIfPossible(RIGHTS[2], LEFTS[2]);
 			if (gameState[CENTER] == 0) {
@@ -135,6 +149,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case RIGHT_KEY:
+			animating = true;
 			changes += SlideIfPossible(LEFTS[1], RIGHTS[1]);
 			changes += SlideIfPossible(LEFTS[2], RIGHTS[2]);
 			if (gameState[CENTER] == 0) {
@@ -151,6 +166,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case UP_KEY:
+			animating = true;
 			var last = gameState[5];	
 			for (var i = 5; i > -1; i--) {
 				var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
@@ -162,6 +178,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case DOWN_KEY:
+			animating = true;
 			var last = gameState[0];
 			for (var i = 0; i < 6; i++) {
 				var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
@@ -174,22 +191,20 @@ function UpdateGameWithInput (keyCode) {
 
 		default:
 			animating = false;
-			//$('#anim_s').css('display', 'none');
-			//$('#game_state').css('display', 'block');
 			break;
 	}
-// below we manipulate gamestate based on all the above input
-	addNewNum = changes > spawnTrigger;
-	if (addNewNum) {
+
+	if (changes == 0) animating = false;
+	if (changes > spawnTrigger) {
 		changes = 0;
 		AddNewItem();
 	}
 
-	switch (Math.max(gameState)) {
-		case 0: spawnTrigger = -1; break;
-		case 6: spawnTrigger = 0; break;
-		case 96: spawnTrigger = 1; break;
-		case 768: spawnTrigger = 2; break;
+	switch (Math.max(...gameState)) {
+		case 96: spawnTrigger = 2; console.log("trigger up"); break;
+		case 192: spawnTrigger = 2; console.log("trigger up"); break;
+		case 384: spawnTrigger = 3; console.log("trigger up"); break;
+		default: console.log("MAX: " + Math.max(...gameState));
 	}
 }
 

@@ -30,7 +30,7 @@ h1 {
   transition: opacity .4s;
 }
 
-/* Hexagon class */
+/* inner gameplay hexagon class */
 .hexagon_inner {
   position: absolute;
   z-index: 2;
@@ -70,7 +70,7 @@ h1 {
   text-align: center;
 }
 
-/* Border_hexagon class */
+/* bordered hexagon class */
 .hexagon {
   position: absolute;
   width: 150px; 
