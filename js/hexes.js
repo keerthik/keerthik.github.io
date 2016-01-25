@@ -27,14 +27,13 @@ var ANIM_CLASSES = ["left_anim", "bottomleft_anim", "bottomright_anim",
 					 "right_anim", "topright_anim", "topleft_anim", 
 					 "center_anim"];
 var POP_CLASS = "pop_anim";
-
-var animating = false;
-var gameState = [6, 0, 0, 6, 0, 0, 0];
 var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
 var CENTER = 6;
 
-var spawnTrigger = 1;
+var animating = false;
+var gameState = [6, 0, 0, 6, 0, 0, 0];
+var score = 0;
 
 function LaunchDance () {
 	var isFadeSet = false;
@@ -77,15 +76,34 @@ function Cycle(index, direction) {
 	return newIndex;
 }
 
+function GetTileClass(index) {
+	var colorTier = 't1 ';
+	switch (gameState[index]) {
+		case 12: colorTier = 't2 '; break;
+		case 24: colorTier = 't3 '; break;
+		case 48: colorTier = 't4 '; break;
+		case 96: colorTier = 't5 '; break;
+		case 192: colorTier = 't6 '; break;
+		case 384: colorTier = 't7 '; break;
+		case 768: colorTier = 't8 '; break;
+		default: colorTier = 't1 ';
+	}
+	var base_class = 'numbox ' + ((gameState[index] > 0)?'hexagon_inner ':"");
+	return base_class + colorTier;
+}
+
 function SlideIfPossible(iLHS, iRHS) {
 	if (gameState[iLHS] != 0 && 
 	       (gameState[iLHS] == gameState[iRHS] || gameState[iRHS] == 0)) {
-		var base_class = 'numbox ' + ((gameState[iRHS] > 0)?'hexagon_inner ':"");
+		var rhsClass = GetTileClass(iRHS);
+		var lhsClass = GetTileClass(iLHS);
 		gameState[iRHS] += gameState[iLHS];
+		// Modify score for successful merge
+		if (gameState[iRHS] != gameState[iLHS]) score += gameState[iRHS];
 		gameState[iLHS] = 0;
-		// make a copy. animate it. destroy it.
-		$("#num_" + iLHS).removeClass().addClass('numbox hexagon_inner ' + ANIM_CLASSES[iRHS]);
-		$("#num_" + iRHS).addClass(base_class + POP_CLASS);
+		
+		$("#num_" + iLHS).removeClass().addClass(lhsClass + ANIM_CLASSES[iRHS]);
+		$("#num_" + iRHS).addClass(rhsClass + POP_CLASS);
 		return 1;
 	}
 	return 0;
@@ -169,7 +187,7 @@ function UpdateGameWithInput (keyCode) {
 			animating = true;
 			var last = gameState[5];	
 			for (var i = 5; i > -1; i--) {
-				var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
+				var base_class = GetTileClass(i);
 				gameState[i] = i==0?last:gameState[i-1];
 				var newIndex = Cycle(i, 1);
 				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
@@ -181,7 +199,7 @@ function UpdateGameWithInput (keyCode) {
 			animating = true;
 			var last = gameState[0];
 			for (var i = 0; i < 6; i++) {
-				var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
+				var base_class = GetTileClass(i);
 				gameState[i] = i==5?last:gameState[i+1];
 				var newIndex = Cycle(i, -1);
 				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
@@ -195,25 +213,25 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	if (changes == 0) animating = false;
-	if (changes > spawnTrigger) {
-		changes = 0;
-		AddNewItem();
-	}
-
+	var spawnTrigger = 1;
 	switch (Math.max(...gameState)) {
 		case 96: spawnTrigger = 2; console.log("trigger up"); break;
 		case 192: spawnTrigger = 2; console.log("trigger up"); break;
 		case 384: spawnTrigger = 3; console.log("trigger up"); break;
 		default: console.log("MAX: " + Math.max(...gameState));
 	}
+	if (changes > spawnTrigger) {
+		changes = 0;
+		AddNewItem();
+	}
+
 }
 
 function ReflectGameState() {
 	for (var i = 0; i < 7; i++) {
 		var inner = (gameState[i] > 0)?gameState[i]:"";
 		$("#num_" + i).find('p').html(inner);
-		var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
-    	$("#num_" + i).removeClass().addClass(base_class + STATIC_CLASSES[i]);
+    	$("#num_" + i).removeClass().addClass(GetTileClass(i) + STATIC_CLASSES[i]);
 	}
 }
 
@@ -233,8 +251,9 @@ $(document).ready(function() {
     	var inner = (gameState[i] > 0)?gameState[i]:"";
     	$(this).find('p').html(inner);
     	// Reset classes
-    	var base_class = 'numbox ' + ((gameState[i] > 0)?'hexagon_inner ':"");
-    	$(this).removeClass().addClass(base_class + STATIC_CLASSES[i]);
+    	$(this).removeClass().addClass(GetTileClass(i) + STATIC_CLASSES[i]);
+    	console.log("resetting " + i + " to: " + GetTileClass(i) + STATIC_CLASSES[i] + " for " + gameState[i]);
+    	console.log(gameState);
     	animating = false;
     });
 });

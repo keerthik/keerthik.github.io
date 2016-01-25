@@ -22,7 +22,6 @@ h1 {
 }
 
 .numbox {
-
 }
 
 .ready {
@@ -32,11 +31,12 @@ h1 {
 
 /* inner gameplay hexagon class */
 .hexagon_inner {
+  display: block;
   position: absolute;
   z-index: 2;
   width: 150.5px; 
   height: 77px;
-  background-color: #e9dca7;
+  background-color: #eee4da;
   margin: 48px 9.25px;
 
 }
@@ -53,13 +53,13 @@ h1 {
 
 .hexagon_inner:before {
   bottom: 100%;
-  border-bottom: 43.41px solid #e9dca7;
+  border-bottom: 43.41px solid #eee4da;
 }
 
 .hexagon_inner:after {
   top: 100%;
   width: 0;
-  border-top: 43.41px solid #e9dca7;
+  border-top: 43.41px solid #eee4da;
 }
 
 .hexagon_inner p {
@@ -68,6 +68,107 @@ h1 {
   font-size: 26px;
   width: 100%;
   text-align: center;
+}
+
+
+
+  .tile.tile-128 .tile-inner {
+    color: #f9f6f2;
+    background: #edcf72;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-256 .tile-inner {
+    color: #f9f6f2;
+    background: #edcc61;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-256 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-512 .tile-inner {
+    color: #f9f6f2;
+    background: #edc850;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-512 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-1024 .tile-inner {
+    color: #f9f6f2;
+    background: #edc53f;
+}
+
+/* Colors for score level */
+.t2 {
+  background-color: #ede0c8;
+}
+
+.t2:before, .t2:after {
+  border-top-color: #ede0c8;
+  border-bottom-color: #ede0c8;
+}
+
+.t3 {
+  color: #f9f6f2;
+  background-color: #f2b179;
+}
+
+.t3:before, .t3:after {
+  border-top-color: #f2b179;
+  border-bottom-color: #f2b179;
+}
+
+.t4 {
+  color: #f9f6f2;
+  background-color: #f59563;
+}
+
+.t4:before, .t4:after {
+  border-top-color: #f59563;
+  border-bottom-color: #f59563;
+}
+
+.t5 {
+  color: #f9f6f2;
+  background-color: #f67c5f;
+}
+
+.t5:before, .t5:after {
+  border-top-color: #f67c5f;
+  border-bottom-color: #f67c5f;
+}
+
+.t6 {
+  color: #f9f6f2;
+  background-color: #f65e3b;
+}
+
+.t6:before, .t6:after {
+  border-top-color: #f65e3b;
+  border-bottom-color: #f65e3b;
+}
+
+.t7 {
+  color: #f9f6f2;
+  background-color: #edcf72;
+}
+
+.t7:before, .t7:after {
+  border-top-color: #edcf72;
+  border-bottom-color: #edcf72;
+}
+
+.t8 {
+  color: #f9f6f2;
+  background-color: #edcc61;
+}
+
+.t8:before, .t8:after {
+  border-top-color: #edcc61;
+  border-bottom-color: #edcc61;
 }
 
 /* bordered hexagon class */
@@ -106,7 +207,6 @@ h1 {
   border-bottom: solid 14px #333333;
   border-left: solid 14px #333333;
 }
-
 
 /* positions */
 .left_hex {
