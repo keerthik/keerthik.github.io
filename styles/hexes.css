@@ -161,9 +161,10 @@ h1 {
 }
 
 /* animation positions */
-.pop_anim {
+.pop_anim p {
+  z-index: 3;
   font-size: 35px;
-  transition: font-size .4s;
+  transition: font-size .2s, background-color .4s;
 }
 
 .left_anim {

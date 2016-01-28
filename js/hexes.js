@@ -256,8 +256,6 @@ $(document).ready(function() {
     	$(this).find('p').html(inner);
     	// Reset classes
     	$(this).removeClass().addClass(GetTileClass(i) + STATIC_CLASSES[i]);
-    	console.log("resetting " + i + " to: " + GetTileClass(i) + STATIC_CLASSES[i] + " for " + gameState[i]);
-    	console.log(gameState);
     	animating = false;
     });
 });
