@@ -138,6 +138,7 @@ var changes = 0;
 function UpdateGameWithInput (keyCode) {
 	var oldState = $.extend([], gameState);
 
+	var theseChanges = 0;
 	// We don't want to accept input while animating
 	if (animating) return;
 	//$('#anim_s').css('display', 'block');
@@ -145,17 +146,17 @@ function UpdateGameWithInput (keyCode) {
 	switch (keyCode) {
 		case LEFT_KEY: 
 			animating = true;
-			changes += SlideIfPossible(RIGHTS[1], LEFTS[1]);
-			changes += SlideIfPossible(RIGHTS[2], LEFTS[2]);
+			theseChanges += SlideIfPossible(RIGHTS[1], LEFTS[1]);
+			theseChanges += SlideIfPossible(RIGHTS[2], LEFTS[2]);
 			if (gameState[CENTER] == 0) {
-				changes += SlideIfPossible(RIGHTS[0], LEFTS[0]);
-				changes += SlideIfPossible(RIGHTS[0], CENTER);
+				theseChanges += SlideIfPossible(RIGHTS[0], LEFTS[0]);
+				theseChanges += SlideIfPossible(RIGHTS[0], CENTER);
 			} else {
-				changes += SlideIfPossible(CENTER, LEFTS[0]);					
+				theseChanges += SlideIfPossible(CENTER, LEFTS[0]);					
 				if (gameState[CENTER] == 0) {
-					changes += SlideIfPossible(RIGHTS[0], LEFTS[0]);
+					theseChanges += SlideIfPossible(RIGHTS[0], LEFTS[0]);
 				} else {
-					changes += SlideIfPossible(RIGHTS[0], CENTER);
+					theseChanges += SlideIfPossible(RIGHTS[0], CENTER);
 				}
 			}
 /*
@@ -168,17 +169,17 @@ function UpdateGameWithInput (keyCode) {
 
 		case RIGHT_KEY:
 			animating = true;
-			changes += SlideIfPossible(LEFTS[1], RIGHTS[1]);
-			changes += SlideIfPossible(LEFTS[2], RIGHTS[2]);
+			theseChanges += SlideIfPossible(LEFTS[1], RIGHTS[1]);
+			theseChanges += SlideIfPossible(LEFTS[2], RIGHTS[2]);
 			if (gameState[CENTER] == 0) {
-				changes += SlideIfPossible(LEFTS[0], RIGHTS[0]);
-				changes += SlideIfPossible(LEFTS[0], CENTER);
+				theseChanges += SlideIfPossible(LEFTS[0], RIGHTS[0]);
+				theseChanges += SlideIfPossible(LEFTS[0], CENTER);
 			} else {
-				changes += SlideIfPossible(CENTER, RIGHTS[0]);					
+				theseChanges += SlideIfPossible(CENTER, RIGHTS[0]);					
 				if (gameState[CENTER] == 0) {
-					changes += SlideIfPossible(LEFTS[0], RIGHTS[0]);
+					theseChanges += SlideIfPossible(LEFTS[0], RIGHTS[0]);
 				} else {
-					changes += SlideIfPossible(LEFTS[0], CENTER);
+					theseChanges += SlideIfPossible(LEFTS[0], CENTER);
 				}
 			}
 			break;
@@ -192,7 +193,7 @@ function UpdateGameWithInput (keyCode) {
 				var newIndex = Cycle(i, 1);
 				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
 			}
-			changes ++;
+			theseChanges ++;
 			break;
 
 		case DOWN_KEY:
@@ -204,7 +205,7 @@ function UpdateGameWithInput (keyCode) {
 				var newIndex = Cycle(i, -1);
 				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
 			}
-			changes ++;
+			theseChanges ++;
 			break;
 
 		default:
@@ -212,7 +213,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 	}
 
-	if (changes == 0) animating = false;
+	if (theseChanges == 0) animating = false;
 	var spawnTrigger = 1;
 	switch (Math.max(...gameState)) {
 		case 96: spawnTrigger = 2; console.log("trigger up"); break;
@@ -220,11 +221,14 @@ function UpdateGameWithInput (keyCode) {
 		case 384: spawnTrigger = 3; console.log("trigger up"); break;
 		default: console.log("MAX: " + Math.max(...gameState));
 	}
+
+	changes += theseChanges;
 	if (changes > spawnTrigger) {
 		changes = 0;
 		AddNewItem();
 	}
 
+	$('#score').html(score);
 }
 
 function ReflectGameState() {
