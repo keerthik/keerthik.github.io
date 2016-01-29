@@ -7,98 +7,307 @@ h1 {
   font-size: 48px;
 }
 
+#score {
+  color: #efeefe;
+  text-align: center;
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #efeefe;
+  border-radius: 10px;
+  background-color: #cccdc2;
+  padding-top: 10px;
+  margin: 70px auto;
+}
+
 #play_area {
   position: relative;
-  margin: 0 auto;
+  left: -10px;
+  margin: 0px auto;
   width: 570px;
   height: 800px;
 }
 
 #game_state {
-  display: none;
 }
 
+.initial {
+  opacity: 0.1;
+}
 
-/* Number container*/
-.numbox, .clone {
-  font-size: 26px;
-  text-align: center;
+.numbox {
+  height: 0px;
+  width: 0px;
+}
+
+.ready {
+  opacity: 1;
+  transition: opacity .4s;
+}
+
+/* inner gameplay hexagon class */
+.hexagon_inner {
+  display: block;
   position: absolute;
-  margin: 70px 60px;
-  border: red 2px;
-  width: 20px;
-  height: 20px;
+  z-index: 2;
+  width: 150.5px; 
+  height: 77px;
+  background-color: #eee4da;
+  margin: 48px 9.25px;
+  opacity: 1;
+  transition: opacity .4s;
 }
 
-/* Hexagon class */
+.hexagon_inner:before,
+.hexagon_inner:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon_inner:before {
+  bottom: 100%;
+  border-bottom: 43.41px solid #eee4da;
+}
+
+.hexagon_inner:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.41px solid #eee4da;
+}
+
+.hexagon_inner p {
+  position: absolute;
+  display: block;
+  font-size: 26px;
+  width: 100%;
+  text-align: center;
+}
+
+/* bordered hexagon class */
 .hexagon {
   position: absolute;
   width: 150px; 
   height: 86.60px;
-  background-color: #64C7CC;
+  background-color: #cccdc2;
   margin: 43.30px 0;
-  z-index: -1;
+  border-left: solid 10px #333333;
+  border-right: solid 10px #333333;
 }
 
 .hexagon:before,
 .hexagon:after {
   content: "";
   position: absolute;
-  width: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  z-index: 0;
+  width: 106.07px;
+  height: 106.07px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 14.55px;
 }
 
 .hexagon:before {
-  bottom: 100%;
-  border-bottom: 43.30px solid #64C7CC;
+  top: -60.0330px;
+  border-top: solid 14px #333333;
+  border-right: solid 14px #333333;
 }
 
 .hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 43.30px solid #64C7CC;
+  bottom: -60.0330px;
+  border-bottom: solid 14px #333333;
+  border-left: solid 14px #333333;
 }
 
-/* positions */
+/* static positions */
 .left_hex {
-  top: 136px;
+  top: 128px;
   left: 50px;
-  transition: left .5s, top .5s;
 }
 
 .topleft_hex {
   top: 0px;
-  left: 126.6px;
-  transition: left .5s, top .5s;
+  left: 130px;
 }
 
 .topright_hex {
   top: 0px;
-  left: 286px;
-  transition: left .5s, top .5s;
+  left: 290px;
 }
 
 .right_hex {
-  top: 136px;
-  left: 365px;
-  transition: left .5s, top .5s;
+  top: 128px;
+  left: 370px;
 }
 
 .bottomleft_hex {
-  top: 272px;
-  left: 126.6px;
-  transition: left .5s, top .5s;
+  top: 256px;
+  left: 130px;
 }
 
 .bottomright_hex {
-  top: 272px;
-  left: 286px;
-  transition: left .5s, top .5s;
+  top: 256px;
+  left: 290px;
 }
 
 .center_hex {
-  top: 136px;
-  left: 206.6px;
-  transition: left .5s, top .5s;
+  top: 128px;
+  left: 210px;
+}
+
+/* animation positions */
+.pop_anim p {
+  z-index: 3;
+  font-size: 35px;
+  transition: font-size .2s, background-color .4s;
+}
+
+.left_anim {
+  top: 128px;
+  left: 50px;
+  transition: left .4s, top .4s;
+}
+
+.topleft_anim {
+  top: 0px;
+  left: 130px;
+  transition: left .4s, top .4s;
+}
+
+.topright_anim {
+  top: 0px;
+  left: 290px;
+  transition: left .4s, top .4s;
+}
+
+.right_anim {
+  top: 128px;
+  left: 370px;
+  transition: left .4s, top .4s;
+}
+
+.bottomleft_anim {
+  top: 256px;
+  left: 130px;
+  transition: left .4s, top .4s;
+}
+
+.bottomright_anim {
+  top: 256px;
+  left: 290px;
+  transition: left .4s, top .4s;
+}
+
+.center_anim {
+  top: 128px;
+  left: 210px;
+  transition: left .4s, top .4s;
+}
+
+
+/* 2048 colors
+
+  .tile.tile-128 .tile-inner {
+    color: #f9f6f2;
+    background: #edcf72;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-256 .tile-inner {
+    color: #f9f6f2;
+    background: #edcc61;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-256 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-512 .tile-inner {
+    color: #f9f6f2;
+    background: #edc850;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 45px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-512 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-1024 .tile-inner {
+    color: #f9f6f2;
+    background: #edc53f;
+}
+*/
+
+/* Colors for score level */
+.t2 {
+  background-color: #ede0c8;
+}
+
+.t2:before, .t2:after {
+  border-top-color: #ede0c8;
+  border-bottom-color: #ede0c8;
+}
+
+.t3 {
+  color: #f9f6f2;
+  background-color: #f2b179;
+}
+
+.t3:before, .t3:after {
+  border-top-color: #f2b179;
+  border-bottom-color: #f2b179;
+}
+
+.t4 {
+  color: #f9f6f2;
+  background-color: #f59563;
+}
+
+.t4:before, .t4:after {
+  border-top-color: #f59563;
+  border-bottom-color: #f59563;
+}
+
+.t5 {
+  color: #f9f6f2;
+  background-color: #f67c5f;
+}
+
+.t5:before, .t5:after {
+  border-top-color: #f67c5f;
+  border-bottom-color: #f67c5f;
+}
+
+.t6 {
+  color: #f9f6f2;
+  background-color: #f65e3b;
+}
+
+.t6:before, .t6:after {
+  border-top-color: #f65e3b;
+  border-bottom-color: #f65e3b;
+}
+
+.t7 {
+  color: #f9f6f2;
+  background-color: #edcf72;
+}
+
+.t7:before, .t7:after {
+  border-top-color: #edcf72;
+  border-bottom-color: #edcf72;
+}
+
+.t8 {
+  color: #f9f6f2;
+  background-color: #edcc61;
+}
+
+.t8:before, .t8:after {
+  border-top-color: #edcc61;
+  border-bottom-color: #edcc61;
 }

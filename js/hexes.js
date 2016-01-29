@@ -20,47 +20,105 @@ var RIGHT_KEY = 39;
 var UP_KEY = 38;
 var DOWN_KEY = 40;
 
-var cycle_classes = ["left_hex", "bottomleft_hex", "bottomright_hex", 
+var STATIC_CLASSES = ["left_hex", "bottomleft_hex", "bottomright_hex", 
 					 "right_hex", "topright_hex", "topleft_hex", 
 					 "center_hex"];
-var gameState = [6, 5, 4, 3, 2, 1, 0];
+var ANIM_CLASSES = ["left_anim", "bottomleft_anim", "bottomright_anim", 
+					 "right_anim", "topright_anim", "topleft_anim", 
+					 "center_anim"];
+var POP_CLASS = "pop_anim";
 var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
 var CENTER = 6;
 
-var spawnTrigger = 4;
+var animating = false;
+var gameState = [6, 0, 0, 6, 0, 0, 0];
+var score = 0;
 
 function LaunchDance () {
-	$(".hexagon").each(function (index) {
+	var isFadeSet = false;
+	animating = true;
+	$('.hexagon.center_hex').each(function (index) {
 		if (index < 6)
-			$(this).removeClass("center_hex").addClass(cycle_classes[index]);
+			$(this).removeClass('center_hex').addClass(ANIM_CLASSES[index]);
 		else
-			console.log("omg extra hexes: " + index);
-		$(this).one(TRANSITION_END,
-		    function(e) {
-		    	Cycle($(this), index, 1);
+			return;
+		$(this).one(TRANSITION_END, function (e) {
+	    	var newIndex = Cycle(index, 1);
+	    	//console.log($(this).attr('class') + " index: " + index + " " + newIndex);
+	    	$(this).removeClass(ANIM_CLASSES[index]).addClass(ANIM_CLASSES[newIndex]);
+	    	//console.log($(this).attr('class') + " index: " + index + " " + newIndex);
+	    	/*
+	    	$(this).one(TRANSITION_END, function (e) {
+				//console.log($(this).attr('class') + " index: " + newIndex);
+	    		$(this).removeClass(ANIM_CLASSES[newIndex]).addClass(STATIC_CLASSES[newIndex]);
+	    	});
+			*/
+			if (isFadeSet) return;
+			isFadeSet = true;
+			$(this).one(TRANSITION_END, function (e) {
+				$('#static').removeClass('initial').addClass('ready');
+				$('#static').one(TRANSITION_END, function (e) {
+					$('#game_state').removeClass('initial').addClass('ready');
+					ReflectGameState();
+					animating = false;
+				});
+			});
 		});
 	});
-
 }
 
-function Cycle(element, index, direction) {
-	var newIndex = 	(direction > 0 && index > 4)?0:
+function Cycle(index, direction) {
+	var newIndex = 	index == 6?6:
+					((direction > 0 && index > 4)?0:
 					((direction < 0 && index < 1)?5:
-					(index + direction));
-	element.removeClass(cycle_classes[index]).addClass(cycle_classes[newIndex]);
+					(index + direction)));
+	return newIndex;
+}
+
+function GetTileClass(index) {
+	var colorTier = 't1 ';
+	switch (gameState[index]) {
+		case 12: colorTier = 't2 '; break;
+		case 24: colorTier = 't3 '; break;
+		case 48: colorTier = 't4 '; break;
+		case 96: colorTier = 't5 '; break;
+		case 192: colorTier = 't6 '; break;
+		case 384: colorTier = 't7 '; break;
+		case 768: colorTier = 't8 '; break;
+		default: colorTier = 't1 ';
+	}
+	var base_class = 'numbox ' + ((gameState[index] > 0)?'hexagon_inner ':"");
+	return base_class + colorTier;
 }
 
 function SlideIfPossible(iLHS, iRHS) {
 	if (gameState[iLHS] != 0 && 
 	       (gameState[iLHS] == gameState[iRHS] || gameState[iRHS] == 0)) {
+		var rhsClass = GetTileClass(iRHS);
+		var lhsClass = GetTileClass(iLHS);
 		gameState[iRHS] += gameState[iLHS];
+		// Modify score for successful merge
+		if (gameState[iRHS] != gameState[iLHS]) score += gameState[iRHS];
 		gameState[iLHS] = 0;
-		// make a copy. animate it. destroy it.
-		$("#clone_" + iLHS).removeClass(cycle_classes[iLHS]).addClass(cycle_classes[iRHS]);
+		
+		$("#num_" + iLHS).removeClass().addClass(lhsClass + ANIM_CLASSES[iRHS]);
+		$("#num_" + iRHS).addClass(rhsClass + POP_CLASS);
 		return 1;
 	}
 	return 0;
+}
+
+function IsGameOver() {
+// At this point we know all empties are filled;
+	// If the center is empty, we have hope
+	if (gameState[CENTER] == 0) return false;
+	// If there are two adjacent are equal, we have hope
+	for (var i = 0; i < 6; i++) {
+		if (gameState[i] == gameState[Cycle(i, 1)]) return false;
+		if (gameState[i] == gameState[CENTER]) return false;
+	}
+	return true;
 }
 
 function AddNewItem () {
@@ -70,99 +128,114 @@ function AddNewItem () {
 			empties.push(i);
 		}
 	}
-	gameState[empties[getRandomInt(0, empties.length)]] = 6;
+	var newItem = Math.max(...gameState) > 192?12:6;
+	if (empties.length < 1) {
+		if (IsGameOver()) console.log("Game Over!");
+	} else gameState[empties[getRandomInt(0, empties.length)]] = newItem;
 }
 
 var changes = 0;
 function UpdateGameWithInput (keyCode) {
 	var oldState = $.extend([], gameState);
-	var addNewNum = true;
+
+	var theseChanges = 0;
+	// We don't want to accept input while animating
+	if (animating) return;
+	//$('#anim_s').css('display', 'block');
+	//$('#game_state').css('display', 'none');
 	switch (keyCode) {
 		case LEFT_KEY: 
-			changes += SlideIfPossible(RIGHTS[1], LEFTS[1]);
-			changes += SlideIfPossible(RIGHTS[2], LEFTS[2]);
+			animating = true;
+			theseChanges += SlideIfPossible(RIGHTS[1], LEFTS[1]);
+			theseChanges += SlideIfPossible(RIGHTS[2], LEFTS[2]);
 			if (gameState[CENTER] == 0) {
-				changes += SlideIfPossible(RIGHTS[0], LEFTS[0]);
-				changes += SlideIfPossible(RIGHTS[0], CENTER);
+				theseChanges += SlideIfPossible(RIGHTS[0], LEFTS[0]);
+				theseChanges += SlideIfPossible(RIGHTS[0], CENTER);
 			} else {
-				changes += SlideIfPossible(CENTER, LEFTS[0]);					
+				theseChanges += SlideIfPossible(CENTER, LEFTS[0]);					
 				if (gameState[CENTER] == 0) {
-					changes += SlideIfPossible(RIGHTS[0], LEFTS[0]);
+					theseChanges += SlideIfPossible(RIGHTS[0], LEFTS[0]);
 				} else {
-					changes += SlideIfPossible(RIGHTS[0], CENTER);
+					theseChanges += SlideIfPossible(RIGHTS[0], CENTER);
 				}
 			}
 /*
-			$(".numbox.center_hex").removeClass("center_hex").addClass("left_hex");
-			$(".numbox.right_hex").addClass("center_hex");
-			$(".numbox.topright_hex").removeClass("topright_hex").addClass("topleft_hex");
-			$(".numbox.bottomright_hex").removeClass("bottomright_hex").addClass("bottomleft_hex");
+			$("..center_hex").removeClass("center_hex").addClass("left_hex");
+			$("..right_hex").addClass("center_hex");
+			$("..topright_hex").removeClass("topright_hex").addClass("topleft_hex");
+			$("..bottomright_hex").removeClass("bottomright_hex").addClass("bottomleft_hex");
 */			
-			console.log("slid left!");
 			break;
 
 		case RIGHT_KEY:
-			changes += SlideIfPossible(LEFTS[1], RIGHTS[1]);
-			changes += SlideIfPossible(LEFTS[2], RIGHTS[2]);
+			animating = true;
+			theseChanges += SlideIfPossible(LEFTS[1], RIGHTS[1]);
+			theseChanges += SlideIfPossible(LEFTS[2], RIGHTS[2]);
 			if (gameState[CENTER] == 0) {
-				changes += SlideIfPossible(LEFTS[0], RIGHTS[0]);
-				changes += SlideIfPossible(LEFTS[0], CENTER);
+				theseChanges += SlideIfPossible(LEFTS[0], RIGHTS[0]);
+				theseChanges += SlideIfPossible(LEFTS[0], CENTER);
 			} else {
-				changes += SlideIfPossible(CENTER, RIGHTS[0]);					
+				theseChanges += SlideIfPossible(CENTER, RIGHTS[0]);					
 				if (gameState[CENTER] == 0) {
-					changes += SlideIfPossible(LEFTS[0], RIGHTS[0]);
+					theseChanges += SlideIfPossible(LEFTS[0], RIGHTS[0]);
 				} else {
-					changes += SlideIfPossible(LEFTS[0], CENTER);
+					theseChanges += SlideIfPossible(LEFTS[0], CENTER);
 				}
 			}
-			console.log("slid right!");
 			break;
 
 		case UP_KEY:
-			var last = gameState[0];
-			for (var i = 0; i < 6; i++) {
-				gameState[i] = i==5?last:gameState[i+1];
-				Cycle($("#clone_" + i), i, 1);
+			animating = true;
+			var last = gameState[5];	
+			for (var i = 5; i > -1; i--) {
+				var base_class = GetTileClass(i);
+				gameState[i] = i==0?last:gameState[i-1];
+				var newIndex = Cycle(i, 1);
+				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
 			}
-			changes ++;
-			console.log("rotated down!");
+			theseChanges ++;
 			break;
 
 		case DOWN_KEY:
-			var last = gameState[5];	
-			for (var i = 5; i > -1; i--) {
-				gameState[i] = i==0?last:gameState[i-1];
-				Cycle($("#clone_" + i), i, -1);
+			animating = true;
+			var last = gameState[0];
+			for (var i = 0; i < 6; i++) {
+				var base_class = GetTileClass(i);
+				gameState[i] = i==5?last:gameState[i+1];
+				var newIndex = Cycle(i, -1);
+				$("#num_" + i).removeClass().addClass(base_class + ANIM_CLASSES[newIndex]);
 			}
-			changes ++;
-			console.log("rotated up!");
+			theseChanges ++;
 			break;
 
 		default:
+			animating = false;
 			break;
 	}
-// below we manipulate gamestate based on all the above input
-	addNewNum = changes > spawnTrigger;
-	if (addNewNum) {
+
+	if (theseChanges == 0) animating = false;
+	var spawnTrigger = 1;
+	switch (Math.max(...gameState)) {
+		case 96: spawnTrigger = 2; console.log("trigger up"); break;
+		case 192: spawnTrigger = 2; console.log("trigger up"); break;
+		case 384: spawnTrigger = 3; console.log("trigger up"); break;
+		default: console.log("MAX: " + Math.max(...gameState));
+	}
+
+	changes += theseChanges;
+	if (changes > spawnTrigger) {
 		changes = 0;
 		AddNewItem();
 	}
 
-	switch (Math.max(gameState)) {
-		case 0: spawnTrigger = -1; break;
-		case 6: spawnTrigger = 0; break;
-		case 96: spawnTrigger = 1; break;
-		case 768: spawnTrigger = 2; break;
-	}
-
-	ReflectGameState();
-	console.log($('clone_0'));
+	$('#score').html(score);
 }
 
 function ReflectGameState() {
 	for (var i = 0; i < 7; i++) {
 		var inner = (gameState[i] > 0)?gameState[i]:"";
-		//$("#num_" + i).html(inner);		
+		$("#num_" + i).find('p').html(inner);
+    	$("#num_" + i).removeClass().addClass(GetTileClass(i) + STATIC_CLASSES[i]);
 	}
 }
 
@@ -173,13 +246,16 @@ $(document).ready(function() {
 	$('html').keydown(function(e) {
 		UpdateGameWithInput(e.which);
     });
-    // Animation clones
-    $('.clone').on(TRANSITION_END, function (e) {
-    	$('#anim_clones').css('display', 'none');
+    // Animation s
+    $('.numbox').bind(TRANSITION_END, function (e) {
+    	//$('#anim_s').css('display', 'none');
+    	//$('#game_state').css('display', 'block');
     	// Reset data
     	var i = parseInt($(this).attr('id').match(/\d+/)[0]);
-    	$(this).html = (gameState[i] > 0)?gameState[i]:"";
+    	var inner = (gameState[i] > 0)?gameState[i]:"";
+    	$(this).find('p').html(inner);
     	// Reset classes
-    	//$(this).removeClass().addClass('clone ' + cycle_classes[i]);
+    	$(this).removeClass().addClass(GetTileClass(i) + STATIC_CLASSES[i]);
+    	animating = false;
     });
 });
