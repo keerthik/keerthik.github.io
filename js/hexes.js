@@ -175,7 +175,7 @@ $(document).ready(function() {
     });
     // Animation clones
     $('.clone').on(TRANSITION_END, function (e) {
-    	$('#anim_clones').css('display: none');
+    	$('#anim_clones').css('display', 'none');
     	// Reset data
     	var i = parseInt($(this).attr('id').match(/\d+/)[0]);
     	$(this).html = (gameState[i] > 0)?gameState[i]:"";
