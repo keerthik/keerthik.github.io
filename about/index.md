@@ -1,0 +1,69 @@
+---
+layout: page
+title: about
+headtouse: aboutheadcontent.html
+---
+# keerthik: fun-lover, entreprenuer, lifehacker
+
+I develop software where needed, but am mostly figuring out how to evoke a sense of enjoyment through things I make. I care about games, learning, and creation.
+
+### Tools You Can Use
+
+* I have lived out of {{ site.abnb }} since 2013
+* I use {{ site.db }} for creative logistics management
+* I use {{ site.az }} for tangible logistics management
+
+
+### Geography
+I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area.
+I have been a digital nomad [December 2013 - current]("https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM") -- I live out of [airbnb]("http://www.airbnb.com/c/komanakuttan?s=8") listings around the world and code.
+
+<h3>Contact</h3>
+<p> I am best reached by email. Contact me at <br>
+[my first name][at]bitgym[dot]com
+
+<h3>Activity</h3>
+<ul>
+	<li>{{ site.bg }} - cofounder, android, experience design</li>
+	<li>{{ site.zk }} - cofounder</li>
+	<li>{{ site.ds }} - creator</li>
+	<li>this site - all the things</li>
+</ul>
+
+<h3>Find me on</h3>
+<!--Instagram-->
+<style>.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-32 { width: 32px; height: 32px; background: url(/resources/images/instagram_circle.png) no-repeat 0 0; background-size:100%;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 { background-image: url(/resources/images/instagram_circle.png);  background-size:100%} }</style>
+<a href="http://instagram.com/nomadkorc?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
+
+<!--Twitter-->
+<a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<a href="https://www.quora.com/Keerthik-Omanakuttan">Quora</a>
+<h2>This site</h2>
+<p>
+	This site primarily hosts my <a href="/portfolio">portfolio</a> and <a href="/essays">writing</a>. I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
+</p>
+<h3>Built Using</h3>
+<ul>
+	<li>[hosting] Github pages [<a href="http://pages.github.com">link</a>]</li>
+	<li>[code] Markdown, HTML, CSS Repo: [<a href="https://github.com/keerthik/korcgames">link</a>]</li>
+	<li>[content] Jekyll for static site generation [<a href="http://jekyllrb.com/">link</a>]</li>
+	<li>[editor] Sublime Text 3 [<a href="http://www.sublimetext.com/">link</a>]</li>
+	<li>[analytics] Google analytics [<a href="http://www.google.com/analytics/">link</a>]</li>
+	<li>[font] FiraSans for body [<a href="http://dev.carrois.com/fira-3-1/">link</a>]</li>
+	<li>[font] Monaco for code [<a href="https://github.com/todylu/monaco.ttf/">link</a>]</li>
+	<li>[OS] Mac OS X 10.9.x: It's ok, you don't want it</li>
+</ul>
+<h3>History</h3>
+<p>
+	The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> is my weapon of choice, and I happily vouch for it.
+</p>
+<p>
+	I started working on this in Thailand, on April 22nd 2014. <br>There was a <a href="http://en.wikipedia.org/wiki/2014_Thai_coup_d%27%C3%A9tat">pretty chill coup</a> going on here at the time of this writing (May/June 2014).
+</p>
+// Potentially a message form if people care
