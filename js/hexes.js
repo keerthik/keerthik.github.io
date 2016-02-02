@@ -144,7 +144,8 @@ function UpdateGameWithInput (keyCode) {
 	//$('#anim_s').css('display', 'block');
 	//$('#game_state').css('display', 'none');
 	switch (keyCode) {
-		case LEFT_KEY: 
+		case LEFT_KEY:
+			$('#left_').addClass('pressed');
 			animating = true;
 			theseChanges += SlideIfPossible(RIGHTS[1], LEFTS[1]);
 			theseChanges += SlideIfPossible(RIGHTS[2], LEFTS[2]);
@@ -168,6 +169,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case RIGHT_KEY:
+			$('#right_').addClass('pressed');
 			animating = true;
 			theseChanges += SlideIfPossible(LEFTS[1], RIGHTS[1]);
 			theseChanges += SlideIfPossible(LEFTS[2], RIGHTS[2]);
@@ -185,6 +187,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case UP_KEY:
+			$('#up_').addClass('pressed');
 			animating = true;
 			var last = gameState[5];	
 			for (var i = 5; i > -1; i--) {
@@ -197,6 +200,7 @@ function UpdateGameWithInput (keyCode) {
 			break;
 
 		case DOWN_KEY:
+			$('#down_').addClass('pressed');
 			animating = true;
 			var last = gameState[0];
 			for (var i = 0; i < 6; i++) {
@@ -214,11 +218,25 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	if (theseChanges == 0) animating = false;
-	var spawnTrigger = 1;
+	var spawnTrigger = 2;
+	// Logic based on highest number achieved
+
 	switch (Math.max(...gameState)) {
-		case 96: spawnTrigger = 2; console.log("trigger up"); break;
-		case 192: spawnTrigger = 2; console.log("trigger up"); break;
-		case 384: spawnTrigger = 3; console.log("trigger up"); break;
+		case 12:
+			spawnTrigger = 1;
+			break;
+		case 96:
+			spawnTrigger = 2;
+			break;
+		case 192: 
+			spawnTrigger = 2;
+			break;
+		case 384: 
+			spawnTrigger = 3;
+			break;
+		case 768: 
+			spawnTrigger = 3;
+			break;
 		default: console.log("MAX: " + Math.max(...gameState));
 	}
 
@@ -228,8 +246,16 @@ function UpdateGameWithInput (keyCode) {
 		AddNewItem();
 	}
 
+	UpdateScore();	
+}
+
+function UpdateScore() {
+	// Do some animation
+	var old_score = $('#score').html();
+	console.log("Score: " + old_score);
 	$('#score').html(score);
 }
+
 
 function ReflectGameState() {
 	for (var i = 0; i < 7; i++) {
@@ -246,7 +272,12 @@ $(document).ready(function() {
 	$('html').keydown(function(e) {
 		UpdateGameWithInput(e.which);
     });
-    // Animation s
+    // Animations
+    $('.arrow').bind(TRANSITION_END, function(e) {
+    	// reset
+    	$(this).removeClass('pressed');
+    });
+
     $('.numbox').bind(TRANSITION_END, function (e) {
     	//$('#anim_s').css('display', 'none');
     	//$('#game_state').css('display', 'block');

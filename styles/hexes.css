@@ -20,12 +20,96 @@ h1 {
   margin: 70px auto;
 }
 
+/* Control indicators */
+.arrow {
+  position: absolute;
+  background: #cccdc2; 
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+  transition: margin .2s;
+}
+
+.pressed {
+  margin: 5px;
+  transition: margin .2s;
+}
+
+#up_ {
+  top: 170px;
+  right: -35px;
+}
+
+#up_:before {
+  border-bottom: 35px solid #cccdc2; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  content: "";
+  height: 0;
+  left: -20;
+  position: absolute;
+  top: -15px;
+  width: 0;
+}
+
+#down_ {
+  top: 215px;
+  right: -35px;
+}
+
+#down_:before {
+  border-top: 35px solid #cccdc2; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  content: "";
+  height: 0;
+  left: -20;
+  position: absolute;
+  top: 25px;
+  width: 0;
+}
+
+#left_ {
+  bottom: 45px;
+  right: -10px;
+}
+
+#left_:before {
+  border-right: 35px solid #cccdc2; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  content: "";
+  height: 0;
+  left: -25;
+  position: absolute;
+  top: -20px;
+  width: 0;
+}
+
+#right_ {
+  bottom: 45px;
+  right: -55px;
+}
+
+#right_:before {
+  border-left: 35px solid #cccdc2; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  content: "";
+  height: 0;
+  left: 25;
+  position: absolute;
+  top: -20px;
+  width: 0;
+}
+
 #play_area {
   position: relative;
   left: -10px;
   margin: 0px auto;
   width: 570px;
-  height: 800px;
+  height: 375px;
 }
 
 #game_state {

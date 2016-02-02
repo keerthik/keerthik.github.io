@@ -2,7 +2,7 @@
 layout: post
 folder: learn
 title: lessons
-update: August 2015
+update: January 2016
 len: 1 min
 ---
 # The Right Problems
