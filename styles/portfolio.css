@@ -40,6 +40,10 @@ p {
 	background-size: 75%;
 }
 
+.icons li p {
+	padding-top: 10px;
+}
+
 .docIcon {
 }
 

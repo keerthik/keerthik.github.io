@@ -64,8 +64,8 @@ This site primarily hosts my (portfolio)[/portfolio] and (writing)[/essays]. I a
 
 # History
 
-The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/" target="_blank) is my weapon of choice, and I happily vouch for it. 
+The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it. 
 
 I started working on this in Thailand, on April 22nd 2014.
 
-There was a [pretty chill coup](http://en.wikipedia.org/wiki/2014_Thai_coup_d%27%C3%A9tat) going on here at the time of this writing (May/June 2014).
+There was a [pretty chill coup](http://en.wikipedia.org/wiki/2014_Thai_coup_d%27%C3%A9tat){:target="_blank"} going on here at the time of this writing (May/June 2014).
