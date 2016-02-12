@@ -40,7 +40,6 @@ I am best reached by email. Contact me at
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 .ig-b-32 { background-image: url(/resources/images/instagram_circle.png);  background-size:100%} }</style>
 <a href="http://instagram.com/nomadkorc?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
-
 <!--Twitter-->
 <a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -48,7 +47,7 @@ I am best reached by email. Contact me at
 
 # This site
 
-This site primarily hosts my (portfolio)[/portfolio] and (writing)[/essays]. I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
+This site primarily hosts my [portfolio](/portfolio) and [writing](/essays). I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
 
 # Built Using
 

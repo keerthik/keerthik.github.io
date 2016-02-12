@@ -1,8 +1,11 @@
+body {
+    font-family: 'Helvetica';
+}
+
 h1 {
   margin: 40px auto;
   width: 50%;
   text-align: center;
-  font-family: 'Helvetica';
   font-weight: lighter;
   font-size: 48px;
 }
@@ -18,6 +21,28 @@ h1 {
   background-color: #acadc2;
   padding-top: 10px;
   margin: 70px auto;
+}
+
+#play_area {
+  position: relative;
+  left: -10px;
+  margin: 0px auto;
+  width: 570px;
+  height: 475px;
+}
+
+#hints_area {
+  width: 570px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#qmark {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid black;
 }
 
 /* Control indicators */
@@ -49,7 +74,7 @@ h1 {
   height: 0;
   left: -20;
   position: absolute;
-  top: -15px;
+  top: -25px;
   width: 0;
 }
 
@@ -71,7 +96,7 @@ h1 {
 }
 
 #left_ {
-  bottom: 45px;
+  bottom: 145px;
   right: -12px;
 }
 
@@ -88,7 +113,7 @@ h1 {
 }
 
 #right_ {
-  bottom: 45px;
+  bottom: 145px;
   right: -57px;
 }
 
@@ -104,13 +129,6 @@ h1 {
   width: 0;
 }
 
-#play_area {
-  position: relative;
-  left: -10px;
-  margin: 0px auto;
-  width: 570px;
-  height: 375px;
-}
 
 #game_state {
 }

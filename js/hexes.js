@@ -31,6 +31,7 @@ var LEFTS = [0, 1, 5];
 var RIGHTS = [3, 2, 4];
 var CENTER = 6;
 
+// Global level stuff
 var animating = false;
 var gameState = [6, 0, 0, 6, 0, 0, 0];
 var score = 0;
@@ -247,6 +248,11 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	UpdateScore();	
+}
+
+var hintsShown = 0;
+function ShowHint() {
+	hintsShown ++;
 }
 
 function UpdateScore() {
