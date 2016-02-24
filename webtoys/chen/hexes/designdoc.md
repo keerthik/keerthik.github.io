@@ -18,12 +18,19 @@ An action that actually affects the board (successful shove/rotation) will spawn
 The game ends when 
 - all hexes are filled AND (- an invalid shove is made OR - no valid shoves are available (*)) 
 
-## Tips 
 ## "Rewards"
 Something beyond score to keep the player exploring further into the game space.
 They are intended to be personalized to the player.
 In this case, Rewards unlock messages that reveal something about the thoughts given to the person.
+6
+12 - Hi Chen. This is a non-gag present~
+24 - 
+48 - 
+96 - Blueberries. Because you saids you like them, and I saw them.
+192 - Design Docs! Here's some scratchwork that went into this project
+384 - Why Hexes? You work with hexagons, I work with hexagons, if you think of this when you see hexagons maybe I can get you to think of me a lot~
+768 - 3 years ago... I made good use of this thanksgiving to put this back online!
 
-- Why Hexes? You work with hexagons, I work with hexagons, if you think of this when you see hexagons maybe I can get you to think of me a lot~
-- Design Docs! Here's some scratchwork that went into this project
-- 3 years ago... I made good use of this thanksgiving to put this back online!
+## Game Over
+Upon reaching 768, "Thanks for playing this to the very end -- this is the theoretical maximum possible score with the given mechanics, good job!"
+Upon "game over" - tips

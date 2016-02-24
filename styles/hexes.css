@@ -31,20 +31,6 @@ h1 {
   height: 475px;
 }
 
-#hints_area {
-  width: 570px;
-  margin: 20px auto;
-  position: relative;
-}
-
-#qmark {
-  text-align: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 5px solid black;
-}
-
 /* Control indicators */
 .arrow {
   position: absolute;
@@ -412,4 +398,47 @@ h1 {
 .t8:before, .t8:after {
   border-top-color: #edcc61;
   border-bottom-color: #edcc61;
+}
+
+/* rewards css */
+#rewards_area {
+  width: 570px;
+  margin: 20px auto;
+  position: relative;
+}
+
+#qmark {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.r_hexagon {
+  position: relative;
+  width: 50px; 
+  height: 28.87px;
+  background-color: #64C7CC;
+  margin: 14.43px 0;
+}
+
+.r_hexagon:before,
+.r_hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.r_hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #64C7CC;
+}
+
+.r_hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #64C7CC;
 }
