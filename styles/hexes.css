@@ -402,8 +402,12 @@ h1 {
 
 /* rewards css */
 #rewards_area {
+  border-radius: 7px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  height: 105px;
   width: 570px;
-  margin: 20px auto;
+  margin: 40px auto;
+  padding: 20px;
   position: relative;
 }
 
@@ -411,11 +415,11 @@ h1 {
   text-align: center;
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  border: 5px solid black;
 }
 
 .r_hexagon {
+  display: block;
+  float: left;
   position: relative;
   width: 50px; 
   height: 28.87px;
@@ -441,4 +445,18 @@ h1 {
   top: 100%;
   width: 0;
   border-top: 14.43px solid #64C7CC;
+}
+
+.r_hexagon.lower {
+  left: 0px;
+  margin-top: 60px;
+}
+
+.r_hexagon p {
+  position: absolute;
+  top: -30%;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
 }
