@@ -250,9 +250,8 @@ function UpdateGameWithInput (keyCode) {
 	UpdateScore();	
 }
 
-var hintsShown = 0;
-function ShowHint() {
-	hintsShown ++;
+function ShowReward() {
+	
 }
 
 function UpdateScore() {

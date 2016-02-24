@@ -31,22 +31,6 @@ h1 {
   height: 475px;
 }
 
-#hints_area {
-  width: 570px;
-  margin: 20px auto;
-  position: relative;
-}
-
-/* padding + height = width */
-#qmark {
-  padding-top: 3px;
-  text-align: center;
-  width: 20px;
-  height: 17px;
-  border-radius: 50%;
-  border: 5px solid black;
-}
-
 /* Control indicators */
 .arrow {
   position: absolute;
@@ -414,4 +398,65 @@ h1 {
 .t8:before, .t8:after {
   border-top-color: #edcc61;
   border-bottom-color: #edcc61;
+}
+
+/* rewards css */
+#rewards_area {
+  border-radius: 7px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  height: 105px;
+  width: 570px;
+  margin: 40px auto;
+  padding: 20px;
+  position: relative;
+}
+
+#qmark {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+
+.r_hexagon {
+  display: block;
+  float: left;
+  position: relative;
+  width: 50px; 
+  height: 28.87px;
+  background-color: #64C7CC;
+  margin: 14.43px 0;
+}
+
+.r_hexagon:before,
+.r_hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.r_hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #64C7CC;
+}
+
+.r_hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #64C7CC;
+}
+
+.r_hexagon.lower {
+  left: 0px;
+  margin-top: 60px;
+}
+
+.r_hexagon p {
+  position: absolute;
+  top: -30%;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
 }
