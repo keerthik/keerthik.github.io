@@ -37,10 +37,12 @@ h1 {
   position: relative;
 }
 
+/* padding + height = width */
 #qmark {
+  padding-top: 3px;
   text-align: center;
   width: 20px;
-  height: 20px;
+  height: 17px;
   border-radius: 50%;
   border: 5px solid black;
 }

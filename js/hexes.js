@@ -238,7 +238,7 @@ function UpdateGameWithInput (keyCode) {
 		case 768: 
 			spawnTrigger = 3;
 			break;
-		default: console.log("MAX: " + Math.max(...gameState));
+		default: break;
 	}
 
 	changes += theseChanges;
@@ -271,9 +271,16 @@ function ReflectGameState() {
 	}
 }
 
+
 $(document).ready(function() {
 	window.addEventListener("keydown", arrow_keys_handler, false);
 	LaunchDance();
+
+	// Click handlers
+	$('#qmark').click(function (e) {
+		ShowHint();
+	});
+
 	// Controls
 	$('html').keydown(function(e) {
 		UpdateGameWithInput(e.which);
