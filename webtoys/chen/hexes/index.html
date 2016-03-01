@@ -7,7 +7,19 @@
 		<script type="text/javascript" src="../../../js/hexes.js"></script>
 	</head>
 	<body>
-		<h1>HEXPLORER</h1>
+		<div id="overlay">
+			<div id="instructions">
+				<h1>HEXPLORER</h1>
+				<p>Hi Chen, this is your non-gag Christmas/New Year/Valentine's/Friendship present</p>
+				<p>Use the Arrow keys to spin (up, down) or slide (left, right) the tiles. When two tiles of the same number touch, they merge</p>
+			</div>
+			<div id="reward_text">
+				<h1>REWARD : <span>24</span></h1>
+				<p>A hint!</p>
+				<p>A new number will never spawn in the center hex. Keep it empty to stay alive</p>
+			</div>
+			<p>Press outside this overlay to play</p>
+		</div>		
 		<div id="play_area">
 			<div id="game_state">		
 				<div id="num_0" class="numbox left_hex"><p></p></div>
@@ -32,31 +44,15 @@
 				<div class="hexagon center_hex"></div>
 			</div>
 		</div>
+		<div id="instructions_button">?</div>
 		<div id="rewards_area">
-			<div id="rewards_flip_button">?</div>
 			<div id="rewards_graphics">
-				<div id="r1" class="r_hexagon earned">
-					<p>12</p>
-					<div class="reward_text"></div>
-				</div>
-				<div id="r2" class="r_hexagon lower">
-					<p>96</p>
-					<div class="reward_text"></div>
-				</div>
-				<div id="r3" class="r_hexagon">
-					<p>192</p>
-					<div class="reward_text"></div>
-				</div>
-				<div id="r4" class="r_hexagon lower">
-					<p>384</p>
-					<div class="reward_text"></div>
-				</div>
-				<div id="r5" class="r_hexagon">
-					<p>768</p>
-					<div class="reward_text"></div>
-				</div>
+				<div id="r1" class="r_hexagon earned"><p>24</p></div>
+				<div id="r2" class="r_hexagon lower"><p>96</p></div>
+				<div id="r3" class="r_hexagon"><p>192</p></div>
+				<div id="r4" class="r_hexagon lower"><p>384</p></div>
+				<div id="r5" class="r_hexagon"><p>768</p></div>
 			</div>
-			<div id="instruction_text">Use the Arrow keys to spin (up, down) or slide (left, right) the tiles. When two tiles of the same number touch, they merge!</div>			
 		</div>
 		<div id="score">---</div>		
 	</body>

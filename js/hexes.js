@@ -286,23 +286,45 @@ function ReflectGameState() {
 	}
 }
 
+function SetRewardText (element) {
+
+}
 
 $(document).ready(function() {
 	window.addEventListener("keydown", arrow_keys_handler, false);
-	
+	NewGame();
 	// Click handlers
 	$('#newgame').click(function (e) {
 		NewGame();
+		e.stopPropagation();
 	});
 
-	$('#rewards_flip_button').click(function (e) {
-		if ($('#instruction_text').is(':visible')) {
-			$('#instruction_text').hide();
-			$('#rewards_graphics').show();
-		} else {
-			$('#instruction_text').show();
-			$('#rewards_graphics').hide();
-		}		
+	$('#overlay').click(function (e) {
+		e.stopPropagation();
+	});
+	
+	$('html').click(function (e) {
+		if ($('#overlay').is(':visible'))
+			$('#overlay').hide();
+	});
+
+	$('#instructions_button').click(function (e) {
+		if (!$('#overlay').is(':visible')) {
+			$('#overlay').show();
+			$('#instructions').show();
+			$('#reward_text').hide();
+		}
+		e.stopPropagation();
+	});
+
+	$('.earned').click(function (e) {
+		if (!$('#overlay').is(':visible')) {
+			$('#overlay').show();
+			$('#instructions').hide();
+			SetRewardText($(this));
+			$('#reward_text').show();
+		}
+		e.stopPropagation();
 	});
 
 	// Controls

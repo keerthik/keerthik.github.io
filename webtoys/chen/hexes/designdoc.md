@@ -19,20 +19,25 @@ To maintain control scheme simplicity, only 2 of these directions are used (left
 ## Design
 An action that actually affects the board (successful shove/rotation) will spawn a new tile .
 The game ends when 
-- all hexes are filled AND (- an invalid shove is made OR - no valid shoves are available (*)) 
+- all hexes are filled AND 
+(- an invalid shove is made OR 
+ - no valid shoves are available (*)) 
 
 ## "Rewards"
 Something beyond score to keep the player exploring further into the game space.
 They are intended to be personalized to the player.
 In this case, Rewards unlock messages that reveal something about the thoughts given to the person.
-12 - Hi Chen. This is a non-gag present :D
-24 - A hint! A new number will never spawn in the center hex. Keep it empty to stay in.
-48 - 
-96 - Blueberries. Chocolate-covered ones. They're in your fridge.
-192 - 3 years ago... I made good use of this thanksgiving <a href="../flutter/" target="_blank">to put this back online</a>!
-384 - 
-768 - Design Docs! Here's some scratchwork that went into this project
+
+Ordering --- how did I want to order these?
+24 - "A hint! A new number will never spawn in the center hex. Keep it empty to stay alive"
+96 - "Blueberries. Chocolate-covered ones. They're in your fridge."
+192 - "3 years ago... I made good use of this thanksgiving <a href='../flutter/' target='_blank'>to put this back online</a>!"
+384 - "Design Docs! Here's some scratchwork that went into this project"
+768 - "You like Tabi socks? I figured this would be the best thing I've got for you. You have reached the theoretical highest number this game allows!"
+
+I considered putting the choco-blueberries at a higher tier, but I didn't want them going bad. I figured I could just give you the socks for something else if you didn't get to it.
+
 
 ## Game Over
 Upon reaching 768, "Thanks for playing this to the very end -- this is the theoretical maximum possible score with the given mechanics, good job!"
-Upon "game over" - tips
+Upon "game over" - tips?
