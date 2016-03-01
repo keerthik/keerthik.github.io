@@ -1,4 +1,14 @@
-
+/*
+By Keerthik
+To be honest, I'm not super proud of the quality of this code. 
+Pros:
+It is readable and concise
+It works
+Cons:
+Poorly compartmentalized. Visual effects are too tightly coupled with gameplay logic.
+This makes upgrading visual effects difficult
+Inconsistent dependence on jquery as well as css for DOM manipulation.
+*/
 // Utility functions
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
@@ -12,6 +22,10 @@ var arrow_keys_handler = function(e) {
     }
 };
 
+var REWARDS_DATA = {
+	6: "",
+
+}
 
 // Constants, basically
 var TRANSITION_END = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
@@ -46,17 +60,10 @@ function LaunchDance () {
 			return;
 		$(this).one(TRANSITION_END, function (e) {
 	    	var newIndex = Cycle(index, 1);
-	    	//console.log($(this).attr('class') + " index: " + index + " " + newIndex);
 	    	$(this).removeClass(ANIM_CLASSES[index]).addClass(ANIM_CLASSES[newIndex]);
-	    	//console.log($(this).attr('class') + " index: " + index + " " + newIndex);
-	    	/*
-	    	$(this).one(TRANSITION_END, function (e) {
-				//console.log($(this).attr('class') + " index: " + newIndex);
-	    		$(this).removeClass(ANIM_CLASSES[newIndex]).addClass(STATIC_CLASSES[newIndex]);
-	    	});
-			*/
 			if (isFadeSet) return;
 			isFadeSet = true;
+	    	// This needs to be called only once, so we return above after the first time it's set
 			$(this).one(TRANSITION_END, function (e) {
 				$('#static').removeClass('initial').addClass('ready');
 				$('#static').one(TRANSITION_END, function (e) {
@@ -131,10 +138,13 @@ function AddNewItem () {
 	}
 	var newItem = Math.max(...gameState) > 192?12:6;
 	if (empties.length < 1) {
-		if (IsGameOver()) console.log("Game Over!");
+		if (IsGameOver()) {
+			console.log("Game Over!");
+		}
 	} else gameState[empties[getRandomInt(0, empties.length)]] = newItem;
 }
 
+// The fundamental game loop
 var changes = 0;
 function UpdateGameWithInput (keyCode) {
 	var oldState = $.extend([], gameState);
@@ -261,6 +271,12 @@ function UpdateScore() {
 	$('#score').html(score);
 }
 
+function NewGame() {
+	animating = false;
+	gameState = [6, 0, 0, 6, 0, 0, 0];
+	score = 0;
+	LaunchDance();
+}
 
 function ReflectGameState() {
 	for (var i = 0; i < 7; i++) {
@@ -273,11 +289,20 @@ function ReflectGameState() {
 
 $(document).ready(function() {
 	window.addEventListener("keydown", arrow_keys_handler, false);
-	LaunchDance();
-
+	
 	// Click handlers
-	$('#qmark').click(function (e) {
-		ShowHint();
+	$('#newgame').click(function (e) {
+		NewGame();
+	});
+
+	$('#rewards_flip_button').click(function (e) {
+		if ($('#instruction_text').is(':visible')) {
+			$('#instruction_text').hide();
+			$('#rewards_graphics').show();
+		} else {
+			$('#instruction_text').show();
+			$('#rewards_graphics').hide();
+		}		
 	});
 
 	// Controls

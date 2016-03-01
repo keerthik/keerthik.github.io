@@ -8,7 +8,6 @@
 	</head>
 	<body>
 		<h1>HEXPLORER</h1>
-		<div id="score">---</div>
 		<div id="play_area">
 			<div id="game_state">		
 				<div id="num_0" class="numbox left_hex"><p></p></div>
@@ -33,18 +32,32 @@
 				<div class="hexagon center_hex"></div>
 			</div>
 		</div>
-<<<<<<< HEAD
-		<div id="hints_area">
-			<div id="qmark">?</div>			
-=======
-
 		<div id="rewards_area">
-			<div class="r_hexagon"><p>12</p></div>
-			<div class="r_hexagon lower"><p>96</p></div>
-			<div class="r_hexagon"><p>192</p></div>
-			<div class="r_hexagon lower"><p>384</p></div>
-			<div class="r_hexagon"><p>768</p></div>
->>>>>>> a40d894cef71b03c7b74e4c50134ce02fd7e3743
+			<div id="rewards_flip_button">?</div>
+			<div id="rewards_graphics">
+				<div id="r1" class="r_hexagon earned">
+					<p>12</p>
+					<div class="reward_text"></div>
+				</div>
+				<div id="r2" class="r_hexagon lower">
+					<p>96</p>
+					<div class="reward_text"></div>
+				</div>
+				<div id="r3" class="r_hexagon">
+					<p>192</p>
+					<div class="reward_text"></div>
+				</div>
+				<div id="r4" class="r_hexagon lower">
+					<p>384</p>
+					<div class="reward_text"></div>
+				</div>
+				<div id="r5" class="r_hexagon">
+					<p>768</p>
+					<div class="reward_text"></div>
+				</div>
+			</div>
+			<div id="instruction_text">Use the Arrow keys to spin (up, down) or slide (left, right) the tiles. When two tiles of the same number touch, they merge!</div>			
 		</div>
+		<div id="score">---</div>		
 	</body>
 </html>
