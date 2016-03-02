@@ -22,10 +22,41 @@ var arrow_keys_handler = function(e) {
     }
 };
 
-var REWARDS_DATA = {
-	6: "",
+var REWARDS_TIERS = {
+	24: "t3",
+	96: "t5",
+	192:"t6",
+	384:"t7",
+	768:"t8"
+};
 
-}
+var REWARDS_DATA = {
+	24: "<p>Hint Get!</p> \
+		 <p>A new number will never spawn in the center hex. Keep a low number (or empty hex) in the middle to stay alive longer</p> \
+		 <hr> \
+		 <p>Watch this space for cheesy lines</p> \
+		 <p>Yes, I made this whole thing specially for you pretty much because you're special to me~</p>",
+	96: "<p>Blueberries Get</p> \
+		 <p>Chocolate-covered ones. They're in your fridge</p> \
+		 <hr> \
+		 <p>I think about you all the time, even grocery shopping, and thought \"Oh what the hell.\" </p> \
+		 <p><span>...they're probably still good</span></p>",
+	192:"<p>It's old now but...</p> \
+		 <p>I made good use of this thanksgiving <a href='../flutter/' target='_blank'>to put this back online</a>!</p> \
+		 <hr> \
+		 <p>In an attempt to keep myself from bugging you every time I think of you, I made myself work on reviving that, and then this game, and if I still wasn't done thinking of you so then I'd talk you</p> \
+		 <p><span></span></p>",
+	384:"<p>Scratchwork</p> \
+		 <p>Here's some scratchwork that went into this project</p> \
+		 <hr> \
+		 <p></p>",
+	768:"<p>Ninja Tabi Get</p> \
+		 <p>+3 chance to cast Silence on Peanut  <span> ...erm please don't use it for that</span></p> \
+		 <hr> \
+		 <p>Ah, the highest theoretically possible number this game allows, but maybe you'll find a way to get a higher number.</p> \
+		 <p>After all, each day I spend near you makes me fall for you more than I thought was theoretically possible ...</p> \
+		 <p><span>...I'll see myself out</span></p>"
+};
 
 // Constants, basically
 var TRANSITION_END = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
@@ -139,7 +170,10 @@ function AddNewItem () {
 	var newItem = Math.max(...gameState) > 192?12:6;
 	if (empties.length < 1) {
 		if (IsGameOver()) {
-			console.log("Game Over!");
+			$('#overlay').show();
+			$('#game_over').show();
+			$('#instructions').hide();
+			$('#reward_text').hide();
 		}
 	} else gameState[empties[getRandomInt(0, empties.length)]] = newItem;
 }
@@ -229,11 +263,11 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	if (theseChanges == 0) animating = false;
-	var spawnTrigger = 2;
+	var spawnTrigger = 1;
 	// Logic based on highest number achieved
-
-	switch (Math.max(...gameState)) {
-		case 12:
+	var maximus = Math.max(...gameState);
+	switch (maximus) {
+		case 24:			
 			spawnTrigger = 1;
 			break;
 		case 96:
@@ -250,6 +284,10 @@ function UpdateGameWithInput (keyCode) {
 			break;
 		default: break;
 	}
+	// Unlock rewards
+	if ($('#r' + maximus) && !$('#r' + maximus).hasClass('earned')) {
+		$('#r' + maximus).addClass('earned ' + REWARDS_TIERS[maximus]);
+	}
 
 	changes += theseChanges;
 	if (changes > spawnTrigger) {
@@ -258,10 +296,6 @@ function UpdateGameWithInput (keyCode) {
 	}
 
 	UpdateScore();	
-}
-
-function ShowReward() {
-	
 }
 
 function UpdateScore() {
@@ -275,7 +309,9 @@ function NewGame() {
 	animating = false;
 	gameState = [6, 0, 0, 6, 0, 0, 0];
 	score = 0;
-	LaunchDance();
+	$('.r_hexagon').addClass('earned');
+	//$('.r_hexagon').removeClass('earned t3 t5 t6 t7 t8');
+	ReflectGameState();
 }
 
 function ReflectGameState() {
@@ -287,11 +323,16 @@ function ReflectGameState() {
 }
 
 function SetRewardText (element) {
-
+	var i = parseInt(element.attr('id').match(/\d+/)[0]);
+	var header = Math.max(...gameState)>767?
+				"<h1>You Win! Thanks for playing!</h1>":
+				"<h1>REWARD : " + i + "</h1> ";
+	$('#reward_text').html(header + REWARDS_DATA[i]);
 }
 
 $(document).ready(function() {
 	window.addEventListener("keydown", arrow_keys_handler, false);
+	LaunchDance();
 	NewGame();
 	// Click handlers
 	$('#newgame').click(function (e) {
@@ -302,7 +343,7 @@ $(document).ready(function() {
 	$('#overlay').click(function (e) {
 		e.stopPropagation();
 	});
-	
+
 	$('html').click(function (e) {
 		if ($('#overlay').is(':visible'))
 			$('#overlay').hide();
@@ -312,18 +353,19 @@ $(document).ready(function() {
 		if (!$('#overlay').is(':visible')) {
 			$('#overlay').show();
 			$('#instructions').show();
+			$('#game_over').hide();
 			$('#reward_text').hide();
 		}
 		e.stopPropagation();
 	});
 
-	$('.earned').click(function (e) {
-		if (!$('#overlay').is(':visible')) {
-			$('#overlay').show();
-			$('#instructions').hide();
-			SetRewardText($(this));
-			$('#reward_text').show();
-		}
+	$('.r_hexagon').click(function (e) {
+		if (!$(this).hasClass('earned')) return;
+		$('#overlay').show();
+		$('#instructions').hide();
+		$('#game_over').hide();
+		SetRewardText($(this));
+		$('#reward_text').show();
 		e.stopPropagation();
 	});
 

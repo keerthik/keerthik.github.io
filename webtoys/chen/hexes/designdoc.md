@@ -8,20 +8,16 @@ The objective is to build a simple game that is easy to pick up, but takes a few
 In Hexplorer we use hexes instead of squares, for a variety of reasons outlined in the rest of this document, including a personal reason: You work with graphene (hexagons!), we're linked by dicestorm (more hexagons), and if you think of this when you see hexagons maybe I can get you to think of me more :D
 
 ## Core Mechanics
-The concept is to combine like numbers by having them stack, either against another occupied tile or against the edge of the playable region. The objective is to build the largest possible number before the grid fills up preventing you from taking any actions (game over)
+The concept is to combine like numbers by having them stack, either against another occupied tile or against the edge of the playable region. The objective is to build the largest possible number before the grid fills up preventing you from taking any actions (game over).
 
-When you reach a number that glows, it means you have unlocked a new reward.
+The reduced game space keeps the scope of the game limited, increasing the chances of the player hitting theoretical max sooner, ie, revealing all of the content within a reasonable time frame.
 
 ## Control Scheme
 Being a hex grid means there are 6 cardinal directions instead of 4 (like in 2048). 
-To maintain control scheme simplicity, only 2 of these directions are used (left+right), and we introduce rotational flexibility instead, using up or down to rotate the entire grid clockwise or counterclockwise. This makes the game play differently from 2048 as well, which is a desirable outcome.
+To maintain control scheme simplicity, only 2 of these directions are used (left+right), and we introduce rotational flexibility instead, using up or down to rotate the entire grid clockwise or counterclockwise. This makes the game play out differently from 2048 as well, which is a desirable outcome.
 
 ## Design
 An action that actually affects the board (successful shove/rotation) will spawn a new tile .
-The game ends when 
-- all hexes are filled AND 
-(- an invalid shove is made OR 
- - no valid shoves are available (*)) 
 
 ## "Rewards"
 Something beyond score to keep the player exploring further into the game space.
@@ -39,5 +35,8 @@ I considered putting the choco-blueberries at a higher tier, but I didn't want t
 
 
 ## Game Over
-Upon reaching 768, "Thanks for playing this to the very end -- this is the theoretical maximum possible score with the given mechanics, good job!"
-Upon "game over" - tips?
+The game ends in a loss when 
+- all hexes are filled AND 
+(- an invalid shove is made OR 
+ - no valid shoves are available (*))
+768 is the theoretical maximum in the game, and should also result in the game ending.

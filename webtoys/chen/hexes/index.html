@@ -1,25 +1,49 @@
 <html>
 	<head>
-		<meta charset="UTF-8"/>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>Hexplore</title>
+		<meta name="author" content="keerthik omanakuttan" />
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
 		<link rel="stylesheet" href="../../../styles/hexes.css" type="text/css"/>
+		<!--javaaaascriptz-->
 		<script type="text/javascript" src="../../../js/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="../../../js/hexes.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-51086540-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<div id="overlay">
 			<div id="instructions">
 				<h1>HEXPLORER</h1>
-				<p>Hi Chen, this is your non-gag Christmas/New Year/Valentine's/Friendship present</p>
-				<p>Use the Arrow keys to spin (up, down) or slide (left, right) the tiles. When two tiles of the same number touch, they merge</p>
+				<p>Hi Chen, this is your non-gag Christmas/New Year/Valentine's/Friendship 
+				present</p>
+				<p>Use the Arrow keys to spin (up, down) or slide (left, right) the tiles. 
+				When two tiles of the same number touch, they merge</p>
+				<p>Tap the lit up hexes at the bottom for your loot!</p>
+			</div>
+			<div id="game_over" style="display: none;">
+				<h1>GAME OVER</h1>
+				<p>All the hexes are filled, and no legal moves left</p>
+				<p>Refresh the page or use the button to start a new game</p>
 			</div>
 			<div id="reward_text">
-				<h1>REWARD : <span>24</span></h1>
-				<p>A hint!</p>
-				<p>A new number will never spawn in the center hex. Keep it empty to stay alive</p>
+				<h1>REWARDS GO HERE</h1>
 			</div>
-			<p>Press outside this overlay to play</p>
-		</div>		
+			<div style="position: absolute; width: 100%; bottom: 20px;">
+				<hr>
+				Click outside this overlay to play
+			</div>
+		</div>
+		<div style="width: 360px; height: 100px; margin: 40px auto;">
+			<div id="score">---</div><div id="newgame">NEW GAME</div>
+		</div>
 		<div id="play_area">
 			<div id="game_state">		
 				<div id="num_0" class="numbox left_hex"><p></p></div>
@@ -47,13 +71,12 @@
 		<div id="instructions_button">?</div>
 		<div id="rewards_area">
 			<div id="rewards_graphics">
-				<div id="r1" class="r_hexagon earned"><p>24</p></div>
-				<div id="r2" class="r_hexagon lower"><p>96</p></div>
-				<div id="r3" class="r_hexagon"><p>192</p></div>
-				<div id="r4" class="r_hexagon lower"><p>384</p></div>
-				<div id="r5" class="r_hexagon"><p>768</p></div>
+				<div id="r24" class="r_hexagon t3"><p>24</p></div>
+				<div id="r96" class="r_hexagon t5 lower"><p>96</p></div>
+				<div id="r192" class="r_hexagon t6"><p>192</p></div>
+				<div id="r384" class="r_hexagon t7 lower"><p>384</p></div>
+				<div id="r768" class="r_hexagon t8"><p>768</p></div>
 			</div>
 		</div>
-		<div id="score">---</div>		
 	</body>
 </html>
