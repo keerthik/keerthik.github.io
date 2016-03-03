@@ -311,8 +311,7 @@ function NewGame() {
 	animating = false;
 	gameState = [6, 0, 0, 6, 0, 0, 0];
 	score = 0;
-	$('.r_hexagon').addClass('earned');
-	//$('.r_hexagon').removeClass('earned t3 t5 t6 t7 t8');
+	$('.r_hexagon').removeClass('earned t3 t5 t6 t7 t8');
 	ReflectGameState();
 }
 
