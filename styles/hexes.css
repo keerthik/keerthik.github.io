@@ -480,6 +480,7 @@ h1 {
   font-weight: lighter;
   line-height: 1.65em;
   margin: 15px auto;
+  width: 95%;
   max-width: 600px;
 }
 
