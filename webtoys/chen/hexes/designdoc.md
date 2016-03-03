@@ -1,42 +1,66 @@
 ---
+layout: post
+title: Hexplorer project specs
+---
 
-# Design Doc
+# Hexplorer
+
+> Note: This document contains "spoilers" to the contents of the game
+
 ## Abstract
-The objective is to build a simple game that is easy to pick up, but takes a few tries to figure out a winning strategy. Familiarity with an existing popular game provides a robust base solving a broad range of design concerns. To that end, this is a hex-grid based puzzle version of popular number game ["2048"](https://gabrielecirulli.github.io/2048/) or "threes" or "1024". It combines progress with exploration, in this implementation by creating small personal rewards for the player based on how far they get. The rewards will increase in density as you go up because it gets harder to go up each level.
+The objective is to build a simple game that entertains and is a bit memorable. It should be easy to pick up, but takes a few tries to figure out a winning strategy. Familiarity with an existing popular game provides a robust base solving a broad range of design concerns. To that end, this is a hex-grid based puzzle version of popular number game ["2048"](https://gabrielecirulli.github.io/2048/) or "threes" or "1024".
+
+It combines progress with exploration, in this implementation by creating small personal rewards for the player based on how far they get. 
+
+The levels get exponentially harder to clear as the steps to go from one level to the next equal the steps needed to get up to that level since the start of the game.
 
 ## A Twist
-In Hexplorer we use hexes instead of squares, for a variety of reasons outlined in the rest of this document, including a personal reason: You work with graphene (hexagons!), we're linked by dicestorm (more hexagons), and if you think of this when you see hexagons maybe I can get you to think of me more :D
+In Hexplorer I use hexes instead of squares, for a variety of reasons outlined in the rest of this document, including a silly personal reason: You work with graphene (hexagons!?), we're linked by dicestorm (more hexagons), and if you think of this (and/or me) when you see hexagons -- It's cheesy, but hey I'll take it :D
 
 ## Core Mechanics
-The concept is to combine like numbers by having them stack, either against another occupied tile or against the edge of the playable region. The objective is to build the largest possible number before the grid fills up preventing you from taking any actions (game over).
+The concept is to combine like numbers by having them stack, either against another occupied tile or against the edge of the playable region. The objective is to build the largest possible number before the grid fills up preventing you from taking any actions (game over). This is the core of this genre of games.
 
-The reduced game space keeps the scope of the game limited, increasing the chances of the player hitting theoretical max sooner, ie, revealing all of the content within a reasonable time frame.
+### Gameplay Space
+This specific game has a reduced game space -- since we use hexes the most reasonable shape was a single hex surrounded by a single layer of hexes, resulting in 7 cells rather than 16 like in 2048. This kept the scope of the game limited which increases the chances of the player hitting theoretical max sooner, ie, revealing all of the content within a reasonable time frame.
 
-## Control Scheme
+### Game Response
+Actions that affect the board (successful shove/rotation) will eventually spawn a new tile. The rate at which new tiles are spawned increases as the player is expected to be more familiar with the game, determined by the largest number on the board.
+
+### Control Scheme
 Being a hex grid means there are 6 cardinal directions instead of 4 (like in 2048). 
-To maintain control scheme simplicity, only 2 of these directions are used (left+right), and we introduce rotational flexibility instead, using up or down to rotate the entire grid clockwise or counterclockwise. This makes the game play out differently from 2048 as well, which is a desirable outcome.
+To maintain control scheme simplicity, only left/right slide tiles in a direction (as in the other games). We introduce rotational flexibility instead of another shove direction, using up/down to rotate the entire grid counterclockwise/clockwise. Only left/right slides result in merging.
 
-## Design
-An action that actually affects the board (successful shove/rotation) will spawn a new tile .
+A desirable outcome of this control scheme is that it makes the game play out differently from 2048, without adding too much cognitive overhead. A downside is the controls are a little unintuitive at first since the player needs to get used to up/down having rotational impact -- while looking at the right of the board (where the arrow icons are placed) this is intuitive, but if you look at any other part of the board while pressing the keys, it can be confusing.
 
-## "Rewards"
-Something beyond score to keep the player exploring further into the game space.
+### Game Over
+The game ends in a loss when
+
+* all hexes are filled AND 
+* (an invalid shove is made OR 
+*  no valid shoves are available)
+
+768 is the theoretical maximum in the game, resulting in the game ending in a win.
+
+## Loot!
+Loot is unlocked based on the largest number on the board.
+
+Just a little something beyond score to keep you exploring further into the game space.
 They are intended to be personalized to the player.
-In this case, Rewards unlock messages that reveal something about the thoughts given to the person.
 
-Ordering --- how did I want to order these?
-24 - "A hint! A new number will never spawn in the center hex. Keep it empty to stay alive"
-96 - "Blueberries. Chocolate-covered ones. They're in your fridge."
-192 - "3 years ago... I made good use of this thanksgiving <a href='../flutter/' target='_blank'>to put this back online</a>!"
-384 - "Design Docs! Here's some scratchwork that went into this project"
-768 - "You like Tabi socks? I figured this would be the best thing I've got for you. You have reached the theoretical highest number this game allows!"
+Rewards are intended to be increasing surprise factor later on in the game as they take more work to get to.
 
-I considered putting the choco-blueberries at a higher tier, but I didn't want them going bad. I figured I could just give you the socks for something else if you didn't get to it.
+* 24 - Provide a hint. This should help go on without getting stuck.
+* 96 - Tie to IRL. To make the game more memorable and personal
+* 192 - Bring back fluttershy-can-fly! I spent a fair amount of time on this and wanted a good set up to bring it back!
+* 384 - Just as a window into my thoughts behind this whole thing, if you were curious
+* 768 - The highest number, the final reward, the cheesiest thought.
 
+## Vital stats
+* Game: [play here](/webtoys/chen/hexes)
+* Project start date: 08 Jan 2016
+* Code repository: [on github](https://github.com/keerthik/keerthik.github.io/tree/master/webtoys/chen/hexes)
+* Hours estimate: 67; 
+* Work breakdown: brainstorm 10%, gameplay design and logic 5%; loot (content) preparation 20%; colors, styling, animations, and polish 55%; testing 10%
 
-## Game Over
-The game ends in a loss when 
-- all hexes are filled AND 
-(- an invalid shove is made OR 
- - no valid shoves are available (*))
-768 is the theoretical maximum in the game, and should also result in the game ending.
+> An exercise in real work being 1% inspiration (or ~15% in this case) and 99% (~85%, rather) perspiration.
+

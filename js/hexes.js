@@ -34,27 +34,29 @@ var REWARDS_DATA = {
 	24: "<p>Hint Get!</p> \
 		 <p>A new number will never spawn in the center hex. Keep a low number (or empty hex) in the middle to stay alive longer</p> \
 		 <hr> \
-		 <p>Watch this space for cheesy lines</p> \
+		 <p>Watch this space for cheesy lines~</p> \
 		 <p>Yes, I made this whole thing specially for you pretty much because you're special to me~</p>",
 	96: "<p>Blueberries Get</p> \
 		 <p>Chocolate-covered ones. They're in your fridge</p> \
 		 <hr> \
-		 <p>I think about you all the time, even grocery shopping, and thought \"Oh what the hell.\" </p> \
-		 <p><span>...they're probably still good</span></p>",
-	192:"<p>It's old now but...</p> \
-		 <p>I made good use of this thanksgiving <a href='../flutter/' target='_blank'>to put this back online</a>!</p> \
+		 <p>For a while now, I think about you all the time, even grocery shopping, and thought \"Oh what the hell.\" </p> \
+		 <p><span>They're probably still good...I hope. If not, oops.</span></p>",
+	192:"<p>Magic~</p> \
+		 <p>I made good use of this thanksgiving <a href='../flutter/' target='_blank'>to put this back online</a> !</p> \
+		 <p>(needs you to use non-chrome)</p><hr> \
+		 <p>In an attempt to keep myself from bugging you every time I think of you each day, I made myself work on reviving that; when I got bored with that, on this game; and if I still wasn't done thinking of you then I'd talk you</p> \
+		 <p><span>That wasn't <em>too</em> often...right?</span></p>",
+	384:"<p>How it's made!</p> \
+		 <p>Curious? Here's <a href='/resources/images/hexes_scratch.jpg' target='_blank'>step 1</a> (paper scratch), \
+		 <a href='designdoc.html' target='_blank'>step 2</a> (ongoing project documentation), \
+		 <a href='https://github.com/keerthik/keerthik.github.io/tree/master/webtoys/chen/hexes' target='_blank'>step 3</a> (source files) and you're on the final product!</p> \
 		 <hr> \
-		 <p>In an attempt to keep myself from bugging you every time I think of you, I made myself work on reviving that, and then this game, and if I still wasn't done thinking of you so then I'd talk you</p> \
-		 <p><span></span></p>",
-	384:"<p>Scratchwork</p> \
-		 <p>Here's some scratchwork that went into this project</p> \
-		 <hr> \
-		 <p></p>",
+		 <p>This is a big reason I like you so much. Noone but you inspires me to put this much work into making games, all the while enjoying it purely for passion for the art. Just by you being you :3</p>",
 	768:"<p>Ninja Tabi Get</p> \
 		 <p>+3 chance to cast Silence on Peanut  <span> ...erm please don't use it for that</span></p> \
 		 <hr> \
 		 <p>Ah, the highest theoretically possible number this game allows, but maybe you'll find a way to get a higher number.</p> \
-		 <p>After all, each day I spend near you makes me fall for you more than I thought was theoretically possible ...</p> \
+		 <p>After all, each day I spend around you makes me fall for you more than I thought was theoretically possible...</p> \
 		 <p><span>...I'll see myself out</span></p>"
 };
 
@@ -325,8 +327,8 @@ function ReflectGameState() {
 function SetRewardText (element) {
 	var i = parseInt(element.attr('id').match(/\d+/)[0]);
 	var header = Math.max(...gameState)>767?
-				"<h1>You Win! Thanks for playing!</h1>":
-				"<h1>REWARD : " + i + "</h1> ";
+				"<h1>Winner! Thanks for playing~</h1>":
+				"<h1>Loot! (Tier " + i + ")</h1> ";
 	$('#reward_text').html(header + REWARDS_DATA[i]);
 }
 
