@@ -30,13 +30,15 @@ Now add some constraints. You have to get it to the directly opposite side.
 - Spectating is more about the energy of the crowd and enthusiasm of the people who  know/care about what's going on.
 - The excitement around a competitive sport is often about player personalities, favourite teams, player trades, prize money, streaks, nationalities, underdog stories, etc. You could swap out the rules of the game if you kept everything else around and it would hardly affect most people following it.
 
-As a mechanics-oriented game designer, this feels like the pinnacle of stagnation. They hit a formula that generates money, and then for decades just focus on keeping everyone just happy enough to keep generating that money, without anyone  caring about the most powerful core of the activity -- the game.
+As a mechanics-oriented game designer, this feels like the pinnacle of stagnation. They hit a formula that generates money, and then for decades focus on keeping everyone just happy enough to keep generating that money. Hardly anyone cares about the core of the activity -- the game.
 
 ## What is on the horizon
 Physical sports competing with eSports for viewership. Sports have to be more exciting than the metagame.
 
 ## This could go the other way
 LoL trying to be a lifestyle game that lasts through the generations. They currently do this by *not* being a static game, but they could reduce the pace of game evolution down to just maintenance and cosmetics.
+
+Casters and production for eSports tournaments draw heavily from traditional sports setups.
 
 We're in the era of the intellectual. Geeks are sexy, glasses are in style, and the last thing we want to be identified is as a musclehead.
 
