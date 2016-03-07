@@ -8,6 +8,15 @@ title: Hexplorer project specs
 
 > Note: This document contains "spoilers" to the contents of the game
 
+## Vital stats
+* Game: [play here](/webtoys/chen/hexes)
+* Project start date: 08 Jan 2016
+* Code repository: [on github](https://github.com/keerthik/keerthik.github.io/tree/master/webtoys/chen/hexes)
+* Hours estimate: 67;
+* Work breakdown: brainstorm 10%, gameplay design and logic 5%; loot (content) preparation 20%; colors, styling, animations, and polish 55%; testing 10%
+
+> An exercise in real work being 1% inspiration (or ~15% in this case) and 99% (~85%, rather) perspiration.
+
 ## Abstract
 The objective is to build a simple game that entertains and is a bit memorable. It should be easy to pick up, but takes a few tries to figure out a winning strategy. Familiarity with an existing popular game provides a robust base solving a broad range of design concerns. To that end, this is a hex-grid based puzzle version of popular number game ["2048"](https://gabrielecirulli.github.io/2048/) or "threes" or "1024".
 
@@ -55,13 +64,4 @@ Rewards are intended to be increasing surprise factor later on in the game as th
 * 192 - Bring back fluttershy-can-fly! I spent a fair amount of time on this and wanted a good set up to bring it back!
 * 384 - Just as a window into my thoughts behind this whole thing, if you were curious
 * 768 - The highest number, the final reward, the cheesiest thought.
-
-## Vital stats
-* Game: [play here](/webtoys/chen/hexes)
-* Project start date: 08 Jan 2016
-* Code repository: [on github](https://github.com/keerthik/keerthik.github.io/tree/master/webtoys/chen/hexes)
-* Hours estimate: 67; 
-* Work breakdown: brainstorm 10%, gameplay design and logic 5%; loot (content) preparation 20%; colors, styling, animations, and polish 55%; testing 10%
-
-> An exercise in real work being 1% inspiration (or ~15% in this case) and 99% (~85%, rather) perspiration.
 
