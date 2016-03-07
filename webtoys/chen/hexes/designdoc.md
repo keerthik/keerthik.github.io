@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: plaintext
+headtouse: plaintexthead.html
 title: Hexplorer project specs
 ---
 
