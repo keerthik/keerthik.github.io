@@ -13,3 +13,6 @@ In Silicon Valley there are a couple of mantras repeated constantly.
 "Make something a few users really love, rather than something a lot of people kinda like"
 "Don't grow (the team size) too fast or too early"
 "Care about the problem, not your solution"
+"Success is sometimes just about not quitting"
+
+Well, we're certainly sticking out a couple of these. However, at some point we have to call our sacrifices and move on.
