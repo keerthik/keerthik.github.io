@@ -1,7 +1,7 @@
 ---
 layout: post
 folder: play
-title: multiplayer and society
+title: gamers and you
 update: May 2016
 len: 11 min
 ---
@@ -9,30 +9,64 @@ len: 11 min
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-If you're reading this, it's highly likely you are very close to at least one gamer. Probably several. Or of course you are one of us.
+-- how to intro? "im a gamer. gaming has come a long way in being an accepted hobby, yet there are some rifts that exist between gamers and those close to them."
+-- what's the point of this piece? "help bridge those rifts, specific circumstances that are unnatural"
+-- social obligations -- team and competitive matches
+-- withdrawal 
 
-This is an extremely important topic to me, so bear with me as I try to be thorough. Let's talk about what it is to be a Gamer. 
+
+Most likely you are close to at least one Gamer. Probably several. Or of course, you are one of us.
+
+This is an extremely important topic to me, something I've tried to figure out how to describe in several ways over the years.
+
+It means a lot to me and many like me that you are taking the time to read this.
 
 ## Meet The Gamer
-There's a difference between a Gamer and someone who plays games, and that's one of identity. This difference is NOT a question of *how much* they play games, or about *what genre of games*. It's not just a pastime or a passing hobby, but something that's part of who they are. If and when it goes away or it's taken away from them, they become a significantly different person. Think about that Runner or Bookworm friend you have -- they may do "it" all the time, or just whenever they can. They feel good about the time, effort and money they spend on it, and never regret it. They love to talk about it. For the most part, they appreciate being known by that identity. And if they are deprived of it against their desire, say because they're traveling or injured, they get anxious and irritable. There exist other people who enjoy the same activities, and even spend more time doing them, but they may not identify with it. That difference in relationship with the activity is the difference between the Runner and the person who runs regularly. The Bookworm, the Programmer, the Party-thrower, are other examples of this category of personas.
+To have this conversation, allow me to quickly introduce the Gamer [\[1\]](#references). There's a difference between a Gamer and someone who plays games. 
 
-But it can change, one's identity is never static. It could happen for great reasons -- finding something else they love to spend their time on even more like becoming a parent or starting a new lifelong project. And just as well for unfortunate reasons -- becoming handicapped, unable to afford the hobby, or banned from it by a partner or family for so long they can never return.
+You could play no games other than Minecraft and be a Gamer. <br>
+You could play hours of Call of Duty or Halo and be someone who plays games, but not a Gamer. <br>
+You could beat a Gamer at his favorite game on your first try, and you may not even be someone who plays games, let alone a Gamer.
 
-Obviously, being a Gamer doesn't preclude me also strongly identifying as an Entrepreneur, or Anime-nerd, or whatever. Gamer is a part of who I am, but not all of it.
+This difference is NOT a question of *how much* they play games, or about *what kinds* of games, and least of all about *how good they are* at games.
 
-Great that's out of the way.
+The real difference is one of identity. It's about gaming being a part of who they are, not just a pastime or a temporary hobby. If and when it goes away for good, they become a significantly different person. Think about that Runner or Bookworm friend you have -- they may do "it" all the time, or just whenever they can. They feel good about the time, effort and money they spend on it, and never regret it. They love to talk about it. For the most part, they appreciate being known by that identity. And if they are deprived of it against their desire, say because they're traveling or injured, they get anxious and irritable. There exist other people who enjoy the same activities, spend more time doing them or be better than them, but they may not identify with it. That difference in relationship with the activity is the difference between the Runner and the person who runs regularly. The Bookworm, the Programmer, the Beer Connoisseur, all have similar counterparts with that difference.
+
+Being a Gamer certainly doesn't preclude me also strongly identifying as an Entrepreneur, or Anime-nerd, or whatever. Gamer is an important part of who we are, but not all of it.
+
+For this conversation, I will refer to video games as the primary activity of the Gamer. There is large overlap with the Boardgamer (which I also am), Table-topper and other identities, but that's out of the scope of this post to address explicitly. This will be pretty long-winded as is.
 
 ## Are We Misunderstood?
-I wish I could say "no longer," but while it's way less misunderstood than 20 years ago, it still has a ways to go.
-Gaming is a new thing.
+I wish I could say "no longer," but while it's way less misunderstood than 20 years ago we still have a ways to go. Luckily we have friends like you who at least care enough to read a piece like this and move us along.
+
+Many people who have had little exposure to games and gaming struggle to place the habits and feelings of a Gamer within their existing frameworks of human behaviour. They subconsciouly apply double standards and don't stop to think why we do things the way we do. To this day, gaming gets condemned as an addiction, as a primary cause for random acts of criminal violence, and constantly face laws worldwide attempting to ban them from market.
+
+## Gaming is Young
+Gaming is a new thing. 
+
+The Runner and Bookworm have had their hobbies up for the public to scrutinize, demonize, admire and get used to as a harmless thing over several decades if not centuries. There was a time when people who read too diversely were considered to be working with the devil. Books would be banned or burned, authors executed, readers punished by law for proliferating the "wrong books". 
+
+Gaming is something that didn't really exist 30 years ago but is now more than just a global pastime.
+
+In 2010 the infant game industry eclipsed the centuries-old box office in gross revenue.
+
+In 2015, just a typical growth year for gaming versus the best year the box office has seen in a long time, the former had triple the revenue. [\[1\]](#references)
+
+Gaming has inspired an entire generation of software developers and electrical engineers.
+
+It has driven proliferation of the internet, the greatest technological advancement of our generation, alongside computing technology in general.
+
+It is the number one catalyst responsible for the mass adoption of personal consumer computing, the largest lifestyle change since the automobile.
+
+It is also widely blamed for the death of reading, dismantling relationships, academic self-destruction, decline of social interaction among youth, violent crimes, and a host of other things.
 
 http://jhallcomics.com/Bloop/7944
 
+## The Social Responsibility of the Gamer
 -- activities -> friendships
 -- friendships and distance - frozen without activities
--- technology and activities - variety of collaborative distance activities
 -- esports and friendships
--- those around gamers -- LoL/SC2 matches
+-- those around gamers -- competitive team/vs game matches - social liability
 
 
 Usually my writing targets core gamers interested in discussing a nuanced facet of game impact or design. This post, however, is probably more for those who do not identify as gamers, but have one in their lives -- whether a sibling, significant other, child or friend.
@@ -41,3 +75,7 @@ gamers and non-gamers, how games affect their lives.
 the next generation - online games will be like playing a regular sport today. Would you stop your significant other in the middle of a tennis game, even if it was a casual pickup game, in order to go out to dinner, even though waiting for his game to end would mean you'd be 10 minutes late? In fact, the closer and more intense the game is, the less likely you are to force them to stop.
 
 The last quarter-decade has seen as much technological advancement as the hundred or so years prior.  in the way distances, frequency and activities over which people interact than any other period in history.
+
+## References
+\[1\] [Games Revenue estimate 2015](http://www.gamesindustry.biz/articles/2015-04-22-gaming-will-hit-usd91-5-billion-this-year-newzoo) vs [Box office 2015](http://www.theguardian.com/film/2016/jan/04/global-box-office-hits-all-time-high-in-2015). My apologies as finding this data is difficult and there are lots of details to it, but this is fairly representative of the trends nonetheless.
+\[2\] Further reading: [Who are Gamers](http://www.bigfishgames.com/blog/what-does-it-mean-to-be-a-gamer/).
