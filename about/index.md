@@ -1,7 +1,7 @@
 ---
 layout: page
 title: about
-headtouse: aboutheadcontent.html
+headtouse: abouthead
 ---
 # keerthik: fun-lover, entreprenuer, lifehacker
 

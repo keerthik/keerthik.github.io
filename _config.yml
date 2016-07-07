@@ -10,5 +10,13 @@ twitter: 	 <a href="http://www.twitter.com/keerthiko">@keerthiko</a>
 # styling
 markdown:	 kramdown
 # highlighter:   pygments # This is NOT what we want!!
+# emergency includes
+porthead: portfolioheadcontent.html
+portitemhead: portitemheadcontent.html
+posthead: postheadcontent.html
+abouthead: aboutheadcontent.html
+dsbhead:  ds/blogheadcontent.html
+dsghead:  ds/gameheadcontent.html
+dsahead:  ds/aboutheadcontent.html
 kramdown:
    syntax_highlighter: rouge # Here rouge is :D

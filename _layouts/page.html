@@ -2,7 +2,18 @@
 layout: default
 ---
 <head>
-	{% include {{page.headtouse}} %}
+	{% case page.headtouse %}
+	{% when 'head' %}
+		{% include headcontent.html %}
+	{% when 'posthead' %}
+		{% include {{ site.posthead }} %}
+	{% when 'porthead' %}
+		{% include {{ site.porthead }} %}
+	{% when 'portitemhead' %}
+		{% include {{ site.portitemhead }} %}
+	{% when 'abouthead' %}
+		{% include {{ site.abouthead }} %}
+	{% endcase %}
 </head>
 <body>
 {% include header.html %}

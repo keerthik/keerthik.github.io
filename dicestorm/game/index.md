@@ -1,6 +1,6 @@
 ---
 layout: ds/page
-headtouse: ds/gameheadcontent.html
+headtouse: gamehead
 title: Gameplay
 ---
 

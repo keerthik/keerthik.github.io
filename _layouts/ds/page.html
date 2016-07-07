@@ -2,7 +2,16 @@
 layout: default
 ---
 <head>
-	{% include {{page.headtouse}} %}
+	{% case page.headtouse %}
+	{% when 'head' %}
+		{% include ds/headcontent.html %}
+	{% when 'posthead' %}
+		{% include {{ site.dsbhead }} %}
+	{% when 'abouthead' %}
+		{% include {{ site.dsahead }} %}
+	{% when 'gamehead' %}
+		{% include {{ site.dsghead }} %}
+	{% endcase %}
 </head>
 <body>
 
