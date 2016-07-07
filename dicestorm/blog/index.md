@@ -1,6 +1,6 @@
 ---
 layout: ds/page
-headtouse: ds/blogheadcontent.html
+headtouse: posthead
 title: Blog
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: ds/page
-headtouse: ds/aboutheadcontent.html
+headtouse: abouthead
 title: about
 ---
 
