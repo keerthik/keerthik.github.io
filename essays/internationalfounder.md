@@ -26,6 +26,14 @@ What happened to int'l?
 - point + how it applies to each group? (keeps everyone involved on each point)
 - touchy feely
 
+## Points of interest
+- DISCLAIMER
+- Internships
+- Taking a semester/year off (dark side -- dropping out)
+- "Trying stuff out"
+- "Move first, figure out work later"
+- If you want to start a company, your OPT might be your best shot
+
 ## Points for international students
 - Answer: Do you want to base out of the US?
 - Why you'd want to base out of the US
@@ -34,6 +42,8 @@ What happened to int'l?
 -- Taking a year off
 -- The foundry
 -- Your OPT
+- Network
+- Come to Silicon Valley
 - Research your limitations
 - Cofounder vs Employment
 - Explain, be ready to trust
@@ -46,16 +56,32 @@ What happened to int'l?
 - When it doesn't work out?
 
 ## Points for support network: Professors, College, etc
-- 
+- the side that encounters the problems don't know the solutions, the side with the solutions doesn't realize the problems
+- College: Many of the resources sideline international students
+-- NASA, defense contractors, several internship providers are reluctant
+-- Olin will work with international students to recognize these, bridge the gap
+- You may not be able to help. It may sound like whining. 
 
-Hi! I'm Keerthik <Omanakuttan>. Feel free to call me K. I'm an ECE class of 2011, one of the very first international students to be accepted to and graduate from Olin.
+Hi! I'm Keerthik <Omanakuttan>. Feel free to call me K. I'm an ECE class of 2011, one of the very first international, non-resident students to be accepted to and graduate from Olin.
 
-I am the cofounder of BitGym, an interactive fitness software company based out of Berkeley.
+<<DISCLAIMER: IANAL. Please verify official relevant USCIS documentation and/or seek licensed legal counsel before acting on any advice here>>
 
-BitGym is a mostly-bootstrapped, currently ramen-profitable 4-person software company. I'm the only non-US founder and employee. You'll learn more about me, my work, and BitGym over the course of our discussion. You may have a number of questions about that stuff. Unless it's super-directly pertinent to the whole international student situation at hand, I'd be happy to answer those after the talk/workshop.
+Before I go any further, I have to put this up here. I am not a lawyer, and none of what I say here is to be construed as legal counsel. Some of it may have changed since I last researched it, or since this presentation, or may just be plain incorrect because I'm stupid. So please double-check with official information from a licensed immigration lawyer, up-to-date USCIS documentation before acting on any advice I give here. This is so important I'm going to leave this at the bottom of every slide hereafter.
+
+That said, I've put in countless hours since 2008 researching, thinking about and working through different aspects of immigration. Many of you may have independently had to redo a lot of that work. I have become an amateur immigration expert since then between reading, filing, experiencing all the ups and downs of 0th generation immigrant. I am here to mostly talk about that third bit.
+
+I am the cofounder of BitGym, an interactive fitness software company based out of Berkeley. Our team is only 5 full time members, including Josh McCready '10. BitGym is a mostly-bootstrapped, currently ramen-profitable 5-person software company. I'm the only non-US-citizen founder. You'll learn more about me, my work, and BitGym over the course of our discussion. You may have a number of questions about that stuff. Unless it's super-directly pertinent to the whole international student situation at hand, I'd be happy to answer those afterwards.
+
+For the most part, my audience can be placed in three buckets with some overlap: international students, those who may want to work with them -- classmates or future employers, and support network -- the college, professors, parents, friends.
 
 
-Get in touch with me @keerthiko, /keerthik, keerthiko@gmail.com
+
+The N-word. No matter how much you hate hearing it, we have to live with it. Networking. This is a whole other topic that is important for your career in many ways, but its power in immigration is irreplaceable.
+
+Come to Silicon Valley
+
+Get in touch with me @keerthiko, facebook.com/keerthik, keerthiko@gmail.com, keerthik.github.io. 
+Find these slides and the talk transcribed here: keerthik.github.io/essays/internationalfounder.html
 
 
 
