@@ -5,17 +5,75 @@
 	border-radius: 10px;
 }
 
-.unit-icon {
-	position: relative;
-	float: left;
-	height: 65px;
-	width: 65px;
-	margin: 25px 10px;
-	border: 5px solid #2980b9;
-	border-radius: 50%;
-	background-color: #27ae60;
-	transition: all 0.25s ease-in-out;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 75%;	
+.unit-vanguard {
+	background-image: url(/resources/ds/img/orb_icons/vanguard.png);
+}
+
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+  background-size: auto 190.3931px;
+  background-position: center;
+  border-left: solid 5px #333333;
+  border-right: solid 5px #333333;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 142.8px;
+  height: 142.8px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  left: 24.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 190.0000px;
+  height: 109.69655114602891px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.hexTop {
+  top: -74.8px;
+  border-top: solid 7.0711px #333333;
+  border-right: solid 7.0711px #333333;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -74.8px;
+  border-bottom: solid 7.0711px #333333;
+  border-left: solid 7.0711px #333333;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 190.0000px;
+  height: 109.6966px;
+  z-index: 2;
 }
