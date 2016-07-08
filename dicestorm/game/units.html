@@ -4,18 +4,108 @@ headtouse: unithead
 title: Units
 ---
 		<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
-			<h1>OPERATION DICESTORM</h1>
-			<div class="unit-card">
-			<div style="width: 100%; height: 100%; border: 4px solid black; border-radius: 8px;">
-				<div class="hexagon">
-					<div class="hexTop"></div>
-					<div class="hexBottom"></div>
-					<div class="unit-icon vanguard"></div>
-				</div>
-				<div class="unit-basics">
-					
+	<h1>OPERATION DICESTORM</h1>
+	<div class="unit-card-outer">
+		<div class="unit-card">
+			<div class="unit-top-bar">
+			<div class="hexagon">
+				<div class="hexTop"></div>
+				<div class="hexBottom"></div>
+				<div class="unit-icon vanguard"></div>
+			</div>
+			<div class="unit-basics">
+				<div class="unit-class">Orbotron Base Unit</div>
+				<div class="unit-name">Vanguard</div>
+				<div class="unit-basics-stats">Move: 2</div>
+				<div class="unit-basics-stats">Ranged Attack: 2 x D6</div>
+			</div>
+			</div>
+			<div class="unit-abilities">
+				<h2>ABILITIES</h2>
+				<div class="unit-ability">
+					<h3>Blade Warp</h3>
+					Deal 3 damage to an adjacent piece. <br> Move to any hex adjacent to target.
 				</div>
 			</div>
+			<div class="unit-bottom-bar">
+				"We strike swift and true"
 			</div>
 		</div>
-	</body>
+	</div>
+
+	<div class="unit-card-outer">
+		<div class="unit-card">
+			<div class="unit-top-bar">
+			<div class="hexagon">
+				<div class="hexTop"></div>
+				<div class="hexBottom"></div>
+				<div class="unit-icon sentinel"></div>
+			</div>
+			<div class="unit-basics">
+				<div class="unit-class">Orbotron Base Unit</div>
+				<div class="unit-name">Sentinel</div>
+				<div class="unit-basics-stats">Move: 1</div>
+				<div class="unit-basics-stats">Ranged Attack: 1 x D6</div>
+			</div>
+			</div>
+			<div class="unit-abilities">
+				<h2>ABILITIES</h2>
+				<div class="unit-ability">
+					<h3>Force Field</h3>
+					Spawn 2 Force Fields on up to 2 adjacent hexes 
+				</div>
+				<div class="artifact">
+					<h3>Force Field [Stats]</h3>
+					Artifact; 1hp; No turn token<br>
+					Passive: Transient - Expires at the end of the tactical phase
+				</div>
+				<div class="unit-ability">
+					<h3>Psionic Lens</h3>
+					Upgrade up to 2 landed D6s to a D8 each at the same value
+				</div>
+			</div>
+			<div class="unit-bottom-bar">
+				Sentinels bend the very fabric of the universe to aid the Orbotrons
+			</div>
+		</div>
+	</div>
+	<div class="unit-card-outer">
+		<div class="unit-card">
+			<div class="unit-top-bar">
+			<div class="hexagon">
+				<div class="hexTop"></div>
+				<div class="hexBottom"></div>
+				<div class="unit-icon warpcore"></div>
+			</div>
+			<div class="unit-basics">
+				<div class="unit-class">Orbotron Base Unit</div>
+				<div class="unit-name">Warp Core</div>
+				<div class="unit-basics-stats">Move: 2</div>
+				<div class="unit-basics-stats">Ranged Attack: - </div>
+			</div>
+			</div>
+			<div class="unit-abilities">
+				<h2>ABILITIES</h2>
+				<div class="unit-ability">
+					<h3>Recall</h3>
+					Relocate an ally within 2 hexes to any hex adjacent to self.
+				</div>
+				<div class="unit-ability">
+					<h3>Omnicore</h3>
+					When destroyed, transforms into an Omnicore
+				</div>
+				<div class="artifact">
+					<h3>Omnicore [Stats]</h3>
+					Artifact; ∞hp; Receives turn token<br>
+					Active: Omnidrive - Any ally may take a <em>free</em> turn. <br>
+					Passive: Omnipresent - Place outside the board. Cannot be destroyed
+				</div>
+			</div>
+			<div class="unit-bottom-bar">
+				The Warp Cores never cease to serve the Orbotron cause, even in death
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>

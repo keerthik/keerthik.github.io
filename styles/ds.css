@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Kontra Italic'; /*a name to be used later*/
-    src: url('/resources/fonts/kontrapunkt/KontrapunktLight.otf'); /*URL to font*/
+    src: url('/resources/fonts/kontrapunkt/KontrapunktLightItalic.otf'); /*URL to font*/
 }
 
 body {
