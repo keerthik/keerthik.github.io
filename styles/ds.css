@@ -1,15 +1,31 @@
+@font-face {
+    font-family: 'Kontra'; /*a name to be used later*/
+    src: url('/resources/fonts/kontrapunkt/KontrapunktBold.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Kontra Light'; /*a name to be used later*/
+    src: url('/resources/fonts/kontrapunkt/KontrapunktLight.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Kontra Italic'; /*a name to be used later*/
+    src: url('/resources/fonts/kontrapunkt/KontrapunktLight.otf'); /*URL to font*/
+}
+
+body {
+	background-image: url('/resources/images/crossword.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* Waitlist stuff */
 #waitlist-signup {
 	position: relative;
 	margin: 30% auto;
 	width: 50%;
 	height: 100px;
-}
-
-body {
-	background-image: url('/resources/images/mountains-silhouette.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 #waitlist-signup button {

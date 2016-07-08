@@ -18,5 +18,6 @@ abouthead: aboutheadcontent.html
 dsbhead:  ds/blogheadcontent.html
 dsghead:  ds/gameheadcontent.html
 dsahead:  ds/aboutheadcontent.html
+dsunithead: ds/unitheadcontent.html
 kramdown:
    syntax_highlighter: rouge # Here rouge is :D

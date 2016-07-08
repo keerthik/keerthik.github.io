@@ -1,0 +1,21 @@
+.unit-card {
+	height: 600px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.unit-icon {
+	position: relative;
+	float: left;
+	height: 65px;
+	width: 65px;
+	margin: 25px 10px;
+	border: 5px solid #2980b9;
+	border-radius: 50%;
+	background-color: #27ae60;
+	transition: all 0.25s ease-in-out;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 75%;	
+}
