@@ -34,7 +34,8 @@
 	width: 100%;
 	height: 140%;
 	overflow: visible;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
 	background-position: center;
 }
 
@@ -109,6 +110,26 @@
 
 .warpcore {
 	background-image: url(/resources/ds/img/orb_icons/warpcore.png);
+}
+
+.zegatron {
+	background-image: url(/resources/ds/img/orb_icons/zegatron.png);
+}
+
+.puppet {
+	background-image: url(/resources/ds/img/hell_icons/puppet.png);
+}
+
+.cerberus {
+	background-image: url(/resources/ds/img/hell_icons/cerberus.png);
+}
+
+.soulke {
+	background-image: url(/resources/ds/img/hell_icons/soulke.png);
+}
+
+.balzan {
+	background-image: url(/resources/ds/img/hell_icons/balzan.png);
 }
 
 .hexagon {
