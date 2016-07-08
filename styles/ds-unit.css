@@ -114,6 +114,24 @@
 .range {
 	color: #60318d;
 }
+
+.d6 {
+	color: #efefef;
+	background-color: #372e92;
+}
+.d8 {
+	color: #efefef;
+	background-color: #ef940c;
+}
+.d12 {
+	color: #efefef;
+	background-color: #f10a0f;
+}
+.d20 {
+	color: #efefef;
+	background-color: #d939e6;
+}
+
 span.damage {
 	color: #a91400;
 	font-weight: bolder;
