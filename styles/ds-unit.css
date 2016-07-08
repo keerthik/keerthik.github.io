@@ -23,7 +23,7 @@
 .unit-top-bar {
 	position: relative;
 	width: 100%;
-	height: 470px;
+	height: 350px;
 	border-bottom: 4px solid black;
 }
 
@@ -46,6 +46,7 @@
 }
 
 .unit-name {
+	font-weight: bolder;
 	font-size: 40px;
 	margin: 30px 20px;
 }
@@ -56,15 +57,16 @@
 }
 
 .unit-basics-stats {
-	font-family: "Kontra Light";
+	font-family: "Kontra";
 	margin: 30px 20px;
 }
 
 .unit-abilities {
-	font-size: 25px;
 	position: relative;
 	display: block;
 	margin: 0px 20px;
+	font-size: 30px;
+	line-height: 1.3em;
 	text-align: center;
 }
 
@@ -83,7 +85,13 @@
 	margin: 10px auto;
 }
 
+.artifact span.ability {
+	font-family: "Kontra";
+}
+
 .artifact h3 {
+	border-top: 2px solid #010101;
+	padding-top: 5px;
 	margin: 0px;
 }
 
@@ -100,92 +108,128 @@
 	border-top: 4px solid black;
 }
 
+.passive {
+	color: #001fc6;	
+}
+.range {
+	color: #60318d;
+}
+span.damage {
+	color: #a91400;
+	font-weight: bolder;
+}
+span.artifact, .artifact h3 {
+	color: #276ac3;
+}
+span.ally {
+	color: #4aa500;
+}
+span.enemy {
+	color: #bb2030;	
+}
+span.unit {
+	font-weight: bolder;
+}
+span.piece {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+
 .vanguard {
 	background-image: url(/resources/ds/img/orb_icons/vanguard.png);
 }
-
 .sentinel {
 	background-image: url(/resources/ds/img/orb_icons/sentinel.png);
 }
-
 .warpcore {
 	background-image: url(/resources/ds/img/orb_icons/warpcore.png);
 }
-
 .zegatron {
 	background-image: url(/resources/ds/img/orb_icons/zegatron.png);
 }
-
 .puppet {
 	background-image: url(/resources/ds/img/hell_icons/puppet.png);
 }
-
 .cerberus {
 	background-image: url(/resources/ds/img/hell_icons/cerberus.png);
 }
-
 .soulke {
 	background-image: url(/resources/ds/img/hell_icons/soulke.png);
 }
-
 .balzan {
 	background-image: url(/resources/ds/img/hell_icons/balzan.png);
 }
 
 .hexagon {
-	position: relative;
-	float: left;
-	width: 400px; 
-	height: 230.94px;
-	margin: 119.47px 0; /* 4 more than needed for pure-hex */
-	border-left: solid 5px #333333;
-	border-right: solid 5px #333333;
+  position: relative;
+  float: left;
+  width: 300px; 
+  height: 173.21px;
+  margin: 89px -3px;
+  background-size: auto 334.8632px;
+  background-position: center;
+  border-left: solid 5px #333333;
+  border-right: solid 5px #333333;
 }
 
 .hexTop,
 .hexBottom {
-	position: absolute;
-	z-index: 1;
-	width: 284.8px;
-	height: 284.8px;
-	overflow: hidden;
-	-webkit-transform: scaleY(0.5774) rotate(-45deg);
-	-ms-transform: scaleY(0.5774) rotate(-45deg);
-	transform: scaleY(0.5774) rotate(-45deg);
-	left: 53.58px;
+  position: absolute;
+  z-index: 1;
+  width: 213.5px;
+  height: 213.5px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 39.5px;
 }
 
 /*counter transform the bg image on the caps*/
 .hexTop:after,
 .hexBottom:after {
-	content: "";
-	position: absolute;
-	width: 390.0000px;
-	height: 225.16660498395407px;
-	-webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-112.5833px);
-	-ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-112.5833px);
-	transform:          rotate(45deg) scaleY(1.7321) translateY(-112.5833px);
-	-webkit-transform-origin: 0 0;
-	-ms-transform-origin: 0 0;
-	transform-origin: 0 0;
+  content: "";
+  position: absolute;
+  width: 290.0000px;
+  height: 167.4315780649915px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
 }
 
 .hexTop {
-	top: -146px;
-	border-top: solid 7.0711px #333333;
-	border-right: solid 7.0711px #333333;
+  top: -110px;
+  border-top: solid 7.0711px #333333;
+  border-right: solid 7.0711px #333333;
 }
 
 .hexTop:after {
-	background-position: center top;
+  background-position: center top;
 }
 
 .hexBottom {
-	bottom: -146px;
-	border-bottom: solid 7.0711px #333333;
-	border-left: solid 7.0711px #333333;
+  bottom: -110px;
+  border-bottom: solid 7.0711px #333333;
+  border-left: solid 7.0711px #333333;
 }
 
 .hexBottom:after {
-	background-position: center bottom;
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+  width: 290.0000px;
+  height: 167.4316px;
+  z-index: 2;
+  background: inherit;
 }
