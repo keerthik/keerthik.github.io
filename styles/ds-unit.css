@@ -67,7 +67,7 @@
 	position: relative;
 	display: block;
 	margin: 0px 20px;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 30px;
 	line-height: 1.3em;
 	text-align: center;
@@ -84,6 +84,8 @@
 }
 
 .artifact {
+	position: relative;
+	bottom: 0px;
 	font-family: "Kontra Italic";
 	margin: 10px auto;
 }
