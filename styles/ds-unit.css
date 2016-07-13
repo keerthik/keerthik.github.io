@@ -3,6 +3,8 @@
 }
 
 .unit-card-outer {
+	position: relative;
+	float: left;
 	height: 1000px;
 	width: 900px;
 	border: 2px solid black;
