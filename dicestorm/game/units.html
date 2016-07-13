@@ -80,14 +80,14 @@ title: Units
 				<div class="unit-class">Orbotron Base Unit</div>
 				<div class="unit-name">Warp Core</div>
 				<div class="unit-basics-stats">Move: 2</div>
-				<div class="unit-basics-stats">Ranged Attack: - </div>
+				<div class="unit-basics-stats">Ranged Attack: 1 x <span class="d6">D6</span></div>
 			</div>
 			</div>
 			<div class="unit-abilities">
 				<h2>ABILITIES</h2>
 				<div class="unit-ability">
 					<h3>Recall</h3>
-					Relocate an <span class="ally unit">ally</span> within 2 hexes to any hex adjacent to self.
+					Relocate any adjacent <span class="unit">creature</span> to any hex adjacent to self.
 				</div>
 				<div class="unit-ability">
 					<h3 class="passive">Omnicore</h3>
@@ -129,9 +129,9 @@ title: Units
 					Deals <span class="damage">+✷3 damage</span> if cannot be knocked back fully.
 				</div>
 				<div class="unit-ability">
-					<h3>Zegafission</h3>
-					Replace Zegatron with any <span class="ally unit">base unit</span>. <br>
-					Spawn a second <span class="ally unit">base unit</span> in an adjacent hex, both at 3<span class="hp">✚</span> HP.
+					<h3 class="passive">Zegacore</h3>
+					When destroyed☠, replace with any <span class="ally unit">base unit</span>. <br>
+					Can be <span class="active">activated</span>, spawning a second <span class="ally unit">base unit</span> in an adjacent hex at 3<span class="hp">✚</span> HP.
 				</div>
 				<div class="unit-ability">
 					<h3 class="range">Zegacannons</h3>
@@ -164,7 +164,11 @@ title: Units
 				<h2>ABILITIES</h2>
 				<div class="unit-ability">
 					<h3>Explosion of Joy</h3>
-					Destroy☠ self. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in 1 hex radius.
+					Destroy☠ self. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in an adjacent hex and adjacent to target hex.
+				</div>
+				<div class="unit-ability">
+					<h3 class="ranged">Implosion of Sorrow</h3>
+					Destroy☠ self, pay 1 soul. Pull any <span class="range">1 landed die</span> towards self by 1 hex.
 				</div>
 				<div class="unit-ability">
 					<h3 class="passive">Mass Produced</h3>
@@ -172,7 +176,7 @@ title: Units
 				</div>
 			</div>
 			<div class="unit-bottom-bar">
-				"Where is my...body? What is this...pain?"
+				"Whoopee, blow everything to smithereens!"
 			</div>
 		</div>
 	</div>
@@ -195,17 +199,17 @@ title: Units
 			<div class="unit-abilities">
 				<h2>ABILITIES</h2>
 				<div class="unit-ability">
-					<h3>Three-headed Strike</h3>
+					<h3>Chompdown</h3>
 					Deal <span class="damage">✷3 damage</span> to adjacent <span class="piece">piece</span>.
 				</div>
 				<div class="unit-ability">
-					<h3 class="passive">Bloodlust</h3>
-					Whenever an adjacent <span class="enemy unit">enemy</span> is destroyed☠, <br>
-					may pay 2<span class="hp">✚</span> HP to regain turn token
+					<h3 class="passive">Fetch</h3>
+					May complete movement after <span class="enemy unit">Chompdown</span>,<br>
+					pulling the target along the <span class="ally unit">Cerberus Pup</span>'s path.
 				</div>
 			</div>
 			<div class="unit-bottom-bar">
-				"Woof!"
+				"Woof! pant pant pant"
 			</div>
 		</div>
 	</div>
@@ -228,8 +232,8 @@ title: Units
 			<div class="unit-abilities">
 				<h2>ABILITIES</h2>
 				<div class="unit-ability">
-					<h3>Soul Dispersion</h3>
-					Destroy☠ self or adjacent <span class="ally unit">ally</span>.<br> Receive 2 x💀 souls.
+					<h3>Soul Extraction</h3>
+					Pay 2<span class="hp">✚</span> HP. Gain 1 💀 soul.
 				</div>
 			</div>
 			<div class="unit-bottom-bar">
@@ -256,18 +260,16 @@ title: Units
 			<div class="unit-abilities" style="font-size: 23px">
 				<h2>ABILITIES</h2>
 				<div class="unit-ability">
-					<h3>Plaything</h3>
-					Deal <span class="damage">✷2 damage</span> to adjacent <span class="enemy piece">enemy piece</span> and gain 1💀 soul. If target is destroyed☠, may
-					pay 2<span class="hp">✚</span> HP, 2💀 souls to spawn a <span class="ally unit">Puppet</span> in its place.
-				</div>
-				<div class="unit-ability">
-					<h3>Summon Chewy</h3>
-					Pay 2<span class="hp">✚</span> HP, 2💀 souls to spawn a <span class="ally unit">Puppet</span> in adjacent hex. Regain turn token.
-				</div>
-				<div class="unit-ability">
 					<h3>Toss Chewy</h3>
-					Destroy☠ adjacent <span class="ally unit">Puppet</span>. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in a target hex
-					and hexes adjacent to target.
+					Destroy☠ adjacent <span class="ally unit">Puppet</span>. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in a target hex and hexes adjacent to target.
+				</div>
+				<div class="unit-ability">
+					<h3 class="ranged">Time to Play</h3>
+					For each <span class="enemy unit">enemy creature</span>, may pay 1 💀 soul to throw 1 x <span class="d20">D20</span>.
+				</div>
+				<div class="unit-ability">
+					<h3 class="passive">Summon Chewy</h3>
+					At the start of each round, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
 				</div>
 				<div class="unit-ability">
 					<h3 class="passive">Close Escape</h3>
