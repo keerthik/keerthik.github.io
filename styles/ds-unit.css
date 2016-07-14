@@ -65,7 +65,7 @@
 
 .unit-abilities {
 	position: relative;
-	height: 600px;
+	height: 570px;
 	display: block;
 	margin: 0px 20px;
 	padding-top: 15px;
@@ -86,7 +86,7 @@
 
 .artifact {
 	position: relative;
-	bottom: 0px;
+	bottom: 10px;
 	font-family: "Kontra Italic";
 	margin: 10px auto;
 }
