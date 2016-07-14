@@ -84,7 +84,7 @@
 	margin: 0px;
 }
 
-.artifact {
+div.artifact {
 	position: absolute;
 	bottom: 10px;
 	font-family: "Kontra Italic";
