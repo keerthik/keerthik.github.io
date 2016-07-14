@@ -6,7 +6,7 @@
 	position: relative;
 	float: left;
 	height: 1000px;
-	width: 900px;
+	width: 850px;
 	border: 2px solid black;
 	border-radius: 16px;
 	padding: 25px;
@@ -44,7 +44,8 @@
 .unit-basics {
 	position: relative;
 	float: left;
-	margin: 0 50px;
+	margin: 0px;
+	margin-left: 50px;
 }
 
 .unit-name {
