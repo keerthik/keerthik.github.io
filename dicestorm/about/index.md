@@ -22,5 +22,6 @@ Gameplay designer, fun-nut
 
 Thinks constantly about every aspect of the game to make it as fun as possible. Also does random stuff like create the website, write design blog entries, carry his prototype around the world to playtest wherever he travels, and pester people to like the {{ site.ds }} facebook page.
 
+## And Co.
 Countless other people have helped us along the way, including:
-Colden, Chen, Andy B, Alison, and every single person who playtested with us.
+Chen, Andy B, Alison (art), Colden (design) and tons of awesome folks who playtested with us.
