@@ -8,7 +8,7 @@ headtouse: gamehead
 
 [Unit Cards](units.html)
 
-[Unit Cards (Epic)](units.html)
+[Unit Cards (Epic)](units_epic.html)
 
 Dicestorm is an fantasy/sci-fi 1v1 tactics game combining dexterity and strategy.
 
