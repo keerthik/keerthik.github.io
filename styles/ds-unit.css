@@ -116,8 +116,11 @@ div.artifact {
 	margin: 0px;
 }
 
+.active {
+	color: #001fc6;
+}
 .passive {
-	color: #001fc6;	
+	color: #1e1e1e;
 }
 .range {
 	color: #60318d;
