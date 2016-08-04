@@ -4,6 +4,7 @@ layout: default
 <head>
 	{% include ds/headcontent.html %}
 	<link rel="stylesheet" href="/styles/ds-unit.css" type="text/css"/>
+	<link rel="stylesheet" href="/styles/ds-unit-print.css" type="text/css" media="print"/>
 	<script src="/resources/ds/js/unit.js"></script>
 </head>
 <body>
@@ -18,8 +19,8 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="container">
+<div class="ds-container" style="position: relative; margin: 0px auto; width: 100%">
   <div class="content">
-	<div class="inner-content">
+	<div class="ds-inner-content" style="position: relative; width: 95%; margin: 0 auto; padding: 50px auto 100px auto">
 		{{ content }}
 	</div>
