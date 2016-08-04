@@ -164,7 +164,11 @@ span.piece {
 	font-weight: bolder;
 	text-decoration: underline;
 }
-
+span.titan {
+	font-weight: bolder;
+	color: #dfdfdf;
+	background-color: #010101;
+}
 
 .vanguard {
 	background-image: url(/resources/ds/img/orb_icons/vanguard.png);
