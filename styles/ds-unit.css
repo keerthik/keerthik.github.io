@@ -165,6 +165,7 @@ span.piece {
 	text-decoration: underline;
 }
 span.titan {
+	padding: 0 5px;
 	font-weight: bolder;
 	color: #dfdfdf;
 	background-color: #010101;
