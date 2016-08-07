@@ -10,7 +10,10 @@ sep = "/"
 base_options = ["DAL", "DFW"]
 
 # Range
+# Fly 11 days from today
 start_dates = [date.today() + timedelta(11)]
+# Destinations in order with number of days at each, 
+# TODO: with -range and +range for flexibility, which isn't used
 dests = { "SEA": (4, 0, 0) , "SFO": (7, -2, 2)}
 stops_base = dests.keys()
 
@@ -31,3 +34,4 @@ def build_query(base_index):
 
 #build_query(0)
 build_query(1)
+# TODO: Navigate there, determine results, scrape them, find the lowest prices

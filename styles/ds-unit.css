@@ -116,8 +116,11 @@ div.artifact {
 	margin: 0px;
 }
 
+.active {
+	color: #001fc6;
+}
 .passive {
-	color: #001fc6;	
+	color: #1e1e1e;
 }
 .range {
 	color: #60318d;
@@ -171,6 +174,12 @@ span.titan {
 	background-color: #010101;
 }
 
+.orbotron {
+	background-image: url(/resources/ds/img/orb_icons/orbotron.png);
+}
+.hellspawn {
+	background-image: url(/resources/ds/img/orb_icons/hellspawn.png);
+}
 .vanguard {
 	background-image: url(/resources/ds/img/orb_icons/vanguard.png);
 }
