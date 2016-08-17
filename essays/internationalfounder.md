@@ -94,13 +94,15 @@ Find these slides and the talk transcribed here: keerthik.github.io/essays/inter
 Advice in life story form
 When I was a student, I didn't think I'd want to be a company founder. I always thought I'd known what I'd want to do with my life -- make computer games. Growing up with middle class educated Indian parents, they deftly guided me down a path towards computer programming and engineering, the path du jour of a cushy office job. Ideal for predictably eventually buying a house and having babies and stuff.
 
-This is a question for you to answer, but it's very important, and give it serious consideration. The fact that you've shown up here means you have at least entertained the thought in the back of your mind. That's already more than I considered, and here I am now.
+This is a question for you to answer, but it's very important, and give it serious consideration. The fact that you've shown up here means you have at least entertained the thought in the back of your mind. That's already more than I did, and here I am now.
 
 I highly recommend working at the closest thing you can find to the kind of "employment" you are considering for an internship. If you want to work in a big 5 software firm, give serious consideration to a Google/MS/IBM/Apple role. No matter what you feel like posting on social media about it, brutally honestly extrapolate that experience 5 years and think about how you'd feel about that. Keep in mind to be realistic, the grass is always greener on the other side, etc.
 
-Why I ask this. For the more typical Olin grad, I would recommend working at a BigCo first, put a 1.5~2 year re-evaluation deadline, maybe work as an early employee for a startup, and then found a company after having learned a lot.
+Why I ask this. For the more typical Olin grad, I would recommend working at a BigCo first, put a 1.5~2 year re-evaluation deadline, maybe work as an early employee for a startup, and then found a company after having learned a lot, figuring out what works best for your style and skills.
 
-For international graduates, I'd say this is backwards, and this is greatly a function of the current immigration environment. Ironically, the best opportunity you will have to start a company is right after you graduate. The OPT is the most flexible work authorization afforded international students. You can work for a big company, you can be a freelancer, start your own company, or most things in between.
+For international graduates, I'd say this is backwards, and this is greatly a function of the current immigration environment. Ironically, the best opportunity you will have to start a company is right after you graduate. The OPT is the most flexible work authorization afforded international students. You can work for a big company, you can be a freelancer, start your own company, or most things in between. So if when you look out at industry right now and can't find or land the dream job, but you have a fair idea what it would entail, consider starting it up.
 
 
 
+Alumni:
+I am (tentatively most likely) doing a talk/presentation at Olin on being an international-student-turned-founder. A big part of this is understanding what non-internationals 
