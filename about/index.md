@@ -9,15 +9,15 @@ I develop software where needed, but am mostly figuring out how to evoke a sense
 
 ### Tools You Can Use
 
-* I have lived out of {{ site.abnb }} since 2013
 * I use {{ site.db }} for creative logistics management
 * I use {{ site.az }} for tangible logistics management
+* I lived solely out of {{ site.abnb }} 2013-2015
 
 
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area. 
 
-I have been a digital nomad [December 2013 - current](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I live out of [airbnb](http://www.airbnb.com/c/komanakuttan?s=8) listings around the world and code.
+I was a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I lived out of [airbnb](http://www.airbnb.com/c/komanakuttan?s=8) listings around the world while I mostly wrote code.
 
 # Contact
 I am best reached by email. Contact me at

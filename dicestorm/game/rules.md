@@ -15,33 +15,38 @@ Dicestorm is an fantasy/sci-fi 1v1 tactics game combining dexterity and strategy
 # Win Condition
 The last side to have live units remaining on the board once the deployment rounds are over wins.
 
+# Game Parameters
+## Army supply cap
+Total units that will be deployed for each player
+Recommended: 9; Advanced: 12
+## Active supply cap
+Max number of units active on the board
+Recommended: 5; Advanced: 7
+## Deploy cap
+Max units that may be deployed when free Active supply is available
+Recommended: 2; Advanced: 3
+
 # Game Setup
-The two players sit directly across from each other. Each player picks one of the playable factions (currently: Orbotrons or Hellspawn) and collects all the corresponding tokens to their side of the play area. Set up the hex-grid board with the long-side facing each player.
+The two players sit directly across from each other. Each player picks one of the playable factions (currently: Orbotrons or Hellspawn) and collects all the corresponding unit tokens to their side of the play area. Set up the hex-grid board with the long-side facing each player. Place tokens face down in a stack on your side of the table matching the army supply cap.
 
 # Round Structure
-The game happens in rounds lasting about 2-5 minutes each. The game lasts a minimum of 3 rounds, and typically up to about 6 or 7. 
+The game happens in rounds lasting about 4-8 minutes each. The game lasts a minimum of 5 rounds, and typically up to about 6 or 7.
 
 Each round is composed of up to 3 phases: Deploy, Tactical, Bombardment (or Ranged).
 
 ## Deploy
-The Deploy Phase happens only in the first 3 rounds, and is the first phase in those rounds. In this phase both players bring units onto the board and into play. 
+In this phase both players bring units onto the board and into play while they have remaining army supply and free active supply. Once a player has depleted their army supply, they no longer participate in the Deploy phase.
 
 ### Deploy Initiative
 Deploy initiative is given to player with fewer units on the board. When tied, such as at the start of the game, both players roll D20s, and whoever rolls a higher value will begin the phase.
 
 ### Mechanics
-The row closest to the player is the default deployment zone. Some unit abilities provide additional deploy zones.
-Both players select Base Units of their choice matching the deploy count for the round. The player with initiative places all of them face-down on valid deployment zones, followed by the other player. The first player flips all his units face-up, followed by the other player.
+The row closest to the player is the default deployment zone. Some unit abilities may provide additional deploy zones.
+Both players select Base Units of their choice and removes the same number of tokens from their army supply. The player with initiative places all of them face-down on valid deployment zones, followed by the other player. The first player flips all his units face-up, followed by the other player.
 
 Any "upon deployment" triggered abilities are triggered now. Once completed, move into the Tactical phase.
 
-The game cannot end while until after the Round 3 deploy phase.
-
-* Deploy count for round 1: 2 units each
-* Deploy count for round 2: 3 units each
-* Deploy count for round 3: 4 units each
-
-For longer, more epic games this can be extended to deploy N/3-1, N/3, N/3+1 where N is total deploy count for each side (the default N is 9).
+For more epic games the active supply cap, army supply cap and deploy cap can be adjusted to be higher (7, 12 and 3)
 
 ## Tactics
 This phase immediately follows the Deploy phase in the first 3 rounds, and is the first phase in subsequent rounds. In this phase both players will take turns moving deployed units around the board and utilizing their unique abilities.
