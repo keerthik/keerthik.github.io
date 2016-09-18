@@ -20,7 +20,7 @@ Learn more about our lore // Coming Soon
 
 ## Gameplay Materials
 * [Gameplay](rules.html)
-* [Unit Cards](units.html)
+* [Unit Cards](units_epic.html)
 * Assembling the Board // Coming Soon
 * Tips and Tactics // Coming Soon
 * Advanced Mechanics Guide // Coming Soon

@@ -139,12 +139,13 @@ Find these slides and the talk transcribed here: keerthik.github.io/essays/inter
 Advice in life story form --
 When I was a student, I didn't think I'd want to be a company founder. I always thought I'd known what I'd want to do with my life -- make computer games. Growing up with middle class educated Indian parents, they deftly guided me down a path towards computer programming and engineering, the path du jour of a cushy office job. Ideal for predictably eventually buying a house and having babies and stuff.
 
-This is a question for you to answer, but it's very important, and give it serious consideration. The fact that you've shown up here means you have at least entertained the thought in the back of your mind. That's already more than I considered, and here I am now.
+This is a question for you to answer, but it's very important, and give it serious consideration. The fact that you've shown up here means you have at least entertained the thought in the back of your mind. That's already more than I did, and here I am now.
 
 I highly recommend working at the closest thing you can find to the kind of "employment" you are considering for an internship. If you want to work in a big 5 software firm, give serious consideration to a Google/MS/IBM/Apple role. No matter what you feel like posting on social media about it, brutally honestly extrapolate that experience 5 years and think about how you'd feel about that. Keep in mind to be realistic, the grass is always greener on the other side, etc.
 
-Why I ask this. For the more typical Olin grad, I would recommend working at a BigCo first, put a 1.5~2 year re-evaluation deadline, maybe work as an early employee for a startup, and then found a company after having learned a lot.
+Why I ask this. For the more typical Olin grad, I would recommend working at a BigCo first, put a 1.5~2 year re-evaluation deadline, maybe work as an early employee for a startup, and then found a company after having learned a lot, figuring out what works best for your style and skills.
 
+<<<<<<< HEAD
 For international graduates, I'd say this is backwards, and this is greatly a function of the current immigration environment. Ironically, the best opportunity you will have to start a company is right after you graduate. The OPT is the most flexible work authorization afforded international students. You can work for a big company, you can be a freelancer, start your own company, or most things in between. But some of these give you more long-term flexibility than others. Starting a company or being one of the first 5-10 hires of a team means you get to play a critical role. And this is not for some personal/professional-growth reason. I wish this weren't the case, but realistically, if you're planning to work outside of your home country, immigration has to be a primary concern in your career planning. I didn't do this, and went through a fair bit of trouble as a result, but lucked out eventually. 
 
 Support
@@ -170,10 +171,18 @@ startup limitations - time-cost dealing with immigration, HR things -- taxes, he
 undergrad - ?
 othergrad quotes x2 - 
 
+=======
+For international graduates, I'd say this is backwards, and this is greatly a function of the current immigration environment. Ironically, the best opportunity you will have to start a company is right after you graduate. The OPT is the most flexible work authorization afforded international students. You can work for a big company, you can be a freelancer, start your own company, or most things in between. So if when you look out at industry right now and can't find or land the dream job, but you have a fair idea what it would entail, consider starting it up.
+>>>>>>> 50e12a06a33e4e7f0afcad938bf553a84eaaaffd
 
 Entrepreneur Parole
 Summary: - New startup entity (< 3 years old) - Atleast 10% stake - No more than 3 applications per startup - Atleast $345,000(VC, Angel, Incubator) or $100,000 (govt grants) or show public benefit if less funding available - Initial stay for 2 years - Employment authorization only from startup - Minimum salary at 400% poverty level - Spouse gets EAD, but minor children do not.
 
 After 2 years, 3 years extension - Atleast 10% ownership and active role in startup - Atleast $500K additional funding OR $500K revenue with 20% growth OR 10 Full time Jobs
 
+<<<<<<< HEAD
 "You may submit comments directly to U.S. Citizenship and Immigration Services (USCIS) by e-mail at uscisfrcomment@dhs.gov. Please include DHS docket number USCIS-2015-0006 in the subject line of the message."
+=======
+Alumni:
+I am (tentatively most likely) doing a talk/presentation at Olin on being an international-student-turned-founder. A big part of this is understanding what non-internationals 
+>>>>>>> 50e12a06a33e4e7f0afcad938bf553a84eaaaffd

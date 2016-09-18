@@ -1,7 +1,7 @@
 gems:		 [jekyll-sitemap]
 zk:			 <a href="http://zoako.com">zoako</a>
 bg:			 <a href="http://bitgym.com">bitgym</a>
-ds:			 <a href="http://facebook.com/dicestorm">Operation Dicestorm</a>
+ds:			 <a href="/dicestorm">Operation Dicestorm</a>
 # referral things
 abnb:		 <a href="www.airbnb.com/c/komanakuttan?s=8">airbnb</a>
 db:		 	 <a href="https://db.tt/GVoI63O">dropbox</a>
