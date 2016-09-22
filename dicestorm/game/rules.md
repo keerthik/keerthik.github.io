@@ -16,13 +16,16 @@ Dicestorm is an fantasy/sci-fi 1v1 tactics game combining dexterity and strategy
 The last side to have live units remaining on the board once the deployment rounds are over wins.
 
 # Game Parameters
-## Army Supply Cap
+
+### Army Supply Cap
 Total units that will be deployed for each player. Army Supply is the remaining number of units that can be deployed for each unit.
 Recommended: 9; Advanced: 12
-## Active Supply Cap
+
+### Active Supply Cap
 Max number of creatures active on the board. Active Supply is the number of creatures currently active on the board.
 Recommended: 5; Advanced: 7
-## Deploy Cap
+
+### Deploy Cap
 Max units that may be deployed when free Active supply is available
 Recommended: 2; Advanced: 3
 
@@ -103,7 +106,8 @@ Artifacts are pieces that have special properties. They may or may not receive t
 
 Abilities may selectively affect only allied, enemy or both, and creatures, artifacts or pieces (both).
 
-Pieces receive turn tokens only at the start of the Tactics phase unless mentioned otherwise.
+Pieces receive turn tokens only at the very the start of the Tactics phase unless mentioned otherwise. Thus, anything summoned "after Deploy" will receive a turn token, but anything summoned "at the start of Tactics" will not.
 
 Summoned and deployed pieces receive max hp unless mentioned explicitly.
+
 Pieces cannot be healed beyond their max hp.

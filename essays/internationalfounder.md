@@ -6,29 +6,18 @@ update: April 2016
 len: 20 min
 ---
 
-# International founders
+# Opportunities for International Grads
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-This is the post-form of a workshop/presentation I gave (will give) at my alma mater, Franklin W. Olin College of Engineering. Reflects the situation between 2013 and 2016, that I am familiar with.
+This is the post-form of a workshop/presentation I gave at my alma mater, Franklin W. Olin College of Engineering. Reflects the situation between 2013 and 2016, that I am familiar with. 
+
+See the [slides here](https://docs.google.com/presentation/d/1uNjQ_VGVd37IK4kPMui5QsV5xqKAlUWYUp4FzFd4hxk/edit?usp=sharing).
+
+In addition to prose-form of my slide notes, this will include key Q&A points from the audience.
 
 ## Blurb
-As an international student attending Olin, what are my career options and challenges? How do I approach challenges I may face that my US-resident peers may not? How to leverage the Olin community and other resources to make the best choice.
-
-
-What happened to int'l?
-2011 Ollie, Albert, Jay, me
-2012 Ananya, Yifei, Varun, Rui, Trevor, Graham?
-2013 Ais, Shane, Jason, Alison, Andrea, ?
-2014 
-2015 
-2016 
-
-## How do I want to organize the talk?
-- sprinkle the life story?
-- choose your own adventure?
-- point + how it applies to each group? (keeps everyone involved on each point)
-- touchy feely
+As an international student (Olin graduate) in America, what are my career options and challenges? How do I approach challenges I may face that my US-resident peers may not? How to leverage the Olin community and other resources to make the best choice.
 
 ## Points of interest
 - DISCLAIMER
@@ -73,12 +62,9 @@ Hi! I'm Keerthik <Omanakuttan>. Feel free to call me K. I'm an ECE class of 2011
 
 <<DISCLAIMER: IANAL. Please verify official relevant USCIS documentation and/or seek licensed legal counsel before acting on any advice here>>
 
-Before I go any further, I have to put this up here. I am not a lawyer, and none of what I say here is to be construed as legal counsel. Some of it may have changed since I last researched it, or since this presentation, or may just be plain incorrect because I'm stupid. Some will be different based on your personal circumstances like nationality, etc. So please double-check with official information from a licensed immigration lawyer, up-to-date USCIS documentation before acting on any advice I give here. This is so important I'm going to leave this at the bottom of every slide hereafter.
+Before I go any further, I have to put this up here. I will talk about some immigration law to outline examples or provide context, but I am not a lawyer, and none of what I say here is to be construed as legal counsel. Some will be different based on your personal circumstances like nationality, etc. So please double-check with official information from a licensed immigration lawyer and up-to-date USCIS documentation before acting on any advice I give here. This is so important I'm going to leave this at the bottom of every slide hereafter.
 
-That said, I've put in countless hours since 2008 researching and working through different aspects of immigration, and more importantly, side effects of dealing with it. Many of you may have independently had to redo a lot of that work. I am going to prioritize all the things I wished someone told me to spend time on as a student because of my immigration status. As one of the lowest common denominators in the international student as an Indian passport holder, I will speak from that perspective. It's unlikely your immigration situation will be more restrictive than mine was.
-
-# About me
-I am the cofounder of BitGym, an interactive fitness software company based out of Berkeley. Our team is only 5 full time members, including Josh McCready '10. BitGym is mostly-bootstrapped, currently ramen-profitable. I'm the only non-US-citizen founder, holding an Indian passport. You'll learn more about me, my work, and BitGym over the course of our discussion. You may have a number of questions about that, and other stuff I may bring up. Unless it's super-directly pertinent to the whole international student situation at hand, I'd be happy to answer those afterwards. Any directly relevant questions or thoughts however, let me know and we can tackle it rightaway.
+That said, I've put in countless hours since 2008 researching and working through different aspects of immigration, and more importantly, side effects of dealing with it.
 
 # Questions for you
 Before I run my mouth, I want to get a sense of what would be most important to my audience here
