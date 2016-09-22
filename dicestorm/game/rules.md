@@ -19,14 +19,17 @@ The last side to have live units remaining on the board once the deployment roun
 
 ### Army Supply Cap
 Total units that will be deployed for each player. Army Supply is the remaining number of units that can be deployed for each unit.
+
 Recommended: 9; Advanced: 12
 
 ### Active Supply Cap
 Max number of creatures active on the board. Active Supply is the number of creatures currently active on the board.
+
 Recommended: 5; Advanced: 7
 
 ### Deploy Cap
 Max units that may be deployed when free Active supply is available
+
 Recommended: 2; Advanced: 3
 
 # Game Setup
