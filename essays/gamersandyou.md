@@ -39,14 +39,14 @@ For this conversation, I will refer to video games as the primary activity of th
 ## Are We Misunderstood?
 I wish I could say "no longer," but while it's way less misunderstood than 20 years ago we still have a ways to go. Luckily we have friends like you who at least care enough to read a piece like this and move us along.
 
-Many people who have had little exposure to games and gaming struggle to place the habits and feelings of a Gamer within their existing frameworks of human behaviour. They subconsciouly apply double standards and don't stop to think why we do things the way we do. To this day, gaming gets condemned as an addiction, as a primary cause for random acts of criminal violence, and constantly face laws worldwide attempting to ban them from market.
+Many people who have had little exposure to games and gaming struggle to place the habits and feelings of a Gamer within their existing frameworks of human behaviour. They subconsciouly apply double standards and don't stop to think why we do things the way we do. To this day, gaming gets condemned as an addiction, as a primary cause for random acts of criminal violence, and constantly faces laws worldwide attempting to ban them from market.
 
 ## Gaming is Young
 Gaming is a new thing. 
 
 The Runner and Bookworm have had their hobbies up for the public to scrutinize, demonize, admire and get used to as a harmless thing over several decades if not centuries. There was a time when people who read too diversely were considered to be working with the devil. Books would be banned or burned, authors executed, readers punished by law for proliferating the "wrong books". 
 
-Gaming is something that didn't really exist 30 years ago but is now more than just a global pastime.
+Gaming is something that didn't really exist 30 years ago but is now more than just a global pastime. Its significance in our world is growing rapidly.
 
 In 2010 the infant game industry eclipsed the centuries-old box office in gross revenue.
 
@@ -79,3 +79,6 @@ The last quarter-decade has seen as much technological advancement as the hundre
 ## References
 \[1\] [Games Revenue estimate 2015](http://www.gamesindustry.biz/articles/2015-04-22-gaming-will-hit-usd91-5-billion-this-year-newzoo) vs [Box office 2015](http://www.theguardian.com/film/2016/jan/04/global-box-office-hits-all-time-high-in-2015). My apologies as finding this data is difficult and there are lots of details to it, but this is fairly representative of the trends nonetheless.
 \[2\] Further reading: [Who are Gamers](http://www.bigfishgames.com/blog/what-does-it-mean-to-be-a-gamer/).
+
+
+

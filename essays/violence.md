@@ -9,7 +9,7 @@ len: 3 min
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-These words have been taken in the same breath for nearly two decades now. Having spent the better part of my waking hours thinking about games and all things related, I'd like to take you on a tour of some of the Museum of "Society vs Games because violence". The other day I was browsing Hacker News, as I often do when I'm procrastinating, and came across this comment:
+These words have been taken in the same breath for nearly two decades now. Having spent the better part of my waking hours thinking about games and all things related, I'd like to take you on a tour of some of the Museum of "Society vs Games because violence". The other day I was browsing Hacker News, as I often do when I'm procrastinating, and came across [this comment](news.ycombinator.com):
 
 > I love that none of these involve shooting people.
 
@@ -36,7 +36,7 @@ Growing up, it was inevitable that our parents and non-gaming peers would rub th
 \- Duke Nukem, The Manhattan Project
 
 
-Let me say this -- this was a significantly easier post to write today than it may have been perhaps ten, fifteen years ago. Especially since as you so correctly have guessed, I am here in defense of games. So I must first pay due respect to the bastions of the game development industry that held steadfast to get us this far.
+Let me say this -- this was a significantly easier post to write today than it may have been perhaps ten, fifteen years ago. Especially since as you so correctly have guessed, I am here in defense of games. So I must first pay due respect to the bastions of the game development industry and community that held steadfast to get us this far.
 
 
 
