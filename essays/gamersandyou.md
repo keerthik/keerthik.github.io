@@ -39,7 +39,9 @@ For this conversation, I will refer to video games as the primary activity of th
 ## Are We Misunderstood?
 I wish I could say "no longer," but while it's way less misunderstood than 20 years ago we still have a ways to go. Luckily we have friends like you who at least care enough to read a piece like this and move us along.
 
-Many people who have had little exposure to games and gaming struggle to place the habits and feelings of a Gamer within their existing frameworks of human behaviour. They subconsciouly apply double standards and don't stop to think why we do things the way we do. To this day, gaming gets condemned as an addiction, as a primary cause for random acts of criminal violence, and constantly faces laws worldwide attempting to ban them from market.
+Rather than 'Non-gamer', I prefer to call people who have had little exposure to games and gaming 'Real-lifers'. While gamers do still treat the virtual world as transient campared to real life, it still holds significant value to them while they're immersed in it. To the real-lifers, the occurrences of the virtual world are more or less wholly dismissable. As a result, real-lifers struggle to place the habits and feelings of a gamer within their existing frameworks of human behaviour. So far in the history of gaming, real-lifers have vastly outnumbered gamers, and haven't had to stop to think why we do things the way we do. To this day, gaming gets condemned as an addiction, as a primary cause for random acts of criminal violence, and constantly faces laws worldwide attempting to ban them from market.
+
+But it's changing fast.
 
 ## Gaming is Young
 Gaming is a new thing. 
@@ -48,7 +50,7 @@ The Runner and Bookworm have had their hobbies up for the public to scrutinize, 
 
 Gaming is something that didn't really exist 30 years ago but is now more than just a global pastime. Its significance in our world is growing rapidly.
 
-In 2010 the infant game industry eclipsed the centuries-old box office in gross revenue.
+In 2010 the infant game industry eclipsed the centuries-old film box office in gross revenue.
 
 In 2015, just a typical growth year for gaming versus the best year the box office has seen in a long time, the former had triple the revenue. [\[1\]](#references)
 
@@ -56,13 +58,17 @@ Gaming has inspired an entire generation of software developers and electrical e
 
 It has driven proliferation of the internet, the greatest technological advancement of our generation, alongside computing technology in general.
 
-It is the number one catalyst responsible for the mass adoption of personal consumer computing, the largest lifestyle change since the automobile.
+It was the most significant catalyst responsible for the mass adoption of personal consumer computing, the largest lifestyle change since the automobile.
 
-It is also widely blamed for the death of reading, dismantling relationships, academic self-destruction, decline of social interaction among youth, violent crimes, and a host of other things.
+It is (was?) also widely blamed for the death of reading, dismantling relationships, academic self-destruction, decline of social interaction among youth, violent crimes, and a host of other negative societal effects. Cyber-crime was incubated in the gaming ecosystem.
+
+I can hardly imagine how much more relevant gaming is to the newer generation. Their parents have all lived around it, understand it better, or at the very least feel less apprehensive about gaming than ours did. And yet we all have much to learn about it, how to deal with it, and what to think of those that are an entrenched part of it.
 
 http://jhallcomics.com/Bloop/7944
 
-## The Social Responsibility of the Gamer
+## Multiplayer: The Social Responsibility of the Gamer
+This is one of the facets of gaming that I see most often go unnoticed by those around them 
+
 -- activities -> friendships
 -- friendships and distance - frozen without activities
 -- esports and friendships

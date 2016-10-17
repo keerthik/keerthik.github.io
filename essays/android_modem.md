@@ -37,7 +37,7 @@ ADB is a power tool that's useful for all kinds of situations. Well, when you're
 
 But at least with a laptop and adb, you can pull some tricks on your phone by typing magic phrases into your terminal. I use a mac and will mostly be speaking to that.
 
-If you happen to own the combination of a macbook air and a newly updated nexus5, then [this](../webtoys/servicelookup.sh) is the simple script I use, reproduced here:
+If you happen to own the combination of a macbook air and a newly updated nexus5, then [this](../webtoys/phonenet.sh) is the simple script I use, reproduced here:
 
 {% highlight bash %}
 #!/bin/bash   

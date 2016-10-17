@@ -19,13 +19,3 @@ When I lived in Berkeley and San Francisco, the eyes were lit. With ambition, wi
 Every time I reflect on my feelings towards a new city, I'm reminded of PG's essay on [cities and ambition](http://paulgraham.com/cities.html). To me, the eyes of the people just going about a city are a big part of the vibe. These eyes are infectious. Whether you consciously observe them or not, you begin to adopt the eyes of those around you.
 
 From now on, I'll be asking myself as I walk through a new city -- are these the kinds of eyes that make me happy? And when I leave it, I want to look in the mirror and ask -- are my eyes more or less the kind that I want to live around?
-
-
-
-
-
-
-
-
-
-
