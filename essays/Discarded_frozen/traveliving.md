@@ -16,9 +16,9 @@ I hated traveling growing up. I still do. So how and why did I end up a nomad? A
 
 I was born in Thiruvananthapuram, in the fall of 1989. Less than a year old, I boarded my first flight, and was whisked away to the quaint Middle Eastern capital city of Muscat, where I was to spend the next eighteen years of my life.
 
-I have been flying regularly since. Thirteen of the sixteen summers to come I flew back to Kerala with my family. It was home to my parents, but not to me. I was never close to my grandparents -- both my grandparents passed away before I was born, one of my grandmothers suffered acute Alzheimers since I can remember, and the other passed away before I had visited her ten times, giving little opportunity to get close to any of them. Uncles, aunts, and cousins came and went before figuring much in my childhood.
+I have been flying regularly since. Thirteen of the sixteen summers to come I flew back to Kerala with my family. It was home to my parents, but not to me. I was never close to my grandparents -- both my grandfathers passed away before I was born, one of my grandmothers suffered acute Alzheimer's since I can remember, and the other passed away before I had visited her ten times, giving little opportunity to get close to any of them. Uncles, aunts, and cousins came and went before figuring much in my childhood.
 
-Having no emotional bond to my "motherland," to me these trips were reduced to just being taken along by my parents like a box of local sweets to be distributed among those they visit. It was just summer after summer of leaving behind my beloved computer, school friends, the air-conditioned, clean house I grew up in, replaced by swarming mosquitoes, occasional food poisoning, constant power cuts, and generally being herded around by my parents with nothing to entertain me. This is probably how I came to associate travel with constant boredom, physical discomfort and a lack of freedom.
+Having no emotional bond to my "motherland," to me these trips were reduced to just being taken along by my parents like a box of local delicacies to be distributed among those they visit. It was just summer after summer of leaving behind my beloved computer, school friends, the air-conditioned, clean house I grew up in, replaced by swarming mosquitoes, occasional food poisoning, constant power cuts, and generally being herded around by my parents to meet boring old people with nothing to entertain me. This is probably how I came to associate travel with constant boredom, physical discomfort and a lack of freedom.
 
 ## Oman - not home either
 
@@ -26,15 +26,17 @@ As is typical of Indian families relocating to countries where the native langua
 
 Eighteen years and I made not a single Omani friend. Eighteen years and I couldn't understand more than four words of Arabic, let alone read, write or speak it. Eighteen years and I didn't know their deeper cultural values or history.
 
+## College
 
+I found my first real home in the dorms of Olin College of Engineering, a small school of nerds cohabiting as a family. Based in the grassy hills of Needham, Massachusetts, I was cozy. I loved the diversity of people around me. I spent most of my summer, spring and thanksgiving breaks on campus, and avoided flying back to Asia while I could.
 
 
 ## Internal Change
 People change. After about the age of 20, we all know logically that we have changed a lot and will continue to do so, yet we don't internalize this. We project the future based on maintaining the same tastes, preferences, values and ambitions as we have today. 
 
-Why do we change? We change when things get hard. Things get hard when we might make mistakes. We make mistakes when we are in unfamiliar circumstances.
+Why do we change? My hypothesis is that we change when things get hard. While things are easy, we have no reason to change as life is good. They get harder when we make mistakes, and we make mistakes when things get harder. We make mistakes when we are in unfamiliar circumstances.
 
-Over these past 2 years, I have constantly been in unfamiliar circumstances. I was constantly exposing myself to potentially making mistakes. And I changed a lot as a result. I became a completely different person from who I used to know, and I had to get reacquainted with myself every so often. 
+Over these past 2 years, I have constantly been in unfamiliar circumstances. I was constantly exposing myself to potentially making mistakes. And I changed a lot as a result. I became a completely different person from who I used to know, and I had to get reacquainted with myself every so often.
 
 Luckily, that wasn't so hard because I got to spend a lot of time with me.
 

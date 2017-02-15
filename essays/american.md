@@ -11,7 +11,7 @@ len: 2 min
 
 {% include westintro.md %}
 
-"It would be cheaper to buy a ticket to Mexico, or India, or Canada, book a 3-star hotel room, and --"
+"It would be far cheaper to buy a ticket to Mexico, or India, or Canada, book a 3-star hotel room, and --"
 
 "Yes, yes, Keerthik, we know."
 
@@ -24,3 +24,6 @@ So for a change, I thought I'll pull out the soapbox to profess some love for th
 *Swirling colors flashback sequence*
 
 ## "You the kid from Oman?"
+
+- Dreams but no way to achieve them
+- 

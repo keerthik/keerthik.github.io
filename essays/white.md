@@ -18,7 +18,7 @@ I'd rub my eyes clear, as the American sun spilled through the windows of my hom
 
 "But I'll need to work hard, noone gets there for free," I'll sigh as I reach for my phone.
 
-I'd thumb idly through the collection of posed travel selfies and fall scenery shots around the world on Facebook. I'll pause for a moment on a post from my Chinese-American collegemate about the lack of Asian representation in Hollywood. Huh, this seems to have become a thing recently. It's true I suppose, though I never noticed it as an oddity before. Hollywood is American and was built by white people, it makes sense they don't depict Asians that much. "Must be rough trying to argue such an obscure and invisible problem," I think, in the brief moment my mind actually concentrates on a post before moving on. I'll like a post from a regular-American friend about how Trump's foreign policy will destroy America. Yeah, the man's a numbskull. If he does become president, hopefully he'll have reasonably wise people around to fill the gaping holes he'll leave. It's worrisome, kind of like when I read about the California drought -- it's a real problem with real consequences in theory, but in practice I'll probably go on living my life as is, and probably not be harmed by it. In the back of my mind, the worst direct consequence I can think of Trump's candidacy is that he gives people like me a bad name.
+I'd thumb idly through the collection of posed travel selfies and fall scenery shots around the world on Facebook. I'll pause for a moment on a post from my Chinese-American collegemate about the lack of Asian representation in Hollywood. Huh, this seems to have become a thing recently. It's true I suppose, though I never noticed it as an oddity before. Hollywood is American and was built by white people, it makes sense they don't depict Asians that much. "Must be rough trying to argue such an obscure and invisible problem," I think, in the brief moment my mind actually concentrates on a post before moving on. I'll like a post from a regular-American friend about how Trump's foreign policy will destroy America. Yeah, the man's a numbskull. If he does become president, hopefully he'll have reasonably wise people around to not run us to the ground. It's worrisome, kind of like when I read about the California drought -- it's a real problem with real consequences in theory, but in practice I'll probably go on living my life as is, and probably not be harmed by it. In the back of my mind, the worst direct consequence I can think of Trump's candidacy is that he gives people like me a bad name.
 
 Every one of those thoughts leave my mind without a trace along with my PJs coming off. I'd get into a comfortable Hawaiian shirt and shorts and pack my laptop to leave for work.
 
@@ -29,19 +29,11 @@ I'd amble down the street, peering up into the sky. I'd glance over at the patro
 
 I'd almost bump into the cute girl coming around the corner. I'd let out a loud and cheery "Oh, my bad!" as I stop in my tracks. She'd meekly mumble an apologetic response, bow her head and sidestep to scurry past, talking rapidly in...was that Korean? into her phone. I'd continue to walk down the center of the sidewalk, towards my friendly local pretentious hipster-trash coffee shop.
 
+
 ## Notes
+- make a scene with bad service
 - use my voice when i play games
-- make a scene wiwth bad service
 - experimental career choices
 - capitalize on job market
 - traveling internationally
 - how im perceived in a bar/club
-
-
-
-
-
-
-
-
-

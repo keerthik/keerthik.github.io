@@ -27,7 +27,7 @@ Let's use a ball for this sport. What should players do with this ball? How abou
 Now add some constraints. You have to get it to the directly opposite side. 
 
 - The point is that it's easy to make something exciting enough to spectate.
-- Spectating is more about the energy of the crowd and enthusiasm of the people who  know/care about what's going on.
+- Spectating is more about the energy of the crowd and enthusiasm of the people who know/care about what's going on.
 - The excitement around a competitive sport is often about player personalities, favourite teams, player trades, prize money, streaks, nationalities, underdog stories, etc. You could swap out the rules of the game if you kept everything else around and it would hardly affect most people following it.
 
 As a mechanics-oriented game designer, this feels like the pinnacle of stagnation. They hit a formula that generates money, and then for decades focus on keeping everyone just happy enough to keep generating that money. Hardly anyone cares about the core of the activity -- the game.
@@ -40,7 +40,7 @@ LoL trying to be a lifestyle game that lasts through the generations. They curre
 
 Casters and production for eSports tournaments draw heavily from traditional sports setups.
 
-We're in the era of the intellectual. Geeks are sexy, glasses are in style, and the last thing we want to be identified is as a musclehead.
+We're deep in the information age. Geeks are sexy, glasses are in vogue, and the last thing we want to be identified is as a musclehead.
 
 - Make physical sports turn from relics we have to work with, to games vying to be more fun and more challenging.
 

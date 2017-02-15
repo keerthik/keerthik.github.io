@@ -9,7 +9,7 @@ len: 3 min
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
-These words have been taken in the same breath for nearly two decades now. Having spent the better part of my waking hours thinking about games and all things related, I'd like to take you on a tour of some of the Museum of "Society vs Games because violence". The other day I was browsing Hacker News, as I often do when I'm procrastinating, and came across [this comment](news.ycombinator.com):
+These words have been taken in the same breath for nearly two decades now. Having spent the better part of my waking hours thinking about games and all things related, I'd like to take you on a tour of some of the Museum of "Society vs Games because violence". The other day I was browsing Hacker News, as I often do when I'm procrastinating, and came across [this comment](https://news.ycombinator.com/item?id=11803712):
 
 > I love that none of these involve shooting people.
 
@@ -26,7 +26,9 @@ This right here is loosely the inspiration for putting to words my thoughts on t
 ## Violent Influence
 The longest-held belief of the downside of violent video games is that they influence impressionable children to be violent and potential social threats. 
 
-> ...was found that he was addicted to Manslaughter, a violent video game where you take control of a character who brutally murders people...
+> ...was found that he was addicted to Manhunt, a violent video game where you take control of a character who brutally murders people...
+
+I vividly remember this phrase reproduced over and over in [the news](http://www.telegraph.co.uk/education/educationnews/4793981/Manhunt-computer-game-is-blamed-for-brutal-killing.html) when I was in high school. My parents knew of my love for games and constantly bombarded by this rhetoric, feared for my social development. I was a child of 15, theoretically in my "rebellious phase". It's that age "we need to be careful."
 
 For many years, whenever a suspect of genocide or manslaughter was investigated, their video game tastes would bubble up through the media. There was a period between 1999 and 2010 where video game tastes were a principal publicised feature of background info for any criminal suspect.
 
@@ -34,6 +36,7 @@ Growing up, it was inevitable that our parents and non-gaming peers would rub th
 
 > Bullets, babes, bombs...damn, I love this job
 \- Duke Nukem, The Manhattan Project
+
 
 
 Let me say this -- this was a significantly easier post to write today than it may have been perhaps ten, fifteen years ago. Especially since as you so correctly have guessed, I am here in defense of games. So I must first pay due respect to the bastions of the game development industry and community that held steadfast to get us this far.

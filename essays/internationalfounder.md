@@ -1,7 +1,7 @@
 ---
 layout: post
 folder: product
-title: multiplayer and society
+title: international grad
 update: April 2016
 len: 20 min
 ---
