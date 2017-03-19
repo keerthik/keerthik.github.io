@@ -124,12 +124,15 @@ div.artifact {
 
 .active {
 	color: #001fc6;
+	font-weight: bold;
 }
 .passive {
 	color: #1e1e1e;
+	font-weight: bold;
 }
 .range {
 	color: #60318d;
+	font-weight: bold;
 }
 
 .hp {

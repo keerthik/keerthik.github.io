@@ -36,11 +36,11 @@ The last side to have live units remaining on the board once deployments are ove
 - Throw all player dice, in initiative order (do not alternate)
 - Remove bombardment filter
 - Announce and optionally use any <span class="range">bombard abilities</span> on "landed dice", in initiative order (do not alternate)
-- Evaluate dice <span class="damage">damage</damage>
+- Evaluate dice <span class="damage">damage</span>
 - Trigger "after damage evaluation" ability effects
 
 **-- End of Round --**
 
 ## Dice
-D6: Face-value, hex; D8: Face-value, hex + 1/2 Face-value rounded down, min of 1 adjacent hexes
-D20: Face-value, hex; D12: Face-value, hex + 1/2 Face-value rounded down, min of 1 adjacent hexes, may be rethrown once immediately
+<span class="d6">D6</span>: Face-value, hex; <span class="d8">D8</span>: Face-value, hex + 1/2 Face-value rounded down, min of 1 adjacent hexes
+<span class="d20">D20</span>: Face-value, hex; <span class="d12">D12</span>: Face-value, hex + 1/2 Face-value rounded down, min of 1 adjacent hexes, may be rethrown once immediately
