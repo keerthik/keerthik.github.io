@@ -4,13 +4,9 @@ title: Instructions
 headtouse: gamehead
 ---
 
-[Back to Game](..)
-
-[Unit Cards](units.html)
-
 [Unit Cards (Epic)](units_epic.html)
 
-Dicestorm is an fantasy/sci-fi 1v1 tactics game combining dexterity and strategy.
+Dicestorm is a fantasy/sci-fi 1v1 tactics game combining dexterity and strategy.
 
 # Win Condition
 The last side to have live units remaining on the board once the deployment rounds are over wins.
@@ -18,19 +14,20 @@ The last side to have live units remaining on the board once the deployment roun
 # Game Parameters
 
 ### Army Supply Cap
-Total units that will be deployed for each player. Army Supply is the remaining number of units that can be deployed for each unit.
+Total units that will be deployed for each player. Army Supply is the remaining number of units that can be deployed for each player.
 
 Recommended: 9; Advanced: 12
 
 ### Active Supply Cap
-Max number of creatures active on the board. Active Supply is the number of creatures currently active on the board.
+Active Supply is the number of units currently active on the board. When the Active Supply Cap is hit, Deployment is cut off.
 
 Recommended: 5; Advanced: 7
 
 ### Deploy Cap
-Max units that may be deployed when free Active supply is available
+Units that must be deployed based on a player's Active Supply, and limited by Army Supply. Default: 2.
 
-Recommended: 2; Advanced: 3
+The Deploy Cap varies with Active Supply as per [the Supply Mat](http://keerthik.github.io/resources/ds/img/supply_mat.pdf)
+For advanced play, add 2 to the Supply Mat column values.
 
 # Game Setup
 The two players sit directly across from each other. Each player picks one of the playable factions (currently: Orbotrons or Hellspawn) and collects all the corresponding unit tokens to their side of the play area. Set up the hex-grid board with the long-side facing each player. Place tokens face down in a stack on your side of the table matching the Army Supply Cap, and this will be your Army Supply.
@@ -50,7 +47,7 @@ In this phase both players bring units onto the board and into play while they h
 
 ### Mechanics
 The row closest to the player is their default deployment zone. Some unit abilities may provide additional deploy zones.
-The player with initiative selects base units of their choice up to the Deploy Cap, while their Active Supply Cap has not been reached and they have not exhausted their Army Supply. Player 1 places all of them face-down on valid deployment zones, followed by Player 2. Player 1 flips newly deployed units face-up, followed by Player 2. 
+The player with initiative selects base units of their choice equal to the Deploy Cap or remaining Army Supply, whichever is lower. Player 1 places all of them face-down on valid deployment zones, followed by Player 2. Player 1 flips newly deployed units face-up, followed by Player 2. 
 
 Both players *must* deploy the maximum possible units given remaining Army Supply, Deploy Cap and their current Active Supply. Each player removes tokens from their Army Supply stack matching how many units were deployed.
 
@@ -103,11 +100,11 @@ Trigger any "at the end of the round" abilities here, and then move onto a new r
 # Pieces
 Any hex card placed on the board is a "piece". They occupy space and block pathing.
 
-Deployable pieces (base units) and Titan pieces are creatures, and receive turn tokens.
+Deployable pieces (base units) and Titan pieces are units, and receive turn tokens.
 
-Artifacts are pieces that have special properties. They may or may not receive turn tokens. They do not count towards initiative calculations or the victory condition (they are not creatures).
+Artifacts are pieces that have special properties. They may or may not receive turn tokens. They do not count towards initiative/supply calculations or the victory condition (they are not units).
 
-Abilities may selectively affect only allied, enemy or both, and creatures, artifacts or pieces (both).
+Abilities may selectively affect only allied, enemy or both, and units, artifacts or pieces (both).
 
 Pieces receive turn tokens only at the very the start of the Tactics phase unless mentioned otherwise. Thus, anything summoned "after Deploy" will receive a turn token, but anything summoned "at the start of Tactics" will not.
 

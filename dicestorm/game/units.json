@@ -1,0 +1,352 @@
+{
+	"jargon": {
+		"%au":"ally unit",
+		"%d":"damage",
+	},
+	"factions":[
+		{
+			"name": "Orbotrons",
+			"specials": {
+				"icon": "orbotron",
+				"abilities": [
+					{
+						"title":"Synchronize Cores",
+						"type": "active",
+						"tags": "base unit",
+						"text": "May be used by any %au{base unit}. Remove self and adjacent %au{base unit}"
+					},
+
+				],
+				"flavour":"We strike as one",
+			}
+		},
+		{
+			"name": "Hellspawn",
+
+		}
+	]
+}		
+						<h3 class="active">Synchronize Cores</h3>
+						May be used by any <span class="ally unit">base unit</span>. Remove self and an adjacent <span class="ally unit">base unit</span>. Spawn a <span class="titan">Zegatron</span> in either hex.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"We strike as one"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon vanguard"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Orbotron Base Unit</div>
+					<div class="unit-name">Vanguard</div>
+					<div class="unit-basics-stats">Move: 2</div>
+					<div class="unit-basics-stats range">Ranged Attack: 2 x <span class="d6">D6</span></div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Charged Strike</h3>
+						Deal <span class="damage">✷3 damage</span> to an adjacent <span class="enemy unit">enemy</span>. <br> Deal <span class="damage">+✷1 damage</span> if an <span class="ally unit">allied creature</span> is directly across from and adjacent to the target.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Flanking Strike</h3>
+						Deal <span class="damage">✷2 damage</span> to  adjacent <span class="enemy unit">enemy</span> if an <span class="ally unit">allied creature</span> ends their movement directly across from and adjacent to the target.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Our blades are yours"
+				</div>
+			</div>
+		</div>
+
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon sentinel"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Orbotron Base Unit</div>
+					<div class="unit-name">Sentinel</div>
+					<div class="unit-basics-stats">Move: 2</div>
+					<div class="unit-basics-stats range">Ranged Attack: 1 x <span class="d6">D6</span></div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="range">Psionic Lens</h3>
+						Upgrade up to 2 landed <span class="d6">D6</span>s to a <span class="d8">D8</span> at the same value each
+					</div>
+					<div class="unit-ability">
+						<h3 class="active">Force Field</h3>
+						Spawn <span class="artifact">Force Fields</span> on up to 3 adjacent hexes 
+					</div>
+					<div class="artifact">
+						<h3 class="active">Force Field [Stats]</h3>
+						1<span class="hp">✚</span> HP; No turn token<br>
+						<span class="passive ability">Transient</span> - Expires at the end of the tactical phase
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Planetary resonance at optimal levels"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon warpcore"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Orbotron Base Unit</div>
+					<div class="unit-name">Warp Core</div>
+					<div class="unit-basics-stats">Move: 1</div>
+					<div class="unit-basics-stats">Ranged Attack: 1 x <span class="d6">D6</span></div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Assisted Overdrive</h3>
+						An adjacent <span class="ally unit">allied creature</span> may take a <em>free</em> turn <em>immediately</em> with +1 movement.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Omnicore</h3>
+						When destroyed☠, transforms into an <span class="artifact">Omnicore</span>
+					</div>
+					<div class="artifact">
+						<h3 class="active">Omnicore [Stats]</h3>
+						∞<span class="hp">✚</span> HP; Receives turn token<br>
+						<span class="active ability">Omnidrive</span> - Any <span class="ally unit">allied creature</span> may take a <em>free</em> turn. <br>
+						<span class="passive ability">Omnipresent</span> - Place outside the board. Cannot be destroyed
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Our shells may turn to dust, but not our will"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon zegatron"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Orbotron Titan</div>
+					<div class="unit-name"><span class="titan">Zegatron</span></div>
+					<div class="unit-basics-stats">Move: 2</div>
+					<div class="unit-basics-stats range">Ranged Attack: 6 x <span class="d20">D20</span> </div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Zegapunch</h3>
+						Deal <span class="damage">✷3 damage</span> to adjacent <span class="enemy unit">enemy</span>, knocking target directly away by 2 spaces. <br>
+						Deals <span class="damage">+✷3 damage</span> if cannot be knocked back fully.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Phoenix Core</h3>
+						When destroyed☠, replace with <span class="artifact">Zegaturret</span>.<br>
+					</div>
+					<div class="unit-ability">
+						<h3 class="range">Prismatic Alignment</h3>
+						Trade ALL self dice for 2 x <span class="d12">D12</span> or 10 x <span class="d6">D6</span>
+					</div>
+					<div class="artifact">
+						<h3 class="active">Zegaturret [Stats]</h3>
+						6<span class="hp">✚</span> HP; No turn token; Ranged Attack: 6 x <span class="d20">D20</span><br>
+						<span class="range ability">Prismatic Alignment</span> - Trade ALL self dice for 2 x <span class="d12">D12</span> or 10 x <span class="d6">D6</span>
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					<span class="titan">Zegatron</span>: The ultimate configuration of Orbotron cores
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="faction-bloc">
+		<h1 style="clear:left;">Hellspawn Units</h1>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon hellspawn"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Hellspawn Faction</div>
+					<div class="unit-name">Specials</div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="passive">Soul Release</h3>
+						<span class="ally unit">Base units</span> release 💀 souls when destroyed☠ adding to the soul bank
+					</div>
+					<div class="unit-ability">
+						<h3 class="range">Dimensional Rift</h3>
+						Pay 6💀 souls to throw 1 x <span class="d12">D12</span>. Kill any <span class="piece">pieces</span> in this hex and prevent spawning there for this round. Spawn a <span class="titan">Bal'Zan</span> in this hex.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Restless Spirits</h3>
+						When the soul bank has over 6 souls, MUST open <span class="range ability">Dimensional Rifts</span> in the next <span class="range">range phase</span> until at fewer than 6 souls.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"The most fun part is the freedom of destruction"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon puppet"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Hellspawn Base Unit</div>
+					<div class="unit-name">Tormented Puppet</div>
+					<div class="unit-basics-stats">Move: 2</div>
+					<div class="unit-basics-stats">Ranged Attack: - </div>
+					<div class="unit-basics-stats">Souls: 1💀 [ each ] </div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Explosion of Joy</h3>
+						Destroy☠ self. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in adjacent hexes.
+					</div>
+					<div class="unit-ability">
+						<h3 class="range">Implosion of Sorrow</h3>
+						Remove self (does not release soul).<br> Pull <span class="range">1 landed die</span> within 2 hexes towards self by 1 hex.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Mass Produced</h3>
+						Upon deployment, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Hurglegurgle kekekeke!"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon cerberus"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Hellspawn Base Unit</div>
+					<div class="unit-name">Cerberus Pup</div>
+					<div class="unit-basics-stats">Move: 3</div>
+					<div class="unit-basics-stats range">Ranged Attack: 2 x <span class="d6">D6</span> </div>
+					<div class="unit-basics-stats">Souls: 2💀 </div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Chompdown</h3>
+						Deal <span class="damage">✷1, ✷2 or ✷3 damage</span> to adjacent <span class="piece">piece</span>.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Fetch</h3>
+						May complete movement after <span class="active ability">Chompdown</span>,<br>
+						pulling the target along the <span class="ally unit">Cerberus Pup</span>'s path.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Woof! pant pant pant!"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon soulke"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Hellspawn Base Unit</div>
+					<div class="unit-name">Soulkeeper</div>
+					<div class="unit-basics-stats">Move: 1</div>
+					<div class="unit-basics-stats range">Ranged Attack: 1 x <span class="d8">D8</span> </div>
+					<div class="unit-basics-stats">Souls: 2💀 </div>
+				</div>
+				</div>
+				<div class="unit-abilities">
+					<div class="unit-ability">
+						<h3 class="active">Soul Extraction</h3>
+						Pay 3<span class="hp">✚</span> HP or destroy☠ self. Gain 1💀 soul.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"Ah, so many souls to harvest on these battlefields"
+				</div>
+			</div>
+		</div>
+		<div class="unit-card-outer">
+			<div class="unit-card">
+				<div class="unit-top-bar">
+				<div class="hexagon">
+					<div class="hexTop"></div>
+					<div class="hexBottom"></div>
+					<div class="unit-icon balzan"></div>
+				</div>
+				<div class="unit-basics">
+					<div class="unit-class">Hellspawn Titan</div>
+					<div class="unit-name"><span class="titan">Bal'Zan</span></div>
+					<div class="unit-basics-stats">Move: 2</div>
+					<div class="unit-basics-stats">Ranged Attack: - </div>
+					<div class="unit-basics-stats">Souls: - </div>
+				</div>
+				</div>
+				<div class="unit-abilities" style="font-size: 27px">
+					<div class="unit-ability">
+						<h3 class="active">Toss Chewy</h3>
+						Destroy☠ adjacent <span class="ally unit">Puppet</span>. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in a target hex and hexes adjacent to target.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Summon Chewy</h3>
+						At the start of Tactics, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
+					</div>
+					<div class="unit-ability">
+						<h3 class="passive">Close Escape</h3>
+						When destroyed☠, replace with a <span class="artifact">Chaos Rift</span>
+					</div>
+					<div class="artifact">
+						<h3 class="active">Chaos Rift [Stats]</h3>
+						6<span class="hp">✚</span> HP; Receives turn token.<br>
+						<span class="active ability">Widen Rift</span> - Reduce own health by 1<span class="hp">✚</span> HP.<br>
+						<span class="active ability">Rebirth</span> - When at less than 3<span class="hp">✚</span> HP, replace with <span class="titan">Bal'Zan</span>.
+					</div>
+				</div>
+				<div class="unit-bottom-bar">
+					"How can I make this more fun, hmmm?"
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
