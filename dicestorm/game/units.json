@@ -18,7 +18,10 @@
 
 				],
 				"flavour":"We strike as one",
-			}
+			},
+			"units": [
+				
+			]
 		},
 		{
 			"name": "Hellspawn",
