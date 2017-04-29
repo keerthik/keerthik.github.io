@@ -2,10 +2,9 @@
 layout: ds/unitcard
 title: Units
 ---
-		<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
 	<h1>OPERATION DICESTORM: </h1>
 	<a href="rules.html">General Rules</a></h1>
-	<p id="versioncode">v0.90</p>
+	<p id="versioncode">v0.91</p>
 	<div class="faction-bloc">
 		<h1>Orbotron Units</h1>
 		<div class="unit-card-outer" id="orbotron-specials">
@@ -47,24 +46,24 @@ title: Units
 					<div class="unit-class">Orbotron Base Unit</div>
 					<div class="unit-name">Vanguard</div>
 					<div class="unit-basics-stats">Move: 2</div>
-					<div class="unit-basics-stats range">Ranged Attack: 2 ✕ <span class="d6">D6</span></div>
+					<div class="unit-basics-stats range">Bombard: 2✕<span class="d6">D6</span></div>
 				</div>
 				</div>
 				<div class="unit-abilities">
 					<div class="unit-ability">
 						<div class="ability-header">
-							<h3 class="active">Charged Strike</h3><h3 class="active type">[Active]</h3>
+							<h3 class="active">Resonating Strike</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>
-						Deal <span class="damage">✷2 damage</span> to an adjacent <span class="enemy unit">enemy</span>. <br> Deal <span class="damage">+✷2 damage</span> if an <span class="ally unit">allied creature</span> is adjacent to the target.
+						Deal <span class="damage">✷2 damage</span> to an adjacent <span class="enemy unit">enemy</span>, <span class="damage">+✷2 damage</span> if an <span class="ally unit">allied creature</span> is adjacent to the target.
 						<br> 
 					</div>
 					<div class="unit-ability">
 						<div class="ability-header">
-							<h3 class="passive">Reinforcement</h3><h3 class="passive type">[Passive]</h3>
+							<h3 class="passive">Resonance</h3><h3 class="passive type">[Passive]</h3>
 							<div style="clear:both"></div>
 						</div>
-						Deal <span class="damage">✷2 damage</span> to adjacent <span class="enemy unit">enemy</span> if an <span class="ally unit">allied creature</span> ends their movement adjacent to the target.
+						When an <span class="ally unit">allied creature</span> ends their movement adjacent to an <span class="enemy unit">enemy</span> the <span class="ally unit">Vanguard</span> is adjacent to, may deal <span class="damage">✷2 damage</span> to it.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -85,7 +84,7 @@ title: Units
 					<div class="unit-class">Orbotron Base Unit</div>
 					<div class="unit-name">Sentinel</div>
 					<div class="unit-basics-stats">Move: 2</div>
-					<div class="unit-basics-stats range">Ranged Attack: 1 ✕ <span class="d6">D6</span></div>
+					<div class="unit-basics-stats range">Bombard: 1✕<span class="d6">D6</span></div>
 				</div>
 				</div>
 				<div class="unit-abilities">
@@ -130,7 +129,7 @@ title: Units
 					<div class="unit-class">Orbotron Base Unit</div>
 					<div class="unit-name">Warp Core</div>
 					<div class="unit-basics-stats">Move: 1</div>
-					<div class="unit-basics-stats">Ranged Attack: 1 ✕ <span class="d6">D6</span></div>
+					<div class="unit-basics-stats range">Bombard: 1✕<span class="d6">D6</span></div>
 				</div>
 				</div>
 				<div class="unit-abilities">
@@ -154,7 +153,7 @@ title: Units
 							<div style="clear:both"></div>
 						</div>
 						∞<span class="hp">✚</span> HP; Receives turn token<br>
-						<span class="active ability">Omnidrive</span> - Any <span class="ally unit">allied creature</span> may take a <em>free</em> turn. <br>
+						<span class="active ability">Omnidrive [Active]</span> - Any <span class="ally unit">allied creature</span> may take a <em>free</em> turn. <br>
 						<span class="passive ability">Omnipresent</span> - Place outside the board. Cannot be destroyed
 					</div>
 				</div>
@@ -175,7 +174,9 @@ title: Units
 					<div class="unit-class">Orbotron Titan</div>
 					<div class="unit-name"><span class="titan">Zegatron</span></div>
 					<div class="unit-basics-stats">Move: 2</div>
-					<div class="unit-basics-stats range">Ranged Attack: 6 ✕ <span class="d20">D20</span></div>
+					<div class="unit-basics-stats range">Bombard: [<span class="zega-stats">Prismatic Alignment</span>]
+					<br>6✕<span class="d20">D20</span>/2✕<span class="d12">D12</span>/10✕<span class="d6">D6</span>
+					</div>
 				</div>
 				</div>
 				<div class="unit-abilities">
@@ -184,8 +185,7 @@ title: Units
 								<h3 class="active">Zegapunch</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>						
-						Deal <span class="damage">✷3 damage</span> to adjacent <span class="enemy unit">enemy</span>, knocking target directly away by 2 spaces. <br>
-						Deals <span class="damage">+✷3 damage</span> if cannot be knocked back fully.
+						Deal <span class="damage">✷3 damage</span> to adjacent <span class="enemy unit">enemy</span>, knocking target directly away by 2 spaces, <span class="damage">+✷3 damage</span> if the target cannot be knocked back fully.
 					</div>
 					<div class="unit-ability">
 						<div class="ability-header">
@@ -199,15 +199,15 @@ title: Units
 							<h3 class="range">Prismatic Alignment</h3><h3 class="range type">[Bombard]</h3>
 							<div style="clear:both"></div>
 						</div>
-						Trade ALL self dice for 2 ✕ <span class="d12">D12</span> or 10 ✕ <span class="d6">D6</span>
+						May launch 6✕<span class="d20">D20</span> or 2✕<span class="d12">D12</span> or 10✕<span class="d6">D6</span>
 					</div>
 					<div class="artifact">
 						<div class="ability-header">
 							<h3 class="active">Zegaturret</h3><h3 class="active type">[Stats]</h3>
 							<div style="clear:both"></div>
 						</div>
-						6<span class="hp">✚</span> HP; No turn token; Ranged Attack: 6 ✕ <span class="d20">D20</span><br>
-						<span class="range ability">Prismatic Alignment</span> - Trade ALL self dice for 2 ✕ <span class="d12">D12</span> or 10 ✕ <span class="d6">D6</span>
+						6<span class="hp">✚</span> HP; No turn token;<br>
+						<span class="range ability">Prismatic Alignment</span> - May launch 6✕<span class="d20">D20</span> or 2✕<span class="d12">D12</span> or 10✕<span class="d6">D6</span>
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -237,7 +237,7 @@ title: Units
 							<h3 class="passive">Soul Release</h3><h3 class="passive type">[Passive]</h3>
 							<div style="clear:both"></div>
 						</div>
-						<span class="ally unit">Base units</span> release 💀 souls when destroyed☠ adding to the soul bank
+						When <span class="ally unit">base units</span> are destroyed☠ they add indicated 💀 souls to the soul bank.
 					</div>
 					<div class="unit-ability">
 						<div class="ability-header">
@@ -251,7 +251,7 @@ title: Units
 							<h3 class="range">Dimensional Rift</h3><h3 class="range type">[Bombard]</h3>
 							<div style="clear:both"></div>
 						</div>
-						Pay 6💀 souls to throw 1 ✕ <span class="d12">D12</span>. Kill any <span class="piece">pieces</span> and prevent spawns this round in this hex. Spawn a <span class="titan">Bal'Zan</span> in this hex.
+						Pay 6💀 souls to throw 1✕<span class="d12">D12</span>. Kill any <span class="piece">pieces</span> and prevent spawns this round in this hex. After <span class="range">damage evaluation</span>, spawn a <span class="titan">Bal'Zan</span> in this hex.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -271,7 +271,7 @@ title: Units
 					<div class="unit-class">Hellspawn Base Unit</div>
 					<div class="unit-name">Cerberus Pup</div>
 					<div class="unit-basics-stats">Move: 3</div>
-					<div class="unit-basics-stats range">Ranged Attack: 2 ✕ <span class="d6">D6</span> </div>
+					<div class="unit-basics-stats range">Bombard: 2✕<span class="d6">D6</span> </div>
 					<div class="unit-basics-stats">Souls: 2💀 </div>
 				</div>
 				</div>
@@ -288,7 +288,7 @@ title: Units
 							<h3 class="passive">Fetch</h3><h3 class="passive type">[Passive]</h3>
 							<div style="clear:both"></div>
 						</div>
-						May complete movement after <span class="active ability">Chompdown</span>,<br>
+						May complete movement after <span class="active ability">Chompdown</span>,
 						pulling the target along the <span class="ally unit">Cerberus Pup</span>'s path.
 					</div>
 				</div>
@@ -309,7 +309,7 @@ title: Units
 					<div class="unit-class">Hellspawn Base Unit</div>
 					<div class="unit-name">Soulkeeper</div>
 					<div class="unit-basics-stats">Move: 1</div>
-					<div class="unit-basics-stats range">Ranged Attack: 1 ✕ <span class="d8">D8</span> </div>
+					<div class="unit-basics-stats range">Bombard: 1✕<span class="d8">D8</span> </div>
 					<div class="unit-basics-stats">Souls: 2💀 </div>
 				</div>
 				</div>
@@ -339,7 +339,7 @@ title: Units
 					<div class="unit-class">Hellspawn Base Unit</div>
 					<div class="unit-name">Tormented Puppet</div>
 					<div class="unit-basics-stats">Move: 2</div>
-					<div class="unit-basics-stats">Ranged Attack: - </div>
+					<div class="unit-basics-stats">Bombard: - </div>
 					<div class="unit-basics-stats">Souls: 1💀 [ each ] </div>
 				</div>
 				</div>
@@ -383,11 +383,11 @@ title: Units
 					<div class="unit-class">Hellspawn Titan</div>
 					<div class="unit-name"><span class="titan">Bal'Zan</span></div>
 					<div class="unit-basics-stats">Move: 2</div>
-					<div class="unit-basics-stats">Ranged Attack: - </div>
+					<div class="unit-basics-stats">Bombard: - </div>
 					<div class="unit-basics-stats">Souls: - </div>
 				</div>
 				</div>
-				<div class="unit-abilities" style="font-size: 27px">
+				<div class="unit-abilities">
 					<div class="unit-ability">
 						<div class="ability-header">
 							<h3 class="active">Toss Chewy</h3><h3 class="active type">[Active]</h3>
@@ -400,7 +400,7 @@ title: Units
 							<h3 class="passive">Summon Chewy</h3><h3 class="passive type">[Passive]</h3>
 							<div style="clear:both"></div>
 						</div>
-						At the start of Tactics, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
+						At the start of <span class="active">[Tactics phase]</span>, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
 					</div>
 					<div class="unit-ability">
 						<div class="ability-header">
@@ -415,8 +415,7 @@ title: Units
 							<div style="clear:both"></div>
 						</div>
 						6<span class="hp">✚</span> HP; Receives turn token.<br>
-						<span class="active ability">Widen Rift</span> - Reduce own health by 1<span class="hp">✚</span> HP.<br>
-						<span class="active ability">Rebirth</span> - When at 2<span class="hp">✚</span> HP or less, replace with <span class="titan">Bal'Zan</span>.
+						<span class="active ability">Rebirth [Active]</span> - Pay 💀 souls equal to remaining <span class="hp">✚</span> HP. Replace with a <span class="titan">Bal'Zan</span> at full HP.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">

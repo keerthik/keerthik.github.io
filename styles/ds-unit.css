@@ -64,7 +64,11 @@
 	position: relative;
 	float: left;
 	margin: 0px;
-	margin-left: 50px;
+	margin-left: 20px;
+}
+
+.zega-stats {
+	font-size: 22px;
 }
 
 .unit-name {
