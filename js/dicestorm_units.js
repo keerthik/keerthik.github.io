@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	//generateImages();
+	generateImages();
 });
 
 function generateImages() {
