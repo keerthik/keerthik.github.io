@@ -2,6 +2,12 @@
 	padding: 	50px 0px 100px 0px;
 }
 
+#printable {
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
 .faction-bloc {
 	display: block;
 	clear: left;
