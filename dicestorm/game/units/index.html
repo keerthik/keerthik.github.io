@@ -3,8 +3,8 @@ layout: ds/unitcard
 title: Units
 ---
 	<h1>OPERATION DICESTORM: </h1>
-	<a href="rules.html">General Rules</a></h1>
-	<p id="versioncode">v0.91</p>
+	<a href="../rules.html">General Rules</a></h1>
+	<p id="versioncode">v0.92</p>
 	<div class="faction-bloc">
 		<h1>Orbotron Units</h1>
 		<div class="unit-card-outer" id="orbotron-specials">
@@ -26,7 +26,7 @@ title: Units
 							<h3 class="active">Synchronize Cores</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>
-						May be used by any <span class="ally unit">base unit</span>. Remove self and an adjacent <span class="ally unit">base unit</span>. Spawn a <span class="titan">Zegatron</span> in either hex.
+						May be used by any <span class="ally unit">base unit</span>. Remove self and an adjacent <span class="ally unit">friendly base unit</span>. Spawn a <span class="titan">Zegatron</span> in either hex.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -52,18 +52,18 @@ title: Units
 				<div class="unit-abilities">
 					<div class="unit-ability">
 						<div class="ability-header">
+							<h3 class="passive">Resonance</h3><h3 class="passive type">[Passive]</h3>
+							<div style="clear:both"></div>
+						</div>
+						When an <span class="ally unit">allied creature</span> ends their movement adjacent to an <span class="enemy unit">enemy</span> the <span class="ally unit">Vanguard</span> is adjacent to, may deal <span class="damage">✷2 damage</span> to it.
+					</div>
+					<div class="unit-ability">
+						<div class="ability-header">
 							<h3 class="active">Resonating Strike</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>
 						Deal <span class="damage">✷2 damage</span> to an adjacent <span class="enemy unit">enemy</span>, <span class="damage">+✷2 damage</span> if an <span class="ally unit">allied creature</span> is adjacent to the target.
 						<br> 
-					</div>
-					<div class="unit-ability">
-						<div class="ability-header">
-							<h3 class="passive">Resonance</h3><h3 class="passive type">[Passive]</h3>
-							<div style="clear:both"></div>
-						</div>
-						When an <span class="ally unit">allied creature</span> ends their movement adjacent to an <span class="enemy unit">enemy</span> the <span class="ally unit">Vanguard</span> is adjacent to, may deal <span class="damage">✷2 damage</span> to it.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -211,7 +211,7 @@ title: Units
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
-					<span class="titan">Zegatron</span>: The ultimate configuration of Orbotron cores
+					"Crystals at maximum resonance"
 				</div>
 			</div>
 		</div>
@@ -316,6 +316,13 @@ title: Units
 				<div class="unit-abilities">
 					<div class="unit-ability">
 						<div class="ability-header">
+							<h3 class="passive">Realm Distortion</h3><h3 class="active type">[Passive]</h3>
+							<div style="clear:both"></div>
+						</div>
+						When deploying, may treat hexes on either side of this unit as Deployment Zones.
+					</div>
+					<div class="unit-ability">
+						<div class="ability-header">
 							<h3 class="active">Soul Extraction</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>
@@ -323,7 +330,7 @@ title: Units
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
-					"Ah, so many souls to harvest on these battlefields"
+					"Come, destroy everything!"
 				</div>
 			</div>
 		</div>
@@ -346,6 +353,13 @@ title: Units
 				<div class="unit-abilities">
 					<div class="unit-ability">
 						<div class="ability-header">
+							<h3 class="passive">Mass Produced</h3><h3 class="passive type">[Passive]</h3>
+							<div style="clear:both"></div>
+						</div>
+						Upon deployment, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
+					</div>
+					<div class="unit-ability">
+						<div class="ability-header">
 							<h3 class="active">Explosion of Joy</h3><h3 class="active type">[Active]</h3>
 							<div style="clear:both"></div>
 						</div>
@@ -357,13 +371,6 @@ title: Units
 							<div style="clear:both"></div>
 						</div>
 						Remove self (does not release soul).<br> Pull <span class="range">1 landed die</span> within 2 hexes towards self by 1 hex.
-					</div>
-					<div class="unit-ability">
-						<div class="ability-header">
-							<h3 class="passive">Mass Produced</h3><h3 class="passive type">[Passive]</h3>
-							<div style="clear:both"></div>
-						</div>
-						Upon deployment, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
 					</div>
 				</div>
 				<div class="unit-bottom-bar">
@@ -387,7 +394,14 @@ title: Units
 					<div class="unit-basics-stats">Souls: - </div>
 				</div>
 				</div>
-				<div class="unit-abilities" style="font-size: 27px">
+				<div class="unit-abilities" style="font-size: 30px">
+					<div class="unit-ability">
+						<div class="ability-header">
+							<h3 class="passive">Chewy and Chompy</h3><h3 class="passive type">[Passive]</h3>
+							<div style="clear:both"></div>
+						</div>
+						At the start of each <span class="active">[Tactics phase]</span>, spawn 2 <span class="ally unit">Puppets</span> in adjacent hexes.
+					</div>
 					<div class="unit-ability">
 						<div class="ability-header">
 							<h3 class="active">Toss Chewy</h3><h3 class="active type">[Active]</h3>
@@ -395,35 +409,11 @@ title: Units
 						</div>
 						Destroy☠ adjacent <span class="ally unit">Puppet</span>. Deal <span class="damage">✷2 damage</span> to <span class="enemy piece">enemy pieces</span> in a target hex and hexes adjacent to target.
 					</div>
-					<div class="unit-ability">
-						<div class="ability-header">
-							<h3 class="passive">Summon Chewy</h3><h3 class="passive type">[Passive]</h3>
-							<div style="clear:both"></div>
-						</div>
-						At the start of <span class="active">[Tactics phase]</span>, spawn a <span class="ally unit">Puppet</span> in an adjacent hex.
-					</div>
-					<div class="unit-ability">
-						<div class="ability-header">
-							<h3 class="passive">Close Escape</h3><h3 class="passive type">[Passive]</h3>
-							<div style="clear:both"></div>
-						</div>
-						When destroyed☠, replace with a <span class="artifact">Chaos Rift</span>
-					</div>
-					<div class="artifact">
-						<div class="ability-header">
-							<h3 class="active">Chaos Rift</h3><h3 class="active type">[Stats]</h3>
-							<div style="clear:both"></div>
-						</div>
-						6<span class="hp">✚</span> HP; Receives turn token.<br>
-						<span class="active ability">Rebirth [Active]</span> - Pay 💀 souls equal to remaining <span class="hp">✚</span> HP. Replace with a <span class="titan">Bal'Zan</span> at full HP.
-					</div>
 				</div>
 				<div class="unit-bottom-bar">
-					"How can I make this more fun, hmmm?"
+					"I brings me toys!"
 				</div>
 			</div>
 		</div>
 	</div>
-<script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
-<script src="/js/html2canvas.js"></script>
-<script src="/js/dicestorm_units.js"></script>
+	<a id="printable">Make Printable</a>

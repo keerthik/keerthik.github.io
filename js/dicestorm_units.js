@@ -1,5 +1,9 @@
 $(document).ready(function() {
-	generateImages();
+	$('.printable').click(function(e) {
+		e.preventDefault();
+		generateImages();
+		switchFunctionality();
+	});
 });
 
 function generateImages() {
@@ -18,3 +22,6 @@ function generateImages() {
 	$('.faction-bloc').css('display','none');
 }
 
+function switchFunctionality() {
+	
+}
