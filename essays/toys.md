@@ -8,12 +8,6 @@ len: 11 min
 # Toys -> Games
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
-{{ site.ds }}, our board game project, is what I would describe as “intense” as board games go — tactically challenging and involved, with a variety of moving parts. Earlier on in its development, we tested with several inexperienced board gamer friends, just to see how it felt. While they didn’t delve into tactical theorycrafting, they still enjoyed the game a lot. But they weren't able to explain why. This got me thinking, and that’s when I formulated the concept of “Toys to Games.” The more I pondered it, the more powerful I realized this concept is, for design discussion, evaluation, improvement and more.
-
-//missing image//
-
-Awesome folks playtesting an Operation Dicestorm prototype
-
 A note: If you happened to stumble upon this piece but aren't particularly interested in game design, know that this framework is also useful beyond just game design, as I outline towards the end.
 
 ## What Is “Toys to Games”?
@@ -54,7 +48,7 @@ A classic household toy. A shiny thing that comes in a little box with no instru
 ### LEGOs
 There's a little ambiguity because of the breadth of what LEGOs include. Some argue you can technically be “good at LEGOs,” but really, you’re not beating someone else at it when you make something cool and creative. However, no one will deny they are a ton of fun to play with, even if you aren't trying to make what’s on the box, or sometimes even make anything at all. Finding that you have just the right piece to splint that weak limb, placing the right joint to complete that aesthetic aspect, nothing is more satisfying in the toy world. When I was in college, my roommate did a summer job as a camp instructor for some students working with LEGO Mindstorm sets to make racecars, battlebots, and more. Those are definitely games, with competition and scoring, built around an amazing toy.
 
-##Video Game Toys
+## Video Game Toys
 
 Because my focus as a designer is on video games, I can’t help but dedicate a section to this. Video games, as the name suggests, are almost always games. There are a few 'toys' (Minecraft, Sim City) by the classification above that are considered video games, and a lot of toys that are thinly coated with a game layer (Transport Tycoon, The Sims) to give the player a sense of doing well or doing badly.
 
@@ -66,29 +60,29 @@ regardless of \[insert game objective\] wherever possible
 
 Let's break down the implications of each of those clauses.
 
-###Control Scheme
+### Control Scheme
 
 * Physical: How tiring is it for your fingers to rest over these keys? Do you have to use the mouse too? Is activity balanced between left and right hands? Can you reach all controls easily? If not, is it more fun to learn to reach all of them effectively?
 * Focus: Is the focus on reflexes? Careful feathering for fine tuned controls? Timing? Speed? Each control needs to have a focus.
 * Reason: Does a control have a reason to exist -- i.e, you use it regularly, yet it's not something you want held down all the time.
 
-###Gameplay Effect
+### Gameplay Effect
 
 * Intuitive: The link between your physical control and the gameplay effect should be obvious
 * Mechanic-centric: The gameplay effect should affect the system of the game in a meaningful way. For example, moving a character is meaningful, toggling the visibility of its hitpoint bar less so.
 * \[While the hitpoints themself are part of the feedback, the control for turning them on or off should not be considered part of the toy.\]
 
-###Feedback
+### Feedback
 
 * Informative: effectively tell the player what he just asked for.
 * Responsive: quickly let the player know it worked.
 * Satisfying: graphics and sound effects play the main role here.
 
-###Regardless Of
+### Regardless Of
 
 This is the most important clause. You should be able to say the above is fun regardless of relevant core objectives of the "game" you're considering. Sprinting around, wall-running and backflipping in Prince of Persia: Sands of Time is fun regardless of really trying to go anywhere.
 
-###Need For Example
+### Need For Example
 
 Let's consider the toy core of Need For Speed: Most Wanted.
 Notice the motion blur, sparks and lights adding to the speed feedback
@@ -106,7 +100,7 @@ It does get a little tiring to hold down the gas. However you often need to let 
 
 Smoke from the turning wheels on pavement, motion blur, screeching tires and revving engine sounds round off the feedback loop, making the core of NFS -- a "racing game" -- a fun toy.
 
-##1 Great Toy to N Great Games
+## 1 Great Toy to N Great Games
 
 The fundamental thesis of Toys to Games is that if you start by focusing on building a great toy, you create a fertile ground for a great game. Most individual games have a threshold of how long they can enthrall a player. However, if the core toy is flexible enough, when players are bored of the original game, there's still opportunity for more games around it.
 
@@ -120,21 +114,21 @@ In fact, this can effectively be extended to the creation of many core video gam
 
 Forget video games. A bouncy ball! The number and scale of sports and games humans have created from a spherical object with an amount of bounce is kind of mind-boggling. All because the ball is an amazing toy.
 
-##From Outside The Framework
+## From Outside The Framework
 
 It goes without saying, Toys To Games is not the only framework for approaching game design. Many games have been built without this idea. What does the result tend to look like?
 
-###A Great Game Without A Great Toy
+### A Great Game Without A Great Toy
 
 Chess is technically not built around much of a toy in its raw state. You've probably noticed that popular versions of chess incorporate clip-in/magnetic pieces, beautiful wooden folding boards and artistic pieces, which please the senses and make setting up the game and moving pieces intrinsically fun, even if you are moving without following rules, like a toy. Still, the core experience of chess is really not a very good toy, so it goes to show you can have great games even without focusing on the toy aspect, but while having a good ruleset.
 
 However, you may notice that in these cases, players often take it upon themselves to find ways to make their interactions with the game more fun. The way poker dealers handle cards, a chess player smacks off an enemy piece or even those adjustments in non-game situations like these folks, are based on the intention to make a physical interaction more fun than just functional.
 
-###Breaking the Core Toy
+### Breaking the Core Toy
 
 A scenario where the toy-factor is not given enough consideration is when video games are ported from one platform to another. Very often these ports are assigned to a dev team that does not run any design-focused playtesting beyond basic QA for major bugs. The lack of a design-minded approach when the controls are being cast into a completely new mold often results in really clunky controls that either technically cannot reproduce the feel of the original controls, or map them poorly resulting in something unresponsive or uncomfortable to use. Even if the original game wasn't designed focusing on the toy aspect, breaking whatever toy there is can kill the game.
 
-##Analyses Using The Framework
+## Analyses Using The Framework
 
 Many fun core video game toys are inspired by fun real-world interactions. For example, driving a real car is fun, which inspired racing games.
 
@@ -158,7 +152,7 @@ I use “Toys to Games” to sometimes come up with new game ideas — eithe
 
 It’s also a good way to pinpoint the cause of frustrations players may have with a game’s design. Strip away the game objectives (mentally at least) and play. Is it a decent toy? If it isn’t, you have a fundamental problem with the core of your game — how the player interacts with your game world.
 
-##Beyond Games
+## Beyond Games
 
 Toys make a great core for any product that humans interact with. An entire department of the MIT Media Labs is dedicated to “Playful Systems.”
 
