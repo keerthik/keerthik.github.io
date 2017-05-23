@@ -19,6 +19,7 @@ I was born in picturesque Thiruvananthapuram, in south India. I grew up in quain
 
 I was a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I lived out of [airbnb](http://www.airbnb.com/c/komanakuttan?s=8) listings around the world while I mostly wrote code.
 
+I now am based in the SF Bay Area, but find myself outside the country about a third of the year.
 # Contact
 I am best reached by email. Contact me at
 
@@ -51,13 +52,13 @@ This site primarily hosts my [portfolio](/portfolio) and [writing](/essays). I a
 
 # Built Using
 
-* \[hosting\] Github pages \[[live](http://pages.github.com)\]
-* \[code\] Markdown, HTML, CSS Repo: \[[live](https://github.com/keerthik/korcgames)\]
-* \[content\] Jekyll for static site generation \[[live](http://jekyllrb.com/)\]
-* \[editor\] Sublime Text 3 \[[live](http://www.sublimetext.com/)\]
-* \[analytics\] Google analytics \[[live](http://www.google.com/analytics/)\]
-* \[font\] FiraSans for body \[[live](http://dev.carrois.com/fira-3-1/)\]
-* \[font\] Monaco for code \[[live](https://github.com/todylu/monaco.ttf/)\]
+* \[hosting\] Github pages \[[link](http://pages.github.com)\]
+* \[code\] Markdown, HTML, CSS Repo: \[[link](https://github.com/keerthik/keerthik.github.io)\]
+* \[content\] Jekyll for static site generation \[[link](http://jekyllrb.com/)\]
+* \[editor\] Sublime Text 3 \[[link](http://www.sublimetext.com/)\]
+* \[analytics\] Google analytics \[[link](http://www.google.com/analytics/)\]
+* \[font\] FiraSans for body \[[link](http://dev.carrois.com/fira-3-1/)\]
+* \[font\] Monaco for code \[[link](https://github.com/todylu/monaco.ttf/)\]
 * \[OS\] Mac OS X 10.9.x: It's ok, you don't want it
 
 
