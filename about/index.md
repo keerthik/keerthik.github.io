@@ -7,12 +7,18 @@ headtouse: abouthead
 
 I develop software where needed, but am mostly figuring out how to evoke a sense of enjoyment through things I make. I care about games, learning, and creation.
 
+### Activity
+
+* {{ site.bg }} - cofounder, android, experience design
+* {{ site.zk }} - cofounder
+* {{ site.ds }} - creator
+* this site - all the things
+
 ### Tools You Can Use
 
 * I use {{ site.db }} for creative logistics management
 * I use {{ site.az }} for tangible logistics management
 * I lived solely out of {{ site.abnb }} 2013-2015
-
 
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area. 
@@ -20,19 +26,12 @@ I was born in picturesque Thiruvananthapuram, in south India. I grew up in quain
 I was a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I lived out of [airbnb](http://www.airbnb.com/c/komanakuttan?s=8) listings around the world while I mostly wrote code.
 
 I now am based in the SF Bay Area, but find myself outside the country about a third of the year.
-# Contact
+
+### Contact
+
 I am best reached by email. Contact me at
 
 \[my first name\]\[at\]bitgym\[dot\]com
-
-# Activity
-
-* {{ site.bg }} - cofounder, android, experience design
-* {{ site.zk }} - cofounder
-* {{ site.ds }} - creator
-* this site - all the things
-
-# Find me on
 <!--Instagram-->
 <style>.ig-b- { display: inline-block; }
 .ig-b- img { visibility: hidden; }
