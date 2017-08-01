@@ -1,12 +1,12 @@
 gems:		 [jekyll-sitemap]
 zk:      <a href="https://colorballsgame.com">color balls</a>
-bg:      <a href="https://bitgym.com">bitgym</a>
+bg:      <a href="https://www.bitgym.com">bitgym</a>
 ds:      <a href="http://dicestormgame.com">dicestorm</a>
 # referral things
 abnb:		 <a href="www.airbnb.com/c/komanakuttan?s=8">airbnb</a>
 db:		 	 <a href="https://db.tt/GVoI63O">dropbox</a>
 az:		 	 <a href="https://db.tt/GVoI63O">amazon</a>
-twitter: 	 <a href="http://www.twitter.com/keerthiko">@keerthiko</a>
+twitter: 	 <a href="https://www.twitter.com/keerthiko">@keerthiko</a>
 # styling
 markdown:	 kramdown
 # highlighter:   pygments # This is NOT what we want!!
@@ -15,9 +15,5 @@ porthead: portfolioheadcontent.html
 portitemhead: portitemheadcontent.html
 posthead: postheadcontent.html
 abouthead: aboutheadcontent.html
-dsbhead:  ds/blogheadcontent.html
-dsghead:  ds/gameheadcontent.html
-dsahead:  ds/aboutheadcontent.html
-dsunithead: ds/unitheadcontent.html
 kramdown:
    syntax_highlighter: rouge # Here rouge is :D
