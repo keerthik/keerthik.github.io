@@ -90,7 +90,7 @@ In contrast, fun-to-face mana-removal abilities include Lion's Mana Siphon, or E
 
 Certainly these mechanics were each arrived at after much iteration and careful planning. Unfortunately the designers behind DOTA and SC2 have many constraints they have/had to work with. The biggest of these are that the game is played at an extremely competitive level, and its massive scale in terms of complexity and player-base.
 
-The eSports aspect adds a third and very important stakeholder for the fun-ness of a multiplayer mechanic - the spectator - which I haven't considered in this discussion, and is out of the scope of this post.
+The esports aspect adds a third and very important stakeholder for the fun-ness of a multiplayer mechanic - the spectator - which I haven't considered in this discussion, and is out of the scope of this post.
 
 The tight competitive scene and the size of the player-base made it difficult for them to make radical changes to any units or mechanics once they released, because any change was bound to affect the intricate balance of the game and solicit a lot of flak from the community, or tip the win rates at the competitive level too much.
 

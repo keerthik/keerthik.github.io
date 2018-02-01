@@ -1,6 +1,11 @@
 import glob, os, sys
 from PyPDF2 import PdfFileMerger
 
+"""
+Initialize with the month expected to look inside in the child.
+Launch this script from the parent folder of all the reimbursements
+Reimbursement> $ python ~/personal/source_korc/source/webtoys/reimburse.py 2017_11
+"""
 class Reimburser:
 	def __init__(self, sysargs):
 		if len(sysargs) > 1:
@@ -21,7 +26,9 @@ class Reimburser:
         #print (os.path.join(self.folder, file))
 		print (self.pdfs)
 
-	def combine(self, outfile='result.pdf'):
+	def combine(self, outfile='result'):
+		if '.pdf' not in outfile:
+			outfile += '.pdf'
 		print ('Combining...')
 		self.merger = PdfFileMerger()
 		for pdf in self.pdfs:
@@ -41,7 +48,7 @@ if __name__ == '__main__':
 	reimburser = Reimburser(sys.argv)
 	#print (reimburser.month)
 	reimburser.collect()
-	reimburser.combine()
+	reimburser.combine(sys.argv[1])
 
 	# firstArg = ''
 	# if len(sys.argv) == 1:

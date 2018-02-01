@@ -5,17 +5,17 @@ title: 21st century sports
 update: June 2014
 len: 11 min
 ---
-# E-sports spurring "Real" sports
+# esports spurring "Real" sports
 
 // Better title please
 
 <div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
 ## History lesson
-eSports has been on a meteoric rise for the last decade. 
+esports has been on a meteoric rise for the last decade. 
 
 ## Sports and Gender
-- Traditional sports segregated. eSports may open the way to stopping that being the default.
+- Traditional sports segregated. esports may open the way to stopping that being the default.
 
 ## 5-minute sport design exercise
 Anything can be an exciting sport because of "metagame." That doesn't make it a good "game."
@@ -33,12 +33,12 @@ Now add some constraints. You have to get it to the directly opposite side.
 As a mechanics-oriented game designer, this feels like the pinnacle of stagnation. They hit a formula that generates money, and then for decades focus on keeping everyone just happy enough to keep generating that money. Hardly anyone cares about the core of the activity -- the game.
 
 ## What is on the horizon
-Physical sports competing with eSports for viewership. Sports have to be more exciting than the metagame.
+Physical sports competing with esports for viewership. Sports have to be more exciting than the metagame.
 
 ## This could go the other way
 LoL trying to be a lifestyle game that lasts through the generations. They currently do this by *not* being a static game, but they could reduce the pace of game evolution down to just maintenance and cosmetics.
 
-Casters and production for eSports tournaments draw heavily from traditional sports setups.
+Casters and production for esports tournaments draw heavily from traditional sports setups.
 
 We're deep in the information age. Geeks are sexy, glasses are in vogue, and the last thing we want to be identified is as a musclehead.
 
