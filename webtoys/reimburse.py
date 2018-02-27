@@ -4,7 +4,7 @@ from PyPDF2 import PdfFileMerger
 """
 Initialize with the month expected to look inside in the child.
 Launch this script from the parent folder of all the reimbursements
-Reimbursement> $ python ~/personal/source_korc/source/webtoys/reimburse.py 2017_11
+Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2018_01
 """
 class Reimburser:
 	def __init__(self, sysargs):

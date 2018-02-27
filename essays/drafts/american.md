@@ -28,7 +28,7 @@ len: 2 min
 - The ideal learning environment for me -- absorption
 - Dreams but no way to achieve them
 - It's my Prison of Freedom
-
+- I looked in the mirror and for the first time i saw the eyes of someone who felt like he could achieve whatever he pursued.
 
 [why san francisco](https://bold.co/public/why-y-combinator-made-all-the-zvgxjl?t=tihkgug)
 
