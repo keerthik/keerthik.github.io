@@ -6,7 +6,7 @@ update: Feb 2018
 len: 12 min
 ---
 # Place-people
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Facebook</a></div>
+<div class="essay-subtext">cross-posted: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a></div>
 
 {% include nomadintro.md %}
 
