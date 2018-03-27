@@ -72,6 +72,8 @@ A city is the growing, shifting values, food, language and architecture, across 
 
 ***
 
-I won't presume to tell people what to do or not do. Just this: Talk to cities. If you go outside, ask yourself if you felt like you had honest conversation with the city. Not with its tourism industry or with its top reviewed destinations, You may find an interesting friend. A friend different from the ones you have. A friend who may teach you something new, things you never expected to learn. A patient, badass friend who has the wisdom of a hundred generations, the might of a million voices, the size of a literal city. 
+I won't presume to tell people what to do or not do when you go out into a city. Just this: Talk to cities. When you come back home, ask yourself if you felt like you had honest conversation with the city. Not with its tourism industry or with its top reviewed destinations, but with the soul of the city.
+
+You may find an interesting friend. A friend different from the ones you have. A friend who may teach you something new, things you never expected to learn. A patient, badass friend who has the wisdom of a hundred generations, the might of a million voices, the size of a literal city. 
 
 But most importantly, a friend who will remember you long, long after you're gone, and share your story as part of its own to all its future friends.
