@@ -1,4 +1,5 @@
 .DS_Store
+secure.json
 _site/*
 */._*
 ._*
