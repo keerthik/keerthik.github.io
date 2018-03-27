@@ -1,8 +1,8 @@
 ---
 layout: post
 folder: Nomad Chronicles
-title: cities-people
-update: Feb 2018
+title: place-people
+update: Mar 2018
 len: 12 min
 ---
 # Place-people
@@ -38,7 +38,7 @@ Cities suggest and inform your ambitions and support your passions with all the 
 
 PG argues that we as mere humans cannot fight the Pavlovian conditioning for the values of the place beyond a certain extent, no matter how sheltered, stubborn or individualistic we may be. As a corollary, we can never be as passionate about X as someone surrounded by values that inspire them to pursue X, all else being comparable.
 
-A related essay of Paul Graham's showcases the differences in how places talk about the Grand Topic of ambitions and innovation -- [Why Startups Condense in America](http://paulgraham.com/america.html). Tens of cities or countries every year vocally promise to be the "next silicon valley" -- whether that's a worthwhile aspiration is a separate topic --  via "startup" and "tech" grants, a coworking space and a few statements from the mayor and some local tech CEO. However, an engineer-entrepreneur listening closely, aka, tries actually living in one of these while building things, can quickly cut through the marketing noise and hear the true voice of the city. If it inspires, welcomes and encourages them, and honestly just makes what they do easier, more rewarding, and a pleasure is the true promise. The place will resonate with a history of having done this or at least a willingness to do this for decades, and [it will use many voices to say this.
+A related essay of Paul Graham's showcases the differences in how places talk about the Grand Topic of ambitions and innovation -- [Why Startups Condense in America](http://paulgraham.com/america.html). Tens of cities or countries every year vocally promise to be the "next silicon valley" -- whether that's a worthwhile aspiration is a separate topic --  via "startup" and "tech" grants, a coworking space and a few statements from the mayor and some local tech CEO. However, an engineer-entrepreneur listening closely, aka, tries actually living in one of these while building things, can quickly cut through the marketing noise and hear the true voice of the city. If it inspires, welcomes and encourages them, and honestly just makes what they do easier, more rewarding, and a pleasure -- that is the true promise. The place will resonate with a history of having done this or at least a willingness to do this for decades, and it will use many voices to say this.
 
 The Grand Topics are unsurprisingly important to think about and share with your city. Other such things (not mentioned in PG's essay) include the dichotomy of individualism vs communalism vs collectivism. The cultures surrounding openness, restraint, conservatism, freedom, and so so much more. But what I oftentimes find myself further absorbed with are the trivialities.
 
@@ -49,7 +49,7 @@ My favorite thing is listening to the streets. How long do the "walk" signals la
 
 In Taipei the walk signals are a quaint animated LED display instead of a bulb through a static transparency like in most other places. It turns out to be a cultural affinity to invest in making official information appropriately adorable, something you can find in other Asian countries to varying extents in street signage. In London, there are many kinds of crosswalks including what the Londoners call Zebra, Pelican, and Toucan. We can all guess why the Zebra is called so, but even most of the Londoners I asked had no idea why the others had the names they did, and had some pretty funny guesses. You can look up [where each of them got their name](http://www.good-london-guide.com/styled-5/styled-25/), but what amuses me rather than their origin story is the overarching penchant to zoomorphize street crossings. Did the rest just follow because Zebras? Is it perhaps that London, august and proper on the day-to-day, loves to bring up animals that are a tad silly when crossing the streets to showcase there's more to them than drab and class?
 
-In Japan, one of the most notoriously OCD cultures in the world, trash/recycle bins are pretty hard to find on the streets. How strange! Especially given that several streets had more vending machines in the open than people. True, vending machines are typically accompanied by the appropriate recycle bin for what the leftovers of what it dispenses, but just as often they weren't. Curious, I started asking locals what the deal was. They had various plausible answers. 
+In Japan, one of the most notoriously OCD cultures in the world, trash/recycle bins are pretty hard to find on the streets. How strange! Especially given that several streets had more vending machines in the open than people. True, vending machines are typically accompanied by the appropriate recycle bin for the leftovers of what it dispenses, but just as often they weren't. Curious, I started asking locals what the deal was. They had various plausible answers. 
 
 It turned out to be a nuanced, simultaneously conscious and subconscious outcome -- The most prominent factual reason was a "trash-based" [terrorist attack](https://en.wikipedia.org/wiki/Tokyo_subway_sarin_attack) by a doomsday cult in the 90s. They wrapped newspapers in plastic bags filled with the chemical-weapons-grade 'sarin' gas and dispersed these in trash cans and in the open in a major train station. However, this technically only resulted in reducing garbage receptacles at train stations. 
 
@@ -72,7 +72,7 @@ A city is the growing, shifting values, food, language and architecture, across 
 
 ***
 
-I won't presume to tell people what to do or not do when you go out into a city. Just this: Talk to cities. When you come back home, ask yourself if you felt like you had honest conversation with the city. Not with its tourism industry or with its top reviewed destinations, but with the soul of the city.
+I won't presume to tell you what to do or not do when you go out into a city. Just this: Talk to cities. When you come back home, ask yourself if you felt like you had honest conversation with the city. Not with its tourism industry or with its top reviewed destinations, but with the soul of the city.
 
 You may find an interesting friend. A friend different from the ones you have. A friend who may teach you something new, things you never expected to learn. A patient, badass friend who has the wisdom of a hundred generations, the might of a million voices, the size of a literal city. 
 
