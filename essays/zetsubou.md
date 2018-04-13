@@ -1,14 +1,10 @@
 ---
 layout: post
 folder: Nomad Chronicles
-title: zetsubou-and-i
+title: Zetsubou and I
 update: Dec 2016
-len: 8 min
+cross: <a href="https://www.facebook.com/notes/keerthik-ok/zetsubou-and-i/10154692145293503">on Facebook</a>
 ---
-
-# Zetsubou and I
-
-<div class="essay-subtext">cross-posted: <a href="https://www.facebook.com/notes/keerthik-ok/zetsubou-and-i/10154692145293503">on Facebook</a></div>
 
 The following is a little loaded and very personal, so if you do read it I am grateful for your time and letting me dampen your mood a little bit.
 

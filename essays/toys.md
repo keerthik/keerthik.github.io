@@ -1,12 +1,10 @@
 ---
 layout: post
 folder: play
-title: toys to games
+title: Toys -> Games
 update: June 2014
-len: 11 min
+cross: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a>
 ---
-# Toys -> Games
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a></div>
 
 A note: If you happened to stumble upon this piece but aren't particularly interested in game design, know that this framework is also useful beyond just game design, as I outline towards the end.
 

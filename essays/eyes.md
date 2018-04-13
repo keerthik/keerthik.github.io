@@ -1,13 +1,10 @@
 ---
 layout: post
 folder: Nomad Chronicles
-title: eyes
+title: Eyes
 update: Sept 2014
-len: 2 min
+cross: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a>
 ---
-# Eyes
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a></div>
-
 {% include nomadintro.md %}
 
 *What makes a city right?*

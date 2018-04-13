@@ -6,31 +6,23 @@ layout: default
 </head>
 <body>
 {% include header.html %}
+{% capture time %}
+	{{ page.content | number_of_words | plus: 1 | divided_by: 180 }}
+{% endcapture %}
 <div class="inner-content">
 	<div class="essay-map">writing > {{ page.folder }} > {{ page.title }}</div>
 	<div class="essay-map">Last Updated: <span class="essay-data">{{ page.update }}</span></div>
-	<div class="essay-data"> {{ page.len }} read</div> {{ page.layout }}
-	{{ content }}
-	
-	<br><hr><br>
-	
-	Liked this post? Follow me on Twitter for updates when I add another.
-	<a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-	<div id="disqus_thread" style="margin-top: 30px"></div>
-	<script type="text/javascript">
-	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	    var disqus_shortname = 'kohome'; // required: replace example with your forum shortname
-	    var disqus_title = '{{title}}';
-
-	    /* * * DON'T EDIT BELOW THIS LINE * * */
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	<div class="essay-data"> {{ time }} minute read</div>
+	<h1>{{ page.title }}</h1>
+	{{ content }}	
+	<hr>
+	{% if page.tweet %}
+	<em>Comments? Like, retweet or respond to the announcement tweet:</em>
+	<div style="width: 550px; min-width: 250px; margin: 0 auto">
+		{{ page.tweet }}
+	</div>
+	{% endif %}
+	{% if page.cross %}
+		<div class="essay-subtext">cross-posted: {{ page.cross }} </div>
+	{% endif %}
 </div>

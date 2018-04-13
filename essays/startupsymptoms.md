@@ -1,12 +1,10 @@
 ---
 layout: post
 folder: product
-title: life in early-stage
+title: Life in an Early-Stage Tech Company 
 update: September 2014
-len: 8 min
+cross: <a href="https://medium.com/@keerthiko/abf2fe9d37fd">on Medium</a>
 ---
-# Life in an Early-Stage Tech Company 
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/abf2fe9d37fd">on Medium</a></div>
 
 It’s a fairly common question near- and new-grads try to answer in the STEM field.
 

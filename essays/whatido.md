@@ -1,12 +1,10 @@
 ---
 layout: post
 folder: Nomad Chronicles
-title: out of place
+title: Out of Place
 update: Sept 2014
-len: 3 min
+cross: <a href="https://medium.com/@keerthiko/out-of-place-c57b33441090">on Medium</a>
 ---
-# Out of Place
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/out-of-place-c57b33441090">on Medium</a></div>
 
 {% include nomadintro.md %}
 

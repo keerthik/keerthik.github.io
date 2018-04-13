@@ -65,7 +65,8 @@ p {
 /* Gradient transparent - color - transparent */
 hr {
 	border: 0;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 	height: 1px;
 	background-color: #111;
 	width: 40%;

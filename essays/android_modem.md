@@ -1,12 +1,9 @@
 ---
 layout: post
 folder: tech
-title: android modem
+title: One-touch Android USB Modem
 update: March 2015
-len: 5 min
 ---
-
-# One-touch Android USB Modem
 
 As a digital nomad, I am often in some form of transit such as a long subway, bus, or high speed rail ride, or waiting in an airport. As such, being able to work literally on the go is a must for my remote job. As such one of the first things I do in any country I land is secure a local SIM with enough data to tide me over for the entire duration of my stay. Thus even if I lose access to wifi, I can tether to my phone.
 

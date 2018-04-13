@@ -1,13 +1,12 @@
 ---
 layout: post
 folder: Nomad Chronicles
-title: languages and living
+title: Language Where You Live
 update: May 2015
-len: 4 min
----
-# Language Where You Live
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a></div>
+cross: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a>
+tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On the topic of cities, &quot;Languages where you live&quot;<a href="https://t.co/RpDBQUrShY">https://t.co/RpDBQUrShY</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/984904665908170758?ref_src=twsrc%5Etfw">April 13, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+---
 {% include nomadintro.md %}
 
 *What makes a city right?*

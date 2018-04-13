@@ -3,12 +3,8 @@ layout: post
 folder: Meta/Life
 title: Where Are You From
 update: 2016 March
-len: 3 min
+cross: <a href="https://medium.com/@keerthiko/where-are-you-from-fb5f3e48f1aa">on Medium</a>
 ---
-
-# Where Are You From?
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko/where-are-you-from-fb5f3e48f1aa">on Medium</a></div>
-
 This question is a popular modern gripe among Asian Americans. Really this bothers the descendant of an immigrant of pretty much any ethnicity, in almost any country.
 
 I understand some of the motivations behind that question -- a succinct question and answer to create a rough model of who I am based on their knowledge of the world. What language(s) does he know? What are his core moral values? What kind of culture is he familiar with? Is he religious, and what type? What food might he like? What did he probably study or work on? What are some of his favorite pastimes? And of course, what ethnicity is he? That last question could be anything from idle curiosity to subconscious racist inclinations, and this is the aspect that mostly bothers people.

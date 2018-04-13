@@ -1,14 +1,10 @@
 ---
 layout: post
 folder: play
-title: overpowered
+title: Overpowered
 update: July 2015
-len: 6 min
+cross: <a href="https://medium.com/@keerthiko">on Medium</a>
 ---
-
-# Overpowered
-
-<div class="essay-subtext">cross-posted: <a href="https://medium.com/@keerthiko">on Medium</a></div>
 
 {% include dicestormintro.md %}
 
