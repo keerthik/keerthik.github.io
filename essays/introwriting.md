@@ -3,6 +3,7 @@ layout: post
 folder: Meta/Writing
 title: Hello, Writing
 update: August 2014
+tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Writing essays is a very calming and centering hobby. I picked it up to avoid depression as a <a href="https://twitter.com/hashtag/digitalnomad?src=hash&amp;ref_src=twsrc%5Etfw">#digitalnomad</a><a href="https://t.co/LmLbOpmcYq">https://t.co/LmLbOpmcYq</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/984938306252128257?ref_src=twsrc%5Etfw">April 13, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 This post is weird because it's a retroactively written intro to my site after I've already drafted and completed a number of essays. But I feel better about writing this intro post this time than every other time I've intro'd my blog because I've finally developed into a somewhat consistent writer. 
