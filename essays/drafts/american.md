@@ -2,12 +2,25 @@
 layout: post
 folder: Meta/Life
 title: The Strangest Love Letter - Part 1
-update: November 2016
+update: May 2018
 ---
 
-Less than Human
+Part I
+
+
 
 <div class="hidden-notes">
+
+- Being white
+MP: "I have lost all trust in this team" - do I even have the position where a team cares about my trust in them? I'm conditioned to believe I am but a spanner
+The indignation with which he treats this problem
+
+Style: autobiographical/story bits?
+Thesis: Watching people do things that aren't feasible for you
+Questions: Why don't you just...do those things
+Answer: ???
+
+
 Things I can talk about
 - Ambition, America, and the rest of the world
 - Public discourse - "We talk about things"

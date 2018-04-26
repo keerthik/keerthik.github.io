@@ -32,6 +32,11 @@ I now am based in the SF Bay Area, but find myself outside the country about a t
 I am best reached by email. Contact me at
 
 \[my first name\].o\[at\]gmail\[dot\]com
+
+Cold emails work.
+
+I love to meet/mentor people who may be interested in what I know. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html)
+
 <!--Instagram-->
 <style>.ig-b- { display: inline-block; }
 .ig-b- img { visibility: hidden; }
