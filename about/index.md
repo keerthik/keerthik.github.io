@@ -33,22 +33,10 @@ I am best reached by email. Contact me at
 
 \[my first name\].o\[at\]gmail\[dot\]com
 
-Cold emails work.
+Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html).
 
-I love to meet/mentor people who may be interested in what I know. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html)
-
-<!--Instagram-->
-<style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-32 { width: 32px; height: 32px; background: url(/resources/images/instagram_circle.png) no-repeat 0 0; background-size:100%;}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-32 { background-image: url(/resources/images/instagram_circle.png);  background-size:100%} }</style>
-<a href="http://instagram.com/nomadkorc?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
-<!--Twitter-->
-<a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
+I also do the twitters.<!--Twitter--><a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<a href="https://www.quora.com/Keerthik-Omanakuttan">Quora</a>
 
 # This site
 
