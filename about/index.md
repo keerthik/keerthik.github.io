@@ -7,6 +7,17 @@ headtouse: abouthead
 
 I develop software where needed, but am mostly figuring out how to evoke a sense of enjoyment through things I make. I care about games, learning, and creation.
 
+## Contact
+
+I am best reached by email. Contact me at
+
+\[my first name\].o\[at\]gmail\[dot\]com
+
+Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html) and prefer in-person, timeboxed to other media.
+
+I also do the twitters: <!--Twitter--><a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 ### Activity
 
 * {{ site.bg }} - cofounder, android, experience design
@@ -21,28 +32,18 @@ I develop software where needed, but am mostly figuring out how to evoke a sense
 * I lived solely out of {{ site.abnb }} 2013-2015
 
 ### Geography
-I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area. 
 
-I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I lived out of {{ site.abnb }} listings around the world while I mostly wrote code.
+I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to Olin college in Boston, then cofounded a company in the Bay Area.
 
-I now am based in the SF Bay Area, but find myself outside the country about a third of the year, these days by choice.
+I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around the Asia while I mostly wrote code.
 
-### Contact
+After wrangling an O1 and eventually a green card I am now based in the SF city, but find myself outside the country about a third of the year by choice.
 
-I am best reached by email. Contact me at
+## This site
 
-\[my first name\].o\[at\]gmail\[dot\]com
+This site primarily hosts descriptions of my [projects](/projects) and [writing](/essays). I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
 
-Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html).
-
-I also do the twitters.<!--Twitter--><a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-# This site
-
-This site primarily hosts my [portfolio](/portfolio) and [writing](/essays). I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
-
-# Built Using
+### Built Using
 
 * \[hosting\] Github pages \[[link](http://pages.github.com)\]
 * \[code\] Markdown, HTML, CSS Repo: \[[link](https://github.com/keerthik/keerthik.github.io)\]
@@ -54,7 +55,7 @@ This site primarily hosts my [portfolio](/portfolio) and [writing](/essays). I a
 * \[OS\] Mac OS X 10.9.x: It's ok, you don't want it
 
 
-# History
+### History
 
 The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it. 
 

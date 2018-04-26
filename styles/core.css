@@ -177,3 +177,26 @@ blockquote {
 	margin: 10px auto;
 	margin-bottom: 30px;
 }
+
+h1 {
+	color: 			#222;
+	text-align: center;
+	padding-top:	90px;
+	margin-bottom: 	20px;
+}
+
+h2 {
+	color: 			#333;
+	font-size: 		30px;
+	margin-bottom: 	10px;
+}
+
+h3 {
+	color: 			#444;
+	font-size: 		24px;
+	font-weight: 	lighter;
+	line-height: 	1em;
+	margin-top: 	40px;  
+	margin-bottom: 	10px;
+}
+
