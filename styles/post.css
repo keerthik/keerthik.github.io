@@ -3,9 +3,6 @@ body {
 	font-size: 	20px;
 }
 
-.content {
-	padding: 0 50px;
-}
 .inner-content {
 	padding-top: 20px;
 }
@@ -26,7 +23,7 @@ body {
 }
 
 .essay-subtext {
-	text-align: center;
+	text-align: left;
 	color: 		#666;
 	font-size: 	18px;
 	width: 		600px;
@@ -39,7 +36,7 @@ body {
 }
 
 h1 {
-	text-align: center;
+	text-align: 	left;
 	padding-top:	90px;
 	margin-bottom: 	20px;
 }

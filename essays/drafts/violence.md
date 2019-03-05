@@ -42,5 +42,6 @@ Growing up, it was inevitable that our parents and non-gaming peers would rub th
 Let me say this -- this was a significantly easier post to write today than it may have been perhaps ten, fifteen years ago. Especially since as you so correctly have guessed, I am here in defense of games. So I must first pay due respect to the bastions of the game development industry and community that held steadfast to get us this far.
 
 
+https://www.bbc.com/news/blogs-trending-43254575
 
-
+https://twitter.com/PeterAlexander/status/969300010683850752

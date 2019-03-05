@@ -321,7 +321,7 @@
 			],
 			[
 				"Time",
-				"TimeSpan	class"
+				"TimeSpan\tclass"
 			],
 			[
 				"display",
@@ -329,7 +329,7 @@
 			],
 			[
 				"local",
-				"localScale	Vector3"
+				"localScale\tVector3"
 			],
 			[
 				"progr",
@@ -337,7 +337,7 @@
 			],
 			[
 				"Lerp",
-				"Slerp(Quaternion, Quaternion, Single)	Quaternion"
+				"Slerp(Quaternion, Quaternion, Single)\tQuaternion"
 			],
 			[
 				"rele",
@@ -365,7 +365,7 @@
 			],
 			[
 				"P",
-				"Play()	Void"
+				"Play()\tVoid"
 			],
 			[
 				"UI",
@@ -377,7 +377,7 @@
 			],
 			[
 				"active",
-				"activeSelf	Boolean"
+				"activeSelf\tBoolean"
 			],
 			[
 				"back",
@@ -385,7 +385,7 @@
 			],
 			[
 				"Find",
-				"FindChild(String)	Transform"
+				"FindChild(String)\tTransform"
 			],
 			[
 				"flag",
@@ -405,11 +405,11 @@
 			],
 			[
 				"get",
-				"GetComponent<T>()	T"
+				"GetComponent<T>()\tT"
 			],
 			[
 				"rotat",
-				"RotateAround(Vector3, Single)	Void"
+				"RotateAround(Vector3, Single)\tVoid"
 			],
 			[
 				"jni_surfa",
@@ -650,7 +650,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -673,13 +673,13 @@
 			"footer",
 			"z-index",
 			"summary",
-			"</a>				",
+			"</a>\t\t\t\t",
 			"block",
 			"content",
 			"-content",
 			"Click for more details.",
 			"Click for more details.</p>",
-			"				<div class=\"item_blurb\">",
+			"\t\t\t\t<div class=\"item_blurb\">",
 			"<div class=\"item_blurb\">",
 			"item_title",
 			"span></a>",
@@ -708,7 +708,7 @@
 			"target.offset().top",
 			"appendTo('body');",
 			"set",
-			"		\"top\": \"720px\",\n",
+			"\t\t\"top\": \"720px\",\n",
 			"2",
 			"\"top\": \"560px\",",
 			"\"top\": \"600px\",",
@@ -772,9 +772,9 @@
 			"default",
 			"   ",
 			"2",
-			"		<li>",
+			"\t\t<li>",
 			"</p>",
-			"	<p>",
+			"\t<p>",
 			"> ",
 			"\n#",
 			"#",
@@ -786,7 +786,7 @@
 			"    ",
 			"font-size",
 			"[",
-			"		<",
+			"\t\t<",
 			"| -",
 			"--",
 			"clear",
@@ -817,7 +817,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -858,7 +858,7 @@
 	"project": "/Users/keerthik/projects/source_korc/korcgames.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":

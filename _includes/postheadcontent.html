@@ -4,6 +4,8 @@
 			color: 			#000;
 		}
 	</style>
-<link rel="stylesheet" href="/styles/{{ customcss }}.css" type="text/css"/>
+{% if page.customcss %}
+	<link rel="stylesheet" href="/styles/{{ page.customcss }}.css" type="text/css"/>
+{% endif %}
 <link rel="stylesheet" href="/styles/post.css" type="text/css"/>
 <link rel="stylesheet" href="/styles/syntax.css" type="text/css"/>

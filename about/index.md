@@ -23,7 +23,9 @@ I develop software where needed, but am mostly figuring out how to evoke a sense
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area. 
 
-I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) -- I lived out of {{ site.abnb }} listings around the world while I mostly wrote code.
+I was forced to be a digital nomad [December 2013 - August 2015](https://drive.google.com/open?id=1IQosV875TjK8kZnOq03gpSYH5Bs&usp=sharing) -- I lived out of {{ site.abnb }} listings around the world while I mostly wrote code.
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IQosV875TjK8kZnOq03gpSYH5Bs" width="640" height="480"></iframe>
 
 I now am based in the SF Bay Area, but find myself outside the country about a third of the year, these days by choice.
 
@@ -32,18 +34,11 @@ I now am based in the SF Bay Area, but find myself outside the country about a t
 I am best reached by email. Contact me at
 
 \[my first name\].o\[at\]gmail\[dot\]com
-<!--Instagram-->
-<style>.ig-b- { display: inline-block; }
-.ig-b- img { visibility: hidden; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-32 { width: 32px; height: 32px; background: url(/resources/images/instagram_circle.png) no-repeat 0 0; background-size:100%;}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-32 { background-image: url(/resources/images/instagram_circle.png);  background-size:100%} }</style>
-<a href="http://instagram.com/nomadkorc?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
+
 <!--Twitter-->
 <a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<a href="https://www.quora.com/Keerthik-Omanakuttan">Quora</a>
+
 
 # This site
 
