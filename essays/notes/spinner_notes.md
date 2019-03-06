@@ -4,6 +4,7 @@
 ### The Work's
 - A narrative form of depicting game design principles
 - Fictional story with a meta twist on "humans sucked into game"
+
 ### Mine
 - experiment with a new form of design writing
 - hone fiction skills
