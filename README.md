@@ -8,5 +8,5 @@ Mostly just HTML, CSS, occasional .js
 Made with Jekyll
 
 # Active TODO:
-- image import partial for blog (and actual imports)
-- animated blog section breaks
+- image import partial for blog (and actual images)
+- blog next/previous (really tho?)
