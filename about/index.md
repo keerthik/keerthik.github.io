@@ -35,9 +35,9 @@ I also do the twitters: <!--Twitter--><a href="https://twitter.com/keerthiko" cl
 
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to Olin college in Boston, then cofounded a company in the Bay Area.
 
-I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around the Asia while I mostly wrote code.
+I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around Asia while I mostly wrote code.
 
-After wrangling an O1 and eventually a green card I am now based in the SF city, but find myself outside the country about a third of the year by choice.
+After wrangling an O1 and eventually a green card I am now based in SF city, but find myself outside the country about a third of the year by choice.
 
 ## This site
 
@@ -52,12 +52,11 @@ This site primarily hosts descriptions of my [projects](/projects) and [writing]
 * \[analytics\] Google analytics \[[link](http://www.google.com/analytics/)\]
 * \[font\] FiraSans for body \[[link](http://dev.carrois.com/fira-3-1/)\]
 * \[font\] Monaco for code \[[link](https://github.com/todylu/monaco.ttf/)\]
-* \[OS\] Mac OS X 10.9.x: It's ok, you don't want it
 
 
 ### History
 
-The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it. 
+The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it.
 
 I started working on this in Thailand, on April 22nd 2014.
 
