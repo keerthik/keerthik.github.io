@@ -5,7 +5,7 @@ title: Place-people
 date: 2018/03/01
 update: Mar 2018
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
-tweet:    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It took a while, but I finally finished my first post of 2018. Thanks <a href="https://twitter.com/guacamolebio?ref_src=twsrc%5Etfw">@guacamolebio</a> et al for helping me get this done<a href="https://t.co/PMkDsy6zqc">https://t.co/PMkDsy6zqc</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/978553671289106432?ref_src=twsrc%5Etfw">March 27, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It took a while, but I finally finished my first post of 2018. Thanks <a href="https://twitter.com/guacamolebio?ref_src=twsrc%5Etfw">@guacamolebio</a> et al for helping me get this done<a href="https://t.co/PMkDsy6zqc">https://t.co/PMkDsy6zqc</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/978553671289106432?ref_src=twsrc%5Etfw">March 27, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 {% include nomadintro.md %}
@@ -27,7 +27,7 @@ Everything I saw, did and experienced was not just me in a vacuum. If you've tra
 This is easiest when alone with a city, but at times I consciously converse with cities even when with other humans. Just like with people, the conversation can range from grand topics to seemingly trivial matters, and there's no telling which will prove more profound and meaningful. 
 
 ## Place-people Conversations
-One of my favorite things about conversations with Place-people (if you truly listen) is that they speak purely with their actions, and as a corollary their actions are true to what they say. They put their money where their hypothetical mouth is, so to speak. The city offers encouragement and inspiration by showing you honestly and openly what it cares about. 
+One of my favorite things about conversations with Place-people (if you truly listen) is that they speak purely with their actions, and as a corollary their actions are true to what they say. They put their money where their metaphorical mouth is, so to speak. The city offers encouragement and inspiration by showing you honestly and openly what it cares about. 
 
 Conversations with cities aren't anything specific. In fact, I have a hard time describing what is and isn't a conversation with a city. Sometimes it's talking to people, sometimes it's just overhearing conversations. If I don't have the leisure to learn their language, I try to learn the connotations, contexts and literal translations of common phrases. There's a reason why "how to swear" is one of the first things we learn casually in a new language -- In my experience, they're the most common expressions in most languages, and yet are context-rich, information-dense and full of subtleties about the local culture and what is offensive, mocked or appreciated. Sometimes it's being an outsider, sometimes it's pretending to be a local. Sometimes it's attending a central cultural event, sometimes it's just watching rush hour traffic from a cafe window. Sometimes it's about the laws and policies, other times it's about what *isn't* a policy. Sometimes it's just noticing the looks on the faces of people watching other people -- or yourself -- do the things people do. 
 

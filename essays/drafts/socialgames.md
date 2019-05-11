@@ -12,6 +12,6 @@ Since human societies became a thing, games have been one of the most potent bon
 
 what does a social activity need
 - meta-conversation potential (strategy, news, evolution)
-- story-generation (sick plays, ridiculous happenings)
-- more ways to share what happens (multiplayer, replays, match records, streams)
+- story-generation (sick plays, fascinating emergent outcomes)
+- ways to share the experience in real-time (competitive/co-op multiplayer, streams)
 

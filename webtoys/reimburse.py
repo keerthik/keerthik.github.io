@@ -1,10 +1,12 @@
 import glob, os, sys
 from PyPDF2 import PdfFileMerger
+import PyPDF2
 
+print(PyPDF2.__file__)
 """
 Initialize with the month expected to look inside in the child.
 Launch this script from the parent folder of all the reimbursements
-Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2018_01
+Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2018_10
 """
 class Reimburser:
 	def __init__(self, sysargs):
@@ -12,15 +14,31 @@ class Reimburser:
 			self.month = sysargs[1]
 			self.folder = os.path.join(self.month)
 			self.pdfs = []
+			self.has = { 'PHONE': False, 'TRANSIT': False, 'INTERNET': False }
+
+	def hasAll(self):
+		result = True
+		for val in self.has.values():
+			result = result and val
+		return result
 
 	def collect(self):
 		for file in os.listdir(self.folder):
+			if file.startswith('phone_'):
+				self.has['PHONE'] = True
+			if file.startswith('transit_'):
+				self.has['PHONE'] = True
+			if file.startswith('transit_'):
+				self.has['INTERNET'] = True
+
 			if file.startswith('._'):
 				try:
 					os.remove(file)
 				except:
 					print ("Tried to delete a ._ file but couldn't")
 				continue
+
+		for file in os.listdir(self.folder):
 			if file.endswith('.pdf') and file not in self.pdfs:
 				self.pdfs.append(file)
         #print (os.path.join(self.folder, file))
@@ -32,7 +50,10 @@ class Reimburser:
 		print ('Combining...')
 		self.merger = PdfFileMerger()
 		for pdf in self.pdfs:
-			self.merger.append(open(os.path.join(self.month, pdf), 'rb'))
+			_fi = open(os.path.join(self.month, pdf), 'rb')
+			self.merger.append(_fi)
+		if len(self.pdfs) == 0:
+			return
 		with open(outfile, 'wb') as fout:
 			self.merger.write(fout)
 		print ('Combined', len(self.pdfs), 'files into', outfile)
@@ -44,7 +65,7 @@ class Reimburser:
 #     merger.write(fout)
 
 if __name__ == '__main__':
-	print ("Starting script...")
+	print ("Starting reimbursement script...")
 	reimburser = Reimburser(sys.argv)
 	#print (reimburser.month)
 	reimburser.collect()

@@ -59,5 +59,3 @@ Look forward to future posts about games with respect to general intelligence, l
 - - -
 
 (1) This is a radical claim which I will substantiate in a future post.
-
-- - -

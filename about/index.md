@@ -32,14 +32,14 @@ I also do the twitters: <!--Twitter--><a href="https://twitter.com/keerthiko" cl
 * I lived solely out of {{ site.abnb }} 2013-2015
 
 ### Geography
-<<<<<<< HEAD
-I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then cofounded a company in the Bay Area. 
-
-I was forced to be a digital nomad [December 2013 - August 2015](https://drive.google.com/open?id=1IQosV875TjK8kZnOq03gpSYH5Bs&usp=sharing) -- I lived out of {{ site.abnb }} listings around the world while I mostly wrote code.
+I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then moved to the bay area as employee #1 of BitGym, which I ended being a cofounder of through a major pivot.
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IQosV875TjK8kZnOq03gpSYH5Bs" width="640" height="480"></iframe>
 
-I now am based in the SF Bay Area, but find myself outside the country about a third of the year, these days by choice.
+I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around Asia while I mostly wrote code as a cofounder through bouts of depression.
+
+After wrangling an O1 and eventually a green card I was based in SF city [2015 - 2019], but find myself outside the country about a third of the year by choice.
+
 
 ## This site
 
@@ -54,12 +54,11 @@ This site primarily hosts descriptions of my [projects](/projects) and [writing]
 * \[analytics\] Google analytics \[[link](http://www.google.com/analytics/)\]
 * \[font\] FiraSans for body \[[link](http://dev.carrois.com/fira-3-1/)\]
 * \[font\] Monaco for code \[[link](https://github.com/todylu/monaco.ttf/)\]
-* \[OS\] Mac OS X 10.9.x: It's ok, you don't want it
 
 
 ### History
 
-The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it. 
+The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it.
 
 I started working on this in Thailand, on April 22nd 2014.
 
