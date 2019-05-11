@@ -2,6 +2,7 @@
 layout: post
 folder: Nomad Chronicles
 title: Place-people
+date: 2018/03/01
 update: Mar 2018
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
 tweet:    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It took a while, but I finally finished my first post of 2018. Thanks <a href="https://twitter.com/guacamolebio?ref_src=twsrc%5Etfw">@guacamolebio</a> et al for helping me get this done<a href="https://t.co/PMkDsy6zqc">https://t.co/PMkDsy6zqc</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/978553671289106432?ref_src=twsrc%5Etfw">March 27, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

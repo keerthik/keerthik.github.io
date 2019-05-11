@@ -2,6 +2,7 @@
 layout: post
 folder: Nomad Chronicles
 title: Zetsubou and I
+date: 2016/12/01
 update: Dec 2016
 tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I once braindumped my insecurities and fears developed while being a <a href="https://twitter.com/hashtag/digitalnomad?src=hash&amp;ref_src=twsrc%5Etfw">#digitalnomad</a><a href="https://t.co/cmBA4945un">https://t.co/cmBA4945un</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/984917364910125058?ref_src=twsrc%5Etfw">April 13, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/zetsubou-and-i/10154692145293503">on Facebook</a>

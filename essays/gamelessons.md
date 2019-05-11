@@ -2,6 +2,7 @@
 layout: post
 folder: play
 title: Real Lessons From Games
+date: 2016/09/01
 update: September 2014
 cross: <a href="https://medium.com/p/3bf040e3d862">on Medium</a>
 ---

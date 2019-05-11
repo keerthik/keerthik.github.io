@@ -2,6 +2,7 @@
 layout: post
 folder: play
 title: Overpowered
+date: 2015/07/01
 update: July 2015
 tweet: <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Did you know I post about game design? Overpowering a mechanic as a testing tool:<a href="https://t.co/8G44ZEokVn">https://t.co/8G44ZEokVn</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/984905239735107585?ref_src=twsrc%5Etfw">April 13, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---

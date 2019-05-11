@@ -2,6 +2,7 @@
 layout: post
 folder: learn
 title: The Right Problems
+date: 2016/01/01
 update: January 2016
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/the-right-problems/10153769788263503">on Facebook</a>
 ---

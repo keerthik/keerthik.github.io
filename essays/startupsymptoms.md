@@ -2,6 +2,7 @@
 layout: post
 folder: product
 title: Life in an Early-Stage Tech Company 
+date: 2015/09/01
 update: September 2014
 cross: <a href="https://medium.com/@keerthiko/abf2fe9d37fd">on Medium</a>
 ---

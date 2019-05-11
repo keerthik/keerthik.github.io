@@ -2,6 +2,7 @@
 layout: post
 folder: Meta/Life
 title: Where Are You From
+date: 2016/03/01
 update: 2016 March
 cross: <a href="https://medium.com/@keerthiko/where-are-you-from-fb5f3e48f1aa">on Medium</a>
 ---

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: about
+title: keerthik | about
 headtouse: abouthead
 ---
-# keerthik: fun-lover, entreprenuer, lifehacker
+# keerthik: i like fun
 
 I develop software where needed, but am mostly figuring out how to evoke a sense of enjoyment through things I make. I care about games, learning, and creation.
 

@@ -2,6 +2,7 @@
 layout: post
 folder: play
 title: Make it fun to face too
+date: 2014/03/01
 update: March 2014
 cross: <a href="https://medium.com/p/97b4e72493ad">on Medium</a>
 ---

@@ -2,6 +2,7 @@
 layout: post
 folder: Nomad Chronicles
 title: Out of Place
+date: 2014/09/01
 update: Sept 2014
 cross: <a href="https://medium.com/@keerthiko/out-of-place-c57b33441090">on Medium</a>
 ---
