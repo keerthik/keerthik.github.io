@@ -8,11 +8,7 @@ headtouse: posthead
 
 Sometimes I write things, very slowly. They span a wide range of topics. I may link the same thing in a couple places. 
 
-<div class="tweet-container">
-	<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Writing essays is a very calming and centering hobby. I picked it up to avoid depression as a <a href="https://twitter.com/hashtag/digitalnomad?src=hash&amp;ref_src=twsrc%5Etfw">#digitalnomad</a><a href="https://t.co/LmLbOpmcYq">https://t.co/LmLbOpmcYq</a></p>&mdash; Keerthik (@keerthiko) <a href="https://twitter.com/keerthiko/status/984938306252128257?ref_src=twsrc%5Etfw">April 13, 2018</a></blockquote>
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
+Here's my thoughts [about writing](introwriting.html)
 Latest piece: [place-people](cities.html)
 
 ## <a name="nomadchronicles"></a>Cities: Nomad Chronicles
