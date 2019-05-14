@@ -128,6 +128,15 @@ blockquote {
 	float: 		left;
 }
 
+.inner-content li {
+	list-style-type: none;
+}
+
+.inner-content li:before {
+	content: "›";
+	margin-right: 5px;
+}
+
 .overlay {
 	color: #eee;
 	margin: auto;

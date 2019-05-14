@@ -9,6 +9,7 @@ headtouse: posthead
 Sometimes I write things, very slowly. They span a wide range of topics. I may link the same thing in a couple places. 
 
 Here's my thoughts [about writing](introwriting.html)
+
 Latest piece: [place-people](cities.html)
 
 ## <a name="nomadchronicles"></a>Cities: Nomad Chronicles
