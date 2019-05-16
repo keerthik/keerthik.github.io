@@ -8,9 +8,10 @@ title: home
 
 ## Latest writing
 
-* [personal health]("essays/health.html")
-* [place-people]("essays/cities.html")
+* [personal health](essays/health.html)
+* [place-people](essays/cities.html)
 
 ## Project updates
-* {{ site.ds }}: Fanime 2019! | 2019/05/25
-* {{ site.zk }}: color balls has been greenlit! | 2017/06/31
+
+* {{ site.ds }}: Fanime 2019! \| 2019/05/25
+* {{ site.zk }}: color balls has been greenlit! \| 2017/06/31

@@ -3,9 +3,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-zk:      <a href="https://colorballsgame.com">color balls</a>
-bg:      <a href="https://www.bitgym.com">bitgym</a>
-ds:      <a href="http://dicestormgame.com">dicestorm</a>
+
+zk: <a href="https://colorballsgame.com">color balls</a>
+bg: <a href="https://www.bitgym.com">bitgym</a>
+ds: <a href="http://dicestormgame.com">dicestorm</a>
 # referral things
 abnb:		 <a href="www.airbnb.com/c/komanakuttan?s=8">airbnb</a>
 db:		 	 <a href="https://db.tt/GVoI63O">dropbox</a>
