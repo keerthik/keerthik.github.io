@@ -1,5 +1,8 @@
 author: keerthik omanakuttan
-plugins:		 [jekyll-sitemap]
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 zk:      <a href="https://colorballsgame.com">color balls</a>
 bg:      <a href="https://www.bitgym.com">bitgym</a>
 ds:      <a href="http://dicestormgame.com">dicestorm</a>
@@ -17,4 +20,4 @@ portitemhead: portitemheadcontent.html
 posthead: postheadcontent.html
 abouthead: aboutheadcontent.html
 kramdown:
-   syntax_highlighter: rouge # Here rouge is :D
+  syntax_highlighter: rouge # Here rouge is :D
