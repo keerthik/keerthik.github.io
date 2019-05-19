@@ -1,17 +1,15 @@
 ---
 layout: page
-title: keerthik | about
+title: about
 headtouse: abouthead
 ---
-# keerthik: i like fun
+# kOrc.me
 
 I develop software where needed, but am mostly figuring out how to evoke a sense of enjoyment through things I make. I care about games, learning, and creation.
 
 ## Contact
 
 I am best reached by email. Contact me at
-
-\[my first name\].o\[at\]gmail\[dot\]com
 
 Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html) and prefer in-person, timeboxed to other media.
 

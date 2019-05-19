@@ -53,14 +53,14 @@ Entrepreneurial stuff, product ideas, technology and programming-related talk.
 - [[scripting] one-touch android USB modem](android_modem.html)
 - [working at early-stage](startupsymptoms.html)
 - // extensible android video
-- // remote work: the good, bad, ugly
 
-More product-specific stuff over at [Operation Dicestorm](http://dicestormgame.com/blog/) and [Color Balls](http://colorballsgame.com/blog/) blogs
+More product-specific stuff over at [Operation Dicestorm](https://dicestormgame.com/blog/) and [Color Balls](https://colorballsgame.com/blog/) blogs
 
 ## Meta: About Writing, the World, and Life
 
 My favourite thoughts about the all other things I think about, usually in tiled rooms with running water.
 
+- [personal health](health.html)
 - [hello, writing](introwriting.html)
 - [where are you from?](fromwhere.html)
 
