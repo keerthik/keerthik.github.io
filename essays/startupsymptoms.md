@@ -21,7 +21,7 @@ This is by no means trying to be a complete list, these are items I haven’t se
 
 So let’s start with the down and dirty that you may not hear as much.
 
-##Poor
+## Poor
 We try not to talk about not hitting payroll. Usually the whole team decides to forgo the paycheck for the month. There is a non-monetary cost with every month of not receiving a paycheck, but it also gives us clear deadlines to make things people will pay for. 
 
 Your 20s are the best time to save money, whether for further schooling, paying off student loans, or starting an investment portfolio. Throwing your lot in with a startup is definitely putting all that on hold. And as everyone says, don’t for a second think you’ll make this lost money back. It’s the entry fee to play the startup game.

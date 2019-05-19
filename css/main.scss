@@ -1,0 +1,82 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@font-face {
+  font-family:  "Monaco";
+  src: local("Monaco"), url ('https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'FiraSans'; /*a name to be used later*/
+    src: url('/res/font/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'FiraSans Light'; /*a name to be used later*/
+    src: url('/res/font/firasans/OTF/FiraSans-Light.otf'); /*URL to font*/
+}
+
+// Our variables
+$base-font-family: "TradeGothicLTStd", Helvetica, Arial, sans-serif;
+$clear-font-family: "Eurostile-Condensed";
+$profile-font-light: "Montserrat-Light";
+$profile-font: "Montserrat";
+$profile-font-bold: "Montserrat-Bold";
+
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$base-font-size:   16px;
+
+$spacing-unit:     20px;
+$footer-size:      200px;
+
+$fine-font-size:   $base-font-size * 0.75;
+$small-font-size:  $base-font-size * 0.875;
+$large-font-size:  $base-font-size * 1.275;
+$head-font-size:   $base-font-size * 2;
+$title-font-size:  $base-font-size * 3;
+
+$default-text-color:      #000;
+$header-text-color:       #FEFEFE;
+$button-text-color:       #FFF;
+$default-bg-color:        #FFF;
+$background-color-outer:  #202020;
+$background-color-light:  #eeeeee;
+$background-color-dark:   #c8c8c8;
+$background-color-logo:   #ffffff;
+$brand-color:      #6D96E4;
+$brand-color-fg:   #E49147;
+$brand-color3:     #EEFCE1;
+$warning-color:    #FAEA96;
+$error-color:      #FCCEC1;
+
+$grey-color:       #606060;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1100px;
+
+$on-tiny:          480px;
+$on-palm:          767px;
+$on-laptop:        800px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .pooper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` stripping `_` (defaults to `_sass`)
+@import
+  "base",
+  "post"
+;
