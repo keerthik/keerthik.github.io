@@ -1,7 +1,7 @@
 ---
 layout: page
-headtouse: head
 title: home
+headtouse: head
 ---
 
 # kOrc.me <span style="font-size: 20px"> (<a href="/about">?</a>)</span>
