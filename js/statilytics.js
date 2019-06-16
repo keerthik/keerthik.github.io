@@ -19,23 +19,15 @@ const timestamp = (date) => {
   while (ubd % 3 != 0) ubd++;
   console.log("hours: " + hours);
   return `${lbd>9?'':'0'}${lbd}00_${ubd>9?'':'0'}${ubd}00`;
-}
+};
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  let recordCount = 0;
-  let Airtable = require('airtable');
-  // API safety TODOs:
-  // POST to a server which returns the key only if the POST header matches my domain
-  // Server just ignores request if we crossed API rate limit
-  let base = new Airtable({apiKey: keys['airtable']["api_key"]}).base(keys['airtable']["dev_base"]);
-  let table = base('dev-site-analytics');
+const trackPageView = (table, url) => {
   let hourblock = timestamp(Date.now());
-  console.log(`statilytics is good to go: ${document.URL} (${hourblock})`);
-
+  console.log(`statilytics is good to go: ${url} (${hourblock})`);
   // Retrieve records for today's date
   table.select({
     view: "Today",
-    filterByFormula: `Page = '${document.URL}'`,
+    filterByFormula: `Page = '${url}'`,
     maxRecords: 2,
   }).firstPage((error, records) => {
     if (!records) {
@@ -83,6 +75,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }
     });
   });
+};
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  let recordCount = 0;
+  let Airtable = require('airtable');
+  // API safety TODOs:
+  // POST to a server which returns the key only if the POST header matches my domain
+  // Server just ignores request if we crossed API rate limit
+  let base = new Airtable({apiKey: keys['airtable']["api_key"]}).base(keys['airtable']["base"]);
+  let table = base('dev-site-analytics');
+  trackPageView(table, document.URL);
   // if (norecord)
 /*
   table.create({
