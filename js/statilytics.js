@@ -78,15 +78,30 @@ const trackPageView = (table, url) => {
 };
 
 
-document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", async (event) => {
   let recordCount = 0;
   let Airtable = require('airtable');
   // API safety TODOs:
   // POST to a server which returns the key only if the POST header matches my domain
   // Server just ignores request if we crossed API rate limit
-  let base = new Airtable({apiKey: keys['airtable']["api_key"]}).base(keys['airtable']["base"]);
-  let table = base('dev-site-analytics');
-  trackPageView(table, document.URL);
+  if (keys) {
+    let base = new Airtable({apiKey: keys['airtable']['api_key']}).base(keys['airtable']['base']);
+    let table = base('site-analytics');
+    trackPageView(table, document.URL);
+  } else {
+    console.log("statilytics in dev mode, sandboxing...");
+    let response = await fetch(
+      keys['netlify']['fEndpointSandbox'], {
+        method: "POST",
+        body: {},
+        headers: new Headers({}),
+      });
+    console.log("response:");
+    console.log(response);
+    let data = await response.json();
+    console.log("data:");
+    console.log(data);
+  }
   // if (norecord)
 /*
   table.create({
