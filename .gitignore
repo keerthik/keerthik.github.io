@@ -6,3 +6,8 @@ Gemfile.lock
 */._*
 ._*
 
+.netlify
+node_modules
+functions-built
+package.json
+package-lock.json
