@@ -1,4 +1,5 @@
 author: keerthik omanakuttan
+repository: keerthik/keerthik.github.io
 plugins:
   - jekyll-feed
   - jekyll-sitemap
