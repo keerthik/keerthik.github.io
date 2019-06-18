@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
   // API safety TODOs:
   // POST to a server which returns the key only if the POST header matches my domain
   // Server just ignores request if we crossed API rate limit
-  if (keys) {
+  if (typeof keys !== undefined) {
     let base = new Airtable({apiKey: keys['airtable']['api_key']}).base(keys['airtable']['base']);
     let table = base('site-analytics');
     trackPageView(table, document.URL);
