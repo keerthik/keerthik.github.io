@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     });
   console.log("response:");
   console.log(response);
-  let data = await response.json();
+  let data = await response.text();
   console.log("data:");
   console.log(data);
   // if (norecord)
