@@ -21,6 +21,12 @@ const timestamp = (date) => {
   return `${lbd>9?'':'0'}${lbd}00_${ubd>9?'':'0'}${ubd}00`;
 };
 
+const endpoint = (request) => {
+  return endpoints.url.base 
+    + endpoints.url.functions 
+    + endpoints.testing[request];
+};
+
 const trackPageView = (table, url) => {
   let hourblock = timestamp(Date.now());
   console.log(`statilytics is good to go: ${url} (${hourblock})`);
@@ -90,8 +96,9 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     trackPageView(table, document.URL);
   } else {
     console.log("statilytics in dev mode, sandboxing...");
+
     let response = await fetch(
-      keys['netlify']['fEndpointSandbox'], {
+      endpoint("sandbox"), {
         method: "POST",
         body: {},
         headers: new Headers({}),
