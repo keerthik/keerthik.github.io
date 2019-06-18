@@ -1,5 +1,6 @@
 author: keerthik omanakuttan
 repository: keerthik/keerthik.github.io
+url: https://korc.me
 plugins:
   - jekyll-feed
   - jekyll-sitemap
