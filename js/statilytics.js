@@ -98,14 +98,14 @@ document.addEventListener("DOMContentLoaded", async (event) => {
   console.log("statilytics in dev mode, sandboxing..." + endpoint("sandbox"));
 
   let response = await fetch(
-    endpoint("sandbox"), {
+    endpoint("trackview"), {
       method: "POST",
       body: {},
-      headers: new Headers({}),
+      headers: new Headers({'junk':"bleh"}),
     });
   console.log("response:");
   console.log(response);
-  let data = await response.text();
+  let data = await response.json();
   console.log("data:");
   console.log(data);
   // if (norecord)
