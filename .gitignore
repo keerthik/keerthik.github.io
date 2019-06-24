@@ -10,4 +10,3 @@ Gemfile.lock
 node_modules
 functions-built
 package.json
-package-lock.json

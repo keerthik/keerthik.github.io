@@ -1,3 +1,5 @@
+---
+---
 const yyyymmdd = (date) => {
   let d = new Date(date),
       month = '' + (d.getUTCMonth() + 1),
@@ -22,9 +24,16 @@ const timestamp = (date) => {
 };
 
 const endpoint = (request) => {
-  return endpoints.url.base 
+{% if jekyll.environment == "development" %}
+  console.log(`dev url endpoint`);
+  return "http://localhost:9000/"
+    + request;
+{% else %}
+  console.log(`url base: ${endpoints.url.base}`);
+  return endpoints.url.base
     + endpoints.url.functions 
-    + endpoints.testing[request];
+    + request;
+{% endif %}
 };
 
 const trackPageView = (table, url) => {
@@ -95,13 +104,13 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     let table = base('site-analytics');
     trackPageView(table, document.URL);
   }
-  console.log("statilytics in dev mode, sandboxing..." + endpoint("sandbox"));
+
+  console.log("statilytics in dev mode, sandboxing..." + endpoint("trackview"));
 
   let response = await fetch(
     endpoint("trackview"), {
       method: "POST",
       body: {},
-      headers: new Headers({'junk':"bleh"}),
     });
   console.log("response:");
   console.log(response);

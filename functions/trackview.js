@@ -1,9 +1,20 @@
 exports.handler = async (event, context) => {
+  const statusCode = 200;
+  const headers = {
+    "Access-Control-Allow-origin" : "*",
+    "Access-Control-Allow-Headers": "Content-Type"
+  };
   if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: "Method Not Allowed" };
+    return { 
+      statusCode,
+      headers,
+      body: "Waiting for POST"
+    };
   }
-  callback(null, {
-    statusCode: 200,
-    body: `{'headers':${event.headers.toString()}}`
-  });
+  console.log(JSON.stringify(event.headers));
+  return {
+    statusCode,
+    headers,
+    body: JSON.stringify(event.headers)
+  };
 };
