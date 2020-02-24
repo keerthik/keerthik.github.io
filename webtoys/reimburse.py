@@ -6,7 +6,7 @@ print(PyPDF2.__file__)
 """
 Initialize with the month expected to look inside in the child.
 Launch this script from the parent folder of all the reimbursements
-Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2018_10
+Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2019_09
 """
 class Reimburser:
 	def __init__(self, sysargs):
@@ -14,7 +14,7 @@ class Reimburser:
 			self.month = sysargs[1]
 			self.folder = os.path.join(self.month)
 			self.pdfs = []
-			self.has = { 'PHONE': False, 'TRANSIT': False, 'INTERNET': False }
+			self.has = { 'PHONE': False, 'TRANSIT': False, 'INTERNET': False, 'OFFICE': False }
 
 	def hasAll(self):
 		result = True
@@ -24,13 +24,18 @@ class Reimburser:
 
 	def collect(self):
 		for file in os.listdir(self.folder):
+			if file.startswith(self.month):
+				try:
+					os.remove(file)
+				except:
+					print ("Tried to delete pre-existing reimbursement compilation but couldn't")
+				continue
 			if file.startswith('phone_'):
 				self.has['PHONE'] = True
 			if file.startswith('transit_'):
-				self.has['PHONE'] = True
-			if file.startswith('transit_'):
+				self.has['TRANSIT'] = True
+			if file.startswith('internet_'):
 				self.has['INTERNET'] = True
-
 			if file.startswith('._'):
 				try:
 					os.remove(file)
@@ -42,7 +47,13 @@ class Reimburser:
 			if file.endswith('.pdf') and file not in self.pdfs:
 				self.pdfs.append(file)
         #print (os.path.join(self.folder, file))
+		try: 
+			self.pdfs.append('../office_rent_nyc.pdf')
+			self.has['OFFICE'] = True
+		except:
+			print ("Office rent not found")
 		print (self.pdfs)
+		print (self.has)
 
 	def combine(self, outfile='result'):
 		if '.pdf' not in outfile:

@@ -11,3 +11,10 @@ answering 'yes' reduces your risk, from less to more, in order for questions 1 <
 ie, answering 'yes' to (1) is the least likely to reduce your risk
 
 - from "Keerthik's Handbook to Life", on "Romance" and "Multiculturism"
+
+Keerthik's guide for challenging a culture's expectations and norms
+
+1) have you been able to identify as part of this culture (by yourself and/or by others who represent said culture) for more than half your life?
+ This makes you "subject to said culture".
+
+- from "Keerthik's Handbook to Life", on "Multiculturism" and "Cultural sensitivity"

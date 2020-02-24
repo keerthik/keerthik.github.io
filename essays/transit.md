@@ -8,6 +8,7 @@ cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066
 
 {% include nomadintro.md %}
 
+## What Transit Means To Me
 
-## Transit is the Lifeline
+A lot more than I thought it did, is what it is. AKA, a love letter to [New Urbanist Memes for Transit Oriented Teens]().
 
