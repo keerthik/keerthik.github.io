@@ -9,7 +9,7 @@ I develop software where needed, but am mostly figuring out how to evoke a sense
 
 ## Contact
 
-I am best reached by email. Contact me at
+I am best reached by email. Hit me up at `keerthiko[at]gmail[dot]com`
 
 Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html) and prefer in-person, timeboxed to other media.
 
@@ -25,8 +25,8 @@ I also do the twitters: <!--Twitter--><a href="https://twitter.com/keerthiko" cl
 
 ### Tools You Can Use
 
-* I use {{ site.db }} for creative logistics management
-* I use {{ site.om }} for tangible logistics management
+* I use {{ site.db }} and {{ site.obsidian }} for creative logistics management
+* I use {{ site.airtable }} for tracking data
 * I lived solely out of {{ site.abnb }} 2013-2015
 
 ### Geography

@@ -22,7 +22,7 @@ Note that I don't call these definitions. They are not 100% accurate and are mea
 "Beams" of different wavelengths/frequencies/intensities that can be emitted, absorbed, reflected or refracted by surfaces. Those different beams can be considered to be "components".
 
 ### Color
-What our brain interprets based on the light that is incident on our eyes.
+What our brain interprets based on the light that is incident on our eyes. That's pretty cool.
 
 NOTE: A color is NOT a physical material. It is merely a translation of the wavelength/frequency/intensity of light incident on our eyes.
 

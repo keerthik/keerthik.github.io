@@ -102,16 +102,16 @@ When I met people, the number who care where I'm from dropped dramatically
 When asked, and I said "it's complicated", they eye me up and down and nod understandingly
 Many assume I'm an American. In the last few years, I heard this more and more.
 People mishear my accent. I tell them how my accent developed and I get "Oh I couldn't tell, it sounded like //no accent//American accent to me"
-But what does it mean to me? People think they're paying me a compliment when they tell me that I or my accent was American. But that's not only inaccurate, but not something I'm aspiring to.
+But what does it mean to me? People think they're paying me a compliment when they tell me that I or my accent was American. But that's not only inaccurate, not something I'm aspiring to, but also erasure of my cultural complexity and my relationship to this and every other culture I have been a part of.
 
 - my friends' immigrant parents
 I see how some of my American friends interact with their immigrant parents. 
-I know (some flavor of) what they went through. My friends' insensitivity hurts me. Maybe my friends are aware of what their parents have been through but not  consciously thinking of in the moment of a fight. Thinking about these parents' patience brings me to tears.
+I know (some flavor of) what they went through. My friends' insensitivity hurts me. Maybe my friends are aware of what their parents have been through but not consciously thinking of in the moment of a fight. Thinking about these parents' patience brings me to tears.
 It pains me because I foresee that being my possible kids with me.
 
 - Being white
-MP: "I have lost all trust in this team" - do I even have the position where a team cares about my trust in them? I'm conditioned to believe I am but a spanner
-The indignation with which he treats this problem.
+MP: "I have lost all trust in this team" - do I even have the position where a team cares about my trust in them? I'm conditioned to believe I am but a spanner.
+The indignation with which he treats this problem seems beyond my capacity to comprehend.
 
 - On Muslims
 When I'm in America, I feel a responsibility to defend the humanity and innocence of Muslims. Having spent the safest 18 years of my life growing in an officially muslim state. I grew up in the most insular immigrant bubble I know. We never talked about local politics or discrimination or other social issues. We never ate Omani food except for the occasional shwarma typically from a stand run by immigrants. When I'm in Oman, I feel like an imposter for not actually understanding anything about what their life is like, at home or outside.
@@ -142,7 +142,7 @@ hi i was born/raised in different countries, none of them are home, but for my a
 - It's my Prison of Freedom
 - I looked in the mirror and for the first time i saw the eyes of someone who felt like he could achieve whatever he pursued.
 
-
+[dan int'l bait & switch](https://themargins.substack.com/p/the-international-student-bait-and)
 [sama no longer SF](https://twitter.com/sama/status/1096822724217827328)
 [dangerous thoughts of freedom](http://oliverzheng.com/2018/how-to-quit-a-top-tier-tech-job/)
 [why san francisco](https://bold.co/public/why-y-combinator-made-all-the-zvgxjl?t=tihkgug)
