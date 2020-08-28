@@ -66,6 +66,7 @@ class Reimburser:
 		if len(self.pdfs) == 0:
 			return
 		with open(outfile, 'wb') as fout:
+			print ('Should print here to ', outfile)
 			self.merger.write(fout)
 		print ('Combined', len(self.pdfs), 'files into', outfile)
 
