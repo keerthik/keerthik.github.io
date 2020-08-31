@@ -148,9 +148,16 @@ There is plenty of [good advice](https://www.kalzumeus.com/2012/01/23/salary-neg
 
 Yet its efficacy and applicability varies wildly based on who is practicing it. If you are a "visible fit" by aligning with the mainstream demographic of your future colleagues, you are likely to walk away with a much better deal than a marginalized candidate.
 
-The simplest way to correct for this is to rethink negotiations that candidates approach the employer with from personal allowances, to enhancing the livelihoods of all workers at the organization, who are systemically treated equally and respectfully. Setting this expectation upfront and with transparency will enable those who are strong at negotiations to improve the workplace for everyone, and not create further disparities in workplace.
+The simplest way to correct for this is to rethink negotiations from personal allowances, to enhancing the livelihoods of all workers at the organization, who are systemically treated equally and respectfully. Setting this expectation upfront and with transparency will enable those who are strong at negotiations to improve the workplace for everyone, and not create further disparities in workplace.
+
+## Closing thoughts
+Making the workplace a place for healthy empowerment of people to do their best work as part of a team while improving their life shouldn't be a novel concept, yet it is strangely foreign when compared to the way majority of employers operate these days. 
+
+More important than any of the specific perspectives I mentioned here is perhaps just normalizing the idea that the workplace and product of the business can belong to *all* of the workers again, and not just an owner class.
 
 ## Referenced posts
-[[terraforming]]: drafting
-[[communication]]: drafting
-[[sustainability]]: to be drafted
+[[terraforming]]: drafting. On the labor of having to create a functional and healthy work environment before being able to do one's intended work of interest and passion.
+
+[[communication]]: drafting. On the great deal of thought other remote work advocates have put into effective distributed and asynchronous communication.
+
+[[sustainability]]: to be drafted. On being honest with oneself (as an organization and as a leader), checking to make sure cracks aren't spreading through processes, teams and people when working remote.
