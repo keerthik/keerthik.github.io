@@ -7,7 +7,9 @@ update: September 2020
 
 ***TL;DR***
 
-My reccommendation: pay everyone the most you as a company can afford to, scaled to their value generation for the company, whilst increasing the value of the company to make room for new initiatives, new teammates, and reinvesting in your community and in humanity. Also provide flexibility, empower efficiency, agency and structure to take ample time off, to increase investment and joy in the organization's success and reduce risk of burnout.
+My recommendation: pay everyone the most you as a company can afford to, scaled to their value generation for the company, whilst increasing the value of the company to make room for new initiatives, new teammates, and reinvesting in your community and in humanity. 
+
+Do this by embodying flexibility and empowering efficiency, agency and sustainable business practices, which is simultaneously better for the company and is also a form of (intangible) compensation in itself.
 
 ## Who is this for?
 I began writing this for versions of myself from alternate timelines, had a few things turned out differently in the world in the years following my graduation from college, or at BitGym, the business I am cofounder of.
@@ -15,17 +17,17 @@ I began writing this for versions of myself from alternate timelines, had a few 
 Between being pushed away from VC-funded startup culture in the aftermath of the 2008 financial crisis, to being forced to adopt a fully distributed work culture since 2013 due to immigration woes, this version of me got to experience and grow with a unique set of work circumstances for a *long* time and build resilience to what used to be a unique class of challenges. Which happened to be nearly ideal preparation for what a lot more people now must also experience in 2020, especially with the cascading impacts of COVID-19 on work and the economy, and the gaping weaknesses in our traditional ideologies it has revealed.
 
 So there are fundamentally two groups of folks this is intended for today
-- founders, managers and owners who are tempted to adopt/retain the status quo, but aren't locked into it yet and have the position and privilege to impact the workplace: when it seems preferable to adapt hitherto mainstream ideas of how to compensate and treat workers, yet keep running into more and more friction.
-- folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed in (be employed) is most of the compensation from our employer.
+- founders, managers and owners (and those soon-to-be) who are tempted to adopt/retain the status quo, but aren't locked into it yet and have the position and privilege to impact the workplace: when it seems preferable to adapt hitherto mainstream ideas of how to compensate and treat workers, yet keep running into more and more friction.
+- folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed into the system (be employed) is most of the compensation from our employer.
 
-The thoughts in this post are primarily about compensation from the organization to the worker, yet it touches on other aspects that are inextricable. A few of these require further context as they are yet again from a different perspective than traditional workplace culture, and I will update this post with links as I complete those.
+The thoughts in this post are primarily about compensation from the organization to the worker, yet we must discuss other aspects that are inextricable. A few of these require further context beyond the scope of this article as they are yet again from a different perspective than traditional workplace culture. I will update this post with links as I extrapolate on those.
 
 ## Where am I coming from?
-My experience is being cofounder of a very small (6 full-time as of today), fully distributed organization, founded and primarily based in America. We are (almost purely) in the consumer software industry, where the geographic location of an individual contributor approaches irrelevance. I think it shouldn't be that different for a lot of organizations, but in a few cases the location of an employee can significantly affect their impact, and the expected impact should always be the prime determinant of their compensation.
+My experience is being cofounder of a very small (6 full-time as of today), fully distributed company, founded and primarily based in America. We are (almost purely) in the consumer software industry, where the geographic location of an individual contributor approaches irrelevance. I think it shouldn't be that different for a lot of organizations, but in a few cases the location of an employee can significantly affect their impact, and the expected impact should always be the prime determinant of their compensation.
 
 Most of these thoughts and guidelines do not apply to non-payroll contributors, such as contractors and freelancers. These people have hourly rates, and may not necessarily be tasked with the same kind of long-term choices and work.
 
-**Note**: I use the terms "organization", "business" and "employer" somewhat interchangeably here. In part, because much of these perspectives are not exclusive to for-profit businesses or even to "work"
+**Note**: I use the terms "organization", "business" and "employer" somewhat interchangeably here. In part, because much of these perspectives are not exclusive to for-profit businesses or even to "work".
 
 ## Schools of thought
 There are two primary ways to look at employee compensation, appropriated from [this essay](https://hua.substack.com/p/tfw-you-thought-you-were-capital) (the rest of this essay is very good too, and generally aligned with what I propose):
@@ -42,16 +44,33 @@ We are not used to thinking of compensating workers via value-minus, except in t
 
 This is all de facto optimization towards corporate interests at the cost of fair worker compensation. Instead we should focus on hiring fewer people at livable compensation when scaling, and continue into value-minus compensation beyond market-rate as revenue grows.
 
+## Trust in workers
+If a business is not beholden to concepts such as shareholders, board members, "leadership teams" and "C-suites", it makes sense to shift towards [a worker co-op](https://institute.coop/tools/for-worker-coops/conversions). This allows workers to have the rewards, responsibility *and* ownership of the work.
+
+However, the organization's shareholder distribution is not the critical factor. It is still possible to allow workers impactful responsibility and returns. What is critical is trust in the people who have their hands *in* the work. 
+
+When you can trust your workers to do their job at a high level, you can save resources in management, meetings, and employee monitoring. Which in turn can be used to compensate them better, while motivating them through ownership over the results of their work. This trust can only be built if it is sought out from the [[hiring]] process, and fostered past the worker's departure. Present-day work culture in most countries has not invested in this beyond the surface, because it had crafted environments in which work could be *extracted* from workers without needing to trust them.
+
+Not only is this worker-employer dynamic much harder to maintain with the sudden onset of COVID-19, but it is time we reframe the basis of this dynamic from
+> "What if my employee just takes my money and doesn't do what I tell them to, especially if someone isn't there to watch them and make them work?"
+
+to 
+> "How can I empower my teammates, who want to achieve the same goals as I do, to do their best work, and compensate them fairly for it?"
+
 ## Divest from extreme capitalist motives
 Modern-day ultra-capitalism is built on the formula
 
-> **Exploit** human resources (time, freedom and comfort of workers) to **amass** wealth for the **owners**, in exchange for the minimum viable "market rate" of these workers' skills
+> **Exploit** human resources (time, freedom and comfort of workers) to **amass** wealth for the **owners**, in exchange for the minimum viable "market rate" of these workers' skills[^capitalist]
+
+[^capitalist]: different outfits adopt this formula to different extents. I intentionally chose wording that describes one extreme. The fact that majority of businesses do not operate at the very extreme is true, often because it requires a significant amount of market leverage that only the most powerful businesses can adopt this to its extreme. There is further nuance that is beyond the scope of this post.
 
 From a moral standpoint, I encourage businesses to distance themselves from the modern ultra-capitalist model of companies and employers serving an owner class, typically through "value extraction" from communities, natural resources, customers and relevantly, workers.
 
 Rather than a farce of asking employees to "own their work" without owning the returns of that work, workers should be trusted with a fair share of **all** ownership of their work.
 
-If a business is not beholden to concepts such as shareholders, board members, "leadership teams" and "C-suites", it makes sense to shift towards [a worker co-op](https://institute.coop/tools/for-worker-coops/conversions). This allows workers to have the rewards, responsibility *and* ownership of the work.
+[Modern trends of <36-month employment stints](https://www2.deloitte.com/content/dam/Deloitte/global/Documents/About-Deloitte/gx-millenial-survey-2016-exec-summary.pdf) is a direct result of reduced actual ownership of work, regarding not only compensation but also credit, control and values workers are able to express in their work.
+
+*The linked article and other pundits attribute something that is far more complicated simply as *"**They want to do something that matters**." *There's a lot packed into that, including feeling like they are participating in a broken system of corporate ladders, lopsided compensation, materialist lifestyles, exploitative cultures and unethical business practices perpetuating inequity and other problems that plague our societies worldwide. Many of these feelings are the product of the employment ecosystem forged over time by late-stage megacorp capitalism.*
 
 ## Equal pay for equal responsibility
 On a simpler level, I don't believe people should be compensated differently for similar work, regardless of where they choose to live. For smaller organizations, "responsibility" is more apt than "work", because often times the work may be less well-defined.
@@ -157,7 +176,6 @@ More important than any of the specific perspectives I mentioned here is perhaps
 
 ## Referenced posts
 [[terraforming]]: drafting. On the labor of having to create a functional and healthy work environment before being able to do one's intended work of interest and passion.
-
 [[communication]]: drafting. On the great deal of thought other remote work advocates have put into effective distributed and asynchronous communication.
-
 [[sustainability]]: to be drafted. On being honest with oneself (as an organization and as a leader), checking to make sure cracks aren't spreading through processes, teams and people when working remote.
+[[hiring]]: to be drafted. On shedding pointless obstacle courses as a stand-in for evaluating whether someone is a good fit for a team.

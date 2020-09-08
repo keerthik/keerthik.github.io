@@ -1,23 +1,9 @@
 body {
-  background-color: #000;
-  font-family:  "FiraSans";
-  font-size:    18px;
+  background-image: url('/resources/images/crossword.png');
+  font-family:  "FiraSans Light";
+  font-size:    20px;
   letter-spacing: 1px;
   margin:     0;
-  color: #DFD2D0;
-}
-
-#bg {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-image: url('/res/img/hexpattern.jpg');
-  background-repeat: repeat;
-  background-size: 539px 313px;
-  background-blend-mode: lighten;
-  background-color: #ffd9a8;
-  opacity: 0.3;
-
 }
 
 a, a:visited {
@@ -130,12 +116,10 @@ blockquote {
 }
 
 .inner-content li:before {
-  font-family: "FontAwesome";
-  content: "\f101";
-  width: 5px;
-  height: 5px;
+  content: "\203A";
   margin-right: 5px;
 }
+
 .overlay {
   color: #eee;
   margin: auto;

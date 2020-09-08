@@ -4,22 +4,23 @@
 @charset "utf-8";
 @font-face {
   font-family:  "Monaco";
-  src: local("Monaco"), url ('https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf') format("truetype");
+  src:      local("Monaco"), url ('https://github.com/todylu/monaco.ttf/blob/master/monaco.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'FiraSans'; /*a name to be used later*/
-    src: url('/res/font/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
+    src: url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'FiraSans Light'; /*a name to be used later*/
-    src: url('/res/font/firasans/OTF/FiraSans-Light.otf'); /*URL to font*/
+    src: url('/resources/fonts/firasans/OTF/FiraSans-Light.otf'); /*URL to font*/
 }
 
+
 // Our variables
-$base-font-family: "TradeGothicLTStd", Helvetica, Arial, sans-serif;
-$clear-font-family: "Eurostile-Condensed";
+$base-font-family: "FiraSans Light";
+$clear-font-family: "Monaco";
 $profile-font-light: "Montserrat-Light";
 $profile-font: "Montserrat";
 $profile-font-bold: "Montserrat-Bold";
