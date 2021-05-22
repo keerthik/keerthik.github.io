@@ -6,7 +6,7 @@ print(PyPDF2.__file__)
 """
 Initialize with the month expected to look inside in the child.
 Launch this script from the parent folder of all the reimbursements
-Reimbursement> $ python3 ~/personal/source_korc/source/webtoys/reimburse.py 2019_09
+Reimbursement> $ python3 ~/personal/src_korc/webtoys/reimburse.py 2020_11
 """
 class Reimburser:
 	def __init__(self, sysargs):

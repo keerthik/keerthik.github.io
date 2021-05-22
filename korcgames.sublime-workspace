@@ -4,60 +4,316 @@
 		"selected_items":
 		[
 			[
-				"background",
-				"background-size"
+				"bol",
+				"bolder\tfont-weight"
 			],
 			[
-				"backgrou",
-				"background-position"
+				"par",
+				"parse_status"
 			],
 			[
-				"font",
-				"font-size"
+				"lifetime",
+				"lifetimePlanId"
 			],
 			[
-				"f",
-				"font-size"
+				"chargebeehosted",
+				"chargebeeHostedPageParams"
+			],
+			[
+				"DOWNLOAD",
+				"DOWNLOADING"
+			],
+			[
+				"resume",
+				"resumeSubId"
+			],
+			[
+				"plan",
+				"plan_id"
+			],
+			[
+				"DOWNLOA",
+				"DOWNLOAD_PREFIX"
+			],
+			[
+				"libmanifest",
+				"libmanifestpath"
+			],
+			[
+				"modif",
+				"modify_bitgym_manifest"
+			],
+			[
+				"libmani",
+				"libmanifeststrip"
+			],
+			[
+				"templates",
+				"templatesPath"
+			],
+			[
+				"grad",
+				"gradlew_return_code"
 			],
 			[
 				"text",
-				"text-decoration"
+				"text-decoration-color\tproperty"
 			],
 			[
-				"backgroun",
-				"background-origin"
+				"spot",
+				"spotlightImage"
 			],
 			[
-				"background-",
-				"background-size"
+				"inlineIm",
+				"inlineImageTitled"
 			],
 			[
-				"border",
-				"border-style"
+				"text-decora",
+				"text-decoration-line\tproperty"
 			],
 			[
-				"d",
-				"double"
-			],
-			[
-				"aut",
-				"autoglider"
+				"decor",
+				"text-decoration\tproperty"
 			],
 			[
 				"border-radi",
-				"border-radius"
+				"border-top-right-radius\tproperty"
 			],
 			[
-				"wid",
-				"width"
+				"paid",
+				"paidUntil"
 			],
 			[
-				"padding",
-				"padding-top"
+				"schedu",
+				"has_scheduled_changes"
 			],
 			[
-				"font-s",
-				"font-size"
+				"from",
+				"DateFromChargebee"
+			],
+			[
+				"legac",
+				"legacyAction"
+			],
+			[
+				"redeemed",
+				"redeemedBy"
+			],
+			[
+				"lega",
+				"legacyAction"
+			],
+			[
+				"font",
+				"small-font-size"
+			],
+			[
+				"fethc",
+				"fetchResult"
+			],
+			[
+				"retrieve",
+				"retrieveOrCreateCBCustomer"
+			],
+			[
+				"retrie",
+				"retrieveOrCreateCBCustomer"
+			],
+			[
+				"consol",
+				"console"
+			],
+			[
+				"custo",
+				"customer_id"
+			],
+			[
+				"search",
+				"searchimmediate"
+			],
+			[
+				"grid-templa",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"annual",
+				"annualPlanId"
+			],
+			[
+				"annau",
+				"annualActionName"
+			],
+			[
+				"P",
+				"PARSE_ID"
+			],
+			[
+				"U",
+				"USERNAME"
+			],
+			[
+				"ISFINA",
+				"ISFINAL"
+			],
+			[
+				"STRI",
+				"STRIPE_LK"
+			],
+			[
+				"PAR",
+				"PARSE_LK"
+			],
+			[
+				"main",
+				"maintenanceVersion"
+			],
+			[
+				"release",
+				"release_date"
+			],
+			[
+				"tw",
+				"twitter_status"
+			],
+			[
+				"chargebee",
+				"chargebeeId"
+			],
+			[
+				"charge",
+				"chargebeePaidUntil"
+			],
+			[
+				"month",
+				"monthly_plan"
+			],
+			[
+				"test_",
+				"test_cardio_monthly"
+			],
+			[
+				"bitgym",
+				"bitgym_monthly"
+			],
+			[
+				"SERVER",
+				"SERVER_URL"
+			],
+			[
+				"SERVER_",
+				"SERVER_URL_DEV"
+			],
+			[
+				"mixpa",
+				"mixpanelToken"
+			],
+			[
+				"mixPanel",
+				"mixpanelToken"
+			],
+			[
+				"stripe",
+				"stripeToken"
+			],
+			[
+				"email",
+				"emailParam"
+			],
+			[
+				"_",
+				"_repTimeFromKjps"
+			],
+			[
+				"domain",
+				"domainSize"
+			],
+			[
+				"lable",
+				"labelThreshold"
+			],
+			[
+				"label",
+				"labelThreshold"
+			],
+			[
+				"routineLog",
+				"routineLogTimes"
+			],
+			[
+				"bod",
+				"bodyWeight"
+			],
+			[
+				"arm",
+				"armLength"
+			],
+			[
+				"arms",
+				"armsWeight"
+			],
+			[
+				"plot",
+				"plotStop"
+			],
+			[
+				"max",
+				"maxWidth"
+			],
+			[
+				"thum",
+				"scaledThumbW"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"setinf",
+				"setInfos"
+			],
+			[
+				"workouts",
+				"workouts_files"
+			],
+			[
+				"ma",
+				"master"
+			],
+			[
+				"make",
+				"makedirs"
+			],
+			[
+				"base",
+				"base_index"
+			],
+			[
+				"workout",
+				"workoutids"
+			],
+			[
+				"songId",
+				"songIdIndex"
+			],
+			[
+				"song",
+				"songIdIndex"
+			],
+			[
+				"son",
+				"songIdIndex"
+			],
+			[
+				"S3",
+				"S3_SECRET_KEY"
+			],
+			[
+				"S3_",
+				"S3_ACCESS_KEY"
+			],
+			[
+				"bold",
+				"bolder"
 			],
 			[
 				"Base",
@@ -116,6 +372,10 @@
 				"bolder"
 			],
 			[
+				"background",
+				"background-color"
+			],
+			[
 				"vault",
 				"vaultId"
 			],
@@ -162,6 +422,10 @@
 			[
 				"UNITY_",
 				"UNITY_ANDROID"
+			],
+			[
+				"aut",
+				"authState"
 			],
 			[
 				"ANDROI",
@@ -250,222 +514,78 @@
 			[
 				"inerti",
 				"inertialDecel"
-			],
-			[
-				"delta",
-				"deltaTime"
-			],
-			[
-				"swipe",
-				"swipeInertia"
-			],
-			[
-				"touch",
-				"touchStartObject"
-			],
-			[
-				"W",
-				"WAITING_FOR_VVC"
-			],
-			[
-				"Logintr",
-				"LogintrollerState"
-			],
-			[
-				"start",
-				"startRotation"
-			],
-			[
-				"bundle",
-				"bundleIdentifier"
-			],
-			[
-				"aud",
-				"audioUrl"
-			],
-			[
-				"audio",
-				"audioClips"
-			],
-			[
-				"vaultBut",
-				"vaultButtonText"
-			],
-			[
-				"Texture",
-				"Texture2D"
-			],
-			[
-				"logical",
-				"logicalTimerEditorCounter"
-			],
-			[
-				"TearDow",
-				"TeardownOverlay"
-			],
-			[
-				"Audio",
-				"AudioOverlayBehavior"
-			],
-			[
-				"Audi",
-				"AudioOverlayBehavior"
-			],
-			[
-				"type",
-				"typeString"
-			],
-			[
-				"L",
-				"Log"
-			],
-			[
-				"Time",
-				"TimeSpan\tclass"
-			],
-			[
-				"display",
-				"displayHours"
-			],
-			[
-				"local",
-				"localScale\tVector3"
-			],
-			[
-				"progr",
-				"progressBar"
-			],
-			[
-				"Lerp",
-				"Slerp(Quaternion, Quaternion, Single)\tQuaternion"
-			],
-			[
-				"rele",
-				"releaseState"
-			],
-			[
-				"Init",
-				"InitWithURL_CR"
-			],
-			[
-				"Star",
-				"StartCoroutine"
-			],
-			[
-				"cam",
-				"camSpeed"
-			],
-			[
-				"buffer",
-				"bufferingTime"
-			],
-			[
-				"_",
-				"_showHudAtStart_CR"
-			],
-			[
-				"P",
-				"Play()\tVoid"
-			],
-			[
-				"UI",
-				"UIDiscTimer"
-			],
-			[
-				"navbar",
-				"navBarShowPoint"
-			],
-			[
-				"active",
-				"activeSelf\tBoolean"
-			],
-			[
-				"back",
-				"backButton"
-			],
-			[
-				"Find",
-				"FindChild(String)\tTransform"
-			],
-			[
-				"flag",
-				"flags"
-			],
-			[
-				"current",
-				"currentPlayerStatus"
-			],
-			[
-				"pare",
-				"parentGameObject"
-			],
-			[
-				"Tur",
-				"TurnOnText"
-			],
-			[
-				"get",
-				"GetComponent<T>()\tT"
-			],
-			[
-				"rotat",
-				"RotateAround(Vector3, Single)\tVoid"
-			],
-			[
-				"jni_surfa",
-				"jni_surface_init"
-			],
-			[
-				"tar",
-				"target_y"
-			],
-			[
-				"target",
-				"target_x"
-			],
-			[
-				"to",
-				"towards"
-			],
-			[
-				"move",
-				"moveTo"
-			],
-			[
-				"Ve",
-				"Vector2D"
-			],
-			[
-				"close",
-				"closeDist"
-			],
-			[
-				"request",
-				"requesting_or_returned"
-			],
-			[
-				"oppone",
-				"opponentReady"
 			]
 		]
 	},
 	"buffers":
 	[
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 147.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"install",
+				"pack",
 				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
 			],
 			[
 				"reposi",
@@ -480,10 +600,6 @@
 				"Package Control: Add Repository"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"Install",
 				"Package Control: Install Package"
 			],
@@ -496,7 +612,7 @@
 				"Rope: New Project"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -519,145 +635,144 @@
 	},
 	"file_history":
 	[
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/timeline.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/post.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/core.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/gallery.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/portitem.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/styles/portfolio.css",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/_includes/portitemheadcontent.html",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/index.html",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/swarm.html",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/zoako.html",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/dicestorm.html",
-		"/C/Users/kOrc/Documents/GitHub/source_korc/portfolio/bitgym.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/default.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-BoldItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/portfolio/bitgym.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/zoako.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/slice.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/ksite.html",
-		"/Users/keerthik/projects/source_korc/korcgames.sublime-project",
-		"/Users/keerthik/projects/source_korc/source/about/index.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-LightItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Light.otf",
-		"/Users/keerthik/projects/source_korc/source/styles/syntax.css",
-		"/Users/keerthik/projects/source_korc/source/_layouts/about.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/autodesk.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/dicestorm.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/portfolio.html",
-		"/Users/keerthik/projects/source_korc/source/styles/portfolio.css",
-		"/Users/keerthik/projects/source_korc/source/_includes/portfolioheadcontent.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/post.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/portitem.html",
-		"/Users/keerthik/projects/source_korc/source/_includes/portitemheadcontent.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Bold.otf",
-		"/Users/keerthik/projects/source_korc/source/_layouts/essayhome.html",
-		"/Users/keerthik/projects/source_korc/source/essays/antifun.md",
-		"/Users/keerthik/projects/source_korc/source/_includes/headcontent.html",
-		"/Users/keerthik/projects/source_korc/source/_includes/header.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/home.html",
-		"/Users/keerthik/projects/source_korc/source/portfolio/index.html",
-		"/Users/keerthik/projects/source_korc/source/index.html",
-		"/Users/keerthik/projects/source_korc/source/_includes/headcontent_ds.html",
-		"/Users/keerthik/projects/source_korc/source/essays/courage.txt",
-		"/Users/keerthik/projects/source_korc/source/essays/eyes.md",
-		"/Users/keerthik/projects/source_korc/source/essays/gamelessons.md",
-		"/Users/keerthik/projects/source_korc/source/essays/gamesthoughtbox.md",
-		"/Users/keerthik/projects/source_korc/source/essays/index.html",
-		"/Users/keerthik/projects/source_korc/source/dicestorm/index.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-TwoItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/essays/toys.md",
-		"/Users/keerthik/Downloads/vertical-timeline/css/timeline-style.css",
-		"/Users/keerthik/Downloads/vertical-timeline/index.html",
-		"/Users/keerthik/projects/source_korc/source/styles/timeline.css",
-		"/Users/keerthik/projects/source_korc/source/styles/portitem.css",
-		"/Users/keerthik/Downloads/vertical-timeline/css/timeline-reset.css",
-		"/Users/keerthik/Downloads/vertical-timeline/js/main.js",
-		"/Users/keerthik/projects/source_korc/source/styles/xfolio.css",
-		"/Users/keerthik/projects/source_korc/source/styles/post.css",
-		"/Users/keerthik/projects/source_korc/source/styles/core.css",
-		"/Users/keerthik/projects/source_korc/source/portfolio/swarm.html",
-		"/Users/keerthik/Downloads/demo.html",
-		"/Users/keerthik/propel/nexus/Assets/UI/HUD/PlaybackHUD/BGCardioFeedbackFan.cs",
-		"/Users/keerthik/propel/Android/Unity/bitgym-cardio-android-unity-checklist.txt",
-		"/Users/keerthik/propel/UnityCardioPluginDev/Assets/Plugins/BitGym/BitGymCardio/Feedback/BGCardioFeedbackVideoPlane.cs",
-		"/Users/keerthik/projects/source_korc/source/portfolio/treefolio.html",
-		"/Users/keerthik/propel/nexus/Assets/Tools/Parse/Parse-1.3.0/readme.txt",
-		"/Users/keerthik/Downloads/Documents/bg-releases/bgpreparer.py",
-		"/Users/keerthik/Downloads/Documents/bg-releases/template.txt",
-		"/Users/keerthik/projects/source_korc/_config.yml",
-		"/Users/keerthik/projects/source_korc/source/resources/js/xfolio.js",
-		"/Users/keerthik/projects/source_korc/source/essays/whatido.md",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-ThinItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Thin.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Italic.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/FiraSans_140521.glyphs",
-		"/Users/keerthik/projects/BGWebv6/source/customer/coupon/index.html",
-		"/Users/keerthik/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/keerthik/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
-		"/Users/keerthik/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/Users/keerthik/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
-		"/Users/keerthik/projects/source_korc/source/_includes/xfolioheadcontent.html",
-		"/Users/keerthik/projects/source_korc/source/essays/lightcolors.md",
-		"/Users/keerthik/projects/source_korc/source/portfolio/xfolio.html",
-		"/Users/keerthik/projects/source_korc/source/_includes/postheadcontent.html",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Ultra.otf",
-		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/unityconsole.md",
-		"/Users/keerthik/projects/source_korc/source/_includes/header_ds.html",
-		"/Users/keerthik/projects/source_korc/source/_layouts/home_ds.html",
-		"/Users/keerthik/projects/source_korc/source/essays/lifehacks.md",
-		"/Users/keerthik/projects/source_korc/pushlive.sh",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-HairItalic.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Hair.otf",
-		"/Users/keerthik/projects/source_korc/source/_layouts/default_ds.html",
-		"/Users/keerthik/projects/source_korc/source/_config.yml",
-		"/Users/keerthik/projects/source_korc/source/essays/hackerlife.md",
-		"/Users/keerthik/projects/source_korc/source/portfolio/tree_data.json",
-		"/Users/keerthik/propel/nexus/Assets/NGUI/Scripts/UI/UILabel.cs",
-		"/Users/keerthik/propel/nexus/Assets/NGUI/Scripts/UI/UIFont.cs",
-		"/Users/keerthik/propel/nexus/Assets/UI/HUD/HudPanel.cs",
-		"/Users/keerthik/propel/nexus/Assets/Coach.cs",
-		"/Users/keerthik/projects/source_korc/README.md",
-		"/Users/keerthik/Dropbox/Personal/Future Plans/MIT Media Labs Notes.txt",
-		"/Users/keerthik/propel/nexus/ios/BGMusicPlayer.mm",
-		"/Users/keerthik/projects/source_korc/source/essays/introwriting.md",
-		"/Users/keerthik/Dropbox/Personal/Paperwork/O1/O1 fulfillment.txt",
-		"/Users/keerthik/Downloads/hammerhead-ktu84q/flash-all.sh",
-		"/Users/keerthik/Desktop/Android/sdk/docs/assets/search_autocomplete.js",
-		"/Users/keerthik/Dropbox/Personal/Web Development/korcgames.com/Legacy_v0/scripts/gallery.js",
-		"/Users/keerthik/projects/source_korc/source/portfolio/tree_data,json",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Regular.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Eight.otf",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Four.otf",
-		"/Users/keerthik/Desktop/nexus5faillog.txt",
-		"/Users/keerthik/Desktop/Old Firefox Data/m1f1cu31.default/search.json",
-		"/Users/keerthik/Desktop/Old Firefox Data/m1f1cu31.default/webapps/webapps.json",
-		"/Users/keerthik/projects/source_korc/source/essays/startupsymptoms.md",
-		"/Users/keerthik/propel/Android/BitGym Dev/src/com/activetheoryinc/BitGymDev/UnityPlayerNativeActivity.java",
-		"/Users/keerthik/projects/source_korc/source/pushlive.sh",
-		"/Users/keerthik/propel/nexus/test_vault/virtual-active-ATBKPK0205/metadata.json",
-		"/Users/keerthik/Dropbox/Personal/macrecovery.sh",
-		"/Users/keerthik/Library/Caches/Active Theory Inc/BitGym Dev/vault/virtual-active-ATBKPK0205/metadata.json",
-		"/Users/keerthik/propel/Android/BitGym Dev/AndroidManifest.xml",
-		"/Users/keerthik/projects/source_korc/source/kg.sh",
-		"/Users/keerthik/projects/source_korc/source/essays/shouldexist.md",
-		"/Users/keerthik/projects/source_korc/source/resources/fonts/firasans/OTF/FiraSans-Medium.otf",
-		"/Users/keerthik/Dropbox/Public/Consulting/CoffeeByRaman/index.html",
-		"/Users/keerthik/Dropbox/Public/Consulting/CoffeeByRaman/home.css",
-		"/Users/keerthik/Library/Caches/Active Theory Inc/BitGym Dev/vault/virtual-active-ATBKPK0207/metadata.json",
-		"/Users/keerthik/Downloads/ATBKPK0207/metadata.json"
+		"/Users/keerthik/projects/nexus-server/parse-dev/README.md",
+		"/Users/keerthik/.bash_profile",
+		"/Users/keerthik/projects/bitgymweb/js/bgbackend.js",
+		"/Users/keerthik/projects/bitgymweb/js/bgprofile.js",
+		"/Users/keerthik/projects/nexus-server/parse-dev/package.json",
+		"/Users/keerthik/projects/bitgymweb/js/parse-1.9.2.js",
+		"/Users/keerthik/projects/nexus-server/parse-dev/package-lock.json",
+		"/Users/keerthik/propel/nexus/Temp/gradleOut/unityLibrary/build.gradle",
+		"/usr/local/bin/stopen",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/jobs.js",
+		"/Users/keerthik/propel/changelist.txt",
+		"/Users/keerthik/propel/nexus/Assets/UI/CameraUI/CameraUIController.cs",
+		"/Users/keerthik/propel/nexus/Assets/Plugins/Android/mainTemplate.gradle",
+		"/Users/keerthik/propel/nexus/Temp/gradleOut/unityLibrary/Firebase/build.gradle",
+		"/Users/keerthik/propel/nexus/Temp/gradleOut/unityLibrary/Firebase/project.properties",
+		"/Users/keerthik/propel/nexus/Assets/Plugins/Android/gradleTemplate.properties",
+		"/Users/keerthik/propel/Android/BitGym/gradle.properties",
+		"/Users/keerthik/projects/bitgymweb/_i18n/en.yml",
+		"/Applications/Unity/Hub/Editor/2019.4.9f1/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle",
+		"/Users/keerthik/propel/Android/BitGym/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
+		"/Users/keerthik/propel/nexus/Assets/Plugins/Android/Firebase/AndroidManifest.xml",
+		"/Users/keerthik/propel/nexus/Assets/UI/CameraUI/CameraUIPanel.cs",
+		"/Users/keerthik/propel/nexus/Temp/gradleOut/build.gradle",
+		"/Users/keerthik/.ssh/id_rsa.pub",
+		"/Users/keerthik/projects/bitgymweb/_includes/profile/subscription-vc.html",
+		"/Users/keerthik/propel/Android/README.md",
+		"/Users/keerthik/personal/src_korc/webtoys/reimburse.py",
+		"/Users/keerthik/propel/nexus/Assets/Tools/FirebaseController.cs",
+		"/Users/keerthik/propel/Android/modifymetafiles.py",
+		"/Users/keerthik/propel/nexus/Assets/UI/PostWorkoutFacet/PostWorkoutController.cs",
+		"/Users/keerthik/propel/nexus/Assets/UI/IntroFacet/Introller.cs",
+		"/Users/keerthik/propel/nexus/Assets/UI/CameraUI/ReviewPopupPanel.cs",
+		"/Users/keerthik/projects/firebasetest/firebaseunity/Packages/manifest.json",
+		"/Users/keerthik/Desktop/bitgym-aux/Keystores/nexuskeystore.properties",
+		"/Users/keerthik/propel/Android/BitGym/local.properties",
+		"/Users/keerthik/propel/Android/BitGym/launcher/build.gradle",
+		"/Users/keerthik/propel/Android/BitGym/unityLibrary/build.gradle",
+		"/Users/keerthik/propel/Android/BitGym/build.gradle",
+		"/Users/keerthik/projects/bgcontent/support/i18nstart.md",
+		"/Users/keerthik/projects/bgcontent/emails/newsletter/202003_quaranteam.md",
+		"/Users/keerthik/projects/bgcontent/emails/drip/V0/0_welcome.md",
+		"/Users/keerthik/projects/bgcontent/emails/drip/V0/0_fr_welcome.md",
+		"/Users/keerthik/projects/bgcontent/emails/newsletter/202004_quaranteam2.md",
+		"/Users/keerthik/projects/bgcontent/emails/newsletter/202004_i18n/202004_i18n_free.html",
+		"/Users/keerthik/projects/bgcontent/emails/newsletter/202004_i18n/202004_i18n_quaranteam.html",
+		"/Users/keerthik/propel/Android/deploy_bitgym.sh",
+		"/Users/keerthik/Downloads/April 2020 Newsletter paid.html",
+		"/Users/keerthik/projects/bitgymweb/quaranteam/index.html",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/csupport.js",
+		"/Users/keerthik/projects/bitgymweb/index.html",
+		"/Users/keerthik/Downloads/Drip standard.html",
+		"/Users/keerthik/projects/bitgymweb/customer_service/changelog.md",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/main.js",
+		"/Users/keerthik/projects/bitgymweb/_config.yml",
+		"/Users/keerthik/Downloads/Drip template.html",
+		"/Users/keerthik/projects/bitgymweb/deploy_live.sh",
+		"/Users/keerthik/projects/bitgymweb/deploy_dev.sh",
+		"/Users/keerthik/projects/nexus-server/parse-dev/post-to-slack.sh",
+		"/Users/keerthik/projects/nexus-server/parse-dev/stage-and-deploy.sh",
+		"/Users/keerthik/propel/Android/Unity/UnityVideoPluginTest/autobuild.sh",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/subscription.js",
+		"/Users/keerthik/projects/bitgymweb/scripts/translate.py",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/workouts.js",
+		"/Users/keerthik/projects/bitgymweb/_i18n/fr/quaranteam/quaranteam.md",
+		"/Users/keerthik/projects/bitgymweb/_includes/brochure/pitch.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/common/header.html",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/offline.js",
+		"/Users/keerthik/propel/nexus/Assets/Resources/english.txt",
+		"/Users/keerthik/Dropbox/Personal/Work/GPMF-parser/build-diary.md",
+		"/Users/keerthik/projects/bitgymweb/_i18n/fr.yml",
+		"/Users/keerthik/projects/bitgymweb/_i18n/pl.yml",
+		"/Users/keerthik/projects/bitgymweb/_i18n/it.yml",
+		"/Users/keerthik/projects/bitgymweb/_i18n/en/quaranteam/quaranteam.md",
+		"/Users/keerthik/projects/bitgymweb/_includes/common/footer.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/brochure/testimonial.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/cs/cs_vuejs.html",
+		"/Users/keerthik/projects/bitgymweb/_i18n/pl/quaranteam/quaranteam.md",
+		"/Users/keerthik/projects/bitgymweb/_includes/cs/cs-utils-vc.html",
+		"/Users/keerthik/projects/bitgymweb/emails/covid-newsletter.html",
+		"/Users/keerthik/projects/bitgymweb/tags.html",
+		"/Users/keerthik/projects/bitgymweb/README.md",
+		"/Users/keerthik/projects/bitgymweb/customer_service/index.html",
+		"/Users/keerthik/projects/bitgymweb/_i18n/it/quaranteam/index.html",
+		"/Users/keerthik/projects/bitgymweb/_i18n/quaranteam/index.html",
+		"/Users/keerthik/projects/bitgymweb/categories.html",
+		"/Users/keerthik/projects/bitgymweb/archives.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/head.html",
+		"/Users/keerthik/projects/bitgymweb/_data/assets.yml",
+		"/Users/keerthik/projects/bitgymweb/assets/css/style.css",
+		"/Users/keerthik/projects/nexus-server/parse-dev/cloud/subscriptionUtils.js",
+		"/Users/keerthik/propel/nexus/Assets/Vault/iOSVaultDownloader.cs",
+		"/Users/keerthik/projects/bitgymweb/_includes/feature.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/header.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/pagination.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/post-meta.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/sidebar-archives.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/sidebar-categories.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/sidebar-recent-posts.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/sidebar-tags.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/brochure/social-networks.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/common/interior-header.html",
+		"/Users/keerthik/projects/bitgymweb/_layouts/interior.html",
+		"/Users/keerthik/projects/bitgymweb/_layouts/post.html",
+		"/Users/keerthik/projects/bitgymweb/_layouts/work.html",
+		"/Users/keerthik/projects/bitgymweb/blog/index.html",
+		"/Users/keerthik/propel/.gitignore",
+		"/Users/keerthik/projects/bitgymweb/_sass/_lifetime.scss",
+		"/Users/keerthik/propel/nexus/Assets/Vault/VaultUtils.cs",
+		"/Users/keerthik/projects/bitgymweb/_layouts/default.html",
+		"/Users/keerthik/projects/bitgymweb/_includes/profile/profile_vuejs.html",
+		"/Users/keerthik/projects/bitgymweb/covid/index.html",
+		"/Users/keerthik/projects/bitgymweb/terms/index.html",
+		"/Users/keerthik/projects/bitgymweb/privacy/index.md",
+		"/Users/keerthik/projects/bitgymweb/privacy/privacy_files/ga.js",
+		"/Users/keerthik/projects/bitgymweb/privacy/privacy_files/jquery.min.js",
+		"/Users/keerthik/projects/bitgymweb/privacy/privacy_files/privacy-policy-mobile.css",
+		"/Users/keerthik/projects/bitgymweb/Gemfile",
+		"/Users/keerthik/projects/bitgymweb/js/cs.js",
+		"/Users/keerthik/projects/bitgymweb/lifetime/index.html",
+		"/Users/keerthik/propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java",
+		"/Users/keerthik/propel/README.md",
+		"/Users/keerthik/propel/nexus/Assets/UI/PreviewFacet/PreviewPanel.cs",
+		"/Users/keerthik/projects/tango/Assets/TangoSDK/WebcamFrameExtractor.cs",
+		"/Users/keerthik/projects/tango/.gitignore",
+		"/Users/keerthik/projects/bitgymweb/lifetime/terms/index.html",
+		"/Users/keerthik/projects/bitgymweb/terms.html",
+		"/Users/keerthik/projects/bitgymweb/.gitignore",
+		"/Users/keerthik/projects/bitgymweb/support/articles/va-vs-bitgym.html"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 96.0,
+		"height": 116.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -665,134 +780,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"<img src=\"img",
-			"windows/win",
-			"<img",
-			"controls",
-			"content",
-			"footer",
-			"z-index",
-			"summary",
-			"</a>\t\t\t\t",
-			"block",
-			"content",
-			"-content",
-			"Click for more details.",
-			"Click for more details.</p>",
-			"\t\t\t\t<div class=\"item_blurb\">",
-			"<div class=\"item_blurb\">",
-			"item_title",
-			"span></a>",
-			"</span>",
-			"<div class=\"item_blurb\">",
-			"<div class=\"item_title\">",
-			"<div class=\"item_blurb\"",
-			"<div class=\"item_title\">",
-			"class=\"grid_item\">",
-			"myTransform",
-			"<li>",
-			"li>",
-			"content",
-			"item\">",
-			".jpg",
-			"ATBK030",
-			"jpg",
-			"x1080.jpg",
-			".nav",
-			"li",
-			"porfolio",
-			"2*",
-			"thickness",
-			" + thickness",
-			"target.offset().left",
-			"target.offset().top",
-			"appendTo('body');",
-			"set",
-			"\t\t\"top\": \"720px\",\n",
-			"2",
-			"\"top\": \"560px\",",
-			"\"top\": \"600px\",",
-			"\"top\": \"480px\",",
-			"\"top\": \"320px\",",
-			"\"top\": \"240px\",",
-			"probot",
-			"border",
-			"border: ",
-			" solid",
-			"3px so",
-			"\"name\": {",
-			"{",
-			"left",
-			"\"left\": ",
-			"bitgym",
-			"top\": \"6",
-			"swarm",
-			"slice",
-			"ksite",
-			"irltank",
-			"scbw",
-			"irltank",
-			"krpengine",
-			"bitgym",
-			"scbwai",
-			"krpengine",
-			"autodesk",
-			"blastzone",
-			"innerhtml",
-			"html",
-			"programming",
-			"\"name\"",
-			"ionblitz",
-			"\"tags\":",
-			"tags\":",
-			"tree",
-			"scbwapi",
-			"tier",
-			"name",
-			"300",
-			"class=\"container",
-			"BKPK0205_",
-			"\"",
-			"; ",
-			"ATBKPK0205",
-			"jpg",
-			"sprint",
-			"coffeejuba",
-			"span",
-			"h1",
-			"\n**",
-			"For the user",
-			"For the Opponent",
-			"For the User",
-			"\nFor the User",
-			"for the user",
-			"For the User",
-			"<a target=\"_blank\" href=\"https://www.facebook.com/dicestorm\"",
-			"    ",
-			"default",
-			"   ",
-			"2",
-			"\t\t<li>",
-			"</p>",
-			"\t<p>",
-			"> ",
-			"\n#",
-			"#",
-			"]",
-			"[",
-			"p {",
-			"h2",
-			"h1",
-			"    ",
-			"font-size",
-			"[",
-			"\t\t<",
-			"| -",
-			"--",
-			"clear",
-			"]",
-			" [",
-			"["
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -817,11 +804,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 42.0
 	},
 	"layout":
 	{
@@ -848,17 +835,21 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 399.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 144.0
+	},
 	"pinned_build_system": "",
 	"project": "/Users/keerthik/projects/source_korc/korcgames.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -868,516 +859,516 @@
 		"selected_items":
 		[
 			[
-				"dicesto",
-				"source/portfolio/dicestorm.html"
+				"deploy",
+				"bitgymweb/deploy_live.sh"
 			],
 			[
-				"dice",
-				"source/portfolio/dicestorm.html"
+				"cs-v",
+				"bitgymweb/_includes/cs/cs-utils-vc.html"
 			],
 			[
-				"zoako",
-				"source/portfolio/zoako.html"
+				"parse-dev/read",
+				"nexus-server/parse-dev/README.md"
 			],
 			[
-				"bitgym",
-				"source/portfolio/bitgym.html"
+				"back",
+				"bitgymweb/js/bgbackend.js"
 			],
 			[
-				"ksite",
-				"source/portfolio/ksite.html"
+				"bgprofile",
+				"bitgymweb/js/bgprofile.js"
 			],
 			[
-				"slice",
-				"source/portfolio/slice.html"
-			],
-			[
-				"about",
-				"source/about/index.html"
-			],
-			[
-				"zo",
-				"source/portfolio/zoako.html"
-			],
-			[
-				"portfolio/inde",
-				"source/portfolio/index.html"
-			],
-			[
-				"swarm",
-				"source/portfolio/swarm.html"
-			],
-			[
-				"portitemhead",
-				"source/_includes/portitemheadcontent.html"
-			],
-			[
-				"portitem",
-				"source/_layouts/portitem.html"
-			],
-			[
-				"auto",
-				"source/portfolio/autodesk.html"
-			],
-			[
-				"header",
-				"source/_includes/header.html"
-			],
-			[
-				"default",
-				"source/_layouts/default.html"
-			],
-			[
-				"css",
-				"source/styles/post.css"
-			],
-			[
-				"essay",
-				"source/_layouts/essayhome.html"
-			],
-			[
-				"headcon",
-				"source/_includes/headcontent.html"
-			],
-			[
-				"headcontent",
-				"source/_includes/portfolioheadcontent.html"
-			],
-			[
-				"home",
-				"source/_layouts/home.html"
-			],
-			[
-				"index",
-				"source/index.html"
-			],
-			[
-				"portfoliohead",
-				"source/_includes/portfolioheadcontent.html"
-			],
-			[
-				"essayhome",
-				"source/_layouts/essayhome.html"
-			],
-			[
-				"portfolio",
-				"source/_layouts/portfolio.html"
-			],
-			[
-				"autode",
-				"source/portfolio/autodesk.html"
-			],
-			[
-				"core",
-				"source/styles/core.css"
-			],
-			[
-				"time",
-				"source/styles/timeline.css"
-			],
-			[
-				"porti",
-				"source/_includes/portitemheadcontent.html"
-			],
-			[
-				".css",
-				"source/styles/portitem.css"
-			],
-			[
-				"coura",
-				"source/essays/courage.txt"
-			],
-			[
-				"essayho",
-				"source/_layouts/essayhome.html"
-			],
-			[
-				"post",
-				"source/_layouts/post.html"
-			],
-			[
-				"toys",
-				"source/essays/toys.md"
-			],
-			[
-				"eyes",
-				"source/essays/eyes.md"
-			],
-			[
-				"xfolio",
-				"source/_includes/xfolioheadcontent.html"
-			],
-			[
-				"portfo",
-				"source/styles/portfolio.css"
-			],
-			[
-				"port",
-				"source/_layouts/portfolio.html"
-			],
-			[
-				"lesso",
-				"source/essays/gamelessons.md"
-			],
-			[
-				"home_ds",
-				"source/_layouts/home_ds.html"
-			],
-			[
-				"config",
-				"_config.yml"
-			],
-			[
-				"po",
-				"source/_layouts/post.html"
-			],
-			[
-				"defa",
-				"source/_layouts/default.html"
-			],
-			[
-				"posthead",
-				"source/_includes/postheadcontent.html"
-			],
-			[
-				"head",
-				"source/_includes/headcontent_ds.html"
-			],
-			[
-				"defau",
-				"source/_layouts/default_ds.html"
-			],
-			[
-				"coni",
-				"_config.yml"
-			],
-			[
-				"light",
-				"source/essays/lightcolors.md"
-			],
-			[
-				".md",
-				"source/essays/eyes.md"
-			],
-			[
-				"puh",
-				"pushlive.sh"
-			],
-			[
-				"cour",
-				"source/essays/courage.txt"
+				"bitgymweb/js/",
+				"bitgymweb/js/parse-1.9.2.js"
 			],
 			[
 				"read",
-				"README.md"
+				"nexus-server/parse-dev/README.md"
 			],
 			[
-				"push",
-				"pushlive.sh"
+				"subscrip",
+				"nexus-server/parse-dev/cloud/subscription.js"
 			],
 			[
-				"inde",
-				"source/index.html"
+				"jobs",
+				"nexus-server/parse-staging/cloud/jobs.js"
 			],
 			[
-				"intro",
-				"source/essays/introwriting.md"
+				"jobs.",
+				"nexus-server/parse-dev/cloud/jobs.js"
 			],
 			[
-				"treed",
-				"source/portfolio/tree_data.json"
+				"csupport",
+				"nexus-server/parse-dev/cloud/csupport.js"
 			],
 			[
-				"xfoli",
-				"source/_includes/xfolioheadcontent.html"
+				"readme",
+				"propel/README.md"
 			],
 			[
-				"layout",
-				"source/_layouts/default.html"
+				"chan",
+				"propel/changelist.txt"
 			],
 			[
-				"portf",
-				"source/_includes/portfolioheadcontent.html"
+				"change",
+				"propel/changelist.txt"
 			],
 			[
-				"xfo",
-				"source/_includes/xfolioheadcontent.html"
+				"unityplayer",
+				"propel/Android/BitGym/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
 			],
 			[
-				"porf",
-				"source/_layouts/portfolio.html"
+				"introller",
+				"propel/nexus/Assets/UI/IntroFacet/Introller.cs"
 			],
 			[
-				"xf",
-				"source/_includes/xfolioheadcontent.html"
+				"firebase",
+				"propel/nexus/Assets/Tools/FirebaseController.cs"
 			],
 			[
-				"portfol",
-				"source/_layouts/portfolio.html"
+				"review",
+				"propel/nexus/Assets/UI/CameraUI/ReviewPopupPanel.cs"
 			],
 			[
-				"start",
-				"source/essays/startupsymptoms.md"
+				"topmenu",
+				"propel/nexus/Assets/UI/MainFacet/TopMenuViewController.cs"
 			],
 			[
-				"lessons",
-				"source/essays/gamelessons.md"
+				"firebase.",
+				"propel/nexus/Assets/Tools/FirebaseController.cs"
 			],
 			[
-				"star",
-				"source/essays/startupsymptoms.md"
+				"modify",
+				"propel/Android/modifymetafiles.py"
 			],
 			[
-				"md",
-				"source/essays/startupsymptoms.md"
+				"deployt",
+				"propel/Android/deploy_bitgym.sh"
 			],
 			[
-				"toy",
-				"source/essays/toys.md"
+				"config",
+				"bitgymweb/_config.yml"
 			],
 			[
-				"should",
-				"source/essays/shouldexist.md"
+				"main.js",
+				"nexus-server/parse-dev/cloud/main.js"
 			],
 			[
-				"essayhoe",
-				"source/_layouts/essayhome.html"
+				"deplo",
+				"propel/Android/deploy_bitgym.sh"
 			],
 			[
-				"essays",
-				"source/essays/index.html"
+				"auto",
+				"propel/Android/Unity/UnityVideoPluginTest/autobuild.sh"
 			],
 			[
-				"headconten",
-				"source/_includes/headcontent.html"
+				"stage",
+				"nexus-server/parse-dev/stage-and-deploy.sh"
 			],
 			[
-				"exist",
-				"source/essays/shouldexist.md"
+				"changelog",
+				"bitgymweb/customer_service/changelog.md"
 			],
 			[
-				"defaul",
-				"source/_layouts/default.html"
+				"support.js",
+				"nexus-server/parse-dev/cloud/csupport.js"
 			],
 			[
-				"headcont",
-				"source/_includes/headcontent.html"
+				"backend",
+				"bitgymweb/js/bgbackend.js"
 			],
 			[
-				"anti",
-				"source/essays/antifun.md"
+				"csuppo",
+				"nexus-server/parse-dev/cloud/csupport.js"
 			],
 			[
-				"writi",
-				"source/essays/introwriting.md"
+				"autobuil",
+				"propel/Android/Unity/UnityVideoPluginTest/autobuild.sh"
 			],
 			[
-				"headconte",
-				"source/_includes/headcontent.html"
+				"pitch.",
+				"bitgymweb/_includes/brochure/pitch.html"
 			],
 			[
-				"writing",
-				"source/essays/introwriting.md"
+				"idnex",
+				"bitgymweb/index.html"
 			],
 			[
-				"heade",
-				"source/_includes/header.html"
+				"offline",
+				"nexus-server/parse-dev/cloud/offline.js"
 			],
 			[
-				"essa",
-				"source/essays/index.html"
+				"changeli",
+				"propel/changelist.txt"
 			],
 			[
-				"unity",
-				"source/essays/Discarded_frozen/unityconsole.md"
+				"english",
+				"propel/nexus/Assets/Resources/english.txt"
 			],
 			[
-				"abou",
-				"source/about/index.html"
+				"it",
+				"bitgymweb/_i18n/it.yml"
 			],
 			[
-				"intromo",
-				"source/essays/intromobile.html"
+				"en.",
+				"bitgymweb/_i18n/en.yml"
 			],
 			[
-				"sy",
-				"source/styles/syntax.css"
+				"en",
+				"bitgymweb/_i18n/en.yml"
 			],
 			[
-				"synta",
-				"source/styles/syntax.css"
+				"quaranteam",
+				"bitgymweb/_i18n/fr/quaranteam.md"
 			],
 			[
-				"confi",
-				"_config.yml"
+				"header.",
+				"bitgymweb/_includes/common/header.html"
 			],
 			[
-				"synat",
-				"source/styles/syntax.css"
+				"pl.",
+				"bitgymweb/_i18n/pl.yml"
 			],
 			[
-				"being",
-				"source/essays/beingnice.html"
+				"index",
+				"bitgymweb/index.html"
 			],
 			[
-				"pc",
-				"Assets/UI/Preview/PreviewController.cs"
+				"TESTIMON",
+				"bitgymweb/_includes/brochure/testimonial.html"
 			],
 			[
-				"vvc",
-				"Assets/VideoPlayback/VideoViewController.cs"
+				"pl.y",
+				"bitgymweb/_i18n/pl.yml"
 			],
 			[
-				"android",
-				"Assets/Plugins/Android/AndroidManifest.xml"
+				"brochure/pit",
+				"bitgymweb/_includes/brochure/pitch.html"
 			],
 			[
-				"configdata",
-				"Assets/ContentManagement/ConfigData.cs"
+				"cs_vue",
+				"bitgymweb/_includes/cs/cs_vuejs.html"
 			],
 			[
-				"configh",
-				"xcode/Pods/MKStoreKit/MKStoreKitConfigs.h"
+				"cs-utils",
+				"bitgymweb/_includes/cs/cs-utils-vc.html"
 			],
 			[
-				"playback",
-				"ios/PlaybackStatus.h"
+				"customer",
+				"bitgymweb/customer_service/index.html"
 			],
 			[
-				"basevideo",
-				"Assets/VideoPlayback/BaseVideoPlayer.cs"
+				"pitch",
+				"bitgymweb/_includes/brochure/pitch.html"
 			],
 			[
-				"androidvideo",
-				"Assets/VideoPlayback/AndroidVideoPlayer.cs"
+				"testimonia",
+				"bitgymweb/_includes/brochure/testimonial.html"
 			],
 			[
-				"audi",
-				"Assets/VideoPlayback/Overlays/AudioOverlayBehavior.cs"
+				"brochure",
+				"bitgymweb/_includes/brochure/pitch.html"
 			],
 			[
-				"audioover",
-				"Assets/VideoPlayback/Overlays/AudioOverlay.cs"
+				"header",
+				"bitgymweb/_includes/header.html"
 			],
 			[
-				"cui",
-				"Assets/UI/CameraUIController.cs"
+				"default",
+				"bitgymweb/_layouts/default.html"
 			],
 			[
-				"vtvc",
-				"Assets/VideoPlayback/TestPlatform/VideoTestViewController.cs"
+				"quaranteam/",
+				"bitgymweb/quaranteam/index.html"
 			],
 			[
-				"_test",
-				"Assets/Plugins/Android/AndroidManifest_test.xml"
+				"profile",
+				"bitgymweb/_includes/profile/profile_vuejs.html"
 			],
 			[
-				"androidmani",
-				"Assets/Plugins/Android/AndroidManifest.xml"
+				"parse",
+				"bitgymweb/js/parse-1.9.2.js"
 			],
 			[
-				"origin",
-				"Assets/Plugins/Android/AndroidManifest_original.xml"
+				"subscriptionuti",
+				"nexus-server/parse-dev/cloud/subscriptionUtils.js"
 			],
 			[
-				"original",
-				"Assets/Plugins/Android/AndroidManifest_original.xml"
+				"bgdownla",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
 			],
 			[
-				"androidmanif",
-				"Assets/Plugins/Android/AndroidManifest.xml"
+				"engli",
+				"propel/nexus/Assets/Resources/english.txt"
 			],
 			[
-				"coach",
-				"Assets/Coach.cs"
+				"terms/",
+				"bitgymweb/lifetime/terms/index.html"
 			],
 			[
-				"purchas",
-				"Assets/UI/LoginFacet/SubscriptionPurchaser.cs"
+				"terms",
+				"bitgymweb/terms.html"
 			],
 			[
-				"login",
-				"Assets/UI/LoginFacet/Logintroller.cs"
+				"lifetime",
+				"bitgymweb/_sass/_lifetime.scss"
 			],
 			[
-				"manif",
-				"Assets/Plugins/Android/AndroidManifest.xml"
+				"lifetime/inde",
+				"bitgymweb/lifetime/index.html"
 			],
 			[
-				"anmani",
-				"Assets/Plugins/Android/AndroidManifest.xml"
+				"previewpanel",
+				"propel/nexus/Assets/UI/PreviewFacet/PreviewPanel.cs"
 			],
 			[
-				"anman",
-				"xcode/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+				".giti",
+				"bitgymweb/.gitignore"
 			],
 			[
-				"manife",
-				"xcode/Pods/Manifest.lock"
+				"cs.",
+				"bitgymweb/js/cs.js"
 			],
 			[
-				"tmvc",
-				"Assets/UI/MainFacet/TopMenuViewController.cs"
+				"vaultuti",
+				"propel/nexus/Assets/Vault/VaultUtils.cs"
 			],
 			[
-				"contentage",
-				"Assets/ContentManagement/ContentAgent.cs"
+				"iosvault",
+				"propel/nexus/Assets/Vault/iOSVaultDownloader.cs"
 			],
 			[
-				"cm",
-				"Assets/ContentManagement/ContentModel.cs"
+				"subsc",
+				"nexus-server/parse-dev/cloud/subscription.js"
 			],
 			[
-				"audio",
-				"Assets/VideoPlayback/Overlays/AudioOverlayBehavior.cs"
+				"glob",
+				"nexus-server/parse-dev/cloud/globals.js"
 			],
 			[
-				"vault",
-				"Assets/ContentManagement/Vault.cs"
+				"subscriptionut",
+				"nexus-server/parse-dev/cloud/subscriptionUtils.js"
 			],
 			[
-				"andv",
-				"Assets/ContentManagement/AndroidVaultDownloader.cs"
+				"details",
+				"bitgymweb/_includes/cs/details-vc.html"
+			],
+			[
+				"customer_serv",
+				"bitgymweb/customer_service/index.html"
+			],
+			[
+				"config.",
+				"bitgymweb/_config.yml"
+			],
+			[
+				"backen",
+				"bitgymweb/_includes/backend_scripts.html"
+			],
+			[
+				"subscript",
+				"nexus-server/parse-dev/cloud/subscription.js"
+			],
+			[
+				"decompre",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/Decompresser.java"
+			],
+			[
+				"bgdownload",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
+			],
+			[
+				"supporta",
+				"bitgymweb/_sass/_supportal.scss"
+			],
+			[
+				"base",
+				"bitgymweb/_sass/_base.scss"
+			],
+			[
+				"main.scss",
+				"bitgymweb/css/main.scss"
+			],
+			[
+				"defau",
+				"bitgymweb/_layouts/default.html"
+			],
+			[
+				"main",
+				"bitgymweb/css/main.scss"
+			],
+			[
+				"profile/inde",
+				"bitgymweb/profile/index.html"
+			],
+			[
+				"cs.js",
+				"bitgymweb/js/cs.js"
+			],
+			[
+				"search",
+				"bitgymweb/_includes/cs/search-vc.html"
+			],
+			[
+				"-vc",
+				"bitgymweb/_includes/profile/auth-vc.html"
+			],
+			[
+				"main.",
+				"bitgymweb/css/main.scss"
+			],
+			[
+				"support.css",
+				"bitgymweb/_sass/_supportal.scss"
+			],
+			[
+				"changel",
+				"bitgymweb/customer_service/changelog.md"
+			],
+			[
+				"workouts",
+				"nexus-server/parse-dev/cloud/workouts.js"
+			],
+			[
+				"customer_service",
+				"bitgymweb/customer_service/index.html"
+			],
+			[
+				"support/",
+				"bitgymweb/support/index.html"
+			],
+			[
+				"cs",
+				"bitgymweb/js/cs.js"
+			],
+			[
+				"cs-",
+				"bitgymweb/_includes/cs/cs-utils-vc.html"
+			],
+			[
+				"hostedpage",
+				"nexus-server/parse-dev/cloud/hostedPages.js"
+			],
+			[
+				"cs-ut",
+				"bitgymweb/_includes/cs/cs-utils-vc.html"
+			],
+			[
+				"unityplayeractivity",
+				"propel/Android/BitGym/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
+			],
+			[
+				"ibgdownload",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/IBGDownloader.java"
+			],
+			[
+				"vuejs",
+				"bitgymweb/_includes/profile/profile_vuejs.html"
+			],
+			[
+				"hosted",
+				"nexus-server/parse-dev/cloud/hostedPages.js"
+			],
+			[
+				"bgcardiofeedback",
+				"propel/nexus/Assets/Plugins/CardioSDK/Feedback/BGCardioFeedbackVideoPlane.cs"
+			],
+			[
+				"global",
+				"nexus-server/parse-dev/cloud/globals.js"
+			],
+			[
+				"bgdown",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
+			],
+			[
+				"coupon-vc",
+				"bitgymweb/_includes/profile/coupon-vc.html"
+			],
+			[
+				"userdeta",
+				"bitgymweb/_includes/profile/user-details-vc.html"
+			],
+			[
+				"cbweb",
+				"nexus-server/parse-dev/cb_webhook_test.txt"
+			],
+			[
+				"index.js",
+				"nexus-server/parse-dev/index.js"
+			],
+			[
+				"vuej",
+				"bitgymweb/_includes/profile/profile_vuejs.html"
+			],
+			[
+				"subscriptionutil",
+				"nexus-server/parse-dev/cloud/subscriptionUtils.js"
+			],
+			[
+				"package",
+				"nexus-server/parse-dev/package.json"
+			],
+			[
+				"ios_subscrip",
+				"nexus-server/parse-dev/cloud/ios_subscriptions.js"
+			],
+			[
+				"build",
+				"propel/Android/BitGym/launcher/build.gradle"
+			],
+			[
+				"bitgym/laun",
+				"propel/Android/BitGym/launcher/build.gradle"
+			],
+			[
+				"bitgym/unit",
+				"propel/Android/BitGym/unityLibrary/build.gradle"
+			],
+			[
+				"bitgym/",
+				"propel/Android/BitGym/build.gradle"
+			],
+			[
+				"bgdownl",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
+			],
+			[
+				"downloadmanager/",
+				"propel/Android/DownloadManager/dlmanager/build.gradle"
+			],
+			[
+				"maintempl",
+				"propel/nexus/Assets/Plugins/Android/mainTemplate.gradle"
+			],
+			[
+				"downloadmanager/build",
+				"propel/Android/DownloadManager/dlmanager/build.gradle"
 			],
 			[
 				"download",
-				"Assets/ContentManagement/IVaultDownloader.cs"
+				"propel/Android/testdownload/app/src/main/java/com/activetheoryinc/testdownload/DownloadActivity.java"
 			],
 			[
-				"idonw",
-				"Assets/ContentManagement/IVaultDownloader.cs"
+				"bgdownlo",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
 			],
 			[
-				"tc",
-				"Assets/ContentManagement/TextureCache.cs"
+				"ibgdownl",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/IBGDownloader.java"
 			],
 			[
-				"baseview",
-				"Assets/UI/BaseViewController.cs"
+				"bgdownloader",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
 			],
 			[
-				"cmvc",
-				"Assets/UI/ContentFacet/ContentMenuViewController.cs"
+				"profile_vue",
+				"bitgymweb/_includes/profile/profile_vuejs.html"
 			],
 			[
-				"pre",
-				"Assets/UI/Preview/PreviewController.cs"
-			],
-			[
-				"bged",
-				"Assets/Editor/BitGym/BitGymEditorMods.cs"
-			],
-			[
-				"facebookandroid",
-				"Assets/Facebook/Editor/android/FacebookAndroidUtil.cs"
-			],
-			[
-				"facebook",
-				"Assets/Facebook/Editor/FacebookPostprocess.cs"
-			],
-			[
-				"uitile",
-				"Assets/UI/UITile/UITileBehaviourNGUI.cs"
+				"bgdowl",
+				"propel/Android/DownloadManager/dlmanager/src/main/java/com/activetheoryinc/downloadmanager/BGDownloader.java"
 			]
 		],
 		"width": 0.0
@@ -1388,6 +1379,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/projects/source_korc/korcgames.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
