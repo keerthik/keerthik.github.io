@@ -13,7 +13,7 @@ I am best reached by email. Hit me up at `keerthiko[at]gmail[dot]com`
 
 Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html) and prefer in-person, timeboxed to other media.
 
-I also do the twitters: <!--Twitter--><a href="https://twitter.com/keerthiko" class="twitter-follow-button" data-show-count="false">Follow @keerthiko</a>
+I also do the twitters: <!--Twitter--><a href="https://twitter.com/qedkorc" class="twitter-follow-button" data-show-count="false">Follow @qedkorc</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ### Activity
