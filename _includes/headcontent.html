@@ -6,11 +6,12 @@
 
 <script async defer data-website-id="8c68957e-bd8e-4ed4-a4be-3240bce70553" src="https://umami-production-idqm.up.railway.app/umami.js"></script>
 
+<script defer data-domain="localhost:4000" src="http://127.0.0.1:8000/js/plausible.js"></script>
+
 {% if jekyll.environment == "development" and file_exists /private/keys.js %}
   <!--Temporarily moved API keys to this file which will not be checked into git-->
 	<script src="/private/keys.js" type="text/javascript"></script>
 {% endif %}
 <script src="/js/nendpoints.js" type="text/javascript"></script>
-<script src="/js/statilytics.js" type="text/javascript"></script>
 {% feed_meta %}
 {% seo %}
