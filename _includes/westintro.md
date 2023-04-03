@@ -1,3 +1,0 @@
-*The last decade of my life has been a colorful adventure through many countries, cultures and friendships. The last half of that has been dedicated to dealing with the fact that [I don't belong anywhere](fromwhere.html) accentuated by the quagmire of immigration to America, where I've chosen to build out my future. Just recently I was approved for my green card, a badge of "American-ish-ness", as part of a journey that has gone to great lengths to confuse me about my identity.*
-
-*This post is part of a series exploring my relationship with American culture*
