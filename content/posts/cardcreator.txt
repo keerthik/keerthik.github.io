@@ -1,0 +1,13 @@
+# Need
+Focus effort on design for custom game cards, reducing overhead and repeat work
+
+# Icons
+Create a class for each icon type. Editing the base class should reflect changes everywhere
+
+# Text
+Create a style for every type of text. Modifying the base type should reflect changes everywhere
+
+# Template
+Cards have a base template. All items are positioned relative to its features. Modifying the template should reflect changes in all cards and realign contents accordingly.
+
+# Unit art styling
