@@ -1,4 +1,5 @@
 .DS_Store
+public/*
 secure.json
 _site/*
 private/*
