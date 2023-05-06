@@ -6,7 +6,7 @@ private/*
 Gemfile.lock
 */._*
 ._*
-
+.hugo_build.lock
 .netlify
 lambda
 node_modules
