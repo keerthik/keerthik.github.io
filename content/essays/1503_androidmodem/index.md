@@ -2,7 +2,7 @@
 layout: post
 folder: tech
 title: One-touch Android USB Modem
-date: 2015/03/01
+date: 2015-03-01
 update: March 2015
 ---
 
