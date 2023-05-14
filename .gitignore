@@ -7,6 +7,7 @@ Gemfile.lock
 */._*
 ._*
 .hugo_build.lock
+resources/_gen/*
 .netlify
 lambda
 node_modules
