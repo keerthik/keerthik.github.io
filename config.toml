@@ -15,11 +15,17 @@ theme = 'hugo-theme-nightfall'
 		name = "essays"
 		weight = 1
 		url = "essays"
+  	[[menu.header]]
+		name = "about"
+		weight = 2
+		url = "about"
 
 [params]
 	hostname = 'kOrc.me'
+	author = 'kOrc'
 	custom_css = [
-		"css/image-modal.css"
+		"css/image-modal.css",
+		"css/custom.css"
 	]
 
 readingTime = true

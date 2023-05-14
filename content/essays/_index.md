@@ -1,7 +1,8 @@
 ---
+title: essays
 ---
 
-# Things I've written
+## Things I've written
 
 Sometimes I write things, very slowly. They span a wide range of topics. I may link the same thing in a couple places. 
 

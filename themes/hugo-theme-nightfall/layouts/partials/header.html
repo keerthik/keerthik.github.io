@@ -1,9 +1,8 @@
 <header class="headerWrapper">
     <div class="header">
         <div>
-            <a href="{{ .Site.BaseURL }}">
-                <span class="terminal">/{{ .Site.Params.hostname }}/ $</span>
-            </a>
+            {{ $stub := cond ( .IsHome ) "" (add "/" .CurrentSection.Name) }}
+            <span class="terminal"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.hostname }}</a> {{ $stub }}/ $</span>
         </div>
         <input class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
