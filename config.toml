@@ -16,5 +16,11 @@ theme = 'hugo-theme-nightfall'
 		weight = 1
 		url = "essays"
 
+[params]
+	hostname = 'kOrc.me'
+	custom_css = [
+		"css/image-modal.css"
+	]
+
 readingTime = true
 published = true
