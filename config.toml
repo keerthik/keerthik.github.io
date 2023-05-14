@@ -1,7 +1,8 @@
 baseURL = 'https://korc.me/'
 languageCode = 'en-us'
 title = 'kOrc'
-theme = 'hello-friend-ng'
+theme = 'hugo-theme-nightfall'
+
 [languages]
 	[languages.en]
 		title = "kOrc.me"
@@ -9,7 +10,11 @@ theme = 'hello-friend-ng'
 		[languages.en.params.logo]
 			logoText = "korc.me"
 			logoHomeLink = "/"
-[[menu.main]]
-    identifier = "essays"
-    name       = "Essays"
-    url        = "/essays"
+[menu]
+  	[[menu.header]]
+		name = "essays"
+		weight = 1
+		url = "essays"
+
+readingTime = true
+published = true
