@@ -6,6 +6,11 @@ draft: false
 
 So I decided to rewrite my formerly jekyll-powered personal site with hugo.
 
+> 🚧 While I'm migrating to Hugo, my old essays may be inaccessible 🚧.
+
+> This is because I'm too lazy to keep two working branches for my site.
+
+
 ## Why?
 I'll say upfront that I still have only good things to say about Jekyll, and I love how mature and true to its core Jekyll has remained. My switching has nothing really to do with Jekyll or its flaws.
 

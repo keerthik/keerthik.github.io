@@ -3,10 +3,11 @@ layout: post
 folder: tech
 title: One-touch Android USB Modem
 date: 2015-03-01
-update: March 2015
+update: 2023-05-01
 ---
 
-As a digital nomad, I am often in some form of transit such as a long subway, bus, or high speed rail ride, or waiting in an airport. As such, being able to work literally on the go is a must for my remote job. As such one of the first things I do in any country I land is secure a local SIM with enough data to tide me over for the entire duration of my stay. Thus even if I lose access to wifi, I can tether to my phone.
+
+As a digital nomad, I am often in some form of transit such as a long subway, bus, or high speed rail ride, or waiting in an airport. As such, being able to work literally on the go is a must for my remote job. One of the first things I do in any country I land is secure a local SIM with enough data to tide me over for the entire duration of my stay. Thus even if I lose access to wifi, I can tether to my phone.
 
 I used to use the portable Wifi hotspot on my phone (stock Lollipop made this a status bar dropdown option which is great). However, this drained the battery rapidly on both my phone and the laptop that was charging it, and in these circumstances usually that's the last thing I wanted.
 
@@ -26,6 +27,9 @@ Lastly, you're going to need to "unsecure" your phone's adbd server. This is the
 Verify that your bootloader unlocking, device rooting, and adbd unsecuring worked out. Then restore any apps/data/accounts anything needed on your phone for day-to-day use. Now you're ready to set up your phone for some nice auto-internet.
 
 ## Getting USB Internet Tether for OSX
+
+> ⚠️ 2023/05 update: HoRNDIS doesn't work without some intrusive kext modification on OSX 13+, as described in [this video guide](https://www.youtube.com/watch?v=32lM27TGNFM). I haven't gotten this to work on my intel Mac except by going into recovery mode.
+
 It appears OSX does not support the stock Android USB modem operation mode. Luckily, Joshua Wise's [HoRNDIS](http://joshuawise.com/horndis) driver for Mac enables this. Followed the instruction, worked like a charm. Great.
 
 You should now be able to get USB internet from your phone the layman way - plug it in, make sure everything is turned on on your phone, turn off your wifi, and you're good to go. Now let's automate.
@@ -35,9 +39,9 @@ ADB is a power tool that's useful for all kinds of situations. Well, when you're
 
 But at least with a laptop and adb, you can pull some tricks on your phone by typing magic phrases into your terminal. I use a mac and will mostly be speaking to that.
 
-If you happen to own the combination of a macbook air and a newly updated nexus5, then [this](../webtoys/phonenet.sh) is the simple script I use, reproduced here:
+If you happen to own the combination of a macbook air and a newly updated nexus 5, then this is the simple script I use:
 
-{% highlight bash %}
+```bash
 #!/bin/bash   
 
 # Assumes single phone
@@ -50,18 +54,18 @@ adb shell "service call connectivity 30 i32 1"
 CURRENT_DEVICE=$(networksetup -listallhardwareports | awk '$3=="Wi-Fi" {getline; print $2}')
 # turn off wifi
 networksetup -setairportpower $CURRENT_DEVICE off
-{% endhighlight %}
+```
 
 Assuming you have the same devices as me, it should just work for you if you run it after the above while plugged in on USB.
 
-But just because I have recently become a .sh junkie, and it took a bit of work to understand what's going on, I'll give a brief explanation of stuff so that you can customize the script for your own devices and uses.
+But just because I have recently become a .sh junkie, and it took a bit of work to understand what's going on, let's break it down so you can customize it for your own devices and uses.
 
 ### Simple bits
 The adb shell is effectively a command line on your phone that you get to manipulate with your laptop. Using it, we turn on your phone's data connection. This is effectively toggling the "Data ON" switch from your status bar drawer.
 After the magic "service" call (described below), find our computer's wifi adapter id and turn it off so that the USB tether will kick in.
 
 ### The Magic Service Call
-The `service` function refers to several exposed classes of the Android OS, that access nearly every feature of the system. The call format involves referring to the name of the service class, the method index we want to call from within the service's ordered methods as an integer, followed by the parameters in sequence, in the format "type" and then "value".
+The `service` function refers to several exposed interface classes (in the programming sense, as implemented in Java) of the Android OS, that access nearly every feature of the system. The call format involves referring to the name of the service class, the method index we want to call from within the service's ordered methods as an integer, followed by the parameters in sequence, in the format "type" and then "value".
 
 Basically, I discovered that the function to turn on USB tethering belongs to the connectivity class. So I went ahead and fished out the [connectivity interface file](https://android.googlesource.com/platform/frameworks/base/+/android-5.0.1_r1/core/java/android/net/IConnectivityManager.aidl) from the Android repository. Note that I had to get it from the 5.0.1_r1 repository because that's what my phone is running right now. 
 
