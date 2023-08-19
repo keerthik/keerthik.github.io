@@ -28,6 +28,10 @@ I also do the twitters: <!--Twitter--><a href="https://twitter.com/qedkorc" clas
 * I use {{ site.db }} and {{ site.obsidian }} for creative logistics management
 * I use {{ site.airtable }} for tracking data
 * I lived solely out of {{ site.abnb }} 2013-2015
+* Browser plugins I can't live without:
+	- [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) - thanks, GDPR
+	- [uBlock Origin](https://github.com/gorhill/uBlock) - thanks, all ad-driven business models
+	- [Dark Reader](https://github.com/darkreader/darkreader) - thanks, bluelight
 
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then moved to the bay area as employee #1 of BitGym, which I ended being a cofounder of through a major pivot.
