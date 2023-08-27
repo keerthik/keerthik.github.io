@@ -48,7 +48,7 @@ I think a lot about education. Surprisingly often I'm torn between placing a pos
 
 Entrepreneurial stuff, product ideas, technology and programming-related talk.
 
-- [[scripting] one-touch android USB modem](android_modem.html)
+- [[scripting] one-touch android USB modem](1503_androidmodem)
 - [working at early-stage](startupsymptoms.html)
 - // extensible android video
 
