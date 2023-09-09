@@ -4,8 +4,23 @@
             {{ $stub := cond ( .IsHome ) "" .CurrentSection.Name }}
             {{ $stuburl := cond ( .IsPage ) (add "/" .CurrentSection.Name) ""}}
             {{ $separator := cond ( .IsHome ) "" " / "}}
-            {{ $terminator := cond ( .IsPage ) .Page.Data.title "$" }}
-            <span class="terminal"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.hostname }}</a>{{ $separator }}<a href="{{ $stuburl }}"> {{ $stub }} </a>/ {{ $terminator }}</span>
+            {{ $terminator := cond (.IsPage) .Params.terminal "$" }}
+            <span class="terminal">
+            {{ if (.IsHome) }}
+                {{ .Site.Params.hostname }}
+            {{ else }}
+                <a href="{{ .Site.BaseURL }}">{{ .Site.Params.hostname }}</a>
+            {{ end }}
+            {{ $separator }}
+
+            {{ if (.IsPage) }}
+                <a href="{{ $stuburl }}"> {{ $stub }} </a>
+            {{ else }}
+                {{ $stub }}
+            {{ end }}
+            {{ $separator }}
+            {{ $terminator }}
+            </span>
         </div>
         <input class="side-menu" type="checkbox" id="side-menu"/>
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>

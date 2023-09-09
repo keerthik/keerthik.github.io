@@ -16,6 +16,6 @@ hugo server -D
 ```
 
 ## Progress
-I use git issues in Github to note next steps and manage progress and tasks.
+I use [git issues on this repo](https://github.com/keerthik/keerthik.github.io/issues) to note next steps and manage progress and tasks.
 
 ## 
