@@ -2,8 +2,8 @@
 layout: post
 folder: Meta/Life
 title: Personal health
-date: 2019/05/25
-update: May 2019
+date: 2019-05-25
+update: 2019-05-30
 ---
 
 Since 2012, building [BitGym](https://www.bitgym.com?ref=korc) has been my full time job and I have spent a lot of time researching health and fitness products, services and, more generally, advice. What I've noticed is that a lot of what we're told about tends to be unsubstantiated pseudo-science as often as not, with lots of contradictory advice and weak explanations.

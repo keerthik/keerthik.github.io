@@ -2,8 +2,8 @@
 layout: post
 folder: Nomad Chronicles
 title: Place-people
-date: 2018/03/01
-update: Mar 2018
+date: 2018-03-01
+update: 2018-03-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 folder: Nomad Chronicles
 title: Language Where You Live
-date: 2015/05/01
-update: May 2015
+date: 2015-05-01
+update: 2015-05-01
 cross: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a>
 ---
 {% include nomadintro.md %}

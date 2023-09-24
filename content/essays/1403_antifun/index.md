@@ -2,8 +2,8 @@
 layout: post
 folder: play
 title: Make it fun to face too
-date: 2014/03/01
-update: March 2014
+date: 2014-03-01
+update: 2014-03-01
 cross: <a href="https://medium.com/p/97b4e72493ad">on Medium</a>
 ---
 One of my big projects is our one-on-one versus board game, dubbed [Operation Dicestorm](https://www.facebook.com/dicestorm). While it’s my first focused attempt designing a board game, a lot of lessons I learned analyzing video game design is directly applicable. This post is about the concept of “Fun to Face Too,” an important paradigm to observe specifically when designing multiplayer games (pretty much every board game, and most modern video games), to create the very best game mechanics.

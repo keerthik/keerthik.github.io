@@ -1,8 +1,8 @@
 ---
 folder: Nomad Chronicles
 title: "Eyes"
-date: 2014/09/01
-update: Sept 2014
+date: 2014-09-01
+update: 2014-09-01
 cross: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a>
 ---
 {% include nomadintro.md %}
