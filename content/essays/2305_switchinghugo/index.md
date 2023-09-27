@@ -1,4 +1,6 @@
 ---
+categories:
+- tech
 title: "Switching to Hugo"
 terminal: "switchinghugo.md"
 date: 2023-05-14

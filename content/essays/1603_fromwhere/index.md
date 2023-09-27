@@ -1,6 +1,8 @@
 ---
 layout: post
-folder: Meta/Life
+categories:
+- xnomad
+- zmeta
 title: Where Are You From
 date: 2016-03-01
 update: 2016-03-01

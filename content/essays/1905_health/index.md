@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: Meta/Life
+categories:
+- zmeta
 title: Personal health
 date: 2019-05-25
 update: 2019-05-30

@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: product
+categories:
+- tech
 title: Life in an Early-Stage Tech Company 
 date: 2014-09-01
 update: 2015-01-01

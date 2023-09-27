@@ -6,12 +6,12 @@
 
 <div>
     <div class="listHeader">
-        <h1>{{ .Title }}</h1>
+        <!-- <h1>{{ .Title }}</h1> -->
     </div>
 
     {{ with .Content }}
     <div class="listContent">
-        <!-- {{- . -}} -->
+        {{- . -}}
     </div>
     {{ end }}
 
@@ -20,20 +20,43 @@
 
     <div>
     {{ range .Pages }}
-        {{ printf "%#v" .Page.Title }}<br>
-
+        {{ $page := .Page }}
+        {{ $category := (index .Page.Params.categories 0) }}
+        {{ with $category }}
+            {{/* printf "%v has category: %v" $page.Title $category */}}
+            {{ $pageslice := (dict "category" $category "page" $page) }}
+            {{ $categories = $categories | append $category }}
+            {{ $pages = $pages | append $pageslice }}
+        {{ else }}
+            {{/* printf "%#v has no category" .Page.Title */}}
+        {{ end }}
     {{ end }}
 
-    {{ range where .Site.RegularPages.ByTitle "Type" "posts" }}
-        {{ $category := (index .Params.categories 0) }}
-        {{ $categories = $categories | append $category }}
-        {{ $pages = $pages | append (dict "category" $category "page" .Page) }}
-    {{ end }}
 
     {{ range $categories | uniq | sort }}
-        <h2>{{ . }}</h2>
+    {{ $catobj := (index (index $.Page.Params.categorynames .) 0) }}
+    <div class="listHeader">
+        <h2>{{ $catobj.heading }}</h2>
+        {{ with $catobj.intro }}
+        <p>{{ . | $.Page.RenderString }}</p>
+        {{ end }}
+    </div>
         {{ range where $pages "category" . }}
-            <a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a><br>
+        {{ with .page }}
+        <a href="{{ .Permalink }}">
+            <!-- [html-validate-disable-next prefer-native-element] -->
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">{{ .Title }}</span>
+                    {{ $formattedDate := .Date.Format "2006-01" }}
+                    <time class="postDate" datetime="{{ $formattedDate }}">{{ .Date.Format "2006/01" }}</time>
+                </div>
+                <div class="postExcerpt">
+                    <p>{{ .Summary }}</p>
+                </div>
+            </div>
+        </a>
+        {{end }}
         {{ end }}
     {{ end }}
 

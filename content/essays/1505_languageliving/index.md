@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: Nomad Chronicles
+categories:
+- xnomad
 title: Language Where You Live
 date: 2015-05-01
 update: 2015-05-01

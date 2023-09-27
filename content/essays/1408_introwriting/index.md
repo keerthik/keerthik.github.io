@@ -1,6 +1,7 @@
 ---
 layout: post
-tags: meta, writing
+categories:
+- zmeta
 title: Hello, Writing
 date: 2014-08-01
 update: 2014-08-01

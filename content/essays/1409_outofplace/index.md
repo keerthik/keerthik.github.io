@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: Nomad Chronicles
+categories:
+- xnomad
 title: Out of Place
 date: 2014-09-01
 update: 2014-09-01

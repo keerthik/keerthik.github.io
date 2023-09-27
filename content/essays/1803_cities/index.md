@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: Nomad Chronicles
+categories:
+- xnomad
 title: Place-people
 date: 2018-03-01
 update: 2018-03-01

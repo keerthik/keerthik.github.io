@@ -1,5 +1,6 @@
 ---
-folder: Nomad Chronicles
+categories:
+- xnomad
 title: "Eyes"
 date: 2014-09-01
 update: 2014-09-01

@@ -1,6 +1,8 @@
 ---
 layout: post
-folder: play
+categories:
+- play
+- teach
 title: Real Lessons From Games
 date: 2014-09-01
 update: 2016-09-01

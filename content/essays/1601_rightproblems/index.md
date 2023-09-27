@@ -1,6 +1,7 @@
 ---
 layout: post
-folder: learn
+categories:
+- teach
 title: The Right Problems
 date: 2016-01-01
 update: 2016-01-01

@@ -1,6 +1,8 @@
 ---
 layout: post
-folder: Nomad Chronicles
+categories:
+- xnomad
+- zmeta
 title: Zetsubou and I
 date: 2016-12-01
 update: 2016-12-01
