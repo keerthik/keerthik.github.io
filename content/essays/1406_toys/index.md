@@ -1,6 +1,10 @@
 ---
 layout: post
-folder: play
+tags: 
+- play
+- design
+categories: 
+- play
 title: Toys -> Games
 date: 2014-06-01
 update: 2014-06-01

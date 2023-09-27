@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 folder: play
 title: social games

@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Keerthik's romantic cultural-fetish diagnostic guide
 
 1) do you culturally belong to the classification X yourself (ie, you're also white/asian/indian and want to date the same?)

@@ -1,6 +1,6 @@
 ---
 layout: post
-folder: Meta/Writing
+tags: meta, writing
 title: Hello, Writing
 date: 2014-08-01
 update: 2014-08-01

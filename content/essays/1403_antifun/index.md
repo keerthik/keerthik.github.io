@@ -1,6 +1,10 @@
 ---
 layout: post
-folder: play
+tags: 
+- play
+- design
+categories:
+- play
 title: Make it fun to face too
 date: 2014-03-01
 update: 2014-03-01

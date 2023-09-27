@@ -11,29 +11,33 @@
 
     {{ with .Content }}
     <div class="listContent">
-        {{- . -}}
+        <!-- {{- . -}} -->
     </div>
     {{ end }}
 
+    {{ $pages := slice }}
+    {{ $categories := slice }}
+
     <div>
-        {{ range .Pages }}
+    {{ range .Pages }}
+        {{ printf "%#v" .Page.Title }}<br>
 
-        <a href="{{ .Permalink }}">
-            <!-- [html-validate-disable-next prefer-native-element] -->
-            <div class="postListItem" role="listitem">
-                <div class="postHeader">
-                    <span class="postTitle">{{ .Title }}</span>
-                    {{ $formattedDate := .Date.Format "2006-01-02" }}
-                    <time class="postDate" datetime="{{ $formattedDate }}">{{ .Date.Format "January 2, 2006" }}</time>
-                </div>
-                <div class="postExcerpt">
-                    <p>{{ .Summary }}</p>
-                </div>
-            </div>
-        </a>
+    {{ end }}
 
+    {{ range where .Site.RegularPages.ByTitle "Type" "posts" }}
+        {{ $category := (index .Params.categories 0) }}
+        {{ $categories = $categories | append $category }}
+        {{ $pages = $pages | append (dict "category" $category "page" .Page) }}
+    {{ end }}
 
-        {{end}}
+    {{ range $categories | uniq | sort }}
+        <h2>{{ . }}</h2>
+        {{ range where $pages "category" . }}
+            <a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a><br>
+        {{ end }}
+    {{ end }}
+
+        
     </div>
 </div>
 
