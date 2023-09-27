@@ -26,12 +26,6 @@ Sometimes I write things, very slowly. I think everyone could [write more](1408_
 
 Latest piece: [switching to hugo](2305_switchinghugo)
 
-## <a name="nomadchronicles"></a>Cities: Nomad Chronicles
-I didn't think I'd write about this much. However, being a nomad became a significant part of my identity and [cities became my closest friends](1803_cities) so I talk about it now -- a lot.
-
-There are better resources for facts and tips about specific cities, I recommend [nomadList](nomadlist.io) by fellow nomad [@levelsio](https://twitter.com/levelsio).
-
-
 ## Keep Up
 
 I will eventually spin up a mailing list here.
