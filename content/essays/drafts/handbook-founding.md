@@ -1,3 +1,6 @@
+---
+draft: true
+---
 Keerthik's "Should I start/cofound this company" guide
 
 1. Do you believe in your team? If your team had to clean porta-potties together for a week to make an important deal happen, would you be able to support each other through it?

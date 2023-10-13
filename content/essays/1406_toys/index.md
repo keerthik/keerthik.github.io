@@ -1,9 +1,13 @@
 ---
 layout: post
-folder: play
+tags: 
+- play
+- design
+categories: 
+- play
 title: Toys -> Games
-date: 2014/06/01
-update: June 2014
+date: 2014-06-01
+update: 2014-06-01
 cross: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a>
 ---
 

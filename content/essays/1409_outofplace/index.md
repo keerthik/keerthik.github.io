@@ -1,9 +1,10 @@
 ---
 layout: post
-folder: Nomad Chronicles
+categories:
+- xnomad
 title: Out of Place
-date: 2014/09/01
-update: Sept 2014
+date: 2014-09-01
+update: 2014-09-01
 cross: <a href="https://medium.com/@keerthiko/out-of-place-c57b33441090">on Medium</a>
 ---
 

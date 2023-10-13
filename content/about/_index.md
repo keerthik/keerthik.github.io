@@ -13,10 +13,10 @@ Cold emails work. I love to meet/mentor people who may be interested in what I k
 
 ### Activity
 
-* {{ site.bg }} - cofounder, android, experience design
-* {{ site.zk }} - cocreator
-* {{ site.ds }} - cocreator
-* this site - all the things
+* [BitGym](https://www.bitgym.com) - cofounder, android, experience design
+* Zoako Games - cocreator
+* [Dicestorm](http://dicestormgame.com) - cocreator
+* [this site](https://github.com/keerthik/keerthik.github.io/tree/hugo) 
 
 ### Tools You Can Use
 

@@ -1,6 +1,8 @@
 ---
+categories:
+- tech
 title: "Switching to Hugo"
-terminal: "switching.md"
+terminal: "switchinghugo.md"
 date: 2023-05-14
 draft: false
 ---

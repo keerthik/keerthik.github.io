@@ -1,4 +1,7 @@
-whybitgym.md
+---
+draft: true
+terminal: whybitgym.md
+---
 
 Working on bitgym has been cool for many reasons
 - i love being surprised, having things turn out exactly NOT how I foresaw it

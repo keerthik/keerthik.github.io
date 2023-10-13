@@ -1,9 +1,10 @@
 ---
 layout: post
-folder: play
+categories:
+- play
 title: Overpowered
-date: 2015/07/01
-update: July 2015
+date: 2015-07-01
+update: 2015-07-01
 ---
 
 {% include dicestormintro.md %}

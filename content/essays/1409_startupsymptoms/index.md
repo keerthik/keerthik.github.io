@@ -1,9 +1,10 @@
 ---
 layout: post
-folder: product
+categories:
+- tech
 title: Life in an Early-Stage Tech Company 
-date: 2015/09/01
-update: September 2014
+date: 2014-09-01
+update: 2015-01-01
 cross: <a href="https://medium.com/@keerthiko/abf2fe9d37fd">on Medium</a>
 ---
 

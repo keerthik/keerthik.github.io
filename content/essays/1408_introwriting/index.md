@@ -1,9 +1,10 @@
 ---
 layout: post
-folder: Meta/Writing
+categories:
+- zmeta
 title: Hello, Writing
-date: 2014/08/01
-update: August 2014
+date: 2014-08-01
+update: 2014-08-01
 ---
 
 This post is weird because it's a retroactively written intro to my site after I've already drafted and completed a number of essays. But I feel better about writing this intro post this time than every other time I've intro'd my blog because I've finally developed into a somewhat consistent writer. 
