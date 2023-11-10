@@ -6,10 +6,11 @@ ignorefiles = ["_notes/."]
 [languages]
 	[languages.en]
 		title = "kOrc.me"
-		subtitle = "trains. cities. games."
-		[languages.en.params.logo]
-			logoText = "korc.me"
-			logoHomeLink = "/"
+		[languages.en.params]
+			subtitle = "trains. cities. games."
+			[languages.en.params.logo]
+				logoText = "korc.me"
+				logoHomeLink = "/"
 [menu]
   	[[menu.header]]
 		name = "essays"
