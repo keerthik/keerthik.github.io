@@ -21,6 +21,7 @@ ignorefiles = ["_notes/."]
 		url = "about"
 
 [params]
+	dicestorm = '[Operation Dicestorm](https://dicestormgame.com/)'
 	hostname = 'kOrc.me'
 	author = 'kOrc'
 	custom_css = [

@@ -7,7 +7,7 @@ date: 2015-07-01
 update: 2015-07-01
 ---
 
-{% include dicestormintro.md %}
+{{% include "/snippets/dicestormintro.md" %}}
 
 When creating a game with a sizeable variety of mechanics that are meant to work in tandem with each other, there are a number of apparent challenges, like balance and learning curve. There are also a few less apparent challenges; one that we discovered is that it's difficult to test what works and what doesn't as not everything gets played in every game. 
 
