@@ -3,13 +3,14 @@ layout: post
 categories:
 - xnomad
 title: Language Where You Live
+terminal: languageliving.md
 date: 2015-05-01
 update: 2015-05-01
 cross: <a href="https://medium.com/@keerthiko/language-where-you-live-72324ad298e7">on Medium</a>
 ---
-{% include nomadintro.md %}
 
-*What makes a city right?*
+{{% include "/snippets/nomadintro.md" %}}
+
 
 Knowing the local language is obviously a great plus for any city you move to. You can go into any restaurant and order whatever food you like, you can ask a passerby for help easily, you can negotiate deals that you would never be able to otherwise. You might be able to date a local more easily, which is great in all kinds of ways. But usually knowing English is enough to get by. You can shop at larger stores, you can eat at restaurants with English menus or ask the teenager nearby who knows English well enough, and you can Google Maps + Translate your way through getting directions.
 

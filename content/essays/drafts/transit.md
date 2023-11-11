@@ -7,7 +7,7 @@ update: Nov 2018
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
 ---
 
-{% include nomadintro.md %}
+{{% include "/snippets/nomadintro.md" %}}
 
 ## What Transit Means To Me
 

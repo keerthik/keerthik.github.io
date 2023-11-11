@@ -8,9 +8,7 @@ update: 2014-09-01
 cross: <a href="https://medium.com/@keerthiko/out-of-place-c57b33441090">on Medium</a>
 ---
 
-{% include nomadintro.md %}
-
-*What makes a city right?*
+{{% include "/snippets/nomadintro.md" %}}
 
 As I have hopped from city to city, I have been thinking about why some cities are better to work out of than others. There are several obvious reasons to favour one city over another related to lifestyle, cost, and infrastructure. I try to keep my eye out more for the subtler yet more powerful reasons. The ones where it's hard to understand their impact till you feel it. Like a subset of the obvious reasons, these usually have to do with the people you see around you. One such subtle element I talked about last time was the [eyes of the crowd](https://medium.com/@keerthiko/eyes-f07a01a682f1) around you.
 

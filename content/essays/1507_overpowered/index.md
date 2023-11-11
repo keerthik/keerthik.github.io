@@ -3,6 +3,7 @@ layout: post
 categories:
 - play
 title: Overpowered
+terminal: overpowered.md
 date: 2015-07-01
 update: 2015-07-01
 ---
