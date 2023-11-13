@@ -18,6 +18,7 @@ hugo server
 ## Borrowed systems
 - [Magnific Image Pop-up module](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d)
 - [List topics by category](https://github.com/jmooring/hugo-testing/tree/hugo-forum-topic-31882)
+	(enhanced a bit in [my edits](https://github.com/keerthik/keerthik.github.io/blob/hugo/themes/hugo-theme-nightfall/layouts/_default/list.html))
 - [Default front-matter](https://digitaldrummerj.me/hugo-default-front-matter/)
 
 ## Progress
