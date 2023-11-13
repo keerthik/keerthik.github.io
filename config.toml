@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'kOrc'
 theme = 'hugo-theme-nightfall'
 ignorefiles = ["_notes/."]
+summaryLength = 30
 [languages]
 	[languages.en]
 		title = "kOrc.me"
@@ -34,6 +35,10 @@ ignorefiles = ["_notes/."]
 	    heading = "Play"
 	    intro = "I talk a lot about game design, occasionally about other things game-related."
 	[[params.categorydata]]
+	  	name = "learn"
+	    heading = "Learning"
+	    intro = "How we learn being the foundation of how we do anything else, I circle back to this topic regularly. Surprisingly often I'm torn between placing a post here or above in Play, because I talk about games + education a lot."
+	[[params.categorydata]]
 	  	name = "tech"
 	    heading = "Tech/startups/product"
 	    intro = "Product ideas, thoughts about running a business, technical nitty-gritty."
@@ -42,13 +47,9 @@ ignorefiles = ["_notes/."]
 	    heading = "Nomad chronicles"
 	    intro = "I didn't think I'd write about this much. However, being a nomad became a significant part of my identity and [cities became my closest friends](/essays/1803_cities) so I talk about it now -- a lot."
 	[[params.categorydata]]
-	  	name = "learn"
-	    heading = "Learning"
-	    intro = "I think a lot about learning and education. Surprisingly often I'm torn between placing a post here or above in Play, because I talk about games + education a lot."
-	[[params.categorydata]]
 	  	name = "meta"
 	    heading = "Meta: writing, life, the world"
-	    intro = "My least incoherent thoughts about the all other things."
+	    intro = "My least incoherent thoughts about all other things."
 
 readingTime = true
 published = true
