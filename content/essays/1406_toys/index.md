@@ -6,6 +6,7 @@ tags:
 categories: 
 - play
 title: Toys -> Games
+terminal: toys.md
 date: 2014-06-01
 update: 2014-06-01
 cross: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a>

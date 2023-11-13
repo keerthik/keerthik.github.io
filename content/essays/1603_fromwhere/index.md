@@ -1,8 +1,8 @@
 ---
 layout: post
 categories:
-- xnomad
-- zmeta
+- nomad
+- meta
 title: Where Are You From
 date: 2016-03-01
 update: 2016-03-01

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories:
-- xnomad
+- nomad
 title: Language Where You Live
 terminal: languageliving.md
 date: 2015-05-01

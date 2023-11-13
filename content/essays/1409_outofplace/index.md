@@ -1,7 +1,7 @@
 ---
 layout: post
 categories:
-- xnomad
+- nomad
 title: Out of Place
 date: 2014-09-01
 update: 2014-09-01

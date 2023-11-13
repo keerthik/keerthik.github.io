@@ -2,7 +2,7 @@
 layout: post
 categories:
 - play
-- teach
+- learn
 title: Real Lessons From Games
 date: 2014-09-01
 update: 2016-09-01

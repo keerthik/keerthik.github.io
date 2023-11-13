@@ -6,6 +6,7 @@ tags:
 categories:
 - play
 title: Make it fun to face too
+terminal: antifun.md
 date: 2014-03-01
 update: 2014-03-01
 cross: <a href="https://medium.com/p/97b4e72493ad">on Medium</a>
