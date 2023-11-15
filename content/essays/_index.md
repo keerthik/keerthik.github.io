@@ -14,8 +14,8 @@ categorynames:
   - heading: Learning
     intro: I think a lot about learning and education. Surprisingly often I'm torn between placing a post here or above in Play, because I talk about games + education a lot.
   tech:
-  - heading: Tech/startups/product
-    intro: "Product ideas, thoughts about running a business, technical nitty-gritty."
+  - heading: Entrepreneurship, product, tech
+    intro: "Thoughts about doing business, product ideas, technical nitty-gritty."
 ---
 
 # Things I've written

@@ -1,32 +1,28 @@
 ---
 draft: true
-layout: post
-folder: product
-title: "Human-first companies: compensation"
-update: September 2020
+tags: 
+- business
+- ethics
+categories: 
+- tech
+title: Human-first companies: compensation
+date: 2020-09-01
+update: 2023-10-30
 ---
 
 ***TL;DR***
 
-My recommendation: pay everyone the most you as a company can afford to, scaled to their value generation for the company, whilst increasing the value of the company to make room for new initiatives, new teammates, and reinvesting in your community and in humanity. 
+My recommendation: Pay everyone the most you as a company can afford to, scaled to their value generation for the company, whilst increasing the value of the company to make room for new initiatives, new teammates, and reinvesting in your community and in humanity. 
 
 Do this by embodying flexibility and empowering efficiency, agency and sustainable business practices, which is simultaneously better for the company and is also a form of (intangible) compensation in itself.
 
 ## Who is this for?
-I began writing this for versions of myself from alternate timelines, had a few things turned out differently in the world in the years following my graduation from college, or at BitGym, the business I am cofounder of.
-
-Between being pushed away from VC-funded startup culture in the aftermath of the 2008 financial crisis, to being forced to adopt a fully distributed work culture since 2013 due to immigration woes, this version of me got to experience and grow with a unique set of work circumstances for a *long* time and build resilience to what used to be a unique class of challenges. Which happened to be nearly ideal preparation for what a lot more people now must also experience in 2020, especially with the cascading impacts of COVID-19 on work and the economy, and the gaping weaknesses in our traditional ideologies it has revealed.
 
 So there are fundamentally two groups of folks this is intended for today
 - founders, managers and owners (and those soon-to-be) who are tempted to adopt/retain the status quo, but aren't locked into it yet and have the position and privilege to impact the workplace: when it seems preferable to adapt hitherto mainstream ideas of how to compensate and treat workers, yet keep running into more and more friction.
 - folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed into the system (be employed) is most of the compensation from our employer.
 
 The thoughts in this post are primarily about compensation from the organization to the worker, yet we must discuss other aspects that are inextricable. A few of these require further context beyond the scope of this article as they are yet again from a different perspective than traditional workplace culture. I will update this post with links as I extrapolate on those.
-
-## Where am I coming from?
-My experience is being cofounder of a very small (6 full-time as of today), fully distributed company, founded and primarily based in America. We are (almost purely) in the consumer software industry, where the geographic location of an individual contributor approaches irrelevance. I think it shouldn't be that different for a lot of organizations, but in a few cases the location of an employee can significantly affect their impact, and the expected impact should always be the prime determinant of their compensation.
-
-Most of these thoughts and guidelines do not apply to non-payroll contributors, such as contractors and freelancers. These people have hourly rates, and may not necessarily be tasked with the same kind of long-term choices and work.
 
 **Note**: I use the terms "organization", "business" and "employer" somewhat interchangeably here. In part, because much of these perspectives are not exclusive to for-profit businesses or even to "work".
 
