@@ -40,12 +40,12 @@ function closeModal() {
 
 function addModalListeners() {
   document.onkeyup = keyPress;
-  document.addEventListener('backbutton', onBackButtonEvent, false);
+  // document.addEventListener('backbutton', onBackButtonEvent, false);
 }
 
 function removeModalListeners() {
   document.onkeyup = null;
-  document.removeEventListener('backbutton', onBackButtonEvent, false);  
+  // document.removeEventListener('backbutton', onBackButtonEvent, false);  
 }
 
 function onBackButtonEvent (e) {
@@ -61,7 +61,7 @@ function keyPress (e) {
       closeModal();
     }
     if (e.key === "Escape") {
-        closeModal();
+      closeModal();
     }
 }
 </script>
