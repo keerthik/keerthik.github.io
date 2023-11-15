@@ -24,7 +24,7 @@ function openModal(clicked_id) {
   // there is no footer. "site-footer" id can also be changed appropriately.
   // document.getElementById("site-footer").style.display = "hidden";
   console.log("Added keypress event");
-  document.onkeyup = keyPress;
+  addModalListeners();
 }
 
 // Close the Modal
@@ -35,8 +35,25 @@ function closeModal() {
   // See note above regarding the footer 
   // document.getElementById("site-footer").style.display = "block";
   console.log("Removed keypress event");
-  document.onkeyup = null;
+  removeModalListeners();
 }
+
+function addModalListeners() {
+  document.onkeyup = keyPress;
+  document.addEventListener('backbutton', onBackButtonEvent, false);
+}
+
+function removeModalListeners() {
+  document.onkeyup = null;
+  document.removeEventListener('backbutton', onBackButtonEvent, false);  
+}
+
+function onBackButtonEvent (e) {
+  console.log("Consuming back event");
+  e.preventDefault();
+  closeModal();
+};
+
 
 function keyPress (e) {
     console.log(`${e.key} was pressed`);
