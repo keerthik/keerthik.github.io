@@ -27,7 +27,6 @@
                             <h3>Latest: ./essays/<a href="{{ .Permalink }}" title="{{ .Title }}" >{{ .Title }}</a></h3>
                         {{ end }}
                     {{ end }}
-                    <blockquote>🚧 While I'm migrating to Hugo, my old essays are inaccessible 🚧</blockquote>
                     {{ range .Site.Menus.header }}
                     <h2> <a href="{{ .URL | absURL }}" title="{{ .Title }}" >
                             ./{{ .Name }}
