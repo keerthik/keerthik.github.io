@@ -1,13 +1,14 @@
 ---
 layout: post
 categories:
+- learn
 - play
-- teach
 title: Real Lessons From Games
 date: 2014-09-01
 update: 2016-09-01
 cross: <a href="https://medium.com/p/3bf040e3d862">on Medium</a>
 ---
+
 Gaming has gotten a lot of attention recently as a medium for teaching real lessons and training. The topic has developed so much that I cannot address everything in a single post. 
 
 For now, I will talk about individual games with specific benefits outside of gaming. I also want to mention the value of mindset and perspective to this end.

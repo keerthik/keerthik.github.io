@@ -3,13 +3,15 @@ languageCode = 'en-us'
 title = 'kOrc'
 theme = 'hugo-theme-nightfall'
 ignorefiles = ["_notes/."]
+summaryLength = 30
 [languages]
 	[languages.en]
 		title = "kOrc.me"
-		subtitle = "trains. cities. games."
-		[languages.en.params.logo]
-			logoText = "korc.me"
-			logoHomeLink = "/"
+		[languages.en.params]
+			subtitle = "trains. cities. games."
+			[languages.en.params.logo]
+				logoText = "korc.me"
+				logoHomeLink = "/"
 [menu]
   	[[menu.header]]
 		name = "essays"
@@ -21,12 +23,33 @@ ignorefiles = ["_notes/."]
 		url = "about"
 
 [params]
+	dicestorm = '[Operation Dicestorm](https://dicestormgame.com/)'
 	hostname = 'kOrc.me'
 	author = 'kOrc'
 	custom_css = [
 		"css/image-modal.css",
 		"css/custom.css"
 	]
+	[[params.categorydata]]
+	  	name = "play"
+	    heading = "Play"
+	    intro = "I talk a lot about game design, occasionally about other things game-related."
+	[[params.categorydata]]
+	  	name = "learn"
+	    heading = "Learning"
+	    intro = "How we learn being the foundation of how we do anything else, I circle back to this topic regularly. Surprisingly often I'm torn between placing a post here or above in Play, because I talk about games + education a lot."
+	[[params.categorydata]]
+	  	name = "tech"
+	    heading = "Tech/startups/product"
+	    intro = "Product ideas, thoughts about running a business, technical nitty-gritty."
+	[[params.categorydata]]
+	  	name = "nomad"
+	    heading = "Nomad chronicles"
+	    intro = "I didn't think I'd write about this much. However, being a nomad became a significant part of my identity and [cities became my closest friends](/essays/1803_cities) so I talk about it now -- a lot."
+	[[params.categorydata]]
+	  	name = "meta"
+	    heading = "Meta: writing, life, the world"
+	    intro = "My least incoherent thoughts about all other things."
 
 readingTime = true
 published = true

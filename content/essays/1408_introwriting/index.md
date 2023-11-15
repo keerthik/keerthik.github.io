@@ -1,7 +1,7 @@
 ---
 layout: post
 categories:
-- zmeta
+- meta
 title: Hello, Writing
 date: 2014-08-01
 update: 2014-08-01

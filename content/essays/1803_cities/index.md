@@ -1,14 +1,14 @@
 ---
 layout: post
 categories:
-- xnomad
+- nomad
 title: Place-people
 date: 2018-03-01
 update: 2018-03-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
 ---
 
-{% include nomadintro.md %}
+{{% include "/snippets/nomadintro.md" %}}
 
 About half the days during my nomadism were spent without speaking on any personal level to another human being face to face.
 

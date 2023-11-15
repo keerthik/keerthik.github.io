@@ -1,11 +1,11 @@
 ---
 draft: true
-tags: 
-- business
-- ethics
 categories: 
 - tech
-title: Human-first companies: compensation
+tags:
+- business
+- ethics
+title: "Human-first companies: compensation"
 date: 2020-09-01
 update: 2023-10-30
 ---

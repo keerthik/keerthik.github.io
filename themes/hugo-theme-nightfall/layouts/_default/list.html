@@ -15,33 +15,31 @@
     </div>
     {{ end }}
 
+    <div>
+
     {{ $pages := slice }}
-    {{ $categories := slice }}
 
     <div>
     {{ range .Pages }}
         {{ $page := .Page }}
         {{ $category := (index .Page.Params.categories 0) }}
         {{ with $category }}
-            {{/* printf "%v has category: %v" $page.Title $category */}}
             {{ $pageslice := (dict "category" $category "page" $page) }}
-            {{ $categories = $categories | append $category }}
             {{ $pages = $pages | append $pageslice }}
         {{ else }}
             {{/* printf "%#v has no category" .Page.Title */}}
         {{ end }}
     {{ end }}
-
-
-    {{ range $categories | uniq | sort }}
-    {{ $catobj := (index (index $.Page.Params.categorynames .) 0) }}
+    
+    {{ range .Site.Params.categorydata }}
+    {{ if len (where $pages "category" .name) }}
     <div class="listHeader">
-        <h2>{{ $catobj.heading }}</h2>
-        {{ with $catobj.intro }}
+        <h2>{{ .heading }}</h2>
+        {{ with .intro }}
         <p>{{ . | $.Page.RenderString }}</p>
         {{ end }}
     </div>
-        {{ range where $pages "category" . }}
+        {{ range where $pages "category" .name }}
         {{ with .page }}
         <a href="{{ .Permalink }}">
             <!-- [html-validate-disable-next prefer-native-element] -->
@@ -58,6 +56,7 @@
         </a>
         {{ end }}
         {{ end }}
+    {{ end }}
     {{ end }}
 
         

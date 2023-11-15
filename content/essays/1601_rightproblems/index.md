@@ -1,7 +1,9 @@
 ---
 layout: post
 categories:
-- teach
+- learn
+tags:
+- experimental
 title: The Right Problems
 date: 2016-01-01
 update: 2016-01-01
