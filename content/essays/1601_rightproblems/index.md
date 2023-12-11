@@ -2,9 +2,8 @@
 layout: post
 categories:
 - learn
-tags:
-- experimental
 title: The Right Problems
+terminal: rightproblems.md
 date: 2016-01-01
 update: 2016-01-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/the-right-problems/10153769788263503">on Facebook</a>

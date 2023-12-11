@@ -7,7 +7,7 @@ I develop software where needed, but am mostly figuring out how to evoke a sense
 
 ## Contact
 
-I am best reached by email. Hit me up at `keerthiko[at]gmail[dot]com`
+I am best reached by email. Hit me up at `keerthiko[at]gmail[dot]com` or on social.
 
 Cold emails work. I love to meet/mentor people who may be interested in what I know or would like to collaborate. I follow a [maker's schedule](http://paulgraham.com/makersschedule.html) and prefer in-person, timeboxed to other media.
 
