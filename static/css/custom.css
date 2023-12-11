@@ -8,9 +8,14 @@
     text-align: left;
 }
 
-a {
+a, .postTitle {
     color: #3388cc;
     font-weight: bold;
+}
+
+.postDate {
+    color: #56bbdd;
+
 }
 
 body {
