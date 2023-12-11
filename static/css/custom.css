@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'FiraSans'; /*a name to be used later*/
-    src: url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
+    src: 
+        url('/resources/fonts/firasans/OTF/FiraSans-Hair.otf'),
+        url('/resources/fonts/firasans/OTF/FiraSans-HairItalic.otf') italic,
+        url('/resources/fonts/firasans/OTF/FiraSans-Book.otf') weight 300,
+        url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf') weight 400,
+        url('/resources/fonts/firasans/OTF/FiraSans-Bold.otf') weight 600,
+
 }
 
 .indexWrapper {
@@ -10,7 +16,7 @@
 
 a, .postTitle, .headerLinks ul li a {
     color: #3388cc;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .postDate {
@@ -18,10 +24,20 @@ a, .postTitle, .headerLinks ul li a {
     color: #56bbdd;
 }
 
-body {
+.postExcerpt {
+  font-weight: lighter;
+  color: $white;
+}
+
+.content {
+    font-weight: 300;
+    line-height: 1.5em;
     font-family: "FiraSans", sans-serif;
-    font-size: 14pt;
-    line-height: 1.4em;
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 18pt;
 }
 
 h2 {
