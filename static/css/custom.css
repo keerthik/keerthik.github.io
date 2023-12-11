@@ -1,4 +1,42 @@
+@font-face {
+    font-family: 'FiraSans'; /*a name to be used later*/
+    src: url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf'); /*URL to font*/
+}
+
 .indexWrapper {
     justify-content: left;
     text-align: left;
+}
+
+a {
+    color: #3388cc;
+    font-weight: bold;
+}
+
+body {
+    font-family: "FiraSans", sans-serif;
+    font-size: 14pt;
+    line-height: 1.4em;
+}
+
+h2 {
+  padding-bottom: 5px; /* Adjust this value to change the distance between the line and the text */
+  margin-bottom: 20px; /* Adjust this value to change the space below the line */
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 4px;
+  bottom: -7px;
+  left: 10px;
+  background-color: #56bbdd;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.indexHeader::after {
+    display:none;
 }
