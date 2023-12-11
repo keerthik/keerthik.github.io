@@ -7,33 +7,41 @@ date: 2023-05-14
 draft: false
 ---
 
-So I decided to rewrite my formerly jekyll-powered personal site with hugo.
-
-> 🚧 While I'm migrating to Hugo, my old essays may be inaccessible 🚧.
-
-> This is because I'm too lazy to keep two working branches for my site.
-
+So I decided to rewrite my formerly [jekyll](https://jekyllrb.com/)-powered personal site with [hugo](https://gohugo.io/).
 
 ## Why?
-I'll say upfront that I still have only good things to say about Jekyll, and I love how mature and true to its core Jekyll has remained. My switching has nothing really to do with Jekyll or its flaws.
 
-There are no good reasons, to be perfectly honest. My website had gotten stale, both technically and in terms of content (my essays, portfolio items, toys, and even my unpublished draft content).
+I'll say upfront that I believe one should use
+
+- static sites for 99% of use cases
+- Jekyll, for 99% of static sites
+
+I love how mature and true to its core Jekyll has remained. My switching has nothing really to do with Jekyll or its limitations.
+
+There are no good reasons, to be perfectly honest. Things collected a lot of dust around here, and in typical ADHD fashion when dusting things, I end up rebuilding them.
 
 My first step when returning to my site after a long hiatus is to do something a bit more drastic technically first, just to sort of shake off the cruft, in a manner of speaking.
 
-### Tech stack bloat
-Something I have experienced working on jekyll sites over several years (the last one was set up with jekyll circa 2013) is significant bloat with each convenience I want added. My personal site is pretty much entirely in my control, so I can nuke it with impunity to reset the bloat.
+### Get up to date on SOTA
 
-### I needed a refresh
-It has been a while since I've effectively learned a new tech tool. I play around with Unreal coming from Unity, and as mentioned I started learning go, but it's slow progress as my adult synapses have calcified the way they have.
+I maintain a couple of websites (for [BitGym](https://www.bitgym.com), for friends, for my public-facing projects) and I advocate static sites for all of them. As these sites mature, and their needs push up against the limitations of Jekyll's native functionality, it's a reminder to me to look into what's up in static-site-gen-land.
+
+The best place for me to try out a new tool is on my personal site since I know it intimately, and I'm the only real stakeholder in its uptime.
+
+
+### kOrc.me needed a refresh
+
+The design and content on my site had gotten quite stale, and I hold the idea that our personal website should be more truly a representation of ourselves than any social media profile quite dearly.
 
 ### Go immersion
+
 Go got me interested in hugo, and hugo got me interested in go. It felt natural to learn both simultaneously, to experience the output along with the input.  With familiarity of how it works as an end-user, and basic language comprehension, I can start reading plugin codebases and learn how and why Go is used better.
 
 I'm writing this post itself because I also feel the need for a "first post" as I am going through the [gohugo quickstart tutorial](https://gohugo.io/getting-started/quick-start/).
 
-### Fun sidenote
-My Steamdeck has been my web development machine throughout setting up this website.
+## Fun sidenote
+
+My Steamdeck has been my web development machine through the initial set up with Hugo. 
 
 <div class="clearfix"></div>
 
@@ -41,7 +49,10 @@ My Steamdeck has been my web development machine throughout setting up this webs
 
 <div class="clearfix"></div>
 
+`hugo server` did seem to push the CPU a bit far and cause the machine to hang occasionally, but it wasn't terrible! I also happened to be in India where the ambient temperature tended to run a bit high so that probably wasn't helping.
+
 ## Worklog
+
 I attempted at first to surgically remove and replace content in my Jekyll site with their hugo counterparts after playing with a hugo quickstart sample site separately. I quickly abandoned this approach in favor of a new plan starting from the sample site folder:
  - make hugo quickstart project
  - write this post
@@ -52,5 +63,3 @@ I attempted at first to surgically remove and replace content in my Jekyll site 
  - read through and added the [Magnific Image Pop-up module](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d)
 
 Rebuilding the theme was the most daunting task here from the outset. I started by using an imported theme as recommended in the quickstart, but very quickly it is apparent that using a fully personal theme seems to be the biggest barrier for a new hugo adopter. I will probably return to the way of making minor CSS modifications of color/fonts rather than entire components or styles for the near future.
-
-[^parts]: Using moving parts I don't understand is likely a necessity for projects that need to scale, is worked on by multiple people, and needs to outlive my tenure working on it (eg: work). However my website is a project I want to own as completely as possible and as I see fit, at least in terms of comprehension of the technical details involved.
