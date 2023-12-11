@@ -8,14 +8,14 @@
     text-align: left;
 }
 
-a, .postTitle {
+a, .postTitle, .headerLinks ul li a {
     color: #3388cc;
     font-weight: bold;
 }
 
 .postDate {
+    font-family: 'Fira Mono', monospace;
     color: #56bbdd;
-
 }
 
 body {
@@ -33,15 +33,19 @@ h2 {
 h2::after {
   content: "";
   display: block;
-  width: 20px;
-  height: 4px;
+  width: 18px;
+  height: 3px;
   bottom: -7px;
   left: 10px;
-  background-color: #56bbdd;
+  background-color: #f8f8ff;
   position: absolute;
   transform: translateX(-50%);
 }
 
 .indexHeader::after {
     display:none;
+}
+
+.indexWrapper h2::after {
+    background-color: #f8f8ff;
 }
