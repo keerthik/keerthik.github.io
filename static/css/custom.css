@@ -22,9 +22,11 @@ a, .postTitle, .headerLinks ul li a {
 a:hover, .postTitle:hover, .headerLinks ul li a:hover {
     color: #33aadd;
 }
+
 .postMetadata {
     font-size: 12pt;
 }
+
 .postDate {
     font-family: 'Fira Mono', monospace;
     color: #56bbdd;
