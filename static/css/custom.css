@@ -22,7 +22,9 @@ a, .postTitle, .headerLinks ul li a {
 a:hover, .postTitle:hover, .headerLinks ul li a:hover {
     color: #33aadd;
 }
-
+.postMetadata {
+    font-size: 12pt;
+}
 .postDate {
     font-family: 'Fira Mono', monospace;
     color: #56bbdd;
@@ -37,7 +39,7 @@ a:hover, .postTitle:hover, .headerLinks ul li a:hover {
     font-weight: 300;
     line-height: 1.5em;
     font-family: "FiraSans", sans-serif;
-    font-size: 16pt;
+    font-size: 13pt;
 }
 
 p code {
@@ -50,7 +52,7 @@ p code {
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 h2 {
