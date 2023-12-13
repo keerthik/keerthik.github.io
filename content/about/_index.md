@@ -20,9 +20,9 @@ Cold emails work. I love to meet/mentor people who may be interested in what I k
 
 ### Tools You Can Use
 
-* I use {{ site.db }} and {{ site.obsidian }} for creative logistics management
-* I use {{ site.airtable }} for tracking data
-* I lived solely out of {{ site.abnb }} 2013-2015
+* I use Dropbox and obsidian.md for digital/creative logistics management
+* I use Airtable for modelling life choices and tracking data for sharing
+* I lived solely out of Airbnb listings 2013-2015
 * Browser plugins I can't live without:
 	- [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) - thanks, GDPR
 	- [uBlock Origin](https://github.com/gorhill/uBlock) - thanks, all ad-driven business models
@@ -31,16 +31,17 @@ Cold emails work. I love to meet/mentor people who may be interested in what I k
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then moved to the bay area as employee #1 of BitGym, which I ended being a cofounder of through a major pivot.
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1IQosV875TjK8kZnOq03gpSYH5Bs" width="640" height="480"></iframe>
-
 I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around Asia while I mostly wrote code as a cofounder through bouts of depression.
 
 After wrangling an O1 and eventually a green card I was based in SF city [2015 - 2019], but find myself outside the country about a third of the year by choice.
 
-
 ## This site
 
-This site primarily hosts descriptions of my [projects](/projects) and [writing](/essays). I am a fledgling writer, so bear with me. Occasionally I test out web app ideas here.
+This site primarily houses my [long-form writing](/essays). I am a fledgling writer, so bear with me. 
+
+`// TODO: defunct while my hugo migration is WIP`.
+This site secondarily serves as an index of my [projects] and prototypes of web apps and toys.
+
 
 ### Built Using
 
@@ -56,8 +57,12 @@ This site primarily hosts descriptions of my [projects](/projects) and [writing]
 
 ### History
 
-The previous iteration was made while learning Ruby on Rails. The one before that was made while learning basic web technologies, HTML, CSS, js, etc. Now that I've learned those things, I have decided a static page is best for personal sites. This time [Jekyll](http://jekyllrb.com/){:target="_blank"} is my weapon of choice, and I happily vouch for it.
+**2007 - 2009**: I first made a long-form blog site on Wordpress with a few plugins from the wild.
 
-I started working on this in Thailand, on April 22nd 2014.
+**2009 - 2010**: I switched to tumblr for easier access to modifying site-wide HTML, CSS, js, etc.
 
-There was a [pretty chill coup](http://en.wikipedia.org/wiki/2014_Thai_coup_d%27%C3%A9tat){:target="_blank"} going on here at the time of this writing (May/June 2014).
+**2010 - 2014**: While learning Ruby on Rails, hosted my own code on heroku. I developed the fascination while taking a class at Olin college that introduced me with modern back-end development.
+
+**2014 - 2023**: After sufficient familiarity with front- and back-end webdev, I decided static sites are the way to go. [Jekyll](http://jekyllrb.com/) became my weapon of choice, and I still happily vouch for it. I started working on this while nomad-ing in Thailand. There was a [pretty chill coup](http://en.wikipedia.org/wiki/2014_Thai_coup_d%27%C3%A9tat) going on there at the time of this writing (May/June 2014).
+
+**2023 - present**: I decided I shall be [switching to hugo](/essays/2305_switchinghugo) as part of an overall website refresh.

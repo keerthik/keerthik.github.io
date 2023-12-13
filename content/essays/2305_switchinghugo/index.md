@@ -1,10 +1,11 @@
 ---
+title: "Switching to Hugo"
+draft: false
 categories:
 - tech
-title: "Switching to Hugo"
 terminal: "switchinghugo.md"
 date: 2023-05-14
-draft: false
+lastmod: 2023-12-12
 ---
 
 So I decided to rewrite my formerly [jekyll](https://jekyllrb.com/)-powered personal site with [hugo](https://gohugo.io/).

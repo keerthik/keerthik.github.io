@@ -47,7 +47,7 @@
                 <div class="postHeader">
                     <span class="postTitle">{{ .Title }}</span>
                     {{ $formattedDate := .Date.Format "2006-01" }}
-                    <time class="postDate" datetime="{{ $formattedDate }}">{{ .Date.Format "2006 / 01" }}</time>
+                    <time class="postDate" datetime="{{ $formattedDate }}">{{ .Lastmod.Format "2006 / 01 / 01" }}</time>
                 </div>
                 <div class="postExcerpt">
                     <p>{{ .Summary }}</p>

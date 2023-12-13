@@ -5,7 +5,7 @@ categories:
 - meta
 title: Where Are You From
 date: 2016-03-01
-update: 2016-03-01
+lastmod: 2016-03-01
 cross: <a href="https://medium.com/@keerthiko/where-are-you-from-fb5f3e48f1aa">on Medium</a>
 ---
 This question is a popular modern gripe among Asian Americans. Really this bothers the descendant of an immigrant of pretty much any ethnicity, in almost any country.

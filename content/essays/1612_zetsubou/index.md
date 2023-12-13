@@ -5,7 +5,7 @@ categories:
 - meta
 title: Zetsubou and I
 date: 2016-12-01
-update: 2016-12-01
+lastmod: 2016-12-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/zetsubou-and-i/10154692145293503">on Facebook</a>
 ---
 

@@ -5,7 +5,7 @@ categories:
 title: Overpowered
 terminal: overpowered.md
 date: 2015-07-01
-update: 2015-07-01
+lastmod: 2015-07-01
 ---
 
 {{% include "/snippets/dicestormintro.md" %}}
