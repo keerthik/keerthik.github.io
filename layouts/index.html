@@ -19,16 +19,17 @@
             <main class="main">
                 <div class="indexWrapper">
                     <div>
-                        <h1 class="indexHeader">{{ .Site.Params.author }}</h1>
+                        <h1 class="indexHeader">{{ .Site.Params.author }}.me</h1>
                     </div>
                     <div>
                     {{ range first 1 .Sections }}
                         {{ range first 1 .Pages }}
-                            <h3>Latest: ./essays/<a href="{{ .Permalink }}" title="{{ .Title }}" >{{ .Title }}</a></h3>
+                            <h2>Latest [{{ .Date.Format "2006/01" }}]</h2>
+                            <h3>&nbsp;→ ./essays/<a href="{{ .Permalink }}" title="{{ .Title }}" >{{ .Title }}</a></h3>
                         {{ end }}
                     {{ end }}
                     {{ range .Site.Menus.header }}
-                        <h2> > <a href="{{ .URL | absURL }}" title="{{ .Title }}" >./{{ .Name }}</a> </h2>
+                        <h2><a href="{{ .URL | absURL }}" title="{{ .Title }}" >./{{ .Name }}</a></h2>
                     {{ end }}
                     </div>
           
