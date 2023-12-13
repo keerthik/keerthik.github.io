@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'FiraSans'; /*a name to be used later*/
+    font-family: 'Fira Sans'; /*a name to be used later*/
     src: 
         url('/resources/fonts/firasans/OTF/FiraSans-Hair.otf'),
         url('/resources/fonts/firasans/OTF/FiraSans-HairItalic.otf') italic,
         url('/resources/fonts/firasans/OTF/FiraSans-Book.otf') weight 300,
-        url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf') bold weight 400,
+        url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf') weight 400,
         url('/resources/fonts/firasans/OTF/FiraSans-Bold.otf') weight 600,
 
 }
@@ -16,11 +16,15 @@
 
 a, .postTitle, .headerLinks ul li a {
     color: #3388cc;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 a:hover, .postTitle:hover, .headerLinks ul li a:hover {
     color: #33aadd;
+}
+
+.postMetadata {
+    font-size: 12pt;
 }
 
 .postDate {
@@ -36,8 +40,8 @@ a:hover, .postTitle:hover, .headerLinks ul li a:hover {
 .content {
     font-weight: 300;
     line-height: 1.5em;
-    font-family: "FiraSans", sans-serif;
-    font-size: 16pt;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13pt;
 }
 
 p code {
@@ -50,7 +54,7 @@ p code {
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 h2 {

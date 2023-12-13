@@ -6,19 +6,41 @@ tags:
 - business
 - ethics
 title: "Human-first companies: compensation"
-date: 2020-09-01
-update: 2023-10-30
+terminal: compensation.md
+date: 2023-12-12
+update: 2024-01-01
 ---
 
-***TL;DR***
+
+"Work" has gone through a lot of upheaval [^up1][^up2][^up3][^up4] in recent years. American-led shareholder capitalism, leader worship and "work as our life's purpose" have polled tumultuously across the generations notably since COVID-19 through workplaces into chaos in 2020. There's a lot going on with all that, but the shared undertone has been workers feeling the relationship with their employers is less than equitable.
+
+[^up1]: The [Great (American) Resignation](https://en.wikipedia.org/wiki/Great_Resignation)]
+[^up2]: [Chinese Lay Flat](https://en.wikipedia.org/wiki/Tang_ping)] movement
+[^up3]: "Comprehensive" [Tech Layoff tracker](https://layoffs.fyi/)]
+[^up4]: Forbes: [2023 Layoff timeline](https://www.forbes.com/sites/brianbushard/2023/12/11/2023-layoff-tracker-hasbro-cuts-1100-employees/)]
+
+My thesis is very simple: it doesn't have to be this way.
+1. Compensation (this article)
+
+`// TODO: These articles are still in the shop`
+
+2. True remote-first
+3. High quality Communication
+4. Acknowledging terraforming
+5. Sustainability
+
+### Compensation, the TL;DR
 
 My recommendation: Pay everyone the most you as a company can afford to, scaled to their value generation for the company, whilst increasing the value of the company to make room for new initiatives, new teammates, and reinvesting in your community and in humanity. 
 
 Do this by embodying flexibility and empowering efficiency, agency and sustainable business practices, which is simultaneously better for the company and is also a form of (intangible) compensation in itself.
 
+The *simplest* way to do this is to set every long-term team member's pay — from the founder/CEO to the newest hire — to the same net amount.
+
 ## Who is this for?
 
-So there are fundamentally two groups of folks this is intended for today
+There are two cohorts I consider the audience for this post:
+
 - founders, managers and owners (and those soon-to-be) who are tempted to adopt/retain the status quo, but aren't locked into it yet and have the position and privilege to impact the workplace: when it seems preferable to adapt hitherto mainstream ideas of how to compensate and treat workers, yet keep running into more and more friction.
 - folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed into the system (be employed) is most of the compensation from our employer.
 

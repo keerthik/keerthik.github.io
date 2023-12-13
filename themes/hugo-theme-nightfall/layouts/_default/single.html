@@ -8,9 +8,9 @@
     <h1>{{ .Title }}</h1>
     <section class="postMetadata">
         <dl>
-            {{ with .GetTerms "tags" }}
-                {{ partial "taxonomy/tags.html" . }}
-            {{ end }}
+            {{/* with .GetTerms "tags" */}}
+                {{/* partial "taxonomy/tags.html" . */}}
+            {{/* end */}}
             {{ with .GetTerms "authors" }}
                 {{ partial "taxonomy/authors.html" . }}
             {{ end }}
