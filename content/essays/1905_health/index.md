@@ -1,8 +1,9 @@
 ---
+title: Personal health
+terminal: health.md
 layout: post
 categories:
 - meta
-title: Personal health
 date: 2019-05-25
 lastmod: 2019-05-30
 ---

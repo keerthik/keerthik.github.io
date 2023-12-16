@@ -1,9 +1,10 @@
 ---
+title: Where Are You From
+terminal: fromwhere.md
 layout: post
 categories:
 - nomad
 - meta
-title: Where Are You From
 date: 2016-03-01
 lastmod: 2016-03-01
 cross: <a href="https://medium.com/@keerthiko/where-are-you-from-fb5f3e48f1aa">on Medium</a>

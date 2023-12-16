@@ -1,8 +1,8 @@
 ---
-layout: post
+title: Hello, Writing
+terminal: introwriting.md
 categories:
 - meta
-title: Hello, Writing
 date: 2014-08-01
 lastmod: 2014-08-01
 ---
