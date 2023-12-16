@@ -1,9 +1,9 @@
 ---
 title: "Switching to Hugo"
+terminal: "switchinghugo.md"
 draft: false
 categories:
 - tech
-terminal: "switchinghugo.md"
 date: 2023-05-14
 lastmod: 2023-12-12
 ---

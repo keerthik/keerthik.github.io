@@ -1,12 +1,14 @@
 ---
-layout: post
+title: One-touch Android USB Modem
+terminal: androidmodem.md
 categories:
 - tech
-title: One-touch Android USB Modem
 date: 2015-03-01
-lastmod: 2023-05-01
+lastmod: 2023-12-12
 ---
 
+
+> ℹ️ `2023/12`: Sadly, this article is outdated. I attempted to get this working again but abandoned the project for getting too invasive with the desktop OS as described in the text. Keeping it up as a memoir of what once was
 
 As a digital nomad, I am often in some form of transit such as a long subway, bus, or high speed rail ride, or waiting in an airport. As such, being able to work literally on the go is a must for my remote job. One of the first things I do in any country I land is secure a local SIM with enough data to tide me over for the entire duration of my stay. Thus even if I lose access to wifi, I can tether to my phone.
 
@@ -29,7 +31,7 @@ Verify that your bootloader unlocking, device rooting, and adbd unsecuring worke
 
 ## Getting USB Internet Tether for OSX
 
-> ⚠️ 2023/05 update: HoRNDIS doesn't work without some intrusive kext modification on OSX 13+, as described in [this video guide](https://www.youtube.com/watch?v=32lM27TGNFM). I haven't gotten this to work on my intel Mac except by going into recovery mode.
+> ⚠️ `2023/05` update: HoRNDIS doesn't work without some intrusive kext modification on OSX 13+, as described in [this video guide](https://www.youtube.com/watch?v=32lM27TGNFM). I haven't gotten this to work on my intel Mac except by going into recovery mode.
 
 It appears OSX does not support the stock Android USB modem operation mode. Luckily, Joshua Wise's [HoRNDIS](http://joshuawise.com/horndis) driver for Mac enables this. Followed the instruction, worked like a charm. Great.
 

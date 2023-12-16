@@ -1,12 +1,12 @@
 ---
 title: "Human-first companies: compensation"
+terminal: compensation.md
 draft: true
 categories: 
 - tech
 tags:
 - business
 - ethics
-terminal: compensation.md
 date: 2023-12-12
 lastmod: 2024-01-01
 ---

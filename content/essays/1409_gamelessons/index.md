@@ -1,9 +1,9 @@
 ---
-layout: post
+title: Real Lessons From Games
+terminal: gamelessons.md
 categories:
 - learn
 - play
-title: Real Lessons From Games
 date: 2014-09-01
 lastmod: 2016-09-01
 cross: <a href="https://medium.com/p/3bf040e3d862">on Medium</a>

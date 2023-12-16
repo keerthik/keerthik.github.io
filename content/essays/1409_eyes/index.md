@@ -1,7 +1,8 @@
 ---
+title: "Eyes"
+terminal: eyes.md
 categories:
 - nomad
-title: "Eyes"
 date: 2014-09-01
 lastmod: 2014-09-01
 cross: <a href="https://medium.com/@keerthiko/eyes-f07a01a682f1">on Medium</a>
