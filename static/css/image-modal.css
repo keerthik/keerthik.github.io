@@ -27,6 +27,11 @@
   max-width: 1400px;
 }
 
+.modal-caption {
+  color:  white;
+  text-align: center;
+}
+
 .modal-pic {
   display: flex;
   align-content: center;
