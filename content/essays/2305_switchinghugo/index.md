@@ -34,9 +34,9 @@ The best place for me to try out a new tool is on my personal site since I know 
 
 The design and content on my site had gotten quite stale, and I hold the idea that our personal website should be more truly a representation of ourselves than any social media profile quite dearly.
 
-### Go immersion
+### golang immersion
 
-Go got me interested in hugo, and hugo got me interested in go. It felt natural to learn both simultaneously, to experience the output along with the input.  With familiarity of how it works as an end-user, and basic language comprehension, I can start reading plugin codebases and learn how and why Go is used better.
+Golang got me interested in hugo, and hugo got me interested in golang. It felt natural to learn both simultaneously, to experience the output along with the input.  With familiarity of how it works as an end-user, and basic language comprehension, I can start reading plugin codebases and learn how and why golang is used better.
 
 I'm writing this post itself because I also feel the need for a "first post" as I am going through the [gohugo quickstart tutorial](https://gohugo.io/getting-started/quick-start/).
 
