@@ -1,6 +1,12 @@
 {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
 {{- end }}
+{{ range .Page.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
 {{ range .Site.Params.custom_js -}}
     <script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}
+{{ range .Page.Params.custom_js_module -}}
+    <script type="module" src="{{ . | absURL }}"></script>
 {{- end }}

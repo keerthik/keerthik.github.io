@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Fira Sans'; /*a name to be used later*/
     src: 
-        url('/resources/fonts/firasans/OTF/FiraSans-Hair.otf'),
-        url('/resources/fonts/firasans/OTF/FiraSans-HairItalic.otf') italic,
-        url('/resources/fonts/firasans/OTF/FiraSans-Book.otf') weight 300,
-        url('/resources/fonts/firasans/OTF/FiraSans-Regular.otf') weight 400,
-        url('/resources/fonts/firasans/OTF/FiraSans-Bold.otf') weight 600,
+        url('/fonts/firasans/OTF/FiraSans-Thin.otf'),
+        url('/fonts/firasans/OTF/FiraSans-ThinItalic.otf') italic,
+        url('/fonts/firasans/OTF/FiraSans-Book.otf') weight 300,
+        url('/fonts/firasans/OTF/FiraSans-Regular.otf') weight 400,
+        url('/fonts/firasans/OTF/FiraSans-Bold.otf') weight 600,
 
 }
 

@@ -4,6 +4,8 @@ title = 'kOrc'
 theme = 'hugo-theme-nightfall'
 ignorefiles = ["_notes/."]
 summaryLength = 30
+[markup.goldmark.renderer]
+	unsafe= true
 [languages]
 	[languages.en]
 		title = "kOrc.me"
