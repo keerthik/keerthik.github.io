@@ -12,6 +12,7 @@ Welcome to Pacross Frontier
   {
     "imports": {
       "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
+      "sample": "/js/pacross/sample.js",
       "app": "/js/pacross/app.js"
     }
   }
@@ -22,5 +23,8 @@ Welcome to Pacross Frontier
 <div id="app">
 	<div class="main-wrapper">
 		{{ message }}
+		{{ words }}
+		<a :href="url">Click me</a>
+		<div style="display:block" @click="cellClicked">CELL A</div>
 	</div>
 </div>
