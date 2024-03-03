@@ -5,3 +5,16 @@
 	width: 400px;
 	margin: 0 auto;
 }
+
+.row {
+	display: flex;
+	height: 24px;
+	border: 2px solid green;
+}
+
+.cell {
+	display: flex;
+	width: 24px;
+	height: 24px;
+	border: 2px solid red;
+}

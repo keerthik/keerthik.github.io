@@ -1,13 +1,22 @@
 import { Words } from 'sample'
+import { padArray } from 'tools'
 
 const App = {
 	data() {
-		const words = Words
+		let rows = []
 		const url = "https://korc.me"
+		let maxwidth = 0
+		for (let word of Words.across) {
+			maxwidth = Math.max(word.word.length, maxwidth)
+			let newrow = Array.from({length: word.word.length}, () => 0)
+			newrow = padArray(newrow, maxwidth, word.start[1], -1)
+			rows.push(newrow)
+		}
+		const grid = rows
 		return {
 			position: [0,0],
 			message: 'Hello Vue!',
-			words,
+			grid,
 			url
 		}
 	},
@@ -21,3 +30,4 @@ const App = {
 }
 
 export { App }
+
