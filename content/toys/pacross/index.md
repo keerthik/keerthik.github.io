@@ -3,7 +3,7 @@ title: "Pacross"
 terminal: pacross.toy
 custom_css:
 - "css/pacross.css"
-draft: true
+draft: false
 ---
 
 Welcome to Pacross Frontier
@@ -25,7 +25,11 @@ Welcome to Pacross Frontier
 	<div class="main-wrapper">
 		<div class="grid">
       <div v-for="(row, ri) in grid" class="row">
-        <div v-for="(cell, ci) in row" class="cell" :class="{ 'cell-active': cell == 1 }" @click="cellClicked">{{ grid[ri][ci] }}</div>
+        <div v-for="(cell, ci) in row" class="cell" 
+          :class="{ 'cell-active': cell == 1 }"
+          @keydown="keyPressed" @click="cellClicked">
+            {{ grid[ri][ci] }}
+        </div>
       </div>
     </div>
 		{{ grid }}
@@ -37,4 +41,5 @@ Welcome to Pacross Frontier
 # What we are doing
 - make a representation of the grid (no letters) from the words
 - draw boxes representing the grid.
+- show cursor position in grid.
 

@@ -32,16 +32,11 @@ a:hover, .postTitle:hover, .headerLinks ul li a:hover {
     color: #56bbdd;
 }
 
-.postExcerpt {
-  font-weight: lighter;
-  color: $white;
-}
-
 .content {
-    font-weight: 300;
+    font-size: 16pt;
+    font-weight: 400;
     line-height: 1.5em;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 13pt;
 }
 
 p code {
