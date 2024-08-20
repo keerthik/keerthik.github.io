@@ -46,7 +46,7 @@ summaryLength = 30
 	    intro = "Product ideas, thoughts about running a business, technical nitty-gritty."
 	[[params.categorydata]]
 	  	name = "nomad"
-	    heading = "Nomad chronicles"
+	    heading = "Places and culture"
 	    intro = "I didn't think I'd write about this much. However, being a nomad became a significant part of my identity and [cities became my closest friends](/essays/1803_cities) so I talk about it now -- a lot."
 	[[params.categorydata]]
 	  	name = "meta"

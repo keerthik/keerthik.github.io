@@ -12,7 +12,7 @@ git fetch
 git switch master
 git pull
 brew install hugo
-hugo server
+hugo server -D #to show drafts
 ```
 
 ## Borrowed systems
