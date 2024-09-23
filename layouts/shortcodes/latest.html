@@ -1,6 +1,6 @@
 {{ $prefix := (.Get 0) }}
 {{- range first 1 site.Sections -}}
-  {{- range first 1 .Pages.ByLastmod.Reverse -}}
+  {{- range first 1 .Pages.ByDate.Reverse -}}
     {{- $prefix -}}[{{- .Title -}}]({{- .Permalink -}})
   {{- end -}}
 {{- end -}}
