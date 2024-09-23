@@ -12,14 +12,17 @@
                 <a href="{{ .Site.BaseURL }}">{{ .Site.Params.hostname }}</a>
             {{ end }}
             {{ $separator }}
-
             {{ if (.IsPage) }}
                 <a href="{{ $stuburl }}"> {{ $stub }} </a>
             {{ else }}
+                <span class="command">
                 {{ $stub }}
+                </span>
             {{ end }}
             {{ $separator }}
+            <span class="command">
             {{ $terminator }}
+            </span>
             </span>
         </div>
         <input class="side-menu" type="checkbox" id="side-menu"/>

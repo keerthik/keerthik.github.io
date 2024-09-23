@@ -20,6 +20,7 @@ lastmod: 2024-01-01
 [^up4]: Forbes: [2023 Layoff timeline](https://www.forbes.com/sites/brianbushard/2023/12/11/2023-layoff-tracker-hasbro-cuts-1100-employees/)]
 
 My thesis is very simple: it doesn't have to be this way.
+
 1. Compensation (this article)
 
 `// TODO: These articles are still in the shop`
@@ -42,7 +43,8 @@ The *simplest* way to do this is to set every long-term team member's pay — fr
 There are two cohorts I consider the audience for this post:
 
 - founders, managers and owners (and those soon-to-be) who are tempted to adopt/retain the status quo, but aren't locked into it yet and have the position and privilege to impact the workplace: when it seems preferable to adapt hitherto mainstream ideas of how to compensate and treat workers, yet keep running into more and more friction.
-- folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed into the system (be employed) is most of the compensation from our employer.
+
+- folks entering or in the workforce who haven't yet had a chance to experience alternate ideologies of worker compensation: without more *ideologically* different compensation perspectives to compare to, we are naturally led to believe bigger numbers and shinier offices are the only improvements to be made to compensation, and even being allowed into the system (having an income) is most of the compensation from our employer.
 
 The thoughts in this post are primarily about compensation from the organization to the worker, yet we must discuss other aspects that are inextricable. A few of these require further context beyond the scope of this article as they are yet again from a different perspective than traditional workplace culture. I will update this post with links as I extrapolate on those.
 
@@ -68,7 +70,7 @@ If a business is not beholden to concepts such as shareholders, board members, "
 
 However, the organization's shareholder distribution is not the critical factor. It is still possible to allow workers impactful responsibility and returns. What is critical is trust in the people who have their hands *in* the work. 
 
-When you can trust your workers to do their job at a high level, you can save resources in management, meetings, and employee monitoring. Which in turn can be used to compensate them better, while motivating them through ownership over the results of their work. This trust can only be built if it is sought out from the [[hiring]] process, and fostered past the worker's departure. Present-day work culture in most countries has not invested in this beyond the surface, because it had crafted environments in which work could be *extracted* from workers without needing to trust them.
+When workers are trusted to do their job at a high level, resources in management, meetings, and employee monitoring. Which in turn can be used to compensate them better, while motivating them through ownership over the results of their work. This trust can only be built if it is sought out from the [[hiring]] process, and fostered past the worker's departure. Present-day work culture in most countries has not invested in this beyond the surface, because it had crafted environments in which work could be *extracted* from workers without needing to trust them.
 
 Not only is this worker-employer dynamic much harder to maintain with the sudden onset of COVID-19, but it is time we reframe the basis of this dynamic from
 > "What if my employee just takes my money and doesn't do what I tell them to, especially if someone isn't there to watch them and make them work?"
