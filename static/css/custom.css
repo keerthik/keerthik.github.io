@@ -78,3 +78,21 @@ h2::after {
 .indexWrapper h2::after {
     background-color: #f8f8ff;
 }
+
+.indexHeader {
+    line-height: 100%;
+    overflow: hidden;
+    animation: 
+        typing 1.25s steps(1,end);
+}
+
+@keyframes typing {
+    0% { width: 0 }
+    5% { width: 10% }
+    20% { width: 21% }
+    35% { width: 31% }
+    45% { width: 42% }
+    70% { width: 50% }
+    95% { width: 63% }
+    100% { width: 100% }
+}
