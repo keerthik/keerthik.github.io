@@ -21,6 +21,12 @@ Since then, I have been mired in the same boggy quicksand as everyone else and t
 ## Respite
 Occasionally the social media walled-gardens \*cough\* prisons \*cough\* would parole me to an oasis like a wonderfully passionate personal blog or interesting project on a personal site. And I am hit with a wave of relief and joy, faintly nostalgic in flavor, like feeling an ocean spray from the beach I grew up next to. I feel like I am engaging with a *human being*, simultaneously next to me but also infinitely far away, as I see not just a disembodied thought, but the contexts within which those thoughts were formed. The "dunks" are out of sight, the "hot takes" are more like well thought-out essays. Thought-out, what's that like in this era?
 
+### List
+Here are some of my favorite "old-style" pages and when I found/added them
+
+- [bopspotter](https://walzr.com/bop-spotter) @ 2024/09/30
+- 
+
 ## You can do it too
 
 ## Ask me!
