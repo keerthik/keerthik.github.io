@@ -37,7 +37,7 @@ I will leave you with full control over it's administration.
 
 I will give you a summary of documentation for adding content or changing the site, locally testing your changes, and basic administration.
 
-I will logs of everything I did in this process in case you wanted to learn from it.
+I will give you logs of everything I did in this process in case you wanted to learn, replicate, or share.
 
 I will point to official source documentation for all services and technology used wherever relevant in the above.
 
@@ -50,5 +50,6 @@ Here are some of my favorite "old-style" pages (even if they look modern) and wh
 
 - [bopspotter](https://walzr.com/bop-spotter) @ 2024/09/30
 - [something pink](https://something.pink/) @ 2024/04/15
+- [nolen's site](https://eieio.games/) @ 2024/12/09
 
 If you have a similar list send it to me. If I vibe with it, I'll link it here or add some entries and credit you.
