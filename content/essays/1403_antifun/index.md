@@ -49,9 +49,9 @@ As such, the mechanic of baneling landmines, is a strong “fun to face” mecha
 (aka "Marauder Slow", Terran Marauder passive)
 This ability requires a cheap and short research, to passively modify the Marauder attack to have a crippling slowing effect.
 
-**User**: Using this ability doesn't even require conscious intention past doing the research. To maximize effectiveness, there's a skill factor in cycling targets to keep an entire group of enemies slowed. But with SC2's stellar targetting AI, this has small visible effect. It is a little satisfying to see enemy units try to do things and fail and die crawling, but the overall satisfaction factor of combat is hardly increased by executing better to take advantage of this ability
+**User**: Using this ability doesn't even require conscious intention past doing the research. To maximize effectiveness, there's a skill factor in cycling targets to keep an entire group of enemies slowed. But with SC2's stellar targetting AI, this has small visible effect. It is a little satisfying to see enemy units try to do things and fail and die crawling, but the overall satisfaction factor of combat is hardly increased by executing better to take advantage of this ability.
 
-Note that this doesn't change the fact that the ability is extremely effective and yields better combat results).
+Note that this doesn't change the fact that the ability is extremely effective and yields better combat results.
 
 I think it rates poorly on both "Challenging" as well as "Satisfying" for the user.
 
@@ -104,4 +104,4 @@ I guess this is part of what makes the process of game design so damn challengin
 
 - - -
 
-Also check out {{ site.ds }}, the board game mentioned in the article.   
+Also check out [Dicestorm](dicestormgame.com), the board game mentioned in the article.   
