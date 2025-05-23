@@ -1,12 +1,14 @@
 ---
 title: "Being online"
 draft: false
+tags:
+- digitalhealth
 categories:
 - tech
 - meta
 terminal: beingonline.md
-date: 2024-11-17
-lastmod: 2024-11-17
+date: 2024-12-01
+lastmod: 2024-12-09
 ---
 
 It's happened. I'm officially one of those "good ol' days" people, at the ripe old age of 35.
