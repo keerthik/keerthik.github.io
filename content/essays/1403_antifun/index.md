@@ -104,4 +104,4 @@ I guess this is part of what makes the process of game design so damn challengin
 
 - - -
 
-Also check out [Dicestorm](dicestormgame.com), the board game mentioned in the article.   
+Also check out [Dicestorm](dicestormgame.com), the board game mentioned in the article.

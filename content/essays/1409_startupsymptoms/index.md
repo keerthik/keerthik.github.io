@@ -15,7 +15,7 @@ It’s a fairly common question near- and new-grads try to answer in the STEM fi
 
 Countless [blog](http://philosophyforprogrammers.blogspot.in/2014/09/if-you-want-to-start-startup-go-work.html)/forum (most of HN)/[Quora](http://www.quora.com/search?q=should+i+work+for+a+startup) posts exist addressing this question. Every student’s circumstances are different enough meaning no matter how many of these you read, the decision remains unclear.
 
-I chose the former by joining {{ site.bg }}. What follows will be in the context of a specific tech startup scenario — pre-funding, early stage, self-sustaining, small-team. This could be either in a startup trying to bootstrap, or hasn’t finished raising enough funding for smooth operation yet.
+I chose the former by joining [BitGym](bitgym.com). What follows will be in the context of a specific tech startup scenario — pre-funding, early stage, self-sustaining, small-team. This could be either in a startup trying to bootstrap, or hasn’t finished raising enough funding for smooth operation yet.
 
 This is by no means trying to be a complete list, these are items I haven’t seen discussed enough elsewhere. 
 

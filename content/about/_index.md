@@ -33,7 +33,7 @@ Cold emails work. I love to meet/mentor people who may be interested in what I k
 ### Geography
 I was born in picturesque Thiruvananthapuram, in south India. I grew up in quaint Muscat, Oman. I went to college in Boston, then moved to the bay area as employee #1 of BitGym, which I ended being a cofounder of through a major pivot.
 
-I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of {{ site.abnb }} listings around Asia while I mostly wrote code as a cofounder through bouts of depression.
+I was forced to be a digital nomad [December 2013 - August 2015](https://www.google.com/maps/d/u/0/viewer?mid=zQyPQn7ohRmA.kUSGhXjsO2xM) due to the wonderful machinations of US immigration -- I lived out of airbnb's around Asia while I mostly wrote code as a cofounder through bouts of depression. Interesting hack of that era — nearly the entire cost of my accommodation during that period was paid for with airbnb referral credits, which I earned by running Google ads with my referral codes — which in turn was entirely run within the started $100 of Google ad credits given to a new account.
 
 After wrangling an O1 and eventually a green card I was based in SF city [2015 - 2019], but find myself outside the country about a third of the year by choice.
 
