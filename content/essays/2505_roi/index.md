@@ -41,13 +41,13 @@ What experience do you sacrifice, and what experience do you get to enjoy? Suppo
 
 <div class="clearfix"></div>
 
-A typical scenario where this is works is if the new weapon enables exploration of genuinely joyous mechanics/concepts that cannot logically coexist with the mechanics that had to be disabled. However, it's important that all these things tie together thematically/narratively in the scope of the game's premise.
+A typical scenario where this works is if the new weapon enables exploration of genuinely joyous mechanics/concepts that cannot logically coexist with the mechanics that had to be disabled. However, it is important that all these things tie together thematically/narratively in the scope of the game's premise.
 
 ## Spreadsheeting
 Spreadsheets for balancing has varying utility. The first term (object properties) is the simplest to apply to a spreadsheet. You can plug in the properties of each tool and assign a weighted scoring function to ensure all the tools are in line with design intent, but it's important to remember this is just one term of the equation. However it gets harder to score the other two terms, especially the experiential term. This stuff can be shoehorned into a spreadsheet, but typically is handled with statistical analysis of numerous playtests and live player stats: look at the success and failure rate, the correlations between adoption and various player performance benchmarks at the intended stages of the game with the given tool and with alternatives, to see that tool efficacy is in line with their intent: tools are effective where they're supposed to be good, tools are weak where they're supposed to be weak, with the correct net trade offs.
 
 ## Conclusion
-Ultimately, when tuning a game, "players are having a lot of fun" is ultimately (usually) the prime directive, yet can rarely be distilled into numbers. 
+Ultimately when tuning a game, "players are having a lot of fun" should be the prime directive, yet this can rarely be distilled into numbers.
 
 Something interesting I learned over the years: asking players "how would you rate your enjoyment" is riddled with all kinds of biases — for example, whenever this is surveyed in popular competitive games, if the player won a match, the 1st percentile (approximate floor) of the ratings is usually around 3/5 stars. However, if the player lost the match, the 99th percentile (approximate ceiling) is also near 3/5 stars. However, when directly monitored during playtests with well-matched sides, the typical enjoyment metrics over the course of the game — indications of investment, flow state, excitement at key interactions and others — is much more similar on both sides (with both having ups and downs with how each interaction goes) until the very end of a match! Given the quality of modern matchmaking algorithms and breadth of playerbase for popular competitive games, the player-provided enjoyment ratings thus are unlikely to be truly representative of the net fun they had. 
 
