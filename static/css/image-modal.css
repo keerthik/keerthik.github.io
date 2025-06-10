@@ -1,6 +1,13 @@
 /* The markdown image container */
 .md__image {
   cursor: pointer;
+  max-width: 100%;
+}
+
+/* Ensure all images are responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* The Modal (background) */
