@@ -1,7 +1,6 @@
 ---
 title: "ROI: Balance is more than numbers"
 draft: false
-layout: post
 tags: 
 - play
 - design
