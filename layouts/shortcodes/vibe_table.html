@@ -1,0 +1,22 @@
+<table>
+<thead>
+<tr>
+<th>Project Stage</th>
+<th>Progress Achieved</th>
+<th>Major Frustrations</th>
+<th>Desired Next Step</th>
+<th>Last Update</th>
+</tr>
+</thead>
+<tbody>
+{{- range .Site.Data.ai_assistance_experience.experiences }}
+<tr>
+<td>{{ .project_stage }}</td>
+<td>{{ .progress_achieved }}</td>
+<td>{{ .major_frustrations }}</td>
+<td>{{ .desired_next_step }}</td>
+<td>{{ .last_update }}</td>
+</tr>
+{{- end }}
+</tbody>
+</table>
