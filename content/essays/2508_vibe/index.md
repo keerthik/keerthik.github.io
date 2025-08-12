@@ -20,6 +20,6 @@ To be open about what stages of projects I have tried to use AI assistance for, 
 
 | Project Stage | Progress Achieved | Major Frustrations | Desired Next Step | Last Update |
 |---------------|-------------------|-------------------|-------------------|-------------|
-| | | | | |
-| | | | | |
-| | | | | |
+{{- range .Site.Data.ai_assistance_experience.experiences }}
+| {{ .project_stage }} | {{ .progress_achieved }} | {{ .major_frustrations }} | {{ .desired_next_step }} | {{ .last_update }} |
+{{- end }}
