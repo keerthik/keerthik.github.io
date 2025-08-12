@@ -10,7 +10,7 @@ len: 0 min
 
 # Light and Colors
 
-I used to be quite confused about how colors and the optics related worked. This became acutely apparent to me when we at {{ site.zk }} started working on [Color Balls]() in 2013.
+I used to be quite confused about how colors and the optics related worked. This became acutely apparent to me when we at Zoako Studios started working on Color Balls in 2013.
 
 Like many topics in physics, this is one that is  quite simple to derive all the details about, as long as your fundamentals are sound. In my experience, however, very few people execute instruction of these fundamentals regarding light and colors well.
 
