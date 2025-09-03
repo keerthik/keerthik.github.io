@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: Learning
 title: schools
 update: Jan 2017

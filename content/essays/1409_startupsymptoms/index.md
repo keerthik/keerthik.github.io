@@ -1,7 +1,6 @@
 ---
 title: Life in an Early-Stage Tech Company 
 terminal: startupsymptoms.md
-layout: post
 categories:
 - tech
 date: 2014-09-01

@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: play
 title: social games
 update: February 2015

@@ -1,7 +1,6 @@
 ---
 title: Place-people
 terminal: cities.md
-layout: post
 categories:
 - nomad
 date: 2018-03-01

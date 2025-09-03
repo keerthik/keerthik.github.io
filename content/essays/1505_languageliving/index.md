@@ -1,7 +1,6 @@
 ---
 title: Language Where You Live
 terminal: languageliving.md
-layout: post
 categories:
 - nomad
 date: 2015-05-01

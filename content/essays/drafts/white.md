@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: Meta/Life
 title: white
 update: September 2016

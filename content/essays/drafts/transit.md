@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: Nomad Chronicles
 title: transit
 update: Nov 2018

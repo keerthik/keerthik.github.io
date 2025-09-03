@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: play
 title: games and violence
 update: May 2016

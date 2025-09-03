@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: meta/life
 title: rocketwoman
 update: September 2018

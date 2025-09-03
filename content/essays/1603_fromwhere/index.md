@@ -1,7 +1,6 @@
 ---
 title: Where Are You From
 terminal: fromwhere.md
-layout: post
 categories:
 - nomad
 - meta

@@ -1,7 +1,6 @@
 ---
 title: Personal health
 terminal: health.md
-layout: post
 categories:
 - meta
 date: 2019-05-25
