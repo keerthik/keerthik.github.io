@@ -15,6 +15,11 @@ brew install hugo
 hugo server -D #to show drafts
 ```
 
+Hugo is in active development, and breaking changes are possible between versions. See the version referenced in hugo.yml and install that specific version if pages are broken.
+
+## Deployment
+Depends on github actions via [hugo.yml](.github/workflows/hugo.yml).
+
 ## Borrowed systems
 - [Magnific Image Pop-up module](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d)
 - [List topics by category](https://github.com/jmooring/hugo-testing/tree/hugo-forum-topic-31882)
