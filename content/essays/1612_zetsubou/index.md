@@ -1,7 +1,6 @@
 ---
 title: Zetsubou and I
 terminal: zetsubou.md
-layout: post
 categories:
 - nomad
 - meta

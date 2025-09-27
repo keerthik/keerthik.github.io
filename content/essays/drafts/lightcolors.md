@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: learning
 title: light and colors
 update: October 2014

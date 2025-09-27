@@ -1,7 +1,6 @@
 ---
 title: Out of Place
 terminal: outofplace.md
-layout: post
 categories:
 - nomad
 date: 2014-09-01

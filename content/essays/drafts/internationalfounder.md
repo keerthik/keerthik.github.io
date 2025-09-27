@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: product
 title: international grad
 update: April 2016

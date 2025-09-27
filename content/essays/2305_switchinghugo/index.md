@@ -52,15 +52,19 @@ My Steamdeck has been my web development machine through the initial set up with
 
 `hugo server` did seem to push the CPU a bit far and cause the machine to hang occasionally, but it wasn't terrible! I also happened to be in India where the ambient temperature tended to run a bit high so that probably wasn't helping.
 
-## Worklog
+## Worklog & lessons (ongoing)
+This section will be continuously updated as I learn more things.
 
 I attempted at first to surgically remove and replace content in my Jekyll site with their hugo counterparts after playing with a hugo quickstart sample site separately. I quickly abandoned this approach in favor of a new plan starting from the sample site folder:
  - make hugo quickstart project
- - write this post
- - make sure site navigation with a single post is robust
+ - write this essay
+ - make sure site navigation with a single essay is robust
  - rebuild the theme from scratch so I have a complete understanding of the theme system and hugo's partials reference chains
  - remove dependency on a third-party theme in favor of (A) above, which is to reduce tech stack bloat/complexity - the more moving parts I introduce that I do not intimately understand, the more parts of my site and project I am scared to update and touch in the future[^parts].
  - bring back dependency on a third-party theme. Themes get complicated when you want them to be responsive! I may customize this later
  - read through and added the [Magnific Image Pop-up module](https://gist.github.com/zjeaton/0cdd7e4bed9d292ab6f3d76b0369f16d)
 
 Rebuilding the theme was the most daunting task here from the outset. I started by using an imported theme as recommended in the quickstart, but very quickly it is apparent that using a fully personal theme seems to be the biggest barrier for a new hugo adopter. I will probably return to the way of making minor CSS modifications of color/fonts rather than entire components or styles for the near future.
+
+I messed with archetypes a lot for a silly reason: I don't like calling my writing "posts". I like to call them essays. So I added /archetypes/essays/index.md. I also rely on the front-matter fairly heavily, and wanted better defaults. So following [this reference](https://digitaldrummerj.me/hugo-default-front-matter/), I added that.
+

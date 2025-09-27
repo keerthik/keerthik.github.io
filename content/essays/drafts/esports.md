@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: play
 title: 21st century sports
 update: June 2014

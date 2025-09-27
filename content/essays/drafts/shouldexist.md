@@ -1,6 +1,5 @@
 ---
 draft: true
-layout: post
 folder: product
 title: why don't these exist?
 len: 3 min

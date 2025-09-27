@@ -1,6 +1,7 @@
 ---
 title: "Pacross"
 terminal: pacross.toy
+exclude_rss: true
 custom_css:
 - "css/pacross.css"
 draft: false

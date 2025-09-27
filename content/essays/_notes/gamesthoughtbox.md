@@ -1,5 +1,4 @@
 ---
-layout: post
 folder: play
 title: gamethoughts
 update: August 2014
