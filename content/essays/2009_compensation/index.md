@@ -12,7 +12,7 @@ lastmod: 2024-01-01
 ---
 
 
-"Work" has gone through a lot of upheaval [^up1][^up2][^up3][^up4] in recent years. American-led shareholder capitalism, leader worship and "work as our life's purpose" have polled tumultuously across the generations notably since COVID-19 through workplaces into chaos in 2020. There's a lot going on with all that, but the shared undertone has been workers feeling the relationship with their employers is less than equitable.
+"Work" has gone through a lot of upheaval [^up1][^up2][^up3][^up4] in recent years. American-led shareholder capitalism, leader worship and "work as our life's purpose" have polled tumultuously across the generations notably since COVID-19 threw workplaces into chaos in 2020. There's a lot going on with all that, but the shared undertone has been workers feeling the relationship with their employers is less than equitable.
 
 [^up1]: The [Great (American) Resignation](https://en.wikipedia.org/wiki/Great_Resignation)]
 [^up2]: [Chinese Lay Flat](https://en.wikipedia.org/wiki/Tang_ping)] movement
