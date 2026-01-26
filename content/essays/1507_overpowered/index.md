@@ -7,9 +7,10 @@ date: 2015-07-01
 lastmod: 2015-07-01
 ---
 
-{{% include "/snippets/dicestormintro.md" %}}
+When playtesting a game with a variety of mechanics that can interact with each other but are optional, there are very prominent challenges, like balance and learning curve; there are also less apparent challenges. One we discovered is how difficult it is to test what works or doesn't when not everything gets played in every playtest.
+<!--more-->
 
-When creating a game with a sizeable variety of mechanics that are meant to work in tandem with each other, there are a number of apparent challenges, like balance and learning curve. There are also a few less apparent challenges; one that we discovered is that it's difficult to test what works and what doesn't as not everything gets played in every game. 
+{{% include "/snippets/dicestormintro.md" %}}
 
 The main strength of having a mix of diverse mechanics is in fun factor, at the cost of the challenges mentioned above -- every game is more interesting, epic and creative because of the increased surface area for interaction between mechanics. Hence, it is paramount that every mechanic is satisfying and fun to play, before they need to be balanced, simplified, or printed on a rule card. And the best way to work on that aspect is to repeatedly see how players react to a mechanic coming into play, the caster and opponent both, over a number of games and cicrumstances. If the right reactions come out, every challenge involved is worth it, and that's always the most important thing for us game designers. And to observe those reactions, we need the playtesters to play our newest mechanics, the ones we are most unsure about. It is also best to subtly encourage players to bring these into play, rather than instructing them.
 

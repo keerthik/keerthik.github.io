@@ -10,9 +10,13 @@ date: 2014-03-01
 lastmod: 2014-03-01
 cross: <a href="https://medium.com/p/97b4e72493ad">on Medium</a>
 ---
-One of my big projects is our one-on-one versus board game, dubbed [Operation Dicestorm](https://www.facebook.com/dicestorm). While it’s my first focused attempt designing a board game, a lot of lessons I learned analyzing video game design is directly applicable. This post is about the concept of “Fun to Face Too,” an important paradigm to observe specifically when designing multiplayer games (pretty much every board game, and most modern video games), to create the very best game mechanics.
+The concept of “Fun to Face Too,” an important paradigm to observe specifically when designing multiplayer games (pretty much every board game), to create the most fun mechanics.
 
 > The core objective of every mechanic in a game should be to maximize net fun had by all players.
+
+{{% include "/snippets/dicestormintro.md" %}}
+
+One of my big projects is our one-on-one versus board game, dubbed [Operation Dicestorm](https://www.facebook.com/dicestorm). While it’s my first focused attempt designing a board game, a lot of lessons I learned analyzing video game design is directly applicable.
 
 In this [excellent forum post](http://forums.na.leagueoflegends.com/board/showthread.php?t=293417), Riot Games VP of Design Tom ‘Zileas’ Cadwell talks about the idea of “anti-fun > fun = bad,” among a slew of other great Game Design considerations. I think this specific concept of “maximize \[f(x)\] = \[fun - anti-fun\]” is understated, so I decided to write this post, to do a little more in-depth analysis of it.
 

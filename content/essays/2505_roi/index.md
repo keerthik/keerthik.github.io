@@ -11,7 +11,7 @@ date: 2025-05-23
 lastmod: 2025-05-23
 ---
 
-In the modern era, gamers demand their Game Is Balanced. The biggest taboo a popular game can make is when one "tool" or combination turns out to be significantly more potent than others. This has obvious ramifications in competitive multiplayer games. But even for single player games, players get pretty invested in any statistically significant discrepancy in end-results from options that are presented as equals. "Busted"[^busted] and "garbage" are equally unfun for players, even when there isn't a human opponent inflicting this imbalance upon them. 
+In the modern era, gamers demand their Game Is Balanced. The biggest taboo a popular game can make is when one "tool" or combination turns out to be significantly more potent than others. <!--more-->This has obvious ramifications in competitive multiplayer games. But even for single player games, players get pretty invested in any statistically significant discrepancy in end-results from options that are presented as equals. "Busted"[^busted] and "garbage" are equally unfun for players, even when there isn't a human opponent inflicting this imbalance upon them. 
 
 [^busted]: busted: overpowered, too strong, too obvious a choice for being effective; garbage: underpowered, too weak, too obviously *not* an option for being effective.
 
