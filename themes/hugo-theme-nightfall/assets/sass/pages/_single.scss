@@ -8,9 +8,10 @@
     font-family: $fontCode;
     display: block;
     background: $backgroundDarker;
-    .updated {
-        color: $lightGrey;
-    }
+}
+
+.postMetadata .updated {
+    color: $lightGrey;
 }
 
 dt, dd {
