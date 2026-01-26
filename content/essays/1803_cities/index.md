@@ -8,11 +8,11 @@ lastmod: 2018-03-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/place-people/10156066536373503/">on Facebook</a>
 ---
 
-{{% include "/snippets/nomadintro.md" %}}
-
 About half the days during my nomadism were spent without speaking on any personal level to another human being face to face.
 
 During these days, I came to realize there was still always one reliable source of company and comfort -- the city itself.
+<!--more-->
+{{% include "/snippets/nomadintro.md" %}}
 
 ## The Company of Cities
 
@@ -57,6 +57,13 @@ Others told me that a realization of the collective Japanese OCD consciousness w
 
 Over the course of my time there I noted nobody ate or drank on the go in Japan. Eating on public transit is not even prohibited -- just noone does it. Later conversation with locals clarified that it's considered embarrassing/disorderly to consume food on the streets. I later put 2 and 2 together, and realized this meant they eliminated the primary source of garbage generation on the go, reducing the need for bins! This mindset and the purging of garbage disposal seem to have a chicken and egg relationship, as none of the locals I asked had an idea which caused which, or if they're even directly related. I also saw locals often when using a vending machine, finish their drink right there and discard the can in the associated bin. Meahwhile, people walking out of a convenience store with an onigiri or a candy bar would patiently take their sustenance to their destination, unlike my impatient self who would always pop it open as soon as I'd paid for it.
 
+<div class="clearfix"></div>
+
+![Victoria's Secret in a mall in Oman doesn't display any underwear or underwear models, superposing local values on an international brand. pc: @fengyifei](images/oman1.jpg)
+
+<div class="clearfix"></div>
+
+
 I could talk endlessly about little eccentricities of each and every city I've built a variety of relationships with, almost as easily as I could talk about the strange quirks of my (human) friends.
 
 ## Places are Dynamic
@@ -67,6 +74,12 @@ None of these traits are static. Just like with your best friend, their quirks a
 At best people treat places outside where they live like an average book or movie -- something that may have some depth, but once you've been through it you're done and never need go back to it, unless you feel like you "missed something" or want to "relive it". Is that how you treat the people you meet and get to know? Once you've had coffee with them once, you cross them off your list, occasionally mention to friends how you once had coffee with a person, remember nothing of their feelings or emotions in that conversation, and never think of them otherwise, except on some rare occasions where your experience was so magical you go out of your way to see them for another coffee?
 
 *Awkward silence as we both realize I just described online dating, the shallowest and most harrowing social experience of our generation*
+
+<div class="clearfix"></div>
+
+![My favorite souvenirs: transit maps remind me more of the personality of cities than any fridge magnet. It shows me how the city moves and grows, and what it cares about.](images/transit.jpg)
+
+<div class="clearfix"></div>
 
 A city is the growing, shifting values, food, language and architecture, across hundreds of generations, funneled through their weather and geography, multiplied by the variety of cultures and events that collide with it. It will have flaws, setbacks, pride and pain that is constantly changing, sometimes at odds with the things the city loves. They can be welcoming, diverse, stoic, rude, creative, hesitant, energetic.
 

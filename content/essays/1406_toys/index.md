@@ -4,18 +4,19 @@ tags:
 - design
 categories: 
 - play
-title: Toys -> Games
+title: Toys → Games
 terminal: toys.md
 date: 2014-06-01
 lastmod: 2014-06-01
 cross: <a href="https://medium.com/@keerthiko/toys-to-games-25d35b40425d">on Medium</a>
 ---
 
+“Toys to Games” is the concept that a great toy makes an excellent foundation for a great game.
+
 A note: If you happened to stumble upon this piece but aren't particularly interested in game design, know that this framework is also useful beyond just game design, as I outline towards the end.
+<!--more-->
 
 ## What Is “Toys to Games”?
-
-> “Toys to Games” is the concept that a great toy makes an excellent foundation for a great game.
 
 To understand this better, we need to describe what a game is and what a toy is. Much of this is borrowed from Jesse Schell's wonderful book, The Art of Game Design.
 

@@ -8,6 +8,9 @@ lastmod: 2016-01-01
 cross: <a href="https://www.facebook.com/notes/keerthik-ok/the-right-problems/10153769788263503">on Facebook</a>
 ---
 
+I think it's important to teach kids not just the answers to problems posed, but also ways to find them.
+<!--more-->
+
 There was this [Naruto episode](http://www.hulu.com/watch/36407#i0,p20,s1,d0) I watched, about 6 months before I started college, that got me thinking about what lessons are worth being taught in school.
 
 For those who don't want to watch it, plot summary:
