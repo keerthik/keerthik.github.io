@@ -8,7 +8,6 @@
     font-family: $fontCode;
     display: block;
     background: $backgroundDarker;
-    padding: 10px;
 }
 
 dt, dd {
@@ -16,6 +15,7 @@ dt, dd {
 }
 
 dl {
+    margin: 0px;
     display: grid;
     grid-template-columns: max-content auto;
 }

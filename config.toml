@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'kOrc'
 theme = 'hugo-theme-nightfall'
 ignorefiles = ["_notes/."]
-summaryLength = 30
+summaryLength = 20
 [markup.goldmark.renderer]
 	unsafe= true
 [languages]
