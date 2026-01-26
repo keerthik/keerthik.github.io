@@ -8,6 +8,9 @@
     font-family: $fontCode;
     display: block;
     background: $backgroundDarker;
+    .updated {
+        color: $lightGrey;
+    }
 }
 
 dt, dd {
