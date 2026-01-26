@@ -17,6 +17,8 @@ hugo server -D #to show drafts
 
 Hugo is in active development, and breaking changes are possible between versions. See the version referenced in hugo.yml and install that specific version if pages are broken.
 
+On Windows, you should use the `hugo-extended` package, which is the modern recommended install version. I install it via [Chocolatey](https://chocolatey.org/).
+
 ## Deployment
 Depends on github actions via [hugo.yml](.github/workflows/hugo.yml).
 

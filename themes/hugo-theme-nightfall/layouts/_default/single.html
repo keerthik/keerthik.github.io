@@ -22,7 +22,10 @@
                 {{ $formattedDate := .Date.Format "2006-01-02" }}
                 <dd><time datetime="{{ $formattedDate }}">{{ .Date.Format "January 2, 2006" }}</time>
                     {{ if (ne (.Lastmod) (.Date)) | default false }}
-                        [updated: <time datetime="{{ $formattedDate }}">{{ .Lastmod.Format "2006-01-01" }}</time>]
+                        {{ $formattedUpdate := .Lastmod.Format "2006-01-02" }}
+                        <span class="updated">
+                        [updated: <time datetime="{{ $formattedUpdate }}">{{ $formattedUpdate }}</time>]
+                        </span>
                     {{ end }}
                 </dd>
             {{ end }}

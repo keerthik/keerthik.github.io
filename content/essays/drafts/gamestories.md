@@ -1,7 +1,6 @@
 ---
 draft: true
 title: "Game stories"
-draft: true
 ---
 
 My Favorite Game Stories

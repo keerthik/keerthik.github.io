@@ -8,11 +8,9 @@
     font-family: $fontCode;
     display: block;
     background: $backgroundDarker;
-}
-
-.updated {
-    color: $lightGrey;
-    /* Force recompile */
+    .updated {
+        color: $lightGrey;
+    }
 }
 
 dt, dd {
