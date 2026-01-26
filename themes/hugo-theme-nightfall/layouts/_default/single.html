@@ -20,7 +20,10 @@
             {{ if .Site.Params.published | default true }}
                 <dt>published</dt>
                 {{ $formattedDate := .Date.Format "2006-01-02" }}
-                <dd><time datetime="{{ $formattedDate }}">{{ .Date.Format "January 2, 2006" }}</time></dd>
+                <dd><time datetime="{{ $formattedDate }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Lastmod | default false }}
+                    [Last updated <time datetime="{{ $formattedDate }}">{{ .Lastmod.Format "2006 / 12 / 31" }}</time>]</dd>
+                {{ end }}
             {{ end }}
             {{ if .Site.Params.readingTime | default true }}
                 <dt>reading time</dt>
